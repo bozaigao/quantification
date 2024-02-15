@@ -1,0 +1,2028 @@
+[
+    {
+        "date": "2020-01-03",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-06",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-07",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-08",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-09",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-10",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-13",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-14",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-15",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-16",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-17",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-20",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-21",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-22",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-01-23",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-03",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-04",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-05",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "涨停打板买入联环药业",
+        "stock": {
+            "code": "600513",
+            "name": "联环药业",
+            "limit": 8,
+            "limit_ups": 109,
+            "limit_downs": 1,
+            "price": "7.91",
+            "first_limit_time": "09:37:15",
+            "final_limit_time": "09:37:45",
+            "limit_reason": "抗病毒概念",
+            "limit_tocks": "400.82万",
+            "limit_money": "7,126.52万",
+            "limit_cheng_ratio": "14.79",
+            "limit_liu_ratio": "1.40",
+            "limit_open_times": "1",
+            "market_value": "50.75亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省扬州市邗江区生物健康产业园健康一路9号",
+            "company_business": "药品生产（按许可证所列范围生产）。自营和代理各类商品及技术的进出口业务。药品相关技术的授权使用、成果转让、服务咨询。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。本公司及各子公司主要从事：药品生产、销售，化工原料、药品批发，药品等研发，技术成果转让、咨询。",
+            "opening_increase": "4.70%",
+            "desc": "2020年2月5日联环药业集合竞价大买单试盘，大买单试盘1283万元，竞价评级-，竞价涨幅4.70%，成交价16.92元，成交量302.75万股，成交额5122.53万，未成交量-9.59万股，未成交额-162.27万。建议关注主力动向，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.19%",
+            "shockValue": "6.93",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "2.02",
+            "next_opening_increase": "10.01%",
+            "next_desc": "2020年2月6日联环药业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.01%，成交价19.56元，成交量306.35万股，成交额5992.21万，未成交量-73.45万股，未成交额-1436.74万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.02",
+            "next_close_increase": "10.01"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-06",
+        "money": 110000,
+        "earnings": "10%",
+        "desc": "继续持有联环药业,当日盈利10%",
+        "stock": {
+            "code": "600513",
+            "name": "联环药业",
+            "limit": 9,
+            "limit_ups": 165,
+            "limit_downs": 0,
+            "price": "7.91",
+            "first_limit_time": "09:30:45",
+            "final_limit_time": "09:30:45",
+            "limit_reason": "抗病毒概念",
+            "limit_tocks": "582.14万",
+            "limit_money": "1.14亿",
+            "limit_cheng_ratio": "48.04",
+            "limit_liu_ratio": "2.04",
+            "limit_open_times": "0",
+            "market_value": "55.84亿",
+            "limit_type": "【缩量涨停】",
+            "company_place": "江苏省扬州市邗江区生物健康产业园健康一路9号",
+            "company_business": "药品生产（按许可证所列范围生产）。自营和代理各类商品及技术的进出口业务。药品相关技术的授权使用、成果转让、服务咨询。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。本公司及各子公司主要从事：药品生产、销售，化工原料、药品批发，药品等研发，技术成果转让、咨询。",
+            "opening_increase": "10.01%",
+            "desc": "2020年2月6日联环药业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.01%，成交价19.56元，成交量306.35万股，成交额5992.21万，未成交量-73.45万股，未成交额-1436.74万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "8.2%",
+            "shockValue": "2.02",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "5.21",
+            "next_opening_increase": "10.02%",
+            "next_desc": "2020年2月7日联环药业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价21.52元，成交量489.38万股，成交额1.05亿，未成交量117.33万股，未成交额2525.04万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.01",
+            "next_close_increase": "10.02"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-07",
+        "money": 121000,
+        "earnings": "10%",
+        "desc": "继续持有联环药业,当日盈利10%",
+        "stock": {
+            "code": "600513",
+            "name": "联环药业",
+            "limit": 10,
+            "limit_ups": 109,
+            "limit_downs": 2,
+            "price": "7.91",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "13:08:38",
+            "limit_reason": "抗病毒概念",
+            "limit_tocks": "218.22万",
+            "limit_money": "4,696.18万",
+            "limit_cheng_ratio": "3.94",
+            "limit_liu_ratio": "0.76",
+            "limit_open_times": "8",
+            "market_value": "61.43亿",
+            "limit_type": "【T字涨停|放量涨停】",
+            "company_place": "江苏省扬州市邗江区生物健康产业园健康一路9号",
+            "company_business": "药品生产（按许可证所列范围生产）。自营和代理各类商品及技术的进出口业务。药品相关技术的授权使用、成果转让、服务咨询。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。本公司及各子公司主要从事：药品生产、销售，化工原料、药品批发，药品等研发，技术成果转让、咨询。",
+            "opening_increase": "10.02%",
+            "desc": "2020年2月7日联环药业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价21.52元，成交量489.38万股，成交额1.05亿，未成交量117.33万股，未成交额2525.04万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "4.92%",
+            "shockValue": "5.21",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.16亿",
+            "next_opening_increase": "3.86%",
+            "next_desc": "2020年2月10日联环药业集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅3.86%，成交价22.35元，成交量327.21万股，成交额7313.11万，未成交量5.78万股，未成交额129.22万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.02",
+            "next_close_increase": "-0.56"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "断板卖出联环药业,当日盈利0%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-14",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-21",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-02-28",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-02",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-03",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-04",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-05",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-06",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-09",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-16",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-23",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-30",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-03-31",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-01",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-02",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-03",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "涨停打板买入继峰股份",
+        "stock": {
+            "code": "603997",
+            "name": "继峰股份",
+            "limit": 5,
+            "limit_ups": 52,
+            "limit_downs": 3,
+            "price": "11.00",
+            "first_limit_time": "09:41:15",
+            "final_limit_time": "14:53:31",
+            "limit_reason": "新能源汽车",
+            "limit_tocks": "109.55万",
+            "limit_money": "1,196.29万",
+            "limit_cheng_ratio": "1.72",
+            "limit_liu_ratio": "0.17",
+            "limit_open_times": "29",
+            "market_value": "69.05亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "浙江省宁波市北仑区大碶璎珞河路17号",
+            "company_business": "汽车零部件的设计、开发、制造、加工及相关技术咨询；自有厂房出租；模具、检具、工装、夹具、机械设备的研发、制造、加工和销售；化工原料及产品的研发、销售（除危险化学品）；自营和代理各类货物和技术的进出口，但国家限定经营或禁止进出口的货物和技术除外。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "6.34%",
+            "desc": "2020年4月3日继峰股份集合竞价大卖单试盘，大卖单试盘946万元，竞价评级-，竞价涨幅6.34%，成交价10.56元，成交量249.57万股，成交额2635.41万，未成交量7.01万股，未成交额73.97万。建议关注主力动向，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "6.18%",
+            "shockValue": "4.03",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "10.71",
+            "next_opening_increase": "-0.28%",
+            "next_desc": "2020年4月7日继峰股份集合竞价急速上涨，一分钟涨幅大于3%，竞价评级偏多，竞价涨幅-0.28%，成交价10.89元，成交量249.88万股，成交额2721.19万，未成交量-908.00股，未成交额-9888.12。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.97",
+            "next_close_increase": "9.98"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-07",
+        "money": 133100,
+        "earnings": "10%",
+        "desc": "继续持有继峰股份,当日盈利10%",
+        "stock": {
+            "code": "603997",
+            "name": "继峰股份",
+            "limit": 6,
+            "limit_ups": 98,
+            "limit_downs": 0,
+            "price": "11.00",
+            "first_limit_time": "09:41:15",
+            "final_limit_time": "13:21:24",
+            "limit_reason": "汽车零部件",
+            "limit_tocks": "208.01万",
+            "limit_money": "2,498.21万",
+            "limit_cheng_ratio": "3.45",
+            "limit_liu_ratio": "0.33",
+            "limit_open_times": "1",
+            "market_value": "75.95亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "浙江省宁波市北仑区大碶璎珞河路17号",
+            "company_business": "汽车零部件的设计、开发、制造、加工及相关技术咨询；自有厂房出租；模具、检具、工装、夹具、机械设备的研发、制造、加工和销售；化工原料及产品的研发、销售（除危险化学品）；自营和代理各类货物和技术的进出口，但国家限定经营或禁止进出口的货物和技术除外。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "-0.28%",
+            "desc": "2020年4月7日继峰股份集合竞价急速上涨，一分钟涨幅大于3%，竞价评级偏多，竞价涨幅-0.28%，成交价10.89元，成交量249.88万股，成交额2721.19万，未成交量-908.00股，未成交额-9888.12。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "-0.76%",
+            "shockValue": "10.71",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": true,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "13.66",
+            "next_opening_increase": "1.25%",
+            "next_desc": "2020年4月8日继峰股份集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅1.25%，成交价12.16元，成交量127.62万股，成交额1551.86万，未成交量-8500.00股，未成交额-10.34万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "-9.99"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-08",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "断板卖出继峰股份,当日盈利0%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-09",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-10",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-13",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-14",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-15",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-16",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-17",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-20",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-21",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-22",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-23",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-24",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-27",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-28",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-29",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-04-30",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-06",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-07",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-08",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-11",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-12",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-13",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-14",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-15",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-18",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-19",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-20",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-21",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-22",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-25",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-26",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-27",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-28",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-05-29",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-01",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-02",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-03",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-04",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-05",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-08",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-09",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-10",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-11",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-12",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-15",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-16",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-17",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-18",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-19",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-22",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-23",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-24",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-29",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-06-30",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-01",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-02",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-03",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-06",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-07",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-08",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-09",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-10",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-13",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-14",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-15",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-16",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-17",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-20",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-21",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-22",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-23",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-24",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-27",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-28",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-29",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-30",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-07-31",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-03",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-04",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-05",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-06",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-07",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-10",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-11",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-12",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-13",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-14",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-17",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-18",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-19",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-20",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-21",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-24",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-25",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-26",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-27",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-28",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-08-31",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-01",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-02",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-03",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-04",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-07",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-08",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-09",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-10",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-11",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-14",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-15",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-16",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-17",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-18",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-21",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-22",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "涨停打板买入豪悦护理",
+        "stock": {
+            "code": "605009",
+            "name": "豪悦护理",
+            "limit": 8,
+            "limit_ups": 23,
+            "limit_downs": 8,
+            "price": "36.32",
+            "first_limit_time": "09:41:00",
+            "final_limit_time": "10:33:45",
+            "limit_reason": "次新股",
+            "limit_tocks": "37.14万",
+            "limit_money": "6,488.73万",
+            "limit_cheng_ratio": "2.87",
+            "limit_liu_ratio": "1.39",
+            "limit_open_times": "3",
+            "market_value": "46.60亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "浙江省杭州市临平区东湖街道临平经济技术开发区红丰路655号",
+            "company_business": "许可项目：卫生用品和一次性使用医疗用品生产；第二类医疗器械生产(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。一般项目：第一类医疗器械生产，第一类疗器械销售；第二类医疗器械销售；日用口罩(非医用)生产，日用口量(非医用)销售；卫生用品和一次性使用医疗用品销售；个人卫生用品销售；塑料制品制造；塑料制品销售；高性能纤维及复合材料制造高性能纤维及复合材料销售；产业用纺织制成品制造；产业用纺织制成品销售；玩具销售；母婴用品销售；货物进出口；消毒剂销售(不含危险化学品)(除依法须经批准的项目外，凭营业执照依法自主开展经营活动)。(分支机构经营场所设在：杭州市余杭区瓶密凤都路3号；杭市临平区康信路581号)。",
+            "opening_increase": "5.77%",
+            "desc": "2020年9月22日豪悦护理集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅5.77%，成交价168.00元，成交量53.01万股，成交额8905.68万，未成交量-2.29万股，未成交额-384.23万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.04%",
+            "shockValue": "7.06",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": true,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "0",
+            "next_opening_increase": "10.00%",
+            "next_desc": "2020年9月23日豪悦护理集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.00%，成交价192.18元，成交量8.22万股，成交额1580.49万，未成交量1267.56万股，未成交额24.36亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.00",
+            "next_close_increase": "10.00"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-23",
+        "money": 146410,
+        "earnings": "10%",
+        "desc": "继续持有豪悦护理,当日盈利10%",
+        "stock": {
+            "code": "605009",
+            "name": "豪悦护理",
+            "limit": 9,
+            "limit_ups": 41,
+            "limit_downs": 5,
+            "price": "36.32",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "09:30:00",
+            "limit_reason": "次新股",
+            "limit_tocks": "293.74万",
+            "limit_money": "5.65亿",
+            "limit_cheng_ratio": "933.92",
+            "limit_liu_ratio": "11.01",
+            "limit_open_times": "0",
+            "market_value": "51.25亿",
+            "limit_type": "【一字涨停|放量涨停】",
+            "company_place": "浙江省杭州市临平区东湖街道临平经济技术开发区红丰路655号",
+            "company_business": "许可项目：卫生用品和一次性使用医疗用品生产；第二类医疗器械生产(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。一般项目：第一类医疗器械生产，第一类疗器械销售；第二类医疗器械销售；日用口罩(非医用)生产，日用口量(非医用)销售；卫生用品和一次性使用医疗用品销售；个人卫生用品销售；塑料制品制造；塑料制品销售；高性能纤维及复合材料制造高性能纤维及复合材料销售；产业用纺织制成品制造；产业用纺织制成品销售；玩具销售；母婴用品销售；货物进出口；消毒剂销售(不含危险化学品)(除依法须经批准的项目外，凭营业执照依法自主开展经营活动)。(分支机构经营场所设在：杭州市余杭区瓶密凤都路3号；杭市临平区康信路581号)。",
+            "opening_increase": "10.00%",
+            "desc": "2020年9月23日豪悦护理集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.00%，成交价192.18元，成交量8.22万股，成交额1580.49万，未成交量1267.56万股，未成交额24.36亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "10.34%",
+            "shockValue": "0",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:48:00",
+            "next_shockValue": "6.45",
+            "next_opening_increase": "4.07%",
+            "next_desc": "2020年9月24日豪悦护理集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅4.07%，成交价200.00元，成交量127.46万股，成交额2.55亿，未成交量-3.53万股，未成交额-705.72万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.00",
+            "next_close_increase": "6.66"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-24",
+        "money": 161051,
+        "earnings": "10%",
+        "desc": "炸板卖出豪悦护理,当日盈利10%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-25",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-28",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-29",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-09-30",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-09",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-12",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-13",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-14",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-15",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-16",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-19",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-20",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-21",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-22",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-23",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-26",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-27",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-28",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-29",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-10-30",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-02",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-04",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-05",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-06",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-09",
+        "money": 161051,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-10",
+        "money": 152773,
+        "earnings": "-5.14%",
+        "desc": "涨停打板买入智慧农业,结果炸板了,当日盈利-5.14%",
+        "stock": {
+            "code": "000816",
+            "name": "智慧农业",
+            "limit": 5,
+            "limit_ups": 59,
+            "limit_downs": 2,
+            "price": "2.27",
+            "first_limit_time": "09:58:15",
+            "final_limit_time": "09:59:15",
+            "limit_reason": "摘帽+农机+人气老妖",
+            "limit_tocks": "1,965.33万",
+            "limit_money": "7,271.74万",
+            "limit_cheng_ratio": "10.70",
+            "limit_liu_ratio": "1.47",
+            "limit_open_times": "1",
+            "market_value": "49.44亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省盐城市亭湖区经济技术开发区希望大道南路58号",
+            "company_business": "农业工程、物联网、农业信息化、农业设备及控制系统、监测检测设备、农业电子商务、农业物流系统、计算机信息及系统集成专业的技术服务、技术开发、技术转让、技术咨询；网络技术、通讯工程技术的研发及技术转让；计算机技术咨询服务；内燃机，发电机，电动机，水泵，榨油机，机械化农业及园艺机具，畜牧机械，拖拉机制造；房屋租赁；设备租赁；内燃机及农业机械技术咨询服务；资产管理；商务咨询；计算机、软件及辅助设备批发、零售。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
+            "opening_increase": "7.14%",
+            "desc": "2020年11月9日智慧农业集合竞价大幅高开，大幅高开7.10%，竞价评级看多，竞价涨幅7.14%，成交价3.60元，成交量1109.37万股，成交额3993.73万，未成交量-111.28万股，未成交额-400.61万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "-2.98%",
+            "shockValue": "1.84亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:32:30",
+            "next_shockValue": "3.05亿",
+            "next_opening_increase": "8.11%",
+            "next_desc": "2020年11月10日智慧农业集合竞价大幅高开，大幅高开8.10%，竞价评级偏多，竞价涨幅8.11%，成交价4.00元，成交量950.24万股，成交额3800.96万，未成交量-149.41万股，未成交额-597.64万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.12",
+            "next_close_increase": "4.86"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-11",
+        "money": 160198,
+        "earnings": "4.86%",
+        "desc": "断板卖出智慧农业,当日盈利4.86%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-12",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-13",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-16",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-17",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-18",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-19",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-20",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-23",
+        "money": 160198,
+        "earnings": "0%",
+        "desc": "涨停打板买入南方精工",
+        "stock": {
+            "code": "002553",
+            "name": "南方精工",
+            "limit": 5,
+            "limit_ups": 50,
+            "limit_downs": 4,
+            "price": "7.62",
+            "first_limit_time": "09:30:30",
+            "final_limit_time": "14:56:56",
+            "limit_reason": "集成电路概念+新能源汽车",
+            "limit_tocks": "302.72万",
+            "limit_money": "3,417.66万",
+            "limit_cheng_ratio": "3.62",
+            "limit_liu_ratio": "1.29",
+            "limit_open_times": "6",
+            "market_value": "26.45亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省常州市武进区高新技术开发区龙翔路9号",
+            "company_business": "轴承制造；轴承销售；汽车零部件研发；汽车零部件及配件制造；汽车零配件批发；汽车零配件零售；机械零件、零部件加工；机械零件、零部件销售；工业机器人制造；集成电路芯片设计及服务；集成电路芯片及产品制造；集成电路芯片及产品销售（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。",
+            "opening_increase": "9.94%",
+            "desc": "2020年11月23日南方精工集合竞价大幅高开，大幅高开9.90%，竞价评级看多，竞价涨幅9.94%，成交价11.28元，成交量401.80万股，成交额4532.30万，未成交量-40.10万股，未成交额-452.33万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "0.0%",
+            "shockValue": "10.04",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "14.61",
+            "next_opening_increase": "-5.14%",
+            "next_desc": "2020年11月24日南方精工集合竞价大幅低开，大幅低开-5.10%，竞价评级看空，竞价涨幅-5.14%，成交价10.71元，成交量251.69万股，成交额2695.60万，未成交量-8.14万股，未成交额-87.18万。建议规避风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.04",
+            "next_close_increase": "0.09"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-24",
+        "money": 151964,
+        "earnings": "-5.14%",
+        "desc": "竞价卖出南方精工,当日盈利-5.14%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-25",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-26",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-27",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-11-30",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-01",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-02",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-03",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-04",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-07",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-08",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-09",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-10",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-11",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-14",
+        "money": 151964,
+        "earnings": "0%",
+        "desc": "涨停打板买入朗姿股份",
+        "stock": {
+            "code": "002612",
+            "name": "朗姿股份",
+            "limit": 6,
+            "limit_ups": 54,
+            "limit_downs": 20,
+            "price": "16.71",
+            "first_limit_time": "09:34:00",
+            "final_limit_time": "09:38:30",
+            "limit_reason": "医美+网红经济+口罩",
+            "limit_tocks": "401.32万",
+            "limit_money": "9,390.89万",
+            "limit_cheng_ratio": "12.78",
+            "limit_liu_ratio": "1.54",
+            "limit_open_times": "2",
+            "market_value": "61.16亿",
+            "limit_type": "【缩量涨停】",
+            "company_place": "北京市顺义区马坡镇白马路63号",
+            "company_business": "生产服装；销售服装、日用品、鞋帽箱包、五金、婴幼儿用品、化妆品、玩具、皮革制品；货物进出口；技术进出口；代理进出口；承办展览展示活动；仓储服务；技术服务。（企业依法自主选择经营项目，开展经营活动；依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）",
+            "opening_increase": "8.70%",
+            "desc": "2020年12月14日朗姿股份集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅8.70%，成交价23.12元，成交量310.55万股，成交额7179.92万，未成交量38.20万股，未成交额883.18万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.49%",
+            "shockValue": "6.58",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "7.44",
+            "next_opening_increase": "4.92%",
+            "next_desc": "2020年12月15日朗姿股份集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅4.92%，成交价24.55元，成交量190.13万股，成交额4667.69万，未成交量-20.35万股，未成交额-499.58万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.01",
+            "next_close_increase": "5.64"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-15",
+        "money": 160535,
+        "earnings": "5.64%",
+        "desc": "断板卖出朗姿股份,当日盈利5.64%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-16",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-17",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-18",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-21",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-22",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-23",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-24",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-25",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2020-12-25",
+        "money": 160535,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    }
+]

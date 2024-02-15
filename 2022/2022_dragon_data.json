@@ -1,0 +1,3389 @@
+[
+    {
+        "date": "2022-01-04",
+        "data": [
+            {
+                "code": "002750",
+                "name": "龙津药业",
+                "limit": 9,
+                "limit_ups": 92,
+                "limit_downs": 19
+            }
+        ]
+    },
+    {
+        "date": "2022-01-05",
+        "data": [
+            {
+                "code": "002750",
+                "name": "龙津药业",
+                "limit": 10,
+                "limit_ups": 45,
+                "limit_downs": 30
+            }
+        ]
+    },
+    {
+        "date": "2022-01-06",
+        "data": [
+            {
+                "code": "000530",
+                "name": "冰山冷热",
+                "limit": 6,
+                "limit_ups": 77,
+                "limit_downs": 6
+            },
+            {
+                "code": "002694",
+                "name": "顾地科技",
+                "limit": 6,
+                "limit_ups": 77,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-01-07",
+        "data": [
+            {
+                "code": "002694",
+                "name": "顾地科技",
+                "limit": 7,
+                "limit_ups": 33,
+                "limit_downs": 20
+            }
+        ]
+    },
+    {
+        "date": "2022-01-10",
+        "data": [
+            {
+                "code": "600272",
+                "name": "开开实业",
+                "limit": 6,
+                "limit_ups": 64,
+                "limit_downs": 10
+            },
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 6,
+                "limit_ups": 64,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-01-11",
+        "data": [
+            {
+                "code": "600272",
+                "name": "开开实业",
+                "limit": 7,
+                "limit_ups": 51,
+                "limit_downs": 10
+            },
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 7,
+                "limit_ups": 51,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-01-12",
+        "data": [
+            {
+                "code": "600272",
+                "name": "开开实业",
+                "limit": 8,
+                "limit_ups": 88,
+                "limit_downs": 1
+            },
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 8,
+                "limit_ups": 88,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-01-13",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 9,
+                "limit_ups": 53,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-01-14",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 10,
+                "limit_ups": 60,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-01-17",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 11,
+                "limit_ups": 88,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-01-18",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 12,
+                "limit_ups": 39,
+                "limit_downs": 43
+            }
+        ]
+    },
+    {
+        "date": "2022-01-19",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 13,
+                "limit_ups": 56,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-01-20",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 14,
+                "limit_ups": 41,
+                "limit_downs": 17
+            }
+        ]
+    },
+    {
+        "date": "2022-01-21",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 15,
+                "limit_ups": 49,
+                "limit_downs": 37
+            }
+        ]
+    },
+    {
+        "date": "2022-01-24",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 16,
+                "limit_ups": 53,
+                "limit_downs": 31
+            }
+        ]
+    },
+    {
+        "date": "2022-01-25",
+        "data": [
+            {
+                "code": "603176",
+                "name": "汇通集团",
+                "limit": 17,
+                "limit_ups": 26,
+                "limit_downs": 56
+            }
+        ]
+    },
+    {
+        "date": "2022-01-26",
+        "data": [
+            {
+                "code": "002197",
+                "name": "证通电子",
+                "limit": 4,
+                "limit_ups": 51,
+                "limit_downs": 34
+            },
+            {
+                "code": "605398",
+                "name": "新炬网络",
+                "limit": 4,
+                "limit_ups": 51,
+                "limit_downs": 34
+            }
+        ]
+    },
+    {
+        "date": "2022-01-27",
+        "data": [
+            {
+                "code": "603102",
+                "name": "百合股份",
+                "limit": 3,
+                "limit_ups": 13,
+                "limit_downs": 79
+            }
+        ]
+    },
+    {
+        "date": "2022-01-28",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 3,
+                "limit_ups": 48,
+                "limit_downs": 20
+            }
+        ]
+    },
+    {
+        "date": "2022-02-07",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 4,
+                "limit_ups": 86,
+                "limit_downs": 18
+            }
+        ]
+    },
+    {
+        "date": "2022-02-08",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 5,
+                "limit_ups": 72,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-02-09",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 6,
+                "limit_ups": 92,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-02-10",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 7,
+                "limit_ups": 54,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-02-11",
+        "data": [
+            {
+                "code": "002037",
+                "name": "保利联合",
+                "limit": 8,
+                "limit_ups": 47,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-02-14",
+        "data": [
+            {
+                "code": "002761",
+                "name": "浙江建投",
+                "limit": 6,
+                "limit_ups": 81,
+                "limit_downs": 9
+            },
+            {
+                "code": "002878",
+                "name": "元隆雅图",
+                "limit": 6,
+                "limit_ups": 81,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-02-15",
+        "data": [
+            {
+                "code": "002621",
+                "name": "美吉姆",
+                "limit": 4,
+                "limit_ups": 56,
+                "limit_downs": 13
+            },
+            {
+                "code": "603843",
+                "name": "正平股份",
+                "limit": 4,
+                "limit_ups": 56,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-02-16",
+        "data": [
+            {
+                "code": "002621",
+                "name": "美吉姆",
+                "limit": 5,
+                "limit_ups": 62,
+                "limit_downs": 2
+            },
+            {
+                "code": "603843",
+                "name": "正平股份",
+                "limit": 5,
+                "limit_ups": 62,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-02-17",
+        "data": [
+            {
+                "code": "002667",
+                "name": "威领股份",
+                "limit": 4,
+                "limit_ups": 39,
+                "limit_downs": 13
+            },
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 4,
+                "limit_ups": 39,
+                "limit_downs": 13
+            },
+            {
+                "code": "603316",
+                "name": "诚邦股份",
+                "limit": 4,
+                "limit_ups": 39,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-02-18",
+        "data": [
+            {
+                "code": "002667",
+                "name": "威领股份",
+                "limit": 5,
+                "limit_ups": 47,
+                "limit_downs": 1
+            },
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 5,
+                "limit_ups": 47,
+                "limit_downs": 1
+            },
+            {
+                "code": "603316",
+                "name": "诚邦股份",
+                "limit": 5,
+                "limit_ups": 47,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-02-21",
+        "data": [
+            {
+                "code": "002667",
+                "name": "威领股份",
+                "limit": 6,
+                "limit_ups": 86,
+                "limit_downs": 3
+            },
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 6,
+                "limit_ups": 86,
+                "limit_downs": 3
+            },
+            {
+                "code": "603316",
+                "name": "诚邦股份",
+                "limit": 6,
+                "limit_ups": 86,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-02-22",
+        "data": [
+            {
+                "code": "603316",
+                "name": "诚邦股份",
+                "limit": 7,
+                "limit_ups": 47,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-02-23",
+        "data": [
+            {
+                "code": "001313",
+                "name": "粤海饲料",
+                "limit": 6,
+                "limit_ups": 85,
+                "limit_downs": 3
+            },
+            {
+                "code": "601789",
+                "name": "宁波建工",
+                "limit": 6,
+                "limit_ups": 85,
+                "limit_downs": 3
+            },
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 6,
+                "limit_ups": 85,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-02-24",
+        "data": [
+            {
+                "code": "001313",
+                "name": "粤海饲料",
+                "limit": 7,
+                "limit_ups": 33,
+                "limit_downs": 30
+            },
+            {
+                "code": "601789",
+                "name": "宁波建工",
+                "limit": 7,
+                "limit_ups": 33,
+                "limit_downs": 30
+            },
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 7,
+                "limit_ups": 33,
+                "limit_downs": 30
+            }
+        ]
+    },
+    {
+        "date": "2022-02-25",
+        "data": [
+            {
+                "code": "001313",
+                "name": "粤海饲料",
+                "limit": 8,
+                "limit_ups": 54,
+                "limit_downs": 7
+            },
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 8,
+                "limit_ups": 54,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-02-28",
+        "data": [
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 9,
+                "limit_ups": 41,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-03-01",
+        "data": [
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 10,
+                "limit_ups": 49,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-03-02",
+        "data": [
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 11,
+                "limit_ups": 54,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-03-03",
+        "data": [
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 12,
+                "limit_ups": 73,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-03-04",
+        "data": [
+            {
+                "code": "603122",
+                "name": "合富中国",
+                "limit": 13,
+                "limit_ups": 42,
+                "limit_downs": 16
+            }
+        ]
+    },
+    {
+        "date": "2022-03-07",
+        "data": [
+            {
+                "code": "000953",
+                "name": "河化股份",
+                "limit": 5,
+                "limit_ups": 47,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-03-08",
+        "data": [
+            {
+                "code": "000953",
+                "name": "河化股份",
+                "limit": 6,
+                "limit_ups": 19,
+                "limit_downs": 60
+            }
+        ]
+    },
+    {
+        "date": "2022-03-09",
+        "data": [
+            {
+                "code": "002435",
+                "name": "长江健康",
+                "limit": 4,
+                "limit_ups": 40,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-03-10",
+        "data": [
+            {
+                "code": "002435",
+                "name": "长江健康",
+                "limit": 5,
+                "limit_ups": 80,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-03-11",
+        "data": [
+            {
+                "code": "002435",
+                "name": "长江健康",
+                "limit": 6,
+                "limit_ups": 62,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-03-14",
+        "data": [
+            {
+                "code": "000788",
+                "name": "北大医药",
+                "limit": 4,
+                "limit_ups": 39,
+                "limit_downs": 21
+            }
+        ]
+    },
+    {
+        "date": "2022-03-15",
+        "data": [
+            {
+                "code": "000788",
+                "name": "北大医药",
+                "limit": 5,
+                "limit_ups": 23,
+                "limit_downs": 105
+            }
+        ]
+    },
+    {
+        "date": "2022-03-16",
+        "data": [
+            {
+                "code": "000788",
+                "name": "北大医药",
+                "limit": 6,
+                "limit_ups": 117,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-03-17",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 6,
+                "limit_ups": 93,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-03-18",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 7,
+                "limit_ups": 101,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-03-21",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 8,
+                "limit_ups": 116,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-03-22",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 9,
+                "limit_ups": 78,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-03-23",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 10,
+                "limit_ups": 69,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-03-24",
+        "data": [
+            {
+                "code": "603070",
+                "name": "万控智造",
+                "limit": 11,
+                "limit_ups": 65,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-03-25",
+        "data": [
+            {
+                "code": "002613",
+                "name": "北玻股份",
+                "limit": 9,
+                "limit_ups": 75,
+                "limit_downs": 10
+            },
+            {
+                "code": "603261",
+                "name": "立航科技",
+                "limit": 9,
+                "limit_ups": 75,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-03-28",
+        "data": [
+            {
+                "code": "603261",
+                "name": "立航科技",
+                "limit": 10,
+                "limit_ups": 57,
+                "limit_downs": 25
+            }
+        ]
+    },
+    {
+        "date": "2022-03-29",
+        "data": [
+            {
+                "code": "603261",
+                "name": "立航科技",
+                "limit": 11,
+                "limit_ups": 55,
+                "limit_downs": 18
+            }
+        ]
+    },
+    {
+        "date": "2022-03-30",
+        "data": [
+            {
+                "code": "600082",
+                "name": "海泰发展",
+                "limit": 5,
+                "limit_ups": 75,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-03-31",
+        "data": [
+            {
+                "code": "600082",
+                "name": "海泰发展",
+                "limit": 6,
+                "limit_ups": 42,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-04-01",
+        "data": [
+            {
+                "code": "000736",
+                "name": "中交地产",
+                "limit": 6,
+                "limit_ups": 0,
+                "limit_downs": 12
+            },
+            {
+                "code": "603051",
+                "name": "鹿山新材",
+                "limit": 6,
+                "limit_ups": 0,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-04-06",
+        "data": [
+            {
+                "code": "000736",
+                "name": "中交地产",
+                "limit": 7,
+                "limit_ups": 75,
+                "limit_downs": 15
+            },
+            {
+                "code": "603051",
+                "name": "鹿山新材",
+                "limit": 7,
+                "limit_ups": 75,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-04-07",
+        "data": [
+            {
+                "code": "603051",
+                "name": "鹿山新材",
+                "limit": 8,
+                "limit_ups": 32,
+                "limit_downs": 27
+            }
+        ]
+    },
+    {
+        "date": "2022-04-08",
+        "data": [
+            {
+                "code": "000797",
+                "name": "中国武夷",
+                "limit": 6,
+                "limit_ups": 65,
+                "limit_downs": 14
+            },
+            {
+                "code": "002596",
+                "name": "海南瑞泽",
+                "limit": 6,
+                "limit_ups": 65,
+                "limit_downs": 14
+            }
+        ]
+    },
+    {
+        "date": "2022-04-11",
+        "data": [
+            {
+                "code": "002205",
+                "name": "国统股份",
+                "limit": 6,
+                "limit_ups": 49,
+                "limit_downs": 41
+            }
+        ]
+    },
+    {
+        "date": "2022-04-12",
+        "data": [
+            {
+                "code": "603963",
+                "name": "大理药业",
+                "limit": 5,
+                "limit_ups": 94,
+                "limit_downs": 14
+            }
+        ]
+    },
+    {
+        "date": "2022-04-13",
+        "data": [
+            {
+                "code": "603963",
+                "name": "大理药业",
+                "limit": 6,
+                "limit_ups": 49,
+                "limit_downs": 46
+            }
+        ]
+    },
+    {
+        "date": "2022-04-14",
+        "data": [
+            {
+                "code": "600603",
+                "name": "广汇物流",
+                "limit": 5,
+                "limit_ups": 72,
+                "limit_downs": 9
+            },
+            {
+                "code": "600693",
+                "name": "东百集团",
+                "limit": 5,
+                "limit_ups": 72,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-04-15",
+        "data": [
+            {
+                "code": "603648",
+                "name": "畅联股份",
+                "limit": 5,
+                "limit_ups": 38,
+                "limit_downs": 34
+            }
+        ]
+    },
+    {
+        "date": "2022-04-18",
+        "data": [
+            {
+                "code": "603648",
+                "name": "畅联股份",
+                "limit": 6,
+                "limit_ups": 79,
+                "limit_downs": 36
+            }
+        ]
+    },
+    {
+        "date": "2022-04-19",
+        "data": [
+            {
+                "code": "000968",
+                "name": "蓝焰控股",
+                "limit": 4,
+                "limit_ups": 54,
+                "limit_downs": 16
+            },
+            {
+                "code": "603266",
+                "name": "天龙股份",
+                "limit": 4,
+                "limit_ups": 54,
+                "limit_downs": 16
+            }
+        ]
+    },
+    {
+        "date": "2022-04-20",
+        "data": [
+            {
+                "code": "603266",
+                "name": "天龙股份",
+                "limit": 5,
+                "limit_ups": 50,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-04-21",
+        "data": [
+            {
+                "code": "603696",
+                "name": "安记食品",
+                "limit": 5,
+                "limit_ups": 29,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-04-22",
+        "data": [
+            {
+                "code": "000715",
+                "name": "中兴商业",
+                "limit": 5,
+                "limit_ups": 69,
+                "limit_downs": 72
+            }
+        ]
+    },
+    {
+        "date": "2022-04-25",
+        "data": [
+            {
+                "code": "605138",
+                "name": "盛泰集团",
+                "limit": 4,
+                "limit_ups": 25,
+                "limit_downs": 598
+            }
+        ]
+    },
+    {
+        "date": "2022-04-26",
+        "data": [
+            {
+                "code": "000722",
+                "name": "湖南发展",
+                "limit": 3,
+                "limit_ups": 38,
+                "limit_downs": 211
+            },
+            {
+                "code": "600785",
+                "name": "新华百货",
+                "limit": 3,
+                "limit_ups": 38,
+                "limit_downs": 211
+            },
+            {
+                "code": "605598",
+                "name": "上海港湾",
+                "limit": 3,
+                "limit_ups": 38,
+                "limit_downs": 211
+            }
+        ]
+    },
+    {
+        "date": "2022-04-27",
+        "data": [
+            {
+                "code": "000722",
+                "name": "湖南发展",
+                "limit": 4,
+                "limit_ups": 125,
+                "limit_downs": 32
+            },
+            {
+                "code": "600785",
+                "name": "新华百货",
+                "limit": 4,
+                "limit_ups": 125,
+                "limit_downs": 32
+            }
+        ]
+    },
+    {
+        "date": "2022-04-28",
+        "data": [
+            {
+                "code": "000722",
+                "name": "湖南发展",
+                "limit": 5,
+                "limit_ups": 76,
+                "limit_downs": 26
+            }
+        ]
+    },
+    {
+        "date": "2022-04-29",
+        "data": [
+            {
+                "code": "000722",
+                "name": "湖南发展",
+                "limit": 6,
+                "limit_ups": 206,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-05-05",
+        "data": [
+            {
+                "code": "000722",
+                "name": "湖南发展",
+                "limit": 7,
+                "limit_ups": 149,
+                "limit_downs": 17
+            }
+        ]
+    },
+    {
+        "date": "2022-05-06",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 31
+            },
+            {
+                "code": "002561",
+                "name": "徐家汇",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 31
+            },
+            {
+                "code": "002761",
+                "name": "浙江建投",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 31
+            }
+        ]
+    },
+    {
+        "date": "2022-05-09",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 7,
+                "limit_ups": 134,
+                "limit_downs": 12
+            },
+            {
+                "code": "002761",
+                "name": "浙江建投",
+                "limit": 7,
+                "limit_ups": 134,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-05-10",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 8,
+                "limit_ups": 104,
+                "limit_downs": 11
+            },
+            {
+                "code": "002761",
+                "name": "浙江建投",
+                "limit": 8,
+                "limit_ups": 104,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-05-11",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 9,
+                "limit_ups": 85,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-05-12",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 10,
+                "limit_ups": 77,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-05-13",
+        "data": [
+            {
+                "code": "000756",
+                "name": "新华制药",
+                "limit": 11,
+                "limit_ups": 102,
+                "limit_downs": 18
+            }
+        ]
+    },
+    {
+        "date": "2022-05-16",
+        "data": [
+            {
+                "code": "000926",
+                "name": "福星股份",
+                "limit": 6,
+                "limit_ups": 97,
+                "limit_downs": 13
+            },
+            {
+                "code": "002431",
+                "name": "棕榈股份",
+                "limit": 6,
+                "limit_ups": 97,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-05-17",
+        "data": [
+            {
+                "code": "002883",
+                "name": "中设股份",
+                "limit": 6,
+                "limit_ups": 71,
+                "limit_downs": 24
+            }
+        ]
+    },
+    {
+        "date": "2022-05-18",
+        "data": [
+            {
+                "code": "002766",
+                "name": "索菱股份",
+                "limit": 6,
+                "limit_ups": 98,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-05-19",
+        "data": [
+            {
+                "code": "002766",
+                "name": "索菱股份",
+                "limit": 7,
+                "limit_ups": 71,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-05-20",
+        "data": [
+            {
+                "code": "002766",
+                "name": "索菱股份",
+                "limit": 8,
+                "limit_ups": 86,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-05-23",
+        "data": [
+            {
+                "code": "001319",
+                "name": "铭科精技",
+                "limit": 8,
+                "limit_ups": 95,
+                "limit_downs": 10
+            },
+            {
+                "code": "603097",
+                "name": "江苏华辰",
+                "limit": 8,
+                "limit_ups": 95,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-05-24",
+        "data": [
+            {
+                "code": "603097",
+                "name": "江苏华辰",
+                "limit": 9,
+                "limit_ups": 44,
+                "limit_downs": 36
+            }
+        ]
+    },
+    {
+        "date": "2022-05-25",
+        "data": [
+            {
+                "code": "603097",
+                "name": "江苏华辰",
+                "limit": 10,
+                "limit_ups": 103,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-05-26",
+        "data": [
+            {
+                "code": "000957",
+                "name": "中通客车",
+                "limit": 10,
+                "limit_ups": 67,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-05-27",
+        "data": [
+            {
+                "code": "000957",
+                "name": "中通客车",
+                "limit": 11,
+                "limit_ups": 84,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-05-30",
+        "data": [
+            {
+                "code": "000957",
+                "name": "中通客车",
+                "limit": 12,
+                "limit_ups": 96,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-05-31",
+        "data": [
+            {
+                "code": "000957",
+                "name": "中通客车",
+                "limit": 13,
+                "limit_ups": 85,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-06-01",
+        "data": [
+            {
+                "code": "001318",
+                "name": "阳光乳业",
+                "limit": 9,
+                "limit_ups": 76,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-06-02",
+        "data": [
+            {
+                "code": "000595",
+                "name": "宝塔实业",
+                "limit": 8,
+                "limit_ups": 80,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-06-06",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 5,
+                "limit_ups": 79,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-06-07",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 6,
+                "limit_ups": 61,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-06-08",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 7,
+                "limit_ups": 64,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-06-09",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 8,
+                "limit_ups": 43,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-06-10",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 9,
+                "limit_ups": 89,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-06-13",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 10,
+                "limit_ups": 72,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-06-14",
+        "data": [
+            {
+                "code": "603069",
+                "name": "海汽集团",
+                "limit": 11,
+                "limit_ups": 65,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-06-15",
+        "data": [
+            {
+                "code": "001270",
+                "name": "铖昌科技",
+                "limit": 8,
+                "limit_ups": 54,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-06-16",
+        "data": [
+            {
+                "code": "001270",
+                "name": "铖昌科技",
+                "limit": 9,
+                "limit_ups": 59,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-06-17",
+        "data": [
+            {
+                "code": "001270",
+                "name": "铖昌科技",
+                "limit": 10,
+                "limit_ups": 60,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-06-20",
+        "data": [
+            {
+                "code": "001270",
+                "name": "铖昌科技",
+                "limit": 11,
+                "limit_ups": 90,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-06-21",
+        "data": [
+            {
+                "code": "001270",
+                "name": "铖昌科技",
+                "limit": 12,
+                "limit_ups": 48,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-06-22",
+        "data": [
+            {
+                "code": "002909",
+                "name": "集泰股份",
+                "limit": 9,
+                "limit_ups": 73,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-06-23",
+        "data": [
+            {
+                "code": "002909",
+                "name": "集泰股份",
+                "limit": 10,
+                "limit_ups": 102,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-06-24",
+        "data": [
+            {
+                "code": "002909",
+                "name": "集泰股份",
+                "limit": 11,
+                "limit_ups": 100,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-06-27",
+        "data": [
+            {
+                "code": "002454",
+                "name": "松芝股份",
+                "limit": 7,
+                "limit_ups": 98,
+                "limit_downs": 3
+            },
+            {
+                "code": "603530",
+                "name": "神马电力",
+                "limit": 7,
+                "limit_ups": 98,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-06-28",
+        "data": [
+            {
+                "code": "002454",
+                "name": "松芝股份",
+                "limit": 8,
+                "limit_ups": 123,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-06-29",
+        "data": [
+            {
+                "code": "002454",
+                "name": "松芝股份",
+                "limit": 9,
+                "limit_ups": 55,
+                "limit_downs": 42
+            }
+        ]
+    },
+    {
+        "date": "2022-06-30",
+        "data": [
+            {
+                "code": "002219",
+                "name": "新里程",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 17
+            },
+            {
+                "code": "002355",
+                "name": "兴民智通",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 17
+            },
+            {
+                "code": "002866",
+                "name": "传艺科技",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 17
+            }
+        ]
+    },
+    {
+        "date": "2022-07-01",
+        "data": [
+            {
+                "code": "002866",
+                "name": "传艺科技",
+                "limit": 7,
+                "limit_ups": 64,
+                "limit_downs": 26
+            }
+        ]
+    },
+    {
+        "date": "2022-07-04",
+        "data": [
+            {
+                "code": "002219",
+                "name": "新里程",
+                "limit": 7,
+                "limit_ups": 77,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-07-05",
+        "data": [
+            {
+                "code": "002219",
+                "name": "新里程",
+                "limit": 8,
+                "limit_ups": 40,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-07-06",
+        "data": [
+            {
+                "code": "002219",
+                "name": "新里程",
+                "limit": 9,
+                "limit_ups": 49,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-07-07",
+        "data": [
+            {
+                "code": "002219",
+                "name": "新里程",
+                "limit": 10,
+                "limit_ups": 76,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-07-08",
+        "data": [
+            {
+                "code": "000899",
+                "name": "赣能股份",
+                "limit": 9,
+                "limit_ups": 67,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-07-11",
+        "data": [
+            {
+                "code": "002090",
+                "name": "金智科技",
+                "limit": 6,
+                "limit_ups": 59,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-07-12",
+        "data": [
+            {
+                "code": "002090",
+                "name": "金智科技",
+                "limit": 7,
+                "limit_ups": 47,
+                "limit_downs": 15
+            }
+        ]
+    },
+    {
+        "date": "2022-07-13",
+        "data": [
+            {
+                "code": "000755",
+                "name": "山西路桥",
+                "limit": 6,
+                "limit_ups": 89,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-07-14",
+        "data": [
+            {
+                "code": "000755",
+                "name": "山西路桥",
+                "limit": 7,
+                "limit_ups": 61,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-07-15",
+        "data": [
+            {
+                "code": "002591",
+                "name": "恒大高新",
+                "limit": 5,
+                "limit_ups": 50,
+                "limit_downs": 38
+            }
+        ]
+    },
+    {
+        "date": "2022-07-18",
+        "data": [
+            {
+                "code": "002591",
+                "name": "恒大高新",
+                "limit": 6,
+                "limit_ups": 111,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-07-19",
+        "data": [
+            {
+                "code": "002591",
+                "name": "恒大高新",
+                "limit": 7,
+                "limit_ups": 83,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-07-20",
+        "data": [
+            {
+                "code": "002316",
+                "name": "亚联发展",
+                "limit": 4,
+                "limit_ups": 83,
+                "limit_downs": 6
+            },
+            {
+                "code": "002547",
+                "name": "春兴精工",
+                "limit": 4,
+                "limit_ups": 83,
+                "limit_downs": 6
+            },
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 4,
+                "limit_ups": 83,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-07-21",
+        "data": [
+            {
+                "code": "002316",
+                "name": "亚联发展",
+                "limit": 5,
+                "limit_ups": 61,
+                "limit_downs": 2
+            },
+            {
+                "code": "002547",
+                "name": "春兴精工",
+                "limit": 5,
+                "limit_ups": 61,
+                "limit_downs": 2
+            },
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 5,
+                "limit_ups": 61,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-07-22",
+        "data": [
+            {
+                "code": "002316",
+                "name": "亚联发展",
+                "limit": 6,
+                "limit_ups": 53,
+                "limit_downs": 5
+            },
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 6,
+                "limit_ups": 53,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-07-25",
+        "data": [
+            {
+                "code": "002316",
+                "name": "亚联发展",
+                "limit": 7,
+                "limit_ups": 43,
+                "limit_downs": 19
+            },
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 7,
+                "limit_ups": 43,
+                "limit_downs": 19
+            }
+        ]
+    },
+    {
+        "date": "2022-07-26",
+        "data": [
+            {
+                "code": "002316",
+                "name": "亚联发展",
+                "limit": 8,
+                "limit_ups": 61,
+                "limit_downs": 7
+            },
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 8,
+                "limit_ups": 61,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-07-27",
+        "data": [
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 9,
+                "limit_ups": 82,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-07-28",
+        "data": [
+            {
+                "code": "603170",
+                "name": "宝立食品",
+                "limit": 10,
+                "limit_ups": 76,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-07-29",
+        "data": [
+            {
+                "code": "000678",
+                "name": "襄阳轴承",
+                "limit": 6,
+                "limit_ups": 59,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-01",
+        "data": [
+            {
+                "code": "000678",
+                "name": "襄阳轴承",
+                "limit": 7,
+                "limit_ups": 81,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-02",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 7,
+                "limit_ups": 43,
+                "limit_downs": 45
+            }
+        ]
+    },
+    {
+        "date": "2022-08-03",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 8,
+                "limit_ups": 36,
+                "limit_downs": 25
+            }
+        ]
+    },
+    {
+        "date": "2022-08-04",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 9,
+                "limit_ups": 68,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-05",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 10,
+                "limit_ups": 53,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-08-08",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 11,
+                "limit_ups": 95,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-08-09",
+        "data": [
+            {
+                "code": "603211",
+                "name": "晋拓股份",
+                "limit": 12,
+                "limit_ups": 69,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-08-10",
+        "data": [
+            {
+                "code": "001258",
+                "name": "立新能源",
+                "limit": 11,
+                "limit_ups": 73,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-08-11",
+        "data": [
+            {
+                "code": "001258",
+                "name": "立新能源",
+                "limit": 12,
+                "limit_ups": 69,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-08-12",
+        "data": [
+            {
+                "code": "001258",
+                "name": "立新能源",
+                "limit": 13,
+                "limit_ups": 56,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-15",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 7,
+                "limit_ups": 76,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-16",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 8,
+                "limit_ups": 72,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-08-17",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 9,
+                "limit_ups": 63,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-08-18",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 10,
+                "limit_ups": 76,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-08-19",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 11,
+                "limit_ups": 54,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-08-22",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 12,
+                "limit_ups": 68,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-08-23",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 13,
+                "limit_ups": 69,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-08-24",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 14,
+                "limit_ups": 33,
+                "limit_downs": 30
+            }
+        ]
+    },
+    {
+        "date": "2022-08-25",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 15,
+                "limit_ups": 60,
+                "limit_downs": 23
+            }
+        ]
+    },
+    {
+        "date": "2022-08-26",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 16,
+                "limit_ups": 39,
+                "limit_downs": 24
+            }
+        ]
+    },
+    {
+        "date": "2022-08-29",
+        "data": [
+            {
+                "code": "001236",
+                "name": "弘业期货",
+                "limit": 17,
+                "limit_ups": 57,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-08-30",
+        "data": [
+            {
+                "code": "001222",
+                "name": "源飞宠物",
+                "limit": 9,
+                "limit_ups": 35,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-08-31",
+        "data": [
+            {
+                "code": "001222",
+                "name": "源飞宠物",
+                "limit": 10,
+                "limit_ups": 30,
+                "limit_downs": 54
+            }
+        ]
+    },
+    {
+        "date": "2022-09-01",
+        "data": [
+            {
+                "code": "000892",
+                "name": "欢瑞世纪",
+                "limit": 4,
+                "limit_ups": 43,
+                "limit_downs": 14
+            }
+        ]
+    },
+    {
+        "date": "2022-09-02",
+        "data": [
+            {
+                "code": "000892",
+                "name": "欢瑞世纪",
+                "limit": 5,
+                "limit_ups": 61,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-09-05",
+        "data": [
+            {
+                "code": "001259",
+                "name": "利仁科技",
+                "limit": 4,
+                "limit_ups": 54,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-09-06",
+        "data": [
+            {
+                "code": "002866",
+                "name": "传艺科技",
+                "limit": 4,
+                "limit_ups": 58,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-09-07",
+        "data": [
+            {
+                "code": "002866",
+                "name": "传艺科技",
+                "limit": 5,
+                "limit_ups": 56,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-09-08",
+        "data": [
+            {
+                "code": "000573",
+                "name": "粤宏远A",
+                "limit": 5,
+                "limit_ups": 38,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-09-09",
+        "data": [
+            {
+                "code": "002282",
+                "name": "博深股份",
+                "limit": 3,
+                "limit_ups": 35,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-09-13",
+        "data": [
+            {
+                "code": "000755",
+                "name": "山西路桥",
+                "limit": 3,
+                "limit_ups": 48,
+                "limit_downs": 9
+            },
+            {
+                "code": "000759",
+                "name": "中百集团",
+                "limit": 3,
+                "limit_ups": 48,
+                "limit_downs": 9
+            },
+            {
+                "code": "001316",
+                "name": "润贝航科",
+                "limit": 3,
+                "limit_ups": 48,
+                "limit_downs": 9
+            },
+            {
+                "code": "001331",
+                "name": "胜通能源",
+                "limit": 3,
+                "limit_ups": 48,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-09-14",
+        "data": [
+            {
+                "code": "000759",
+                "name": "中百集团",
+                "limit": 4,
+                "limit_ups": 34,
+                "limit_downs": 6
+            },
+            {
+                "code": "001316",
+                "name": "润贝航科",
+                "limit": 4,
+                "limit_ups": 34,
+                "limit_downs": 6
+            },
+            {
+                "code": "001331",
+                "name": "胜通能源",
+                "limit": 4,
+                "limit_ups": 34,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-09-15",
+        "data": [
+            {
+                "code": "603182",
+                "name": "嘉华股份",
+                "limit": 4,
+                "limit_ups": 24,
+                "limit_downs": 39
+            }
+        ]
+    },
+    {
+        "date": "2022-09-16",
+        "data": [
+            {
+                "code": "603182",
+                "name": "嘉华股份",
+                "limit": 5,
+                "limit_ups": 24,
+                "limit_downs": 27
+            }
+        ]
+    },
+    {
+        "date": "2022-09-19",
+        "data": [
+            {
+                "code": "002703",
+                "name": "浙江世宝",
+                "limit": 3,
+                "limit_ups": 34,
+                "limit_downs": 26
+            }
+        ]
+    },
+    {
+        "date": "2022-09-20",
+        "data": [
+            {
+                "code": "002703",
+                "name": "浙江世宝",
+                "limit": 4,
+                "limit_ups": 58,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-09-21",
+        "data": [
+            {
+                "code": "001259",
+                "name": "利仁科技",
+                "limit": 4,
+                "limit_ups": 41,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-09-22",
+        "data": [
+            {
+                "code": "001259",
+                "name": "利仁科技",
+                "limit": 5,
+                "limit_ups": 36,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-09-23",
+        "data": [
+            {
+                "code": "001238",
+                "name": "浙江正特",
+                "limit": 5,
+                "limit_ups": 23,
+                "limit_downs": 13
+            },
+            {
+                "code": "003027",
+                "name": "同兴环保",
+                "limit": 5,
+                "limit_ups": 23,
+                "limit_downs": 13
+            }
+        ]
+    },
+    {
+        "date": "2022-09-26",
+        "data": [
+            {
+                "code": "001238",
+                "name": "浙江正特",
+                "limit": 6,
+                "limit_ups": 36,
+                "limit_downs": 16
+            }
+        ]
+    },
+    {
+        "date": "2022-09-27",
+        "data": [
+            {
+                "code": "001238",
+                "name": "浙江正特",
+                "limit": 7,
+                "limit_ups": 70,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-09-28",
+        "data": [
+            {
+                "code": "002641",
+                "name": "公元股份",
+                "limit": 4,
+                "limit_ups": 36,
+                "limit_downs": 21
+            }
+        ]
+    },
+    {
+        "date": "2022-09-29",
+        "data": [
+            {
+                "code": "002641",
+                "name": "公元股份",
+                "limit": 5,
+                "limit_ups": 25,
+                "limit_downs": 19
+            }
+        ]
+    },
+    {
+        "date": "2022-09-30",
+        "data": [
+            {
+                "code": "002084",
+                "name": "海鸥住工",
+                "limit": 5,
+                "limit_ups": 38,
+                "limit_downs": 21
+            },
+            {
+                "code": "600605",
+                "name": "汇通能源",
+                "limit": 5,
+                "limit_ups": 38,
+                "limit_downs": 21
+            },
+            {
+                "code": "603057",
+                "name": "紫燕食品",
+                "limit": 5,
+                "limit_ups": 38,
+                "limit_downs": 21
+            }
+        ]
+    },
+    {
+        "date": "2022-10-10",
+        "data": [
+            {
+                "code": "003005",
+                "name": "竞业达",
+                "limit": 4,
+                "limit_ups": 32,
+                "limit_downs": 39
+            }
+        ]
+    },
+    {
+        "date": "2022-10-11",
+        "data": [
+            {
+                "code": "001255",
+                "name": "博菲电气",
+                "limit": 3,
+                "limit_ups": 53,
+                "limit_downs": 7
+            },
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 3,
+                "limit_ups": 53,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-10-12",
+        "data": [
+            {
+                "code": "001255",
+                "name": "博菲电气",
+                "limit": 4,
+                "limit_ups": 80,
+                "limit_downs": 1
+            },
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 4,
+                "limit_ups": 80,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-10-13",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 5,
+                "limit_ups": 68,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-10-14",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 6,
+                "limit_ups": 82,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-10-17",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 7,
+                "limit_ups": 67,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-10-18",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 8,
+                "limit_ups": 63,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-10-19",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 9,
+                "limit_ups": 49,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-10-20",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 10,
+                "limit_ups": 50,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-10-21",
+        "data": [
+            {
+                "code": "001269",
+                "name": "欧晶科技",
+                "limit": 11,
+                "limit_ups": 51,
+                "limit_downs": 14
+            }
+        ]
+    },
+    {
+        "date": "2022-10-24",
+        "data": [
+            {
+                "code": "002907",
+                "name": "华森制药",
+                "limit": 6,
+                "limit_ups": 34,
+                "limit_downs": 27
+            }
+        ]
+    },
+    {
+        "date": "2022-10-25",
+        "data": [
+            {
+                "code": "001300",
+                "name": "三柏硕",
+                "limit": 5,
+                "limit_ups": 52,
+                "limit_downs": 18
+            }
+        ]
+    },
+    {
+        "date": "2022-10-26",
+        "data": [
+            {
+                "code": "002296",
+                "name": "辉煌科技",
+                "limit": 4,
+                "limit_ups": 70,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-10-27",
+        "data": [
+            {
+                "code": "002771",
+                "name": "真视通",
+                "limit": 4,
+                "limit_ups": 44,
+                "limit_downs": 14
+            }
+        ]
+    },
+    {
+        "date": "2022-10-28",
+        "data": [
+            {
+                "code": "002279",
+                "name": "久其软件",
+                "limit": 3,
+                "limit_ups": 23,
+                "limit_downs": 63
+            },
+            {
+                "code": "002873",
+                "name": "新天药业",
+                "limit": 3,
+                "limit_ups": 23,
+                "limit_downs": 63
+            },
+            {
+                "code": "003007",
+                "name": "直真科技",
+                "limit": 3,
+                "limit_ups": 23,
+                "limit_downs": 63
+            }
+        ]
+    },
+    {
+        "date": "2022-10-31",
+        "data": [
+            {
+                "code": "002279",
+                "name": "久其软件",
+                "limit": 4,
+                "limit_ups": 64,
+                "limit_downs": 29
+            },
+            {
+                "code": "003007",
+                "name": "直真科技",
+                "limit": 4,
+                "limit_ups": 64,
+                "limit_downs": 29
+            }
+        ]
+    },
+    {
+        "date": "2022-11-01",
+        "data": [
+            {
+                "code": "003007",
+                "name": "直真科技",
+                "limit": 5,
+                "limit_ups": 79,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-11-02",
+        "data": [
+            {
+                "code": "003007",
+                "name": "直真科技",
+                "limit": 6,
+                "limit_ups": 78,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-11-03",
+        "data": [
+            {
+                "code": "001299",
+                "name": "美能能源",
+                "limit": 4,
+                "limit_ups": 43,
+                "limit_downs": 4
+            },
+            {
+                "code": "003042",
+                "name": "中农联合",
+                "limit": 4,
+                "limit_ups": 43,
+                "limit_downs": 4
+            },
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 4,
+                "limit_ups": 43,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-11-04",
+        "data": [
+            {
+                "code": "003042",
+                "name": "中农联合",
+                "limit": 5,
+                "limit_ups": 68,
+                "limit_downs": 1
+            },
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 5,
+                "limit_ups": 68,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-11-07",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 6,
+                "limit_ups": 58,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-11-08",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 7,
+                "limit_ups": 41,
+                "limit_downs": 1
+            }
+        ]
+    },
+    {
+        "date": "2022-11-09",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 8,
+                "limit_ups": 47,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-11-10",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 9,
+                "limit_ups": 55,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-11-11",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 10,
+                "limit_ups": 54,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-11-14",
+        "data": [
+            {
+                "code": "603778",
+                "name": "国晟科技",
+                "limit": 4,
+                "limit_ups": 59,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-11-15",
+        "data": [
+            {
+                "code": "603778",
+                "name": "国晟科技",
+                "limit": 5,
+                "limit_ups": 75,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-11-16",
+        "data": [
+            {
+                "code": "000863",
+                "name": "三湘印象",
+                "limit": 5,
+                "limit_ups": 41,
+                "limit_downs": 3
+            },
+            {
+                "code": "600613",
+                "name": "神奇制药",
+                "limit": 5,
+                "limit_ups": 41,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-11-17",
+        "data": [
+            {
+                "code": "600613",
+                "name": "神奇制药",
+                "limit": 6,
+                "limit_ups": 60,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-11-18",
+        "data": [
+            {
+                "code": "000815",
+                "name": "美利云",
+                "limit": 6,
+                "limit_ups": 46,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-11-21",
+        "data": [
+            {
+                "code": "603029",
+                "name": "天鹅股份",
+                "limit": 11,
+                "limit_ups": 51,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-11-22",
+        "data": [
+            {
+                "code": "001338",
+                "name": "永顺泰",
+                "limit": 5,
+                "limit_ups": 41,
+                "limit_downs": 18
+            },
+            {
+                "code": "002181",
+                "name": "粤传媒",
+                "limit": 5,
+                "limit_ups": 41,
+                "limit_downs": 18
+            }
+        ]
+    },
+    {
+        "date": "2022-11-23",
+        "data": [
+            {
+                "code": "001338",
+                "name": "永顺泰",
+                "limit": 6,
+                "limit_ups": 44,
+                "limit_downs": 23
+            },
+            {
+                "code": "002181",
+                "name": "粤传媒",
+                "limit": 6,
+                "limit_ups": 44,
+                "limit_downs": 23
+            }
+        ]
+    },
+    {
+        "date": "2022-11-24",
+        "data": [
+            {
+                "code": "001338",
+                "name": "永顺泰",
+                "limit": 7,
+                "limit_ups": 48,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-11-25",
+        "data": [
+            {
+                "code": "001338",
+                "name": "永顺泰",
+                "limit": 8,
+                "limit_ups": 36,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-11-28",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 5,
+                "limit_ups": 39,
+                "limit_downs": 4
+            },
+            {
+                "code": "601858",
+                "name": "中国科传",
+                "limit": 5,
+                "limit_ups": 39,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-11-29",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 6,
+                "limit_ups": 90,
+                "limit_downs": 0
+            },
+            {
+                "code": "601858",
+                "name": "中国科传",
+                "limit": 6,
+                "limit_ups": 90,
+                "limit_downs": 0
+            }
+        ]
+    },
+    {
+        "date": "2022-11-30",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 7,
+                "limit_ups": 48,
+                "limit_downs": 5
+            },
+            {
+                "code": "601858",
+                "name": "中国科传",
+                "limit": 7,
+                "limit_ups": 48,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-12-01",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 8,
+                "limit_ups": 53,
+                "limit_downs": 3
+            }
+        ]
+    },
+    {
+        "date": "2022-12-02",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 9,
+                "limit_ups": 56,
+                "limit_downs": 8
+            }
+        ]
+    },
+    {
+        "date": "2022-12-05",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 10,
+                "limit_ups": 53,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-12-06",
+        "data": [
+            {
+                "code": "002150",
+                "name": "通润装备",
+                "limit": 11,
+                "limit_ups": 35,
+                "limit_downs": 11
+            }
+        ]
+    },
+    {
+        "date": "2022-12-07",
+        "data": [
+            {
+                "code": "002427",
+                "name": "尤夫股份",
+                "limit": 5,
+                "limit_ups": 48,
+                "limit_downs": 2
+            },
+            {
+                "code": "002528",
+                "name": "英飞拓",
+                "limit": 5,
+                "limit_ups": 48,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-12-08",
+        "data": [
+            {
+                "code": "002427",
+                "name": "尤夫股份",
+                "limit": 6,
+                "limit_ups": 49,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-12-09",
+        "data": [
+            {
+                "code": "001256",
+                "name": "炜冈科技",
+                "limit": 5,
+                "limit_ups": 35,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-12-12",
+        "data": [
+            {
+                "code": "002336",
+                "name": "人人乐",
+                "limit": 5,
+                "limit_ups": 39,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-12-13",
+        "data": [
+            {
+                "code": "002336",
+                "name": "人人乐",
+                "limit": 6,
+                "limit_ups": 51,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-12-14",
+        "data": [
+            {
+                "code": "002336",
+                "name": "人人乐",
+                "limit": 7,
+                "limit_ups": 46,
+                "limit_downs": 10
+            }
+        ]
+    },
+    {
+        "date": "2022-12-15",
+        "data": [
+            {
+                "code": "600185",
+                "name": "格力地产",
+                "limit": 5,
+                "limit_ups": 28,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-12-16",
+        "data": [
+            {
+                "code": "600185",
+                "name": "格力地产",
+                "limit": 6,
+                "limit_ups": 37,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-12-19",
+        "data": [
+            {
+                "code": "600185",
+                "name": "格力地产",
+                "limit": 7,
+                "limit_ups": 26,
+                "limit_downs": 20
+            }
+        ]
+    },
+    {
+        "date": "2022-12-20",
+        "data": [
+            {
+                "code": "002095",
+                "name": "生意宝",
+                "limit": 3,
+                "limit_ups": 24,
+                "limit_downs": 27
+            },
+            {
+                "code": "002186",
+                "name": "全聚德",
+                "limit": 3,
+                "limit_ups": 24,
+                "limit_downs": 27
+            }
+        ]
+    },
+    {
+        "date": "2022-12-21",
+        "data": [
+            {
+                "code": "002186",
+                "name": "全聚德",
+                "limit": 4,
+                "limit_ups": 28,
+                "limit_downs": 7
+            }
+        ]
+    },
+    {
+        "date": "2022-12-22",
+        "data": [
+            {
+                "code": "002186",
+                "name": "全聚德",
+                "limit": 5,
+                "limit_ups": 33,
+                "limit_downs": 9
+            }
+        ]
+    },
+    {
+        "date": "2022-12-23",
+        "data": [
+            {
+                "code": "002076",
+                "name": "星光股份",
+                "limit": 3,
+                "limit_ups": 35,
+                "limit_downs": 12
+            },
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 3,
+                "limit_ups": 35,
+                "limit_downs": 12
+            }
+        ]
+    },
+    {
+        "date": "2022-12-26",
+        "data": [
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 4,
+                "limit_ups": 60,
+                "limit_downs": 2
+            }
+        ]
+    },
+    {
+        "date": "2022-12-27",
+        "data": [
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 5,
+                "limit_ups": 44,
+                "limit_downs": 6
+            }
+        ]
+    },
+    {
+        "date": "2022-12-28",
+        "data": [
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 6,
+                "limit_ups": 32,
+                "limit_downs": 5
+            }
+        ]
+    },
+    {
+        "date": "2022-12-29",
+        "data": [
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 7,
+                "limit_ups": 35,
+                "limit_downs": 4
+            }
+        ]
+    },
+    {
+        "date": "2022-12-30",
+        "data": [
+            {
+                "code": "002719",
+                "name": "麦趣尔",
+                "limit": 8,
+                "limit_ups": 47,
+                "limit_downs": 1
+            }
+        ]
+    }
+]

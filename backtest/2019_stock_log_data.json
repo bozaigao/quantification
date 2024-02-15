@@ -1,0 +1,1984 @@
+[
+    {
+        "date": "2019-01-03",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-04",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-07",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-08",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-09",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-10",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "涨停打板买入风范股份",
+        "stock": {
+            "code": "601700",
+            "name": "风范股份",
+            "limit": 10,
+            "limit_ups": 35,
+            "limit_downs": 3,
+            "price": "3.76",
+            "first_limit_time": "09:46:30",
+            "final_limit_time": "14:56:02",
+            "limit_reason": "妖股",
+            "limit_tocks": "227.98万",
+            "limit_money": "1,698.44万",
+            "limit_cheng_ratio": "1.35",
+            "limit_liu_ratio": "0.20",
+            "limit_open_times": "4",
+            "market_value": "84.43亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省苏州市常熟市尚湖镇工业集中区西区人民南路8号",
+            "company_business": "输变电线路电力塔、变电站钢结构、电力设备、输变电工程材料、风力发电设备、通讯设备、广播通信铁塔及桅杆、各类管道及钢结构件的研发、制造；上述产品配套的机电产品、电工器材的出口业务；本公司生产、科研所需原辅材料、相关设备和技术的进口；经营和代理各类商品及技术的进出口业务（国家限定公司经营或禁止进出口的商品及技术除外）；承包各类境外及境内招标工程；上述境外工程所需的设备、材料出口，相关技术服务；经营能源投资管理、对销贸易和转口贸易；经营石油化工设备、钢材、有色金属的销售；钢结构安装与施工。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "3.40%",
+            "desc": "2019年1月10日风范股份集合竞价砸盘，单笔放量10%以上砸盘，竞价评级混战，竞价涨幅3.40%，成交价7.00元，成交量305.78万股，成交额2140.43万，未成交量17.23万股，未成交额120.58万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "2.18%",
+            "shockValue": "1.69亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.32亿",
+            "next_opening_increase": "0%",
+            "next_desc": "暂无风范股份2019年1月11日竞价涨幅的相关信息。",
+            "close_increase": "10.04",
+            "next_close_increase": "-2.95"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-11",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "断板卖出风范股份,当日盈利0%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-14",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-15",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-16",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-17",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-18",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-21",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-22",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-23",
+        "money": 100000,
+        "earnings": "0%",
+        "desc": "涨停打板买入华培动力",
+        "stock": {
+            "code": "603121",
+            "name": "华培动力",
+            "limit": 9,
+            "limit_ups": 36,
+            "limit_downs": 6,
+            "price": "5.96",
+            "first_limit_time": "09:32:30",
+            "final_limit_time": "10:24:00",
+            "limit_reason": "次新",
+            "limit_tocks": "119.53万",
+            "limit_money": "4,353.18万",
+            "limit_cheng_ratio": "5.45",
+            "limit_liu_ratio": "2.66",
+            "limit_open_times": "6",
+            "market_value": "16.39亿",
+            "limit_type": "--",
+            "company_place": "上海市青浦区崧秀路218号3幢厂房",
+            "company_business": "许可项目：一般项目：汽车零部件及配件制造；汽车零部件研发；汽车零配件批发；汽车零配件零售；铁路机车车辆配件制造；铁路机车车辆配件销售；金属材料制造；金属材料销售；金属制品研发；金属制品销售；第一类医疗器械生产；第一类医疗器械销售；电工机械专用设备制造；机械电气设备制造；机械电气设备销售；电子元器件制造；电子元器件批发；电子专用材料研发；电子专用材料制造；电子元器件与机电组件设备制造；电子元器件与机电组件设备销售；集成电路芯片及产品制造；集成电路芯片及产品销售；集成电路芯片设计及服务；运输设备及生产用计数仪表制造；绘图、计算及测量仪器制造；绘图、计算及测量仪器销售；工程和技术研究和试验发展（除人体干细胞、基因诊断与治疗技术开发和应用，中国稀有和特有的珍贵优良品种）；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；货物进出口；技术进出口。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目；民用航空器零部件设计和生产。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）",
+            "opening_increase": "5.35%",
+            "desc": "2019年1月23日华培动力集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅5.35%，成交价34.88元，成交量107.43万股，成交额3747.16万，未成交量-2680.00股，未成交额-9.35万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "4.3%",
+            "shockValue": "5.80",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "--",
+            "next_shockValue": "13.34",
+            "next_opening_increase": "8.40%",
+            "next_desc": "2019年1月24日华培动力集合竞价大幅高开，大幅高开8.40%，竞价评级看多，竞价涨幅8.40%，成交价39.48元，成交量79.17万股，成交额3125.63万，未成交量-10.15万股，未成交额-400.90万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.00",
+            "next_close_increase": "3.24"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-24",
+        "money": 110000,
+        "earnings": "10%",
+        "desc": "炸板卖出华培动力,当日盈利10%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-25",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-28",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-29",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-30",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-01-31",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-01",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-11",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-12",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-13",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-14",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-15",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-18",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-19",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-20",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-21",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-22",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-25",
+        "money": 110000,
+        "earnings": "0%",
+        "desc": "涨停打板买入国风新材",
+        "stock": {
+            "code": "000859",
+            "name": "国风新材",
+            "limit": 10,
+            "limit_ups": 208,
+            "limit_downs": 0,
+            "price": "3.18",
+            "first_limit_time": "09:58:00",
+            "final_limit_time": "09:58:00",
+            "limit_reason": "OLED",
+            "limit_tocks": "844.29万",
+            "limit_money": "6,762.76万",
+            "limit_cheng_ratio": "6.32",
+            "limit_liu_ratio": "1.14",
+            "limit_open_times": "0",
+            "market_value": "59.22亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "安徽省合肥市蜀山区高新区铭传路1000号",
+            "company_business": "包装膜材料、预涂膜材料、电容器用薄膜、聚酰亚胺薄膜、电子信息用膜材料、高分子功能膜材料,工程塑料、木塑新材料、塑料化工新材料、塑胶建材及附件、其他塑料制品生产、销售;相关原辅材料生产、销售;企业自产产品及相关技术出口业务(国家限定公司经营或禁止出口商品除外);企业生产、科研所需的原辅材料、仪器仪表、机械设备、零配件及技术进口(国家限定公司经营或禁止进口的商品除外)。",
+            "opening_increase": "0.82%",
+            "desc": "2019年2月25日国风新材集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅0.82%，成交价7.34元，成交量1062.08万股，成交额7795.66万，未成交量65.97万股，未成交额484.23万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "-0.14%",
+            "shockValue": "1.34亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "--",
+            "next_shockValue": "2.87亿",
+            "next_opening_increase": "0%",
+            "next_desc": "2019年2月26日国风新材集合竞价无明显异动，竞价涨幅为9.99%，竞价成交价为8.81元，成交量为1218.15万股，成交额为1.07亿元，未成交量为140.51万股，未成交额为1237.91万元。",
+            "close_increase": "10.03",
+            "next_close_increase": "-9.74"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-26",
+        "money": 121000,
+        "earnings": "10%",
+        "desc": "炸板卖出国风新材,当日盈利10%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-02-28",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-01",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-04",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-05",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-06",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-07",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-08",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-14",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-15",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "涨停打板买入复旦复华",
+        "stock": {
+            "code": "600624",
+            "name": "复旦复华",
+            "limit": 8,
+            "limit_ups": 67,
+            "limit_downs": 2,
+            "price": "4.08",
+            "first_limit_time": "09:48:00",
+            "final_limit_time": "13:08:00",
+            "limit_reason": "高校",
+            "limit_tocks": "578.11万",
+            "limit_money": "8,457.76万",
+            "limit_cheng_ratio": "3.47",
+            "limit_liu_ratio": "0.84",
+            "limit_open_times": "16",
+            "market_value": "100.17亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "上海市奉贤区汇丰北路1515弄1号2幢107室",
+            "company_business": "电脑系统、通讯设备、自动化仪表、生物技术、光源照明等产品的研制及生产销售，经外经贸委批准的进出口业务，科技成果陈列，投资参股其2它领域的生产产品及经营，“四技”和“三来一补”业务。【依法须经批准的项目，经相关部门批准后方可开展经营活动】",
+            "opening_increase": "5.41%",
+            "desc": "2019年3月20日复旦复华集合竞价涨停试盘，出现第17次涨停试盘，竞价评级-，竞价涨幅5.41%，成交价14.02元，成交量614.88万股，成交额8620.62万，未成交量-6.61万股，未成交额-92.74万元。涨停试盘主要目的有判断是否有其他主力、主力拉升、主力出逃等。可结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.02%",
+            "shockValue": "1.67亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.94亿",
+            "next_opening_increase": "7.93%",
+            "next_desc": "2019年3月21日复旦复华集合竞价大幅高开，大幅高开7.90%，竞价评级看多，竞价涨幅7.93%，成交价15.79元，成交量629.75万股，成交额9943.75万，未成交量-5.83万股，未成交额-91.98万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.00",
+            "next_close_increase": "-2.53"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-21",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "断板卖出复旦复华,当日盈利0%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-22",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-28",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-03-29",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-01",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-02",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-03",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-04",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-08",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-09",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-15",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-16",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-22",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-23",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-29",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-04-30",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-06",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-07",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-08",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-09",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-14",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-15",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-16",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-21",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-22",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-23",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-28",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-29",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-30",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-05-31",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-03",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-04",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-05",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-06",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-14",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-21",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-27",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-06-28",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-01",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-02",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-03",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-04",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-05",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-08",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-09",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-10",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-11",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-15",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-16",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "涨停打板买入中国卫通",
+        "stock": {
+            "code": "601698",
+            "name": "中国卫通",
+            "limit": 13,
+            "limit_ups": 20,
+            "limit_downs": 2,
+            "price": "14.40",
+            "first_limit_time": "09:30:30",
+            "final_limit_time": "09:34:45",
+            "limit_reason": "次新股",
+            "limit_tocks": "1,643.22万",
+            "limit_money": "2.02亿",
+            "limit_cheng_ratio": "17.09",
+            "limit_liu_ratio": "4.11",
+            "limit_open_times": "1",
+            "market_value": "49.08亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "北京市海淀区后厂村路59号",
+            "company_business": "经营基础电信业务（业务范围详见许可证，基础电信业务经营许可证有效期至2025年06月03日）；经营增值电信业务（业务范围详见许可证，增值电信业务经营许可证有效期至2021年09月20日）；通信广播卫星系统的开发、管理；卫星地面应用系统及相关设备的设计、开发；与上述卫星业务相关的应用技术开发、技术咨询、工程设计、工程承包；进出口业务。（企业依法自主选择经营项目，开展经营活动；基础电信业务经营以及依法须经批准的项目，经相关部门批准后依批准的内容开展经营活动；不得从事本市产业政策禁止和限制类项目的经营活动。）",
+            "opening_increase": "10.04%",
+            "desc": "2019年7月16日中国卫通集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.04%，成交价12.27元，成交量2436.66万股，成交额2.99亿，未成交量-49.38万股，未成交额-605.84万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "6.8%",
+            "shockValue": "3.32",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "2.60亿",
+            "next_opening_increase": "4.97%",
+            "next_desc": "2019年7月17日中国卫通集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅4.97%，成交价12.88元，成交量1010.28万股，成交额1.30亿，未成交量36.84万股，未成交额474.47万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.04",
+            "next_close_increase": "-4.40"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-17",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "断板卖出中国卫通,当日盈利0%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-18",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-22",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-23",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-24",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-25",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-26",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-29",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-30",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-07-31",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-01",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-02",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-05",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-06",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-07",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-08",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-09",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-12",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-13",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-14",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-15",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-16",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-19",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-20",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-21",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-22",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-23",
+        "money": 121000,
+        "earnings": "0%",
+        "desc": "涨停打板买入正威新材",
+        "stock": {
+            "code": "002201",
+            "name": "正威新材",
+            "limit": 7,
+            "limit_ups": 33,
+            "limit_downs": 3,
+            "price": "5.31",
+            "first_limit_time": "09:52:15",
+            "final_limit_time": "14:55:34",
+            "limit_reason": "股权转让",
+            "limit_tocks": "444.65万",
+            "limit_money": "1.20亿",
+            "limit_cheng_ratio": "6.21",
+            "limit_liu_ratio": "1.34",
+            "limit_open_times": "18",
+            "market_value": "89.21亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省南通市如皋市中山东路1号",
+            "company_business": "玻璃纤维纱、织物及制品、玻璃钢制品、其他产业纤维的织物及制品、建筑及装饰增强材料的设计、生产、销售、安装；防腐保温工程、环保工程的施工；自营和代理各类商品及技术的进出口业务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）一般项目：集成电路设计；集成电路制造；集成电路销售；集成电路芯片设计及服务；集成电路芯片及产品制造；集成电路芯片及产品销售（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+            "opening_increase": "7.57%",
+            "desc": "2019年8月23日正威新材集合竞价大幅高开，大幅高开7.60%，竞价评级看多，竞价涨幅7.57%，成交价26.30元，成交量158.04万股，成交额4156.45万，未成交量-15.92万股，未成交额-418.74万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "2.25%",
+            "shockValue": "7.77",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "14:31:00",
+            "next_shockValue": "15.72",
+            "next_opening_increase": "-2.23%",
+            "next_desc": "2019年8月26日正威新材集合竞价大卖单试盘，大卖单试盘1221万元，竞价评级-，竞价涨幅-2.23%，成交价26.30元，成交量153.87万股，成交额4046.78万，未成交量40.52万股，未成交额1065.68万。建议关注主力动向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.02",
+            "next_close_increase": "3.61"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-26",
+        "money": 133100,
+        "earnings": "10%",
+        "desc": "炸板卖出正威新材,当日盈利10%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-27",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-28",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-29",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-08-30",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-02",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-03",
+        "money": 133100,
+        "earnings": "0%",
+        "desc": "涨停打板买入宝塔实业",
+        "stock": {
+            "code": "000595",
+            "name": "宝塔实业",
+            "limit": 6,
+            "limit_ups": 39,
+            "limit_downs": 0,
+            "price": "3.36",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "10:33:30",
+            "limit_reason": "军工",
+            "limit_tocks": "781.15万",
+            "limit_money": "3,772.97万",
+            "limit_cheng_ratio": "7.77",
+            "limit_liu_ratio": "1.04",
+            "limit_open_times": "6",
+            "market_value": "36.31亿",
+            "limit_type": "【T字涨停|放量涨停】",
+            "company_place": "宁夏回族自治区银川市西夏区北京西路630号",
+            "company_business": "工业制造；轴承加工；钢材销售；压力管道元件的制造（锻制法兰（限机械加工）的管法兰、压力容器法兰；锻制法兰锻坯的钢制法兰锻坯）；经营本企业自产产品及技术的出口业务；经营本企业生产所需的原辅材料、仪器仪表、机械设备、零配件及技术的进出口业务（国家限定公司经营和国家禁止出口的商品及技术除外）；经营进料加工和“三来一补”业务。（依法须批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "10.02%",
+            "desc": "2019年9月3日宝塔实业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价4.83元，成交量527.15万股，成交额2546.14万，未成交量2455.96万股，未成交额1.19亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "7.06%",
+            "shockValue": "1.01亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.66亿",
+            "next_opening_increase": "3.31%",
+            "next_desc": "2019年9月4日宝塔实业集合竞价砸盘，单笔放量10%以上砸盘，竞价评级混战，竞价涨幅3.31%，成交价4.99元，成交量695.33万股，成交额3469.70万，未成交量-19.56万股，未成交额-97.60万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.02",
+            "next_close_increase": "1.45"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-04",
+        "money": 135030,
+        "earnings": "1.45%",
+        "desc": "断板卖出宝塔实业,当日盈利1.45%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-05",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-06",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-09",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-10",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-11",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-12",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-16",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-17",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-18",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-19",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-20",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-23",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-24",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-25",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-26",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-27",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-09-30",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-08",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-09",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-10",
+        "money": 135030,
+        "earnings": "0%",
+        "desc": "涨停打板买入宝鼎科技",
+        "stock": {
+            "code": "002552",
+            "name": "宝鼎科技",
+            "limit": 4,
+            "limit_ups": 37,
+            "limit_downs": 3,
+            "price": "11.55",
+            "first_limit_time": "09:39:17",
+            "final_limit_time": "09:52:09",
+            "limit_reason": "实控人变更",
+            "limit_tocks": "176.48万",
+            "limit_money": "4,553.28万",
+            "limit_cheng_ratio": "10.52",
+            "limit_liu_ratio": "0.88",
+            "limit_open_times": "3",
+            "market_value": "51.64亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "浙江省杭州市余杭区塘栖镇工业园区内",
+            "company_business": "一般项目：新材料技术推广服务；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；核电设备成套及工程技术研发；钢、铁冶炼；黑色金属铸造；锻件及粉末冶金制品制造；锻件及粉末冶金制品销售；钢压延加工；海洋工程装备制造；海洋工程装备销售；金属表面处理及热处理加工；金属结构制造；模具制造；模具销售；金属加工机械制造；通用设备制造（不含特种设备制造）；货物进出口；电力电子元器件销售；电力电子元器件制造；专用化学产品销售（不含危险化学品）；机械零件、零部件销售；仪器仪表销售；环境保护专用设备制造；专用设备制造（不含许可类专业设备制造）；普通机械设备安装服务；非居住房地产租赁；机械设备租赁；进出口代理；玻璃纤维及制品销售；有色金属合金销售；金属材料销售；选矿；贵金属冶炼；金属矿石销售；技术进出口；土石方工程施工(除依法须经批准的项目外，凭营业执照依法自主开展经营活动)。许可项目：非煤矿山矿产资源开采；矿产资源勘查；道路货物运输（不含危险货物）；黄金及其制品进出口(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。",
+            "opening_increase": "8.23%",
+            "desc": "2019年10月10日宝鼎科技集合竞价大幅高开，大幅高开8.20%，竞价评级偏多，竞价涨幅8.23%，成交价25.38元，成交量123.98万股，成交额3146.61万，未成交量-9220.00股，未成交额-23.40万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "4.22%",
+            "shockValue": "5.80",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:37:15",
+            "next_shockValue": "10.39",
+            "next_opening_increase": "6.24%",
+            "next_desc": "2019年10月11日宝鼎科技集合竞价大买单试盘，大买单试盘574万元，竞价评级-，竞价涨幅6.24%，成交价27.41元，成交量68.82万股，成交额1886.36万，未成交量-3899.00股，未成交额-10.69万。建议关注主力动向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.02",
+            "next_close_increase": "4.50"
+        },
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-11",
+        "money": 148533,
+        "earnings": "10%",
+        "desc": "炸板卖出宝鼎科技,当日盈利10%",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-14",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-15",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-16",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-17",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-18",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-21",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-22",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-23",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-24",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-25",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-28",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-29",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-30",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-10-31",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-01",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-04",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-05",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-06",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-07",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-08",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-11",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-12",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-13",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-14",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-15",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-18",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-19",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-20",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-21",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-22",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-25",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-26",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-27",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-28",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-11-29",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-02",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-03",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-04",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-05",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-06",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-09",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-10",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-11",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-12",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-13",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-16",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-17",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-18",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-19",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-20",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-23",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-24",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-25",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-26",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-27",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    },
+    {
+        "date": "2019-12-30",
+        "money": 148533,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1
+    }
+]
