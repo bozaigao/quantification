@@ -5,6 +5,7 @@ from openpyxl.utils import get_column_letter
 from openpyxl.styles import PatternFill
 import time
 from pandas_market_calendars import get_calendar
+from datetime import datetime, timedelta
 import pychrome
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -16,16 +17,44 @@ from utils.limitUtil import getLimitDowns, getLimitUPs
 
 global_wait_seconds = 3
 
+def compare_dates(date1, date2):
+    if date1 > date2:
+        return 1
+    elif date1 < date2:
+        return -1
+    else:
+        return 0
+
+class AnalyzeExit(Exception):
+    pass
+
 # 指定开始统计年份
 year = 2024
+try:
+    with open(f'{year}_stocks_data.json', 'r') as file:
+        _data = json.load(file)
+except FileNotFoundError:
+    _data = []
 # 创建一个工作簿–
 workbook = Workbook()
 sheet = workbook.active
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
+# 获取今天的日期
+today = datetime.now().date()
 # 指定年份的日期范围
-start_date = f'{year}-01-17'
-end_date = f'{year}-02-08'
+# 获取下一个交易日
+date_object = datetime.strptime(_data[-1]['date'], '%Y-%m-%d').date()
+next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
+start_date = next_date.date()
+end_date = today
+date1 = datetime.strptime(str(start_date), '%Y-%m-%d')
+date2 = datetime.strptime(str(end_date), '%Y-%m-%d')
+# 比较日期大小
+result = compare_dates(date1, date2)
+if result == 1:
+   raise AnalyzeExit("Terminating analyze.py execution")
+
 # 获取指定日期范围内的工作日日期
 workdays = calendar.valid_days(start_date=start_date, end_date=end_date)
 # 模拟交易日日期列表

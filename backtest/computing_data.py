@@ -18,10 +18,10 @@ year = 2024
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
 # 指定年份的日期范围
 dates = []
-with open(f'{os.getcwd()}/backtest/{year}_dragon_opening_data.json', 'r') as file:
+with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_opening_data.json', 'r') as file:
     dragon_opening_data = json.load(file)
 try:
-    with open(f'{os.getcwd()}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
         dragon_backtest_data = json.load(file)
 except FileNotFoundError:
     dragon_backtest_data = []
@@ -59,7 +59,7 @@ for idx, date in enumerate(dates):
          isBurst = item['limit_open_times'] != '0'
          # 获取下一个交易日
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
-         next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date=dates[-1])[0]
+         next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
          #获取次日竞价涨幅信息
          opening_increase = getOpeningIncrease(browserTab,str(next_date.date()),item['name'])
          #获取次日涨幅信息
@@ -106,7 +106,7 @@ for idx, date in enumerate(dates):
          arr.append(item)
     dragon_backtest_data.extend([{'date':date,'data':arr}])
         # 将数据写入到 JSON 文件中
-    with open(f'{os.getcwd()}/backtest/{year}_dragon_backtest_data.json', 'w') as file:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'w') as file:
         json.dump(dragon_backtest_data, file, ensure_ascii=False, indent=4) 
 
    

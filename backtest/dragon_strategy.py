@@ -8,6 +8,7 @@ from utils.increase import getIncrease
 from  utils.judgeBurst import judgeBurst
 import pychrome
 import math
+from colorama import Fore, Back, Style
 
 # 指定回测年份
 year = 2024
@@ -19,16 +20,21 @@ suggest_shipping_space = 1
 stockLog = []
 #交易日期
 dates = []
+#是否输出策略分析
+forecast = False
+if '/backtest' in os.getcwd():
+   forecast = True
+
+if forecast:
+    print(Fore.GREEN + '-------->>>>>>>>开始今日策略<<<<<<<<--------')
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
 try:
-    with open(f'{os.getcwd()}/backtest/{year}_stock_log_data.json', 'r',) as file:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stock_log_data.json', 'r',) as file:
         dragon_log_data = json.load(file)
 except FileNotFoundError:
     dragon_log_data = []
 stockPool = []
-# with open(f'{os.getcwd()}/backtest/{year}_stocks_data.json', 'r') as file:
-#     stocks_data = json.load(file)
 #股票池
 if len(dragon_log_data) != 0 and 'stock' in dragon_log_data[-1]:
    stockPool =  [dragon_log_data[-1]['stock']]
@@ -52,7 +58,6 @@ def isBigestChangeHands(date,buyStock):
                 if maxHuanShou < itemHuanShou:
                     maxHuanShou = itemHuanShou
                 break
-    print(f'😁-->>{currentHuanShou == maxHuanShou}')
     return currentHuanShou == maxHuanShou
 
 def formartNumber(earnings):
@@ -119,7 +124,7 @@ browserTab = browser.new_tab()
 # 打开链接
 browserTab.start()
 browserTab.Network.enable()
-with open(f'{os.getcwd()}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
+with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
     dragon_backtest_data = json.load(file)
 
 for item in dragon_backtest_data:
@@ -146,9 +151,15 @@ for idx, date in enumerate(dates[1:]):
             todayStocks = stocksData['data']
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
+        if forecast:
+           print(Fore.RED + '准备买入操作')
         #如果最板连板数大于2则主动空仓
-        if len(targetStocks) > 2:
-            print(date,'空仓')
+        if True:
+            # print(Style.RESET_ALL)
+            if forecast:
+                print(Fore.YELLOW+'{date}昨日连板最高个股数大于2，接力资金力量分散主动空仓')
+            else:
+                print(date,'空仓')
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
             stockPool = []
         else:
@@ -168,7 +179,7 @@ for idx, date in enumerate(dates[1:]):
                 #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                 opening_increase = getOpeningIncrease(browserTab,date,buyStock['name'])
                 #如果昨日出现最大换手且烂板则主动空仓
-                if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                if round(float(buyStock['opening_increase'] .strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
                         #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字
                     if buyStock['next_isBurst'] and buyStock['next_burst_time'] !='09:30:00' and isEarly(buyStock['next_burst_time'],'11:30:00'):
                             increase = float(buyStock['next_close_increase'].strip('%'))
@@ -256,5 +267,5 @@ for idx, date in enumerate(dates[1:]):
                final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
                print(date,f'断板卖出{buyStock["name"]},当日盈利{earnings}%,金额{round(final_money)},仓位{current_shipping_space}')
                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'断板卖出{buyStock["name"]},当日盈利{earnings}%','suggest_shipping_space':next_shipping_space})
-    with open(f'{os.getcwd()}/backtest/{year}_stock_log_data.json', 'w') as file:
-         json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stock_log_data.json', 'w') as file:
+        json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 
