@@ -157,7 +157,7 @@ for idx, date in enumerate(dates[1:]):
         if True:
             # print(Style.RESET_ALL)
             if forecast:
-                print(Fore.YELLOW+'{date}昨日连板最高个股数大于2，接力资金力量分散主动空仓')
+                print(Fore.YELLOW+f'{date}昨日连板最高个股数大于2，接力资金力量分散主动空仓')
             else:
                 print(date,'空仓')
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
