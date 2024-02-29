@@ -25,8 +25,6 @@ forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 
-if forecast:
-    print(Fore.GREEN + '-------->>>>>>>>开始今日策略<<<<<<<<--------')
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
 try:
@@ -151,15 +149,10 @@ for idx, date in enumerate(dates[1:]):
             todayStocks = stocksData['data']
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
-        if forecast:
-           print(Fore.RED + '准备买入操作')
         #如果最板连板数大于2则主动空仓
         if True:
             # print(Style.RESET_ALL)
-            if forecast:
-                print(Fore.YELLOW+f'{date}昨日连板最高个股数大于2，接力资金力量分散主动空仓')
-            else:
-                print(date,'空仓')
+            print(date,'空仓')
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
             stockPool = []
         else:

@@ -15800,18 +15800,18 @@
                 "desc": "今天克来机电集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为37.30元，成交量为28.17万股，成交额为1050.81万元，未成交量为1862.49万股，未成交额为6.95亿元。",
                 "isBurst": false,
                 "dip_increase": "10.0%",
-                "shockValue": "0.00",
-                "next_isLimitUp": false,
+                "shockValue": "0",
+                "next_isLimitUp": true,
                 "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0%",
-                "next_desc": "今天克来机电集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为37.30元，成交量为28.17万股，成交额为1050.81万元，未成交量为1862.49万股，未成交额为6.95亿元。",
+                "next_shockValue": "6.78",
+                "next_opening_increase": "5.93%",
+                "next_desc": "2024年2月27日克来机电集合竞价急速下跌，一分钟跌幅大于3%，竞价评级偏空，竞价涨幅5.93%，成交价39.51元，成交量780.82万股，成交额3.09亿，未成交量1.33万股，未成交额52.36万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.00",
-                "next_close_increase": "37.30"
+                "next_close_increase": "10.00"
             }
         ]
     },
@@ -15844,15 +15844,15 @@
                 "shockValue": "6.78",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
-                "next_isLimitDown": false,
+                "next_isLimitDown": true,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0%",
-                "next_desc": "今天克来机电集合竞价涨幅为5.93%，竞价评级为偏空，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为39.51元，成交量为780.82万股，成交额为3.09亿元，未成交量为1.33万股，未成交额为52.36万元。",
+                "next_shockValue": "19.01",
+                "next_opening_increase": "5.97%",
+                "next_desc": "昨天克来机电集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅5.97%，成交价43.48元，成交量209.10万股，成交额9091.67万，未成交量-5464.00股，未成交额-23.76万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.00",
-                "next_close_increase": "39.51"
+                "next_close_increase": "-9.99"
             }
         ]
     }
