@@ -15800,18 +15800,18 @@
                 "desc": "今天克来机电集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为37.30元，成交量为28.17万股，成交额为1050.81万元，未成交量为1862.49万股，未成交额为6.95亿元。",
                 "isBurst": false,
                 "dip_increase": "10.0%",
-                "shockValue": "0.00",
-                "next_isLimitUp": false,
+                "shockValue": "0",
+                "next_isLimitUp": true,
                 "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0%",
-                "next_desc": "今天克来机电集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为37.30元，成交量为28.17万股，成交额为1050.81万元，未成交量为1862.49万股，未成交额为6.95亿元。",
+                "next_shockValue": "6.78",
+                "next_opening_increase": "5.93%",
+                "next_desc": "2024年2月27日克来机电集合竞价急速下跌，一分钟跌幅大于3%，竞价评级偏空，竞价涨幅5.93%，成交价39.51元，成交量780.82万股，成交额3.09亿，未成交量1.33万股，未成交额52.36万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.00",
-                "next_close_increase": "37.30"
+                "next_close_increase": "10.00"
             }
         ]
     },
@@ -15844,15 +15844,15 @@
                 "shockValue": "6.78",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
-                "next_isLimitDown": false,
+                "next_isLimitDown": true,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0%",
-                "next_desc": "今天克来机电集合竞价涨幅为5.93%，竞价评级为偏空，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为39.51元，成交量为780.82万股，成交额为3.09亿元，未成交量为1.33万股，未成交额为52.36万元。",
+                "next_shockValue": "19.01",
+                "next_opening_increase": "5.97%",
+                "next_desc": "昨天克来机电集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅5.97%，成交价43.48元，成交量209.10万股，成交额9091.67万，未成交量-5464.00股，未成交额-23.76万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.00",
-                "next_close_increase": "39.51"
+                "next_close_increase": "-9.99"
             }
         ]
     },
@@ -15885,15 +15885,15 @@
                 "shockValue": "1.22亿",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
-                "next_isLimitDown": false,
+                "next_isLimitDown": true,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0%",
-                "next_desc": "今天国脉文化集合竞价涨幅为9.98%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为18.62元，成交量为412.38万股，成交额为7678.46万元，未成交量为9567.21万股，未成交额为17.81亿元。",
+                "next_shockValue": "4.35",
+                "next_opening_increase": "-9.99%",
+                "next_desc": "2024年2月29日国脉文化集合竞价跌停试盘，第1次跌停试盘，竞价评级-，竞价涨幅-9.99%，成交价16.76元，成交量231.82万股，成交额3885.30万，未成交量-1522.52万股，未成交额-2.55亿。跌停试盘主要目的有判断事由有其他主力、测试支撑位强度、主力洗盘，可结合其他指标使用，判断行情走势。",
                 "close_increase": "9.98",
-                "next_close_increase": "18.62"
+                "next_close_increase": "-9.99"
             },
             {
                 "code": "603825",
@@ -15925,11 +15925,93 @@
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
+                "next_shockValue": "14.85",
                 "next_opening_increase": "0%",
-                "next_desc": "今天华扬联众集合竞价涨幅为7.53%，竞价评级为偏多，竞价期间出现了大幅高开7.50%的现象。其中，竞价成交价为15.00元，成交量为267.13万股，成交额为4006.95万元，未成交量为-20.42万股，未成交额为-306.26万元。",
+                "next_desc": "2024年2月29日华扬联众集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅0%，成交价15.35元，成交量324.80万股，成交额4985.68万，未成交量-35.83万股，未成交额-549.99万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.04",
-                "next_close_increase": "15.00"
+                "next_close_increase": "-9.12"
+            }
+        ]
+    },
+    {
+        "date": "2024-02-29",
+        "data": [
+            {
+                "code": "002611",
+                "name": "东方精工",
+                "limit": 5,
+                "limit_ups": 90,
+                "limit_downs": 1,
+                "price": "8.00",
+                "first_limit_time": "09:32:16",
+                "final_limit_time": "09:32:16",
+                "limit_reason": "机器人+英伟达概念+可控核聚变+瓦楞纸包装装备",
+                "limit_tocks": "2,875.21万",
+                "limit_money": "2.09亿",
+                "limit_cheng_ratio": "11.63",
+                "limit_liu_ratio": "2.83",
+                "limit_open_times": "0",
+                "market_value": "73.84亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "广东省佛山市南海区狮山镇强狮路2号(办公楼、厂房A、厂房B)",
+                "company_business": "一般项目：网络与信息安全软件开发；印刷专用设备制造；计算机系统服务；信息系统集成服务；信息咨询服务（不含许可类信息咨询服务）；物料搬运装备制造；制浆和造纸专用设备制造；工业机器人制造；专用设备制造（不含许可类专业设备制造）；工业控制计算机及系统制造；智能物料搬运装备销售；软件销售；智能控制系统集成；人工智能通用应用系统；国内货物运输代理；信息技术咨询服务；社会经济咨询服务；环保咨询服务；科技中介服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：进出口代理；货物进出口；技术进出口。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）。",
+                "opening_increase": "8.17%",
+                "desc": "2024年2月29日东方精工集合竞价大幅高开，大幅高开8.20%，竞价评级看多，竞价涨幅8.17%，成交价7.15元，成交量7425.54万股，成交额5.31亿，未成交量-177.06万股，未成交额-1266.00万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+                "isBurst": false,
+                "dip_increase": "4.39%",
+                "shockValue": "2.47亿",
+                "next_isLimitUp": true,
+                "next_isLimitUpNoBuy": true,
+                "next_isLimitDown": false,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "0",
+                "next_opening_increase": "10.04%",
+                "next_desc": "昨天东方精工集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.04%，成交价8.00元，成交量429.55万股，成交额3436.40万，未成交量1.56亿股，未成交额12.47亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+                "close_increase": "9.98",
+                "next_close_increase": "10.04"
+            }
+        ]
+    },
+    {
+        "date": "2024-03-01",
+        "data": [
+            {
+                "code": "002611",
+                "name": "东方精工",
+                "limit": 6,
+                "limit_ups": 62,
+                "limit_downs": 3,
+                "price": "8.00",
+                "first_limit_time": "09:30:00",
+                "final_limit_time": "09:30:00",
+                "limit_reason": "机器人+英伟达概念+可控核聚变+瓦楞纸包装装备",
+                "limit_tocks": "5,839.49万",
+                "limit_money": "4.67亿",
+                "limit_cheng_ratio": "489.20",
+                "limit_liu_ratio": "5.75",
+                "limit_open_times": "0",
+                "market_value": "81.26亿",
+                "limit_type": "【一字涨停】;【缩量涨停】",
+                "company_place": "广东省佛山市南海区狮山镇强狮路2号(办公楼、厂房A、厂房B)",
+                "company_business": "一般项目：网络与信息安全软件开发；印刷专用设备制造；计算机系统服务；信息系统集成服务；信息咨询服务（不含许可类信息咨询服务）；物料搬运装备制造；制浆和造纸专用设备制造；工业机器人制造；专用设备制造（不含许可类专业设备制造）；工业控制计算机及系统制造；智能物料搬运装备销售；软件销售；智能控制系统集成；人工智能通用应用系统；国内货物运输代理；信息技术咨询服务；社会经济咨询服务；环保咨询服务；科技中介服务。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）许可项目：进出口代理；货物进出口；技术进出口。（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以相关部门批准文件或许可证件为准）。",
+                "opening_increase": "10.04%",
+                "desc": "昨天东方精工集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.04%，成交价8.00元，成交量429.55万股，成交额3436.40万，未成交量1.56亿股，未成交额12.47亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+                "isBurst": false,
+                "dip_increase": "10.04%",
+                "shockValue": "0",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": false,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "0",
+                "next_opening_increase": "0%",
+                "next_desc": "昨天东方精工集合竞价涨幅为10.04%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为8.00元，成交量为429.55万股，成交额为3436.40万元，未成交量为1.56亿股，未成交额为12.47亿元。",
+                "close_increase": "10.04",
+                "next_close_increase": "8.00"
             }
         ]
     }
