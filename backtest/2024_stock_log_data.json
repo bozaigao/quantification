@@ -4,35 +4,40 @@
         "money": 100000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-05",
         "money": 100000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-06",
         "money": 100000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-09",
         "money": 100000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-01-10",
         "money": 100000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-11",
@@ -75,7 +80,8 @@
             "close_increase": "10.02",
             "next_close_increase": "9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-01-12",
@@ -118,28 +124,32 @@
             "close_increase": "9.98",
             "next_close_increase": "5.29"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-01-13",
         "money": 121000,
         "earnings": "10%",
         "desc": "炸板卖出通达动力,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-01-16",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-17",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-18",
@@ -182,21 +192,24 @@
             "close_increase": "10.03",
             "next_close_increase": "-9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-01-19",
         "money": 121000,
         "earnings": "0%",
         "desc": "断板卖出泰永长征,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-01-20",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-01-30",
@@ -239,70 +252,80 @@
             "close_increase": "10.02",
             "next_close_increase": "-1.31"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-01-31",
         "money": 121000,
         "earnings": "0%",
         "desc": "断板卖出中远海科,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-02-01",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-02-02",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-02-03",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-06",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-07",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-08",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-02-09",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-10",
         "money": 121000,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-13",
@@ -345,56 +368,64 @@
             "close_increase": "9.98",
             "next_close_increase": "-4.58"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2023-02-14",
         "money": 133100,
         "earnings": "10%",
         "desc": "炸板卖出鸿博股份,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-02-15",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-02-16",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-17",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-20",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-21",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-22",
         "money": 133100,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-23",
@@ -437,21 +468,24 @@
             "close_increase": "10.00",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
     },
     {
         "date": "2023-02-24",
         "money": 126432,
         "earnings": "-5.01%",
         "desc": "竞价卖出坤泰股份,当日盈利-5.01%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-02-27",
         "money": 126432,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-02-28",
@@ -494,7 +528,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.04"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-03-01",
@@ -537,7 +572,8 @@
             "close_increase": "10.04",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-03-02",
@@ -580,252 +616,288 @@
             "close_increase": "10.00",
             "next_close_increase": "-8.66"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-03-03",
         "money": 150993,
         "earnings": "-1.3%",
         "desc": "竞价卖出九牧王,当日盈利-1.3%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-03-06",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-07",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-08",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-09",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-10",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-13",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-14",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-15",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-16",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-17",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-20",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-21",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-22",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-23",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-24",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-27",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-28",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-29",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-30",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-03-31",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-03",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-04",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-06",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-07",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-10",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-11",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-12",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-13",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-04-14",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-17",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-18",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-19",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-20",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-21",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-04-24",
@@ -868,203 +940,232 @@
             "close_increase": "9.99",
             "next_close_increase": "-4.27"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
     },
     {
         "date": "2023-04-25",
         "money": 150993,
         "earnings": "0%",
         "desc": "断板卖出中国出版,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-04-26",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-27",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-04-28",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-04",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-05",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-08",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-09",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-10",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-11",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-12",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-15",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-05-16",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-17",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-05-18",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-19",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-22",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-23",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-24",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-05-25",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-26",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-29",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-30",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-05-31",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-01",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-02",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-05",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-06",
         "money": 150993,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-07",
@@ -1107,14 +1208,16 @@
             "close_increase": "9.99",
             "next_close_increase": "4.97"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n2.并排除前一日一字板和T字板的股票"
     },
     {
         "date": "2023-06-08",
         "money": 166092,
         "earnings": "10%",
         "desc": "炸板卖出铭普光磁,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-06-09",
@@ -1157,7 +1260,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.03"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-06-12",
@@ -1200,70 +1304,80 @@
             "close_increase": "10.03",
             "next_close_increase": "4.19"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-06-13",
         "money": 200971,
         "earnings": "10%",
         "desc": "炸板卖出上海物贸,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-06-14",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-15",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-16",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-19",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-20",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-21",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-26",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-06-27",
         "money": 200971,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-06-28",
@@ -1306,7 +1420,8 @@
             "close_increase": "10.03",
             "next_close_increase": "10.02"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2023-06-29",
@@ -1349,98 +1464,112 @@
             "close_increase": "10.02",
             "next_close_increase": "6.69"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-06-30",
         "money": 243175,
         "earnings": "10%",
         "desc": "炸板卖出中马传动,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-07-03",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-04",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-05",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-07-06",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-07-07",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-10",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-11",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-12",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-13",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-14",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-17",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-18",
         "money": 243175,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-19",
@@ -1483,7 +1612,8 @@
             "close_increase": "10.14",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
     },
     {
         "date": "2023-07-20",
@@ -1526,7 +1656,8 @@
             "close_increase": "10.00",
             "next_close_increase": "10.05"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-07-21",
@@ -1569,42 +1700,48 @@
             "close_increase": "10.05",
             "next_close_increase": "1.30"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-07-24",
         "money": 298066,
         "earnings": "1.3%",
         "desc": "断板卖出中央商场,当日盈利1.3%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-07-25",
         "money": 298066,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-07-26",
         "money": 298066,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-07-27",
         "money": 298066,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-07-28",
         "money": 298066,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-07-31",
@@ -1647,70 +1784,80 @@
             "close_increase": "10.04",
             "next_close_increase": "0.78"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-08-01",
         "money": 327873,
         "earnings": "10%",
         "desc": "炸板卖出国芳集团,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-08-02",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-03",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-08-04",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.在上午的交易时间段内没有触摸涨停;\n"
     },
     {
         "date": "2023-08-07",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-08",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-09",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-08-10",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-08-11",
         "money": 327873,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-14",
@@ -1753,14 +1900,16 @@
             "close_increase": "9.99",
             "next_close_increase": "2.41"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-08-15",
         "money": 293837,
         "earnings": "-3.02%",
         "desc": "竞价卖出塞力医疗,当日盈利-3.02%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-08-16",
@@ -1803,7 +1952,8 @@
             "close_increase": "10.02",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-08-17",
@@ -1846,70 +1996,80 @@
             "close_increase": "10.00",
             "next_close_increase": "-5.62"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-08-18",
         "money": 323221,
         "earnings": "0%",
         "desc": "断板卖出开开实业,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-08-21",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-22",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-23",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-24",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-08-25",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-28",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-29",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-30",
         "money": 323221,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-08-31",
@@ -1952,7 +2112,8 @@
             "close_increase": "9.98",
             "next_close_increase": "9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2023-09-01",
@@ -1995,7 +2156,8 @@
             "close_increase": "9.98",
             "next_close_increase": "9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-04",
@@ -2038,7 +2200,8 @@
             "close_increase": "9.98",
             "next_close_increase": "9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-05",
@@ -2081,7 +2244,8 @@
             "close_increase": "9.98",
             "next_close_increase": "10.03"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-06",
@@ -2124,42 +2288,48 @@
             "close_increase": "10.03",
             "next_close_increase": "-9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-07",
         "money": 473228,
         "earnings": "0%",
         "desc": "断板卖出我乐家居,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-09-08",
         "money": 473228,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-09-11",
         "money": 473228,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-09-12",
         "money": 473228,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-09-13",
         "money": 473228,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-09-14",
@@ -2202,7 +2372,8 @@
             "close_increase": "10.02",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-09-15",
@@ -2245,35 +2416,40 @@
             "close_increase": "10.00",
             "next_close_increase": "-5.49"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-18",
         "money": 520551,
         "earnings": "0%",
         "desc": "断板卖出联合精密,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-09-19",
         "money": 520551,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-09-20",
         "money": 520551,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-09-21",
         "money": 520551,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-09-22",
@@ -2316,14 +2492,16 @@
             "close_increase": "10.01",
             "next_close_increase": "6.29"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-09-25",
         "money": 451165,
         "earnings": "-9.99%",
         "desc": "竞价卖出日久光电,当日盈利-9.99%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-09-26",
@@ -2366,7 +2544,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2023-09-27",
@@ -2409,42 +2588,48 @@
             "close_increase": "10.00",
             "next_close_increase": "0.84"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-28",
         "money": 500451,
         "earnings": "0.84%",
         "desc": "断板卖出捷荣技术,当日盈利0.84%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-10-09",
         "money": 500451,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-10",
         "money": 500451,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-11",
         "money": 500451,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-12",
         "money": 500451,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-13",
@@ -2487,7 +2672,8 @@
             "close_increase": "10.02",
             "next_close_increase": "9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-10-16",
@@ -2530,7 +2716,8 @@
             "close_increase": "9.98",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-17",
@@ -2573,7 +2760,8 @@
             "close_increase": "10.01",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-18",
@@ -2616,7 +2804,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-19",
@@ -2659,14 +2848,16 @@
             "close_increase": "10.01",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-20",
         "money": 708019,
         "earnings": "-3.37%",
         "desc": "竞价卖出圣龙股份,当日盈利-3.37%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-10-23",
@@ -2709,7 +2900,8 @@
             "close_increase": "10.00",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-10-24",
@@ -2752,7 +2944,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-25",
@@ -2795,98 +2988,112 @@
             "close_increase": "10.01",
             "next_close_increase": "-7.03"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-10-26",
         "money": 942373,
         "earnings": "10%",
         "desc": "炸板卖出圣龙股份,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-10-27",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-30",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-10-31",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-01",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-02",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-03",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-06",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-07",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-08",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-09",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-10",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-13",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-14",
@@ -2929,35 +3136,40 @@
             "close_increase": "9.99",
             "next_close_increase": "-5.75"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
     },
     {
         "date": "2023-11-15",
         "money": 942373,
         "earnings": "0%",
         "desc": "断板卖出豪美新材,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-11-16",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-17",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-11-20",
         "money": 942373,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-21",
@@ -3000,7 +3212,8 @@
             "close_increase": "9.98",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-11-22",
@@ -3043,49 +3256,56 @@
             "close_increase": "10.01",
             "next_close_increase": "-10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-11-23",
         "money": 1036610,
         "earnings": "0%",
         "desc": "断板卖出三柏硕,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-11-24",
         "money": 1036610,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-27",
         "money": 1036610,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-11-28",
         "money": 1036610,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-11-29",
         "money": 1036610,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-11-30",
         "money": 1036610,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-01",
@@ -3128,7 +3348,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-12-04",
@@ -3171,7 +3392,8 @@
             "close_increase": "10.00",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-12-05",
@@ -3214,35 +3436,40 @@
             "close_increase": "9.99",
             "next_close_increase": "-10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-12-06",
         "money": 1379728,
         "earnings": "10%",
         "desc": "炸板卖出东安动力,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-12-07",
         "money": 1379728,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-08",
         "money": 1379728,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-11",
         "money": 1379728,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-12-12",
@@ -3285,7 +3512,8 @@
             "close_increase": "10.00",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2023-12-13",
@@ -3328,49 +3556,56 @@
             "close_increase": "10.01",
             "next_close_increase": "-5.20"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-12-14",
         "money": 1517701,
         "earnings": "0%",
         "desc": "断板卖出四川金顶,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-12-15",
         "money": 1517701,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-18",
         "money": 1517701,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-19",
         "money": 1517701,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2023-12-20",
         "money": 1517701,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-12-21",
         "money": 1517701,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2023-12-22",
@@ -3413,14 +3648,16 @@
             "close_increase": "10.02",
             "next_close_increase": "-10.00"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-12-25",
         "money": 1093109,
         "earnings": "-9.97%",
         "desc": "竞价卖出星光农机,当日盈利-9.97%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-12-26",
@@ -3463,7 +3700,8 @@
             "close_increase": "10.01",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-12-27",
@@ -3506,7 +3744,8 @@
             "close_increase": "9.99",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-12-28",
@@ -3549,7 +3788,8 @@
             "close_increase": "9.99",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-12-29",
@@ -3592,7 +3832,8 @@
             "close_increase": "9.99",
             "next_close_increase": "10.01"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2024-01-02",
@@ -3635,98 +3876,112 @@
             "close_increase": "10.01",
             "next_close_increase": "-9.78"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2024-01-03",
         "money": 1600421,
         "earnings": "0%",
         "desc": "断板卖出亚世光电,当日盈利0%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2024-01-04",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-05",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-08",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-01-09",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-10",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-11",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-12",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-15",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-16",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-17",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-18",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-01-19",
         "money": 1600421,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-01-22",
@@ -3769,7 +4024,8 @@
             "close_increase": "10.05",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅大于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-01-23",
@@ -3812,42 +4068,48 @@
             "close_increase": "9.99",
             "next_close_increase": "-3.68"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2024-01-24",
         "money": 1936509,
         "earnings": "10%",
         "desc": "炸板卖出深中华A,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2024-01-25",
         "money": 1936509,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-26",
         "money": 1936509,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-29",
         "money": 1936509,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-01-30",
         "money": 1936509,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.最板连板数必须小于3;\n"
     },
     {
         "date": "2024-01-31",
@@ -3890,7 +4152,8 @@
             "close_increase": "9.99",
             "next_close_increase": "9.99"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     },
     {
         "date": "2024-02-01",
@@ -3933,111 +4196,127 @@
             "close_increase": "9.99",
             "next_close_increase": "-9.98"
         },
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2024-02-02",
         "money": 2343176,
         "earnings": "10%",
         "desc": "炸板卖出中视传媒,当日盈利10%",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2024-02-05",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-06",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-02-07",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.在上午的交易时间段内没有触摸涨停;\n"
     },
     {
         "date": "2024-02-08",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-19",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.在上午的交易时间段内没有触摸涨停;\n"
     },
     {
         "date": "2024-02-20",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-21",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-22",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-23",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-26",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-27",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-28",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-02-29",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     },
     {
         "date": "2024-03-01",
         "money": 2343176,
         "earnings": "0%",
         "desc": "空仓",
-        "suggest_shipping_space": 1
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;\n"
     }
 ]

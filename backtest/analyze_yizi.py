@@ -27,8 +27,10 @@ def yestodayIsYiZi(date, code):
 
 for item in dragon_data:
     for item2 in item['data']:
-        if not '一字' in item2["limit_type"] and item2["next_isLimitUp"] and yestodayIsYiZi(item['date'],item2['code']) and len(item['data']) == 1:
-           print(f'{item["date"]} {item2["name"]}')
+        # if not '一字' in item2["limit_type"] and item2["next_isLimitUp"] and yestodayIsYiZi(item['date'],item2['code']) and len(item['data']) == 1:
+        #    print(f'{item["date"]} {item2["name"]}')
         # if '一字' in item2["limit_type"] and item2["next_isBurst"] and len(item['data']) == 1:
         #    print(f'{item["date"]} {item2["name"]}')
+         if '一字' in item2["limit_type"] and len(item['data']) == 1:
+           print(f'{item["date"]} {item2["name"]}')
  

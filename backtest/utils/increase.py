@@ -14,7 +14,6 @@ def getIncrease(browserTab, date, name):
             value_span = second_tr.find('span')
             if value_span:
                 value = value_span.text.strip()
-                print(value)
                 resArr.append(value)
     # 找到表格
     table = soup.find('table', class_='right-table')
