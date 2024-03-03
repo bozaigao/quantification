@@ -150,9 +150,9 @@ for idx, date in enumerate(dates[1:]):
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
         #如果最板连板数大于2则主动空仓
-        if True:
-            # print(Style.RESET_ALL)
-            print(date,'空仓')
+        if len(targetStocks) > 2:
+            print(Fore.YELLOW + '空仓\n原因:\n1.最板连板数必须小于3;\n')
+            print(Style.RESET_ALL)
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
             stockPool = []
         else:
@@ -172,36 +172,56 @@ for idx, date in enumerate(dates[1:]):
                 #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                 opening_increase = getOpeningIncrease(browserTab,date,buyStock['name'])
                 #如果昨日出现最大换手且烂板则主动空仓
-                if round(float(buyStock['opening_increase'] .strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                    if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                    elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n')
+                    else:
+                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
+                    print(Style.RESET_ALL)
                         #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字
                     if buyStock['next_isBurst'] and buyStock['next_burst_time'] !='09:30:00' and isEarly(buyStock['next_burst_time'],'11:30:00'):
-                            increase = float(buyStock['next_close_increase'].strip('%'))
-                            earnings = increase-10
-                            #精确到小数点后面两位
-                            earnings = formartNumber(earnings)
-                            final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
-                            updateStock = getTodayStock(todayStocks,buyStock)
-                            # print(f'{updateStock},{date}')
-                            print(date,f'涨停打板买入{buyStock["name"]},结果炸板了,当日盈利{earnings}%,金额{round(final_money)},仓位{current_shipping_space}')
-                            dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space})
-                            stockPool.append(updateStock)
-                    elif buyStock['next_isLimitUp'] and isEarly(first_limit_time,'11:30:00'):
-                        print(date,f'涨停打板买入{buyStock["name"]},当日盈利0%,金额{round(latestMoney)},仓位{current_shipping_space}')
+                        increase = float(buyStock['next_close_increase'].strip('%'))
+                        earnings = increase-10
+                        #精确到小数点后面两位
+                        earnings = formartNumber(earnings)
+                        final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
                         updateStock = getTodayStock(todayStocks,buyStock)
-                        # print(f'{updateStock},{date}')
+                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n')
+                        else:
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
+                        print(Style.RESET_ALL)
+                        dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space})
+                        stockPool.append(updateStock)
+                    elif buyStock['next_isLimitUp'] and isEarly(first_limit_time,'11:30:00'):
+                        updateStock = getTodayStock(todayStocks,buyStock)
+                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n')
+                        else:
+                            print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
+                        print(Style.RESET_ALL)
                         dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space})
                         stockPool.append(updateStock)
                     else:
-                        print(date,'空仓')
+                        print(Fore.YELLOW + '空仓\n原因:\n1.在上午的交易时间段内没有触摸涨停;\n')
+                        print(Style.RESET_ALL)
                         dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
                         stockPool = []
                 else:
-                    print(date,'空仓')
+                    print(Fore.YELLOW + '空仓\n原因:\n1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n')
+                    print(Style.RESET_ALL)
                     dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
                     stockPool = []
             else:
                 # 如果都是一字板没有机会就空仓
-                print(date,'空仓')
+                print(Fore.YELLOW + '空仓\n原因:\n1.目标个股全部一字板没有买入机会;\n')
+                print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space})
                 stockPool = []
     #卖出股票
@@ -214,7 +234,7 @@ for idx, date in enumerate(dates[1:]):
         if next_opening_increase == -313:
            next_opening_increase = -3.13
         #如果昨日未出现炸板今日竞价低于0%则直接卖出
-        if buyStock['next_isBurst'] and next_opening_increase < -3 or next_opening_increase < 0 and int(buyStock['limit_open_times'])  == 0 or next_opening_increase < -3 and int(buyStock['limit_open_times'])  > 0:
+        if buyStock['isBurst'] and next_opening_increase < -3 or next_opening_increase < 0 and int(buyStock['limit_open_times'])  == 0 or next_opening_increase < -3 and int(buyStock['limit_open_times'])  > 0:
             #如果出现单笔交易不盈利情况则仓位减半
             if float(dragon_log_data[-1]['earnings'].strip('%')) <= 0:
                  next_shipping_space = 1
@@ -226,7 +246,8 @@ for idx, date in enumerate(dates[1:]):
             final_money = latestMoney + latestMoney * current_shipping_space * next_opening_increase/100
             #清空股票池
             stockPool = []
-            print(date,f'竞价卖出{buyStock["name"]},当日盈利{next_opening_increase}%,金额{round(final_money)}')
+            print(Fore.GREEN + f'竞价卖出{buyStock["name"]}\n原因:触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n')
+            print(Style.RESET_ALL)
             dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{next_opening_increase}%','desc':f'竞价卖出{buyStock["name"]},当日盈利{next_opening_increase}%','suggest_shipping_space':next_shipping_space})
         else:
             burstData = judgeBurst(browserTab,date,buyStock['code'])
@@ -236,13 +257,15 @@ for idx, date in enumerate(dates[1:]):
             if burstData[0]:
                stockPool = []
                final_money = latestMoney + latestMoney * current_shipping_space * 10/100
-               print(date,f'炸板卖出{buyStock["name"]},当日盈利10%,金额{round(final_money)},仓位{current_shipping_space}')
+               print(Fore.GREEN + f'炸板卖出{buyStock["name"]}\n原因:\n1.炸板卖出;\n')
+               print(Style.RESET_ALL)
                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':'10%','desc':f'炸板卖出{buyStock["name"]},当日盈利10%','suggest_shipping_space':1})
             #如果没有炸板并且继续涨停则持有
             elif isLimit:
                 updateStock = getTodayStock(todayStocks,buyStock)
                 final_money = latestMoney + latestMoney * current_shipping_space * 10/100
-                print(date,f'继续持有{buyStock["name"]},当日盈利10%,金额{round(final_money)},仓位{current_shipping_space}')
+                print(Fore.RED + f'继续持有{buyStock["name"]}\n原因:\n1.继续涨停;\n')
+                print(Style.RESET_ALL)
                 stockPool = [updateStock]
                 dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':'10%','desc':f'继续持有{buyStock["name"]},当日盈利10%','stock':updateStock,'suggest_shipping_space':current_shipping_space})
             #不涨停就卖出
@@ -258,7 +281,8 @@ for idx, date in enumerate(dates[1:]):
                if earnings < 0:
                   earnings = 0
                final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
-               print(date,f'断板卖出{buyStock["name"]},当日盈利{earnings}%,金额{round(final_money)},仓位{current_shipping_space}')
+               print(Fore.GREEN + f'断板卖出{buyStock["name"]}\n原因:\n1.未能继续涨停;\n')
+               print(Style.RESET_ALL)
                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'断板卖出{buyStock["name"]},当日盈利{earnings}%','suggest_shipping_space':next_shipping_space})
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stock_log_data.json', 'w') as file:
         json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 

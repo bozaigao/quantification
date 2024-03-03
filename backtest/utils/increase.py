@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 global_wait_seconds = 3
 def getIncrease(browserTab, date, name):
     resArr = []
-    print(f"https://www.iwencai.com/unifiedwap/result?w={date} {name}涨幅&querytype=stock")
     browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} {name}涨幅&querytype=stock")
     browserTab.wait(global_wait_seconds)
     result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")

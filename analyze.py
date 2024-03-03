@@ -106,7 +106,6 @@ except FileNotFoundError:
 
 for idx, workday in enumerate(workdays):
     sheet.cell(row=1, column=idx+continue_index).value = str(workday.date())
-    print(str(workday.date()))
     # 获取涨停家数
     limit_ups = getLimitUPs(tab,str(workday.date()))
     # 获取跌停家数

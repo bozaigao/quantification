@@ -2,7 +2,6 @@
 from bs4 import BeautifulSoup
 global_wait_seconds = 3
 def judgeBurst(browserTab, date, code):
-    print(f"https://www.iwencai.com/unifiedwap/result?w={date} 主板非st炸板&querytype=stock")
     browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} 主板非st炸板&querytype=stock")
     browserTab.wait(global_wait_seconds)
     result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
