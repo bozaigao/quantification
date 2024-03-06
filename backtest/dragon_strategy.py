@@ -24,7 +24,6 @@ dates = []
 forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
-
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
 try:
@@ -32,6 +31,7 @@ try:
         dragon_log_data = json.load(file)
 except FileNotFoundError:
     dragon_log_data = []
+
 stockPool = []
 #股票池
 if len(dragon_log_data) != 0 and 'stock' in dragon_log_data[-1]:
@@ -127,11 +127,9 @@ with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backte
 
 for item in dragon_backtest_data:
     dates.append(item['date'])
-dates = dates[len(dragon_log_data):]
+dates = dates[len(dragon_log_data):]\
 
-for idx, date in enumerate(dates[1:]):
-    # 获取上一个交易日
-    pre_date = dates[idx]
+def strategy(pre_date,date,stockPool):
     if len(dragon_log_data)>0:
         latestMoney = dragon_log_data[-1]['money']
     else:
@@ -144,9 +142,9 @@ for idx, date in enumerate(dates[1:]):
     #查询目标股
     for stocksData in dragon_backtest_data:
         if stocksData['date'] == pre_date:
-            targetStocks = stocksData['data']
+           targetStocks = stocksData['data']
         if stocksData['date'] == date:
-            todayStocks = stocksData['data']
+           todayStocks = stocksData['data']
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
         #如果最板连板数大于2则主动空仓
@@ -300,3 +298,15 @@ for idx, date in enumerate(dates[1:]):
                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'断板卖出{buyStock["name"]},当日盈利{earnings}%','suggest_shipping_space':next_shipping_space,'reason':reason})
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stock_log_data.json', 'w') as file:
         json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 
+
+# 获取下一个交易日
+date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
+next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
+today = datetime.now().date()
+if forecast and str(next_date.date()) == str(today):
+   stockPool = []
+   strategy(str(next_date.date()),str(today),stockPool)
+else:
+    for idx, date in enumerate(dates[1:]):
+        strategy(dates[idx],date,stockPool)
+   
