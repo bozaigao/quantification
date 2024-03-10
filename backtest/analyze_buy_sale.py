@@ -14,6 +14,5 @@ except FileNotFoundError:
     dragon_data = []
 
 for item in dragon_data:
-    for item2 in item['data']:
-        if '一字涨停' not in item2['limit_type'] and float(item2['next_opening_increase'].strip('%')) > 5:
-            print(f'{item["date"]},{item2["name"]}')
+    if len(item['data']) == 3:
+       print(f'{item["date"]}')
