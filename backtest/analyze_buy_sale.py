@@ -14,5 +14,5 @@ except FileNotFoundError:
     dragon_data = []
 
 for item in dragon_data:
-    if len(item['data']) == 3:
+    if len(item['data']) == 4 and item['data'][0]['limit'] == 4:
        print(f'{item["date"]}')

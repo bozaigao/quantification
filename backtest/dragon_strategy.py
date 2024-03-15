@@ -173,7 +173,7 @@ def strategy(pre_date,date,stockPool):
                 #如果昨日出现最大换手且烂板则主动空仓
                 if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
                     if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
-                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n{targetStocks}')
                     elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
                         print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n')
                     else:
