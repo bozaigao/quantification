@@ -157,6 +157,7 @@ def strategy(pre_date,date,stockPool):
         else:
             #排除当天一字涨停买不到的股票
             filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False)]
+            limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True)]
             # 找到涨幅最高的股票,并排除前一日一字板和T字板的股票
             max_increase_stock = get_max_increase_stocks(filtered_stocks)
             #筛选出有上板动作的股票
@@ -172,11 +173,11 @@ def strategy(pre_date,date,stockPool):
                 opening_increase = getOpeningIncrease(browserTab,date,buyStock['name'])
                 #如果昨日出现最大换手且烂板则主动空仓
                 if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) or len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
-                    if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
-                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n{targetStocks}')
-                    elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                    if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and len(limit_no_buy_stocks) > 0:
+                        print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                    elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%')) and len(limit_no_buy_stocks) == 0):
                         print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于昨日，接力情绪增强;\n')
-                    else:
+                    elif(len(limit_no_buy_stocks) > 0):
                         print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
                     print(Style.RESET_ALL)
                         #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字
@@ -187,13 +188,13 @@ def strategy(pre_date,date,stockPool):
                         earnings = formartNumber(earnings)
                         final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
                         updateStock = getTodayStock(todayStocks,buyStock)
-                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and len(limit_no_buy_stocks) > 0:
                             reason = '1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and len(limit_no_buy_stocks) == 0:
                             reason = '1.今日竞价涨幅大于昨日，接力情绪增强;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                        else:
+                        elif(len(limit_no_buy_stocks) > 0):
                             reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                         print(Style.RESET_ALL)
@@ -201,13 +202,13 @@ def strategy(pre_date,date,stockPool):
                         stockPool.append(updateStock)
                     elif buyStock['next_isLimitUp'] and isEarly(first_limit_time,'11:30:00'):
                         updateStock = getTodayStock(todayStocks,buyStock)
-                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and  len(targetStocks) > 1 and float(buyStock['opening_increase'].strip('%')) > 0:
+                        if round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and len(limit_no_buy_stocks) > 0:
                             reason = '1.今日竞价涨幅大于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))):
+                        elif round(float(buyStock['opening_increase'].strip('%'))) < round(float(opening_increase[0].strip('%'))) and len(limit_no_buy_stocks) == 0:
                             reason = '1.今日竞价涨幅大于昨日，接力情绪增强;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                        else:
+                        elif(len(limit_no_buy_stocks) > 0):
                             reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                             print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                         print(Style.RESET_ALL)
