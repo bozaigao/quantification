@@ -44,7 +44,6 @@ for idx, date in enumerate(dates):
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          previous_date = calendar.valid_days(start_date='2000-01-01', end_date=date_object - timedelta(days=1))[-1]
          pre_increase = getIncrease(browserTab,str(previous_date.date()),item['name'])
-         print(pre_increase)
          #获取当日收盘涨幅
          increase = getIncrease(browserTab,date,item['name'])
          #当日下探最低涨幅
