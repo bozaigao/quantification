@@ -15,7 +15,6 @@ try:
     exec(open("analyze.py").read())
 except AnalyzeExit:
     print("Analyze.py terminated early; continuing with the next script.")
-    
 exec(open("opening_increase.py").read())
 exec(open("canvas.py").read())
 

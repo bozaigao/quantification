@@ -24,16 +24,6 @@ with open(f'{year}_dragon_opening_data.json', 'r') as file:
         dragon_opening_data = json.load(file)
 # 提取每个日期的最大 limit
 max_limits = [max(data['data'], key=lambda x: x['limit'])['limit'] for data in stock_data]
-dragon_data = []
-for idx, itemData in enumerate(stock_data):
-    arr = []
-    for item in itemData['data']:
-        if item['limit'] == max_limits[idx]:
-           arr.append(item)
-    filtered_items = {'date':itemData['date'],'data':arr}
-    dragon_data.extend([filtered_items])
-with open(f'{year}_dragon_data.json', 'w') as file:
-    json.dump(dragon_data, file,ensure_ascii=False,  indent=4) 
 # 涨停家数
 limit_ups = [data['data'][0]['limit_ups'] for data in stock_data]
 # 跌停家数
