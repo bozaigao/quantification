@@ -160,7 +160,7 @@ def strategy(pre_date,date):
     if len(stockPool) == 0:
         #如果最板连板数大于等于3则主动空仓
         if len(targetStocks) > 3:
-            reason = '1.最板连板数必须小于4;\n'
+            reason = '1.最板连板数必须小于等于3;\n'
             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
             print(Style.RESET_ALL)
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
