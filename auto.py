@@ -23,6 +23,7 @@ shutil.copy('2024年A股主板连板数据.xlsx', os.path.join('2024', '2024年A
 shutil.copy('2024_stocks_data.json', os.path.join('2024', '2024_stocks_data.json'))
 shutil.copy('2024_dragon_opening_data.json', os.path.join('2024', '2024_dragon_opening_data.json'))
 shutil.copy('2024_dragon_data.json', os.path.join('2024', '2024_dragon_data.json'))
+shutil.copy('2024_stocks_data.json', os.path.join('2024', '2024_stocks_data.json'))
 
 # 拷贝文件到backtest数据回测目录
 shutil.copy('2024_dragon_opening_data.json', os.path.join('backtest', '2024_dragon_opening_data.json'))
