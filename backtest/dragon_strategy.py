@@ -47,10 +47,11 @@ if len(dragon_log_data) != 0:
 #检查是否为涨停以来的高换手率
 def isHightChangeHands(date,buyStock):
     global stocks_data
+    # print(f'😁-->>isHightChangeHands{date}-->>{buyStock}')
     for index, item in enumerate(stocks_data): 
                 if item['date'] == date:
                     endIndex = index
-                    startIndex = index - buyStock['limit'] + 1
+                    startIndex = index - buyStock['limit'] + 2
                     break
     if startIndex < 0:
        return False
@@ -114,6 +115,7 @@ def get_max_increase_stocks(stocks):
 
 #筛选当日有上板动作
 def filter_limit(stocks):
+    global forecast
     # 初始化筛选结果列表
     filtered_stocks = []
     # 遍历股票列表
@@ -123,7 +125,10 @@ def filter_limit(stocks):
             filtered_stocks.append(stock)
 
     # 返回筛选结果
-    return filtered_stocks
+    if forecast:
+       return stocks
+    else:
+       return filtered_stocks
 
 # 创建一个Browser实例
 browser = pychrome.Browser(url="http://127.0.0.1:9222")
@@ -184,8 +189,10 @@ def strategy(pre_date,date):
                    next_opening_increase = float(opening_increase[0].strip('%'))
                 else:
                    next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
+
+                # print(f'😁next_opening_increase->{next_opening_increase}')
                 #高换手且次日没有出现竞价大幅高开情况则主动空仓
-                if isHightChangeHands(date,buyStock) and next_opening_increase < 9:
+                if isHightChangeHands(pre_date,buyStock) and next_opening_increase < 9:
                     reason = f'1.{buyStock["name"]}股票处于高位高换手，主动空仓;\n'
                     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                     print(Style.RESET_ALL)
@@ -364,7 +371,7 @@ next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_
 today = datetime.now().date()
 
 if forecast:
-   strategy(date_object,str(today))
+   strategy(str(date_object),str(today))
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(dates[idx],date)
