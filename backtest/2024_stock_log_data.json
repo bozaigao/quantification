@@ -5162,5 +5162,13 @@
         "desc": "空仓",
         "suggest_shipping_space": 1,
         "reason": "1.在上午的交易时间段内没有触摸涨停;\n"
+    },
+    {
+        "date": "2024-04-01",
+        "money": 6380794,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.华生科技股票处于高位高换手，主动空仓;\n"
     }
 ]
