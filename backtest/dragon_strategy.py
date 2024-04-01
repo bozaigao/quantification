@@ -207,7 +207,7 @@ def strategy(pre_date,date):
                     #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                     pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
                     # 检测是否都是开盘就处于涨停价位
-                    if pre_opening_increase > 9.5 and next_opening_increase > 9.5 and abs(pre_opening_increase - next_opening_increase) <= 0.5:
+                    if pre_opening_increase >= 9.5 and next_opening_increase >= 9.5 and abs(pre_opening_increase - next_opening_increase) <= 0.5:
                         bothIsLimitPrice = True
                     else:
                         bothIsLimitPrice = False
@@ -371,7 +371,8 @@ next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_
 today = datetime.now().date()
 
 if forecast:
-   strategy(str(date_object),str(today))
+#    strategy(str(date_object),str(today))
+   strategy('2024-04-01','2024-04-02')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(dates[idx],date)
