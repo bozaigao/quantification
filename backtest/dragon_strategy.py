@@ -223,6 +223,7 @@ def strategy(pre_date,date):
                         else:
                             print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
                         print(Style.RESET_ALL)
+                        # print(f'😁-->>{buyStock["limit_type"]}')
                             #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字
                         if  not forecast and buyStock['next_isBurst'] and buyStock['next_burst_time'] !='09:30:00' and ('一字涨停' not in buyStock['limit_type'] and isEarly(buyStock['next_burst_time'],'11:30:00') or '一字涨停' in buyStock['limit_type'] and isEarly(buyStock['next_burst_time'],'09:40:00')):
                             increase = float(buyStock['next_close_increase'].strip('%'))
