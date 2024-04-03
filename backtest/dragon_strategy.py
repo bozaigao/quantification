@@ -372,8 +372,8 @@ next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_
 today = datetime.now().date()
 
 if forecast:
-#    strategy(str(date_object),str(today))
-   strategy('2024-04-01','2024-04-02')
+   strategy(str(date_object),str(today))
+#    strategy('2024-04-01','2024-04-02')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(dates[idx],date)
