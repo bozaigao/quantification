@@ -233,16 +233,16 @@ def strategy(pre_date,date):
                             final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
                             updateStock = getTodayStock(todayStocks,buyStock)
                             if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                                reason = '1.今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
-                                reason = '1.今日竞价涨幅大于等于昨日，接力情绪增强;\n'
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于等于昨日，接力情绪增强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif(len(limit_no_buy_stocks) > 0):
                                 reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             else:
-                                reason = '1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
+                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             print(Style.RESET_ALL)
                             dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
@@ -250,34 +250,34 @@ def strategy(pre_date,date):
                         elif not forecast and buyStock['next_isLimitUp'] and isEarly(first_limit_time,'11:30:00'):
                             updateStock = getTodayStock(todayStocks,buyStock)
                             if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                                reason = '1.今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
-                                reason = '1.今日竞价涨幅大于等于昨日，接力情绪增强;\n'
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于等于昨日，接力情绪增强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif(len(limit_no_buy_stocks) > 0):
                                 reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             else:
-                                reason = '1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
+                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             print(Style.RESET_ALL)
                             dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
                             stockPool.append(updateStock)
                         elif not forecast and '一字涨停' in buyStock['limit_type'] and not isEarly(buyStock['next_burst_time'],'09:40:00'):
-                            reason = '1.昨日一字板但是次日没有在09:40:00之前涨停;\n'
+                            reason = f'1.{buyStock["name"]}昨日一字板但是次日没有在09:40:00之前涨停;\n'
                             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                             print(Style.RESET_ALL)
                             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                             stockPool = []
                         elif not forecast:
-                            reason = '1.在上午的交易时间段内没有触摸涨停;\n'
+                            reason = f'1.{buyStock["name"]}在上午的交易时间段内没有触摸涨停;\n'
                             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                             print(Style.RESET_ALL)
                             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                             stockPool = []
                     else:
-                        reason = '1.今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
+                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
                         print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                         print(Style.RESET_ALL)
                         dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
