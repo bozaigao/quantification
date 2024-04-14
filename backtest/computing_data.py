@@ -11,11 +11,15 @@ import os
 from  utils.increase import getIncrease
 from  utils.judgeBurst import judgeBurst
 from  utils.opening_increase import getOpeningIncrease
-
+print(os.getcwd())
 # 指定开始统计年份
 year = 2024
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
+#是否输出策略分析
+forecast = False
+if '/backtest' in os.getcwd():
+   forecast = True
 # 指定年份的日期范围
 dates = []
 with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_opening_data.json', 'r') as file:
@@ -25,6 +29,8 @@ try:
         dragon_backtest_data = json.load(file)
 except FileNotFoundError:
     dragon_backtest_data = []
+if forecast:
+    dragon_backtest_data = dragon_backtest_data[:-1]
 for item in dragon_opening_data:
     dates.append(item['date'])
 dates = dates[len(dragon_backtest_data):]
