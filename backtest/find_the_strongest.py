@@ -29,8 +29,8 @@ try:
 except FileNotFoundError:
     stocks_data = []
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2023-11-16', '%Y-%m-%d').date()
-pre_date = '2023-11-15'
+find_date = datetime.strptime('2023-11-20', '%Y-%m-%d').date()
+pre_date = '2023-11-17'
 # pre_date = calendar.valid_days(start_date=find_date + timedelta(days=-1), end_date='2100-01-01')[0].date()
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 for index1, item in enumerate(stocks_data):
