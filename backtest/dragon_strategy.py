@@ -1,4 +1,4 @@
-#回测策略：龙头战法,计算与最高点的回撤程度，当回撤超过一定阈值就半仓
+#回测策略：跟随资金强度战法,计算与最高点的回撤程度，当回撤超过一定阈值就半仓
 import os
 import json
 from datetime import datetime, timedelta
