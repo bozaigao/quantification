@@ -29,17 +29,24 @@ try:
 except FileNotFoundError:
     stocks_data = []
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2024-04-02', '%Y-%m-%d').date()
-# pre_date = '2024-03-22'
+find_date = datetime.strptime('2024-04-22', '%Y-%m-%d').date()
+# pre_date = '2024-04-19'
 pre_date = calendar.valid_days(start_date=find_date + timedelta(days=-1), end_date='2100-01-01')[0].date()
-print(f'findDate:{str(find_date)},preDate:{str(pre_date)}')
-for item in stocks_data:
+print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+for index1, item in enumerate(stocks_data):
     if item['date'] == str(pre_date):
-        for item2 in item['data']:
+        for index2, item2 in enumerate(item['data']):
             if item2['limit'] > 1:
-                pre_opening_increase = float(getOpeningIncrease(browserTab,str(pre_date),item2['code'])[0].strip('%'))
-                current_opening_increase = float(getOpeningIncrease(browserTab,str(find_date),item2['code'])[0].strip('%'))
-                print(f'{item2["name"]},{pre_opening_increase}--{current_opening_increase}')
+                if "current_opening_increase" in stocks_data[index1]["data"][index2]:
+                    pre_opening_increase = float(stocks_data[index1]["data"][index2]["current_opening_increase"].strip('%'))
+                else:
+                    pre_opening_increase = float(getOpeningIncrease(browserTab,str(pre_date),item2['code'])[0].strip('%'))
+                    stocks_data[index1]["data"][index2]["current_opening_increase"] = f'{pre_opening_increase}%'
+                if "next_opening_increase" in stocks_data[index1]["data"][index2]:
+                    current_opening_increase = float(stocks_data[index1]["data"][index2]["next_opening_increase"].strip('%'))
+                else:
+                    current_opening_increase = float(getOpeningIncrease(browserTab,str(find_date),item2['code'])[0].strip('%'))
+                    stocks_data[index1]["data"][index2]["next_opening_increase"] = f'{current_opening_increase}%'
                 if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
                     bothIsLimitPrice = True
                 else:
@@ -54,6 +61,6 @@ for index, item in enumerate(strongest_pool):
     else:
        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{item["current_opening_increase"]}%,{item["limit"]}板, 振幅{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%')
 
-# with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_test_data.json', 'w') as file:
-#         json.dump(strongest_pool, file,ensure_ascii=False,  indent=4) 
+with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_data.json', 'w') as file:
+        json.dump(stocks_data, file,ensure_ascii=False,  indent=4) 
 
