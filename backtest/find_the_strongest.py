@@ -29,21 +29,22 @@ try:
 except FileNotFoundError:
     stocks_data = []
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2024-01-15', '%Y-%m-%d').date()
-pre_date = '2024-01-12'
-# pre_date = calendar.valid_days(start_date=find_date + timedelta(days=-1), end_date='2100-01-01')[0].date()
+find_date = datetime.strptime('2024-03-19', '%Y-%m-%d').date()
+# pre_date = '2024-01-12'
+pre_date = calendar.valid_days(start_date=find_date + timedelta(days=-1), end_date='2100-01-01')[0].date()
 print(f'findDate:{str(find_date)},preDate:{str(pre_date)}')
 for item in stocks_data:
     if item['date'] == str(find_date):
         for item2 in item['data']:
-            pre_opening_increase = float(getOpeningIncrease(browserTab,str(pre_date),item2['name'])[0].strip('%'))
-            current_opening_increase = float(getOpeningIncrease(browserTab,str(find_date),item2['name'])[0].strip('%'))
-            if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
-                bothIsLimitPrice = True
-            else:
-                bothIsLimitPrice = False
-            if current_opening_increase > pre_opening_increase or bothIsLimitPrice:
-                strongest_pool.append({'date':str(find_date),'name':item2['name'],'desc':f'昨日竞价{pre_opening_increase}%,当日竞价{current_opening_increase}%','limit':item2['limit']})
+            if item2['limit'] > 2:
+                pre_opening_increase = float(getOpeningIncrease(browserTab,str(pre_date),item2['code'])[0].strip('%'))
+                current_opening_increase = float(getOpeningIncrease(browserTab,str(find_date),item2['code'])[0].strip('%'))
+                if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
+                    bothIsLimitPrice = True
+                else:
+                    bothIsLimitPrice = False
+                if current_opening_increase > pre_opening_increase or bothIsLimitPrice:
+                    strongest_pool.append({'date':str(find_date),'name':item2['name'],'desc':f'昨日竞价{pre_opening_increase}%,当日竞价{current_opening_increase}%','limit':item2['limit']})
 
 for index, item in enumerate(strongest_pool):
     if item["limit"] > 2:
