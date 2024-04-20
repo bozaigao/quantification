@@ -28,10 +28,17 @@ try:
         stocks_data = json.load(file)
 except FileNotFoundError:
     stocks_data = []
+for item in stocks_data:
+    dates.append(item['date'])
+# 从指定日期开始向前搜索上一个交易日
+def get_previous_trading_day(date_object):
+    while True:
+        date_object -= timedelta(days=1)  # 递减一天
+        if str(date_object) in dates:  # 如果是交易日，则返回该日期
+            return date_object
 # find_date = datetime.now().date()
 find_date = datetime.strptime('2023-11-20', '%Y-%m-%d').date()
-pre_date = '2023-11-17'
-# pre_date = calendar.valid_days(start_date=find_date + timedelta(days=-1), end_date='2100-01-01')[0].date()
+pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 for index1, item in enumerate(stocks_data):
     if item['date'] == str(pre_date):
