@@ -37,7 +37,7 @@ def get_previous_trading_day(date_object):
         if str(date_object) in dates:  # 如果是交易日，则返回该日期
             return date_object
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2023-01-04', '%Y-%m-%d').date()
+find_date = datetime.strptime('2024-03-27', '%Y-%m-%d').date()
 pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 for index1, item in enumerate(stocks_data):
@@ -54,6 +54,8 @@ for index1, item in enumerate(stocks_data):
                 else:
                     current_opening_increase = float(getOpeningIncrease(browserTab,str(find_date),item2['code'])[0].strip('%'))
                     stocks_data[index1]["data"][index2]["next_opening_increase"] = f'{current_opening_increase}%'
+                with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_data.json', 'w') as file:
+                    json.dump(stocks_data, file,ensure_ascii=False,  indent=4) 
                 if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
                     bothIsLimitPrice = True
                 else:
@@ -67,7 +69,4 @@ for index, item in enumerate(strongest_pool):
        print(Fore.RED + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{item["current_opening_increase"]}%,{item["limit"]}板, 振幅{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%')
     else:
        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{item["current_opening_increase"]}%,{item["limit"]}板, 振幅{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%')
-
-with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_data.json', 'w') as file:
-        json.dump(stocks_data, file,ensure_ascii=False,  indent=4) 
 
