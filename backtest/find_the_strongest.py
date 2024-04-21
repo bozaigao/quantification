@@ -37,7 +37,7 @@ def get_previous_trading_day(date_object):
         if str(date_object) in dates:  # 如果是交易日，则返回该日期
             return date_object
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2024-03-27', '%Y-%m-%d').date()
+find_date = datetime.strptime('2023-02-02', '%Y-%m-%d').date()
 pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 for index1, item in enumerate(stocks_data):
