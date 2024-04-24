@@ -41,8 +41,9 @@ def get_previous_trading_day(date_object):
         if str(date_object) in dates:  # 如果是交易日，则返回该日期
             return date_object
 # find_date = datetime.now().date()
-find_date = datetime.strptime('2023-12-21', '%Y-%m-%d').date()
-pre_date = get_previous_trading_day(find_date)
+find_date = datetime.strptime('2024-04-25', '%Y-%m-%d').date()
+pre_date = '2024-04-24'
+# pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 try:
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'r',) as file:
@@ -289,12 +290,11 @@ for item in data_list:
         bothIsLimitPrice = True
     else:
         bothIsLimitPrice = False
-    if current_opening_increase > pre_opening_increase or bothIsLimitPrice:
-        strongest_pool.append({'date':str(find_date),'name':item['name'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
+    if (current_opening_increase > pre_opening_increase or bothIsLimitPrice) and current_opening_increase > 0:
+        strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
                
 strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
 print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
 for index, item in enumerate(strongest_pool):
-    if item["current_opening_increase"] > 0:
-        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
-
+    print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
+get_jingjia_info(find_date, strongest_pool)
