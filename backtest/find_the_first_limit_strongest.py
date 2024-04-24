@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 global_wait_seconds = 3
 # 指定回测年份
+year = 2024
 batch_size = 17
 #交易日期
 dates = []
@@ -26,8 +27,23 @@ browserTab = browser.new_tab()
 browserTab.start()
 browserTab.Network.enable()
 strongest_pool = []
-find_date = datetime.strptime('2024-03-06', '%Y-%m-%d').date()
-pre_date = '2024-03-05'
+try:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_data.json', 'r',) as file:
+        stocks_data = json.load(file)
+except FileNotFoundError:
+    stocks_data = []
+for item in stocks_data:
+    dates.append(item['date'])
+# 从指定日期开始向前搜索上一个交易日
+def get_previous_trading_day(date_object):
+    while True:
+        date_object -= timedelta(days=1)  # 递减一天
+        if str(date_object) in dates:  # 如果是交易日，则返回该日期
+            return date_object
+# find_date = datetime.now().date()
+find_date = datetime.strptime('2023-12-21', '%Y-%m-%d').date()
+pre_date = get_previous_trading_day(find_date)
+print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 try:
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'r',) as file:
         data_list = json.load(file)
@@ -56,6 +72,8 @@ def get_jingjia_info(date,stocks):
         # 拼接当前批次的股票代码
         for item in current_batch:
             search_text += f',{item["code"]}'
+        if len(search_text) <= 7:
+            search_text += search_text
         # 添加 '竞价' 文字到搜索文本中
         search_text += '竞价'
         # 打印当前的搜索文本，可以选择注释掉这一行
@@ -263,8 +281,6 @@ for index1, item in enumerate(data_list):
             data_list[index1]["next_bidding_amount"] = next_data_list[index2]["bidding_amount"]
 with open(f'{os.getcwd().replace("/backtest", "")}/backtest/today_increase.json', 'w') as file:
     json.dump(data_list, file,ensure_ascii=False,  indent=4) 
-
-print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 for item in data_list:
     pre_opening_increase = float(item["bidding_increase"].strip('%'))
     current_opening_increase = float(item["next_bidding_increase"].strip('%'))
@@ -277,6 +293,7 @@ for item in data_list:
         strongest_pool.append({'date':str(find_date),'name':item['name'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
                
 strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
+print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
 for index, item in enumerate(strongest_pool):
     if item["current_opening_increase"] > 0:
         print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
