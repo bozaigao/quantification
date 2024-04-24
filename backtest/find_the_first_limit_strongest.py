@@ -30,7 +30,7 @@ try:
         stocks_data = json.load(file)
 except FileNotFoundError:
     stocks_data = []
-find_date = datetime.strptime('2024-02-08', '%Y-%m-%d').date()
+find_date = datetime.strptime('2024-02-23', '%Y-%m-%d').date()
 browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + str(find_date) + "主板非st涨停且按最终涨停时间排序&querytype=stock")
 browserTab.wait(global_wait_seconds)
 result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
@@ -41,7 +41,7 @@ tbody = tbodies[0]
 if tbody:
     tr_tags = tbody.find_all('tr')
     stocks = []
-    # 遍历所有的 tr 标签，并输出其内容
+    # 获取涨停信息
     for tr in tr_tags:
         td_tags = tr.find_all('td')
         if len(td_tags) >= 22:
@@ -120,7 +120,11 @@ if tbody:
         'limit_open_times':limit_open_times,'market_value':market_value,'limit_type':limit_type,'company_place':company_place,'company_business':company_business}
         if stock["limit"] == 1:
            stocks.append(stock)
-batch_size = 15
+
+# stocks = stocks[:5]
+batch_size = 19
+# 存储结果的列表
+data_list = []
 #获取竞价信息
 for i in range(len(stocks)):
     # 计算当前批次的开始和结束索引
@@ -139,12 +143,102 @@ for i in range(len(stocks)):
     if search_text == '竞价':
         break
     # 导航到搜索页面
-    browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={search_text}")
+    browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(find_date)}{search_text}")
     # 等待页面加载
     browserTab.wait(global_wait_seconds)
+    result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
+    soup = BeautifulSoup(result['result']['value'], 'html.parser')
+    # 找到包含股票代码和简称的表格
+    table = soup.find('table', class_='static_table tbody_table static_tbody_table')
+    # 存储结果的列表
+    stocks_data = []
+    # 遍历表格中的每一行
+    for row in table.find_all('tr'):
+        cells = row.find_all('td')
+        if len(cells) >= 4:  # 确保每行中有足够的单元格数据
+            # 提取股票代码和简称
+            stock_code = cells[2].text.strip()
+            stock_name_link = cells[3].find('a')
+            if stock_name_link:
+                stock_name = stock_name_link.text.strip()
+                stocks_data.append({
+                    'stock_code': stock_code,
+                    'stock_name': stock_name
+                })
+    table = soup.find('table', class_='scroll_table tbody_table scroll_tbody_table')
+    # 遍历表格中的每一行
+    for index,row in enumerate(table.find_all('tr')):
+        # 按顺序获取列数据
+        columns = row.find_all('td')
+        if len(columns) >= 12:  # 确保每行有足够的数据列
+            bidding_increase = columns[2].text.strip()  # 竞价涨幅
+            bidding_volume = columns[7].text.strip()  # 竞价量
+            bidding_amount = columns[8].text.strip()  # 竞价金额
+            # 添加到结果列表
+            data_list.append({
+                'stock_code': stocks_data[index]["stock_code"],
+                'stock_name': stocks_data[index]["stock_name"],
+                'bidding_increase': f'{bidding_increase}%',
+                'bidding_volume': bidding_volume,
+                'bidding_amount': bidding_amount
+            })
 
-
-
+hot_stocks_data = []
+# 获取股票热度信息
+for i in range(len(data_list)):
+    # 计算当前批次的开始和结束索引
+    start_index = i * batch_size
+    end_index = start_index + batch_size
+    # 获取当前批次的股票
+    current_batch = data_list[start_index:end_index]
+    # 初始化搜索文本
+    search_text = ''
+    # 拼接当前批次的股票代码
+    for item in current_batch:
+        search_text += f',{item["stock_code"]}'
+    # 添加 '竞价' 文字到搜索文本中
+    search_text += '热度'
+    # 打印当前的搜索文本，可以选择注释掉这一行
+    if search_text == '热度':
+        break
+    # 导航到搜索页面
+    browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(find_date)}{search_text}")
+    # 等待页面加载
+    browserTab.wait(global_wait_seconds)
+    result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
+    soup = BeautifulSoup(result['result']['value'], 'html.parser')
+    # 初始化列表来保存每只股票的代码和简称
+    stock_info = []
+    # 先找到具体的<table>标签
+    table = soup.find('table', class_='static_table tbody_table static_tbody_table')
+    # 在找到的<table>中遍历<tbody>中的<tr>标签
+    for row in table.find('tbody').find_all('tr'):
+        cells = row.find_all('td')
+        if len(cells) >= 4:  # 确保<td>标签的数量足够
+            stock_code = cells[2].get_text(strip=True)  # 获取股票代码
+            stock_name = cells[3].text.strip()  # 获取股票简称，使用.text.strip()更清晰
+            stock_info.append({
+                    'stock_code': stock_code,
+                    'stock_name': stock_name
+                })
+    # 定位到具体的<table>标签
+    table = soup.find('table', class_='scroll_table tbody_table scroll_tbody_table')
+    # 在找到的<table>中遍历<tbody>中的<tr>标签
+    tbody = table.find('tbody')
+    for index, row in enumerate(tbody.find_all('tr')):
+        cells = row.find_all('td')
+        if len(cells) >= 5:  # 确保列数足够
+            volume = cells[2].get_text(strip=True)  # 交易量，即“热度”
+            rank = cells[3].get_text(strip=True)    # 排名
+            hot_stocks_data.append({"stock_code":stock_info[index]["stock_code"],"stock_name":stock_info[index]["stock_name"], "rank":rank,"volume":volume})
+for item in data_list:
+    for item2 in hot_stocks_data:
+        if item["stock_code"] == item2["stock_code"]:
+            item["rank"] = item2["rank"].replace(',', '')
+            item["volume"] = item2["volume"]
+data_list = sorted(data_list, key=lambda x: int(x['rank']))
+# with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_test.json', 'w') as file:
+#     json.dump(data_list, file,ensure_ascii=False,  indent=4) 
 for item in stocks_data:
     dates.append(item['date'])
 # 从指定日期开始向前搜索上一个交易日
