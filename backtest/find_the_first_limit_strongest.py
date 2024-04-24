@@ -26,8 +26,8 @@ browserTab = browser.new_tab()
 browserTab.start()
 browserTab.Network.enable()
 strongest_pool = []
-find_date = datetime.strptime('2024-04-23', '%Y-%m-%d').date()
-pre_date = '2024-04-22'
+find_date = datetime.strptime('2024-03-06', '%Y-%m-%d').date()
+pre_date = '2024-03-05'
 try:
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'r',) as file:
         data_list = json.load(file)
@@ -279,5 +279,5 @@ for item in data_list:
 strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
 for index, item in enumerate(strongest_pool):
     if item["current_opening_increase"] > 0:
-        print(Fore.RED + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{item["current_opening_increase"]}%, 振幅{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%,热度排名:{item["rank"]},竞价成交:{item["next_bidding_volume"]},昨日成交:{item["bidding_volume"]},放量系数:{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
+        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
 
