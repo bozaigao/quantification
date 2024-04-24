@@ -26,8 +26,8 @@ browserTab = browser.new_tab()
 browserTab.start()
 browserTab.Network.enable()
 strongest_pool = []
-find_date = datetime.strptime('2024-04-24', '%Y-%m-%d').date()
-pre_date = '2024-04-23'
+find_date = datetime.strptime('2024-04-15', '%Y-%m-%d').date()
+pre_date = '2024-04-12'
 try:
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'r',) as file:
         data_list = json.load(file)
