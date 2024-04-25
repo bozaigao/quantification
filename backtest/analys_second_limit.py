@@ -39,6 +39,12 @@ try:
         data_list = json.load(file)
 except FileNotFoundError:
     data_list = []
+
+try:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_second_limit_analys.json', 'r',) as file:
+        second_data_list = json.load(file)
+except FileNotFoundError:
+    second_data_list = []
 def convert_to_number(s):
     # 检查是否含有'万'，如果有，则乘以10000
     multiplier = 10000 if '万' in s else 1
@@ -56,7 +62,7 @@ def get_previous_trading_day(date_object):
         if str(date_object) in dates:  # 如果是交易日，则返回该日期
             return date_object
 
-def get_jingjia_info(pre_date,current_date,stocks):
+def get_jingjia_info(date,stocks):
     global batch_size
     data_list = []
     for i in range(len(stocks)):
@@ -78,7 +84,7 @@ def get_jingjia_info(pre_date,current_date,stocks):
         if search_text == '竞价':
             break
         # 导航到搜索页面
-        browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(pre_date)}{search_text}")
+        browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(date)}{search_text}")
         # 等待页面加载
         browserTab.wait(global_wait_seconds)
         result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
@@ -110,34 +116,24 @@ def get_jingjia_info(pre_date,current_date,stocks):
                 bidding_volume = columns[7].text.strip()  # 竞价量
                 bidding_amount = columns[8].text.strip()  # 竞价金额
                 # 添加到结果列表
-                if pre_date == current_date:
-                    data_list.append({
-                        'code': stocks_data[index]["code"],
-                        'name': stocks_data[index]["name"],
-                        'bidding_increase': f'{bidding_increase}%',
-                        'bidding_volume': bidding_volume,
-                        'bidding_amount': bidding_amount
-                    })
-                else:
-                     data_list.append({
-                        'code': stocks_data[index]["code"],
-                        'name': stocks_data[index]["name"],
-                        'pre_bidding_increase': f'{bidding_increase}%',
-                        'pre_bidding_volume': bidding_volume,
-                        'pre_bidding_amount': bidding_amount
-                    })
+                data_list.append({
+                    'code': stocks_data[index]["code"],
+                    'name': stocks_data[index]["name"],
+                    'pre_bidding_increase': f'{bidding_increase}%',
+                    'pre_bidding_volume': bidding_volume,
+                    'pre_bidding_amount': bidding_amount
+                })
     return data_list
 
 if len(data_list) == 0:
-    stocks_data = stocks_data[:1]
-    for item in stocks_data:
+    for item in stocks_data[len(second_data_list):]:
         filter_stocks = [stock for stock in item['data'] if stock['limit'] == 2]
         # 存储结果的列表
         pre_date = get_previous_trading_day(datetime.strptime(item['date'], '%Y-%m-%d').date())
-        data_list = get_jingjia_info(pre_date,item['date'],filter_stocks)
+        find_date = item['date']
+        data_list = get_jingjia_info(pre_date,filter_stocks)
         #获取竞价信息
         hot_stocks_data = []
-        print(f'😁1{item}')
         # 获取股票热度信息
         for i in range(len(data_list)):
             # 计算当前批次的开始和结束索引
@@ -198,39 +194,13 @@ if len(data_list) == 0:
                     item2["pre_bidding_increase"] = item["pre_bidding_increase"]
                     item2["pre_bidding_volume"] = item["pre_bidding_volume"]
                     item2["pre_bidding_amount"] = item["pre_bidding_amount"]
-        print(item)
-        next_data_list = get_jingjia_info(pre_date, item['date'], data_list)
+        next_data_list = get_jingjia_info(find_date, data_list)
         for item in next_data_list:
             for item2 in filter_stocks:
                 if item2["code"] == item["code"]:
-                    item2["rank"] = item["rank"].replace(',', '')
-                    item2["volume"] = item["volume"]
-                    item2["bidding_increase"] = item["bidding_increase"]
-                    item2["bidding_volume"] = item["bidding_volume"]
-                    item2["bidding_amount"] = item["bidding_amount"]
+                    item2["bidding_increase"] = item["pre_bidding_increase"]
+                    item2["bidding_volume"] = item["pre_bidding_volume"]
+                    item2["bidding_amount"] = item["pre_bidding_amount"]
+        second_data_list.append({'date':find_date,'data':filter_stocks})
         with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_second_limit_analys.json', 'w') as file:
-                json.dump(filter_stocks, file,ensure_ascii=False,  indent=4) 
-# for index1, item in enumerate(data_list):
-#     for index2, item in enumerate(next_data_list):
-#         if data_list[index1]["code"] == next_data_list[index2]["code"]:
-#             data_list[index1]["next_bidding_increase"] = next_data_list[index2]["bidding_increase"]
-#             data_list[index1]["next_bidding_volume"] = next_data_list[index2]["bidding_volume"]
-#             data_list[index1]["next_bidding_amount"] = next_data_list[index2]["bidding_amount"]
-# with open(f'{os.getcwd().replace("/backtest", "")}/backtest/today_increase.json', 'w') as file:
-#     json.dump(data_list, file,ensure_ascii=False,  indent=4) 
-# for item in data_list:
-#     pre_opening_increase = float(item["bidding_increase"].strip('%'))
-#     current_opening_increase = float(item["next_bidding_increase"].strip('%'))
-   
-#     if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
-#         bothIsLimitPrice = True
-#     else:
-#         bothIsLimitPrice = False
-#     if (current_opening_increase > pre_opening_increase or bothIsLimitPrice) and current_opening_increase > 0:
-#         strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
-               
-# strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
-# print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
-# for index, item in enumerate(strongest_pool):
-#     print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
-# get_jingjia_info(find_date, strongest_pool)
+                json.dump(second_data_list, file,ensure_ascii=False,  indent=4) 
