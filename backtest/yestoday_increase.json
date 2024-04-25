@@ -1,281 +1,245 @@
 [
     {
-        "code": "002085",
-        "name": "万丰奥威",
-        "bidding_increase": "-1.45%",
-        "bidding_volume": "367.02万",
-        "bidding_amount": "4,995.14万",
-        "rank": "1",
-        "volume": "37.53万"
+        "code": "603657",
+        "name": "春光科技",
+        "bidding_increase": "-3.80%",
+        "bidding_volume": "328.72万",
+        "bidding_amount": "4,996.48万",
+        "rank": "5",
+        "volume": "26.31万"
     },
     {
-        "code": "000628",
-        "name": "高新发展",
-        "bidding_increase": "-2.55%",
-        "bidding_volume": "164.73万",
-        "bidding_amount": "6,421.18万",
+        "code": "603663",
+        "name": "三祥新材",
+        "bidding_increase": "-0.47%",
+        "bidding_volume": "59.57万",
+        "bidding_amount": "1,000.23万",
         "rank": "7",
-        "volume": "20.39万"
+        "volume": "17.27万"
     },
     {
-        "code": "002130",
-        "name": "沃尔核材",
-        "bidding_increase": "2.04%",
-        "bidding_volume": "121.02万",
-        "bidding_amount": "1,449.82万",
-        "rank": "11",
-        "volume": "15.87万"
+        "code": "002023",
+        "name": "海特高新",
+        "bidding_increase": "2.88%",
+        "bidding_volume": "76.17万",
+        "bidding_amount": "788.36万",
+        "rank": "15",
+        "volume": "13.35万"
     },
     {
-        "code": "002296",
-        "name": "辉煌科技",
-        "bidding_increase": "9.98%",
-        "bidding_volume": "1,375.61万",
-        "bidding_amount": "1.39亿",
-        "rank": "13",
-        "volume": "13.51万"
+        "code": "002883",
+        "name": "中设股份",
+        "bidding_increase": "-3.96%",
+        "bidding_volume": "50.19万",
+        "bidding_amount": "499.39万",
+        "rank": "26",
+        "volume": "10.15万"
     },
     {
-        "code": "000801",
-        "name": "四川九洲",
-        "bidding_increase": "-2.16%",
-        "bidding_volume": "52.97万",
-        "bidding_amount": "649.41万",
-        "rank": "18",
-        "volume": "11.44万"
+        "code": "600727",
+        "name": "鲁北化工",
+        "bidding_increase": "10.07%",
+        "bidding_volume": "230.19万",
+        "bidding_amount": "1,459.40万",
+        "rank": "33",
+        "volume": "8.74万"
     },
     {
-        "code": "600879",
-        "name": "航天电子",
-        "bidding_increase": "0.56%",
-        "bidding_volume": "22.32万",
-        "bidding_amount": "161.60万",
-        "rank": "30",
-        "volume": "8.58万"
+        "code": "002468",
+        "name": "申通快递",
+        "bidding_increase": "2.62%",
+        "bidding_volume": "50.58万",
+        "bidding_amount": "435.49万",
+        "rank": "76",
+        "volume": "5.29万"
     },
     {
-        "code": "002097",
-        "name": "山河智能",
-        "bidding_increase": "-1.38%",
-        "bidding_volume": "21.47万",
-        "bidding_amount": "153.08万",
-        "rank": "43",
-        "volume": "6.79万"
-    },
-    {
-        "code": "603308",
-        "name": "应流股份",
-        "bidding_increase": "0.15%",
-        "bidding_volume": "10.28万",
-        "bidding_amount": "140.22万",
-        "rank": "44",
-        "volume": "6.79万"
-    },
-    {
-        "code": "002902",
-        "name": "铭普光磁",
-        "bidding_increase": "0.93%",
-        "bidding_volume": "5.59万",
-        "bidding_amount": "121.86万",
-        "rank": "45",
-        "volume": "6.53万"
-    },
-    {
-        "code": "002708",
-        "name": "光洋股份",
-        "bidding_increase": "-0.39%",
-        "bidding_volume": "13.21万",
-        "bidding_amount": "100.92万",
-        "rank": "56",
-        "volume": "5.91万"
-    },
-    {
-        "code": "600083",
-        "name": "博信股份",
+        "code": "002520",
+        "name": "日发精机",
         "bidding_increase": "0.00%",
-        "bidding_volume": "913.05万",
-        "bidding_amount": "3,789.16万",
-        "rank": "66",
-        "volume": "4.89万"
+        "bidding_volume": "2.72万",
+        "bidding_amount": "13.65万",
+        "rank": "77",
+        "volume": "5.28万"
     },
     {
-        "code": "002253",
-        "name": "川大智胜",
-        "bidding_increase": "-0.74%",
-        "bidding_volume": "2.53万",
-        "bidding_amount": "23.63万",
-        "rank": "71",
-        "volume": "4.80万"
-    },
-    {
-        "code": "001389",
-        "name": "广合科技",
-        "bidding_increase": "2.11%",
-        "bidding_volume": "17.27万",
-        "bidding_amount": "828.96万",
+        "code": "002773",
+        "name": "康弘药业",
+        "bidding_increase": "8.25%",
+        "bidding_volume": "80.25万",
+        "bidding_amount": "1,589.75万",
         "rank": "78",
-        "volume": "4.36万"
+        "volume": "5.28万"
     },
     {
-        "code": "603373",
-        "name": "安邦护卫",
-        "bidding_increase": "-1.25%",
-        "bidding_volume": "1.20万",
-        "bidding_amount": "38.04万",
+        "code": "600470",
+        "name": "六国化工",
+        "bidding_increase": "0.23%",
+        "bidding_volume": "15.73万",
+        "bidding_amount": "67.64万",
         "rank": "82",
-        "volume": "4.31万"
+        "volume": "4.92万"
     },
     {
-        "code": "002970",
-        "name": "锐明技术",
-        "bidding_increase": "10.00%",
-        "bidding_volume": "58.34万",
-        "bidding_amount": "1,732.70万",
+        "code": "600836",
+        "name": "上海易连",
+        "bidding_increase": "-0.60%",
+        "bidding_volume": "12.93万",
+        "bidding_amount": "21.33万",
         "rank": "99",
-        "volume": "3.78万"
+        "volume": "4.43万"
     },
     {
-        "code": "603015",
-        "name": "弘讯科技",
-        "bidding_increase": "4.67%",
-        "bidding_volume": "30.03万",
-        "bidding_amount": "222.22万",
-        "rank": "108",
-        "volume": "3.66万"
+        "code": "002136",
+        "name": "安纳达",
+        "bidding_increase": "0.42%",
+        "bidding_volume": "1.06万",
+        "bidding_amount": "10.19万",
+        "rank": "103",
+        "volume": "4.33万"
     },
     {
-        "code": "003004",
-        "name": "声迅股份",
-        "bidding_increase": "-0.76%",
-        "bidding_volume": "6,600.00",
-        "bidding_amount": "13.84万",
-        "rank": "114",
-        "volume": "3.43万"
+        "code": "002364",
+        "name": "中恒电气",
+        "bidding_increase": "-0.71%",
+        "bidding_volume": "1.20万",
+        "bidding_amount": "6.76万",
+        "rank": "105",
+        "volume": "4.24万"
     },
     {
-        "code": "603706",
-        "name": "东方环宇",
-        "bidding_increase": "10.03%",
-        "bidding_volume": "38.40万",
-        "bidding_amount": "577.15万",
-        "rank": "118",
-        "volume": "3.36万"
+        "code": "000710",
+        "name": "贝瑞基因",
+        "bidding_increase": "8.56%",
+        "bidding_volume": "48.52万",
+        "bidding_amount": "387.67万",
+        "rank": "112",
+        "volume": "3.99万"
     },
     {
-        "code": "002315",
-        "name": "焦点科技",
-        "bidding_increase": "-0.07%",
-        "bidding_volume": "2.08万",
-        "bidding_amount": "61.98万",
-        "rank": "123",
+        "code": "002305",
+        "name": "南国置业",
+        "bidding_increase": "5.19%",
+        "bidding_volume": "301.48万",
+        "bidding_amount": "428.10万",
+        "rank": "117",
+        "volume": "3.71万"
+    },
+    {
+        "code": "002496",
+        "name": "辉丰股份",
+        "bidding_increase": "6.70%",
+        "bidding_volume": "194.60万",
+        "bidding_amount": "496.23万",
+        "rank": "124",
+        "volume": "3.53万"
+    },
+    {
+        "code": "000545",
+        "name": "金浦钛业",
+        "bidding_increase": "0.99%",
+        "bidding_volume": "11.08万",
+        "bidding_amount": "22.60万",
+        "rank": "131",
+        "volume": "3.35万"
+    },
+    {
+        "code": "603188",
+        "name": "亚邦股份",
+        "bidding_increase": "0.00%",
+        "bidding_volume": "24.39万",
+        "bidding_amount": "57.32万",
+        "rank": "134",
         "volume": "3.26万"
     },
     {
-        "code": "603110",
-        "name": "东方材料",
-        "bidding_increase": "0.22%",
-        "bidding_volume": "2,800.00",
-        "bidding_amount": "3.86万",
-        "rank": "134",
-        "volume": "3.01万"
+        "code": "603968",
+        "name": "醋化股份",
+        "bidding_increase": "-1.64%",
+        "bidding_volume": "4.25万",
+        "bidding_amount": "48.49万",
+        "rank": "136",
+        "volume": "3.26万"
     },
     {
-        "code": "600749",
-        "name": "西藏旅游",
-        "bidding_increase": "1.66%",
-        "bidding_volume": "5.66万",
-        "bidding_amount": "58.92万",
-        "rank": "140",
-        "volume": "2.93万"
+        "code": "603693",
+        "name": "江苏新能",
+        "bidding_increase": "7.07%",
+        "bidding_volume": "48.61万",
+        "bidding_amount": "537.59万",
+        "rank": "141",
+        "volume": "3.17万"
     },
     {
-        "code": "603023",
-        "name": "威帝股份",
-        "bidding_increase": "-0.80%",
-        "bidding_volume": "8.64万",
-        "bidding_amount": "21.51万",
+        "code": "605183",
+        "name": "确成股份",
+        "bidding_increase": "2.35%",
+        "bidding_volume": "19.87万",
+        "bidding_amount": "311.96万",
+        "rank": "150",
+        "volume": "3.06万"
+    },
+    {
+        "code": "000571",
+        "name": "新大洲A",
+        "bidding_increase": "-0.36%",
+        "bidding_volume": "2.12万",
+        "bidding_amount": "5.94万",
         "rank": "152",
-        "volume": "2.76万"
+        "volume": "2.98万"
     },
     {
-        "code": "600281",
-        "name": "华阳新材",
-        "bidding_increase": "1.04%",
-        "bidding_volume": "3.46万",
-        "bidding_amount": "10.14万",
-        "rank": "163",
-        "volume": "2.55万"
+        "code": "002748",
+        "name": "世龙实业",
+        "bidding_increase": "0.71%",
+        "bidding_volume": "2.21万",
+        "bidding_amount": "15.74万",
+        "rank": "155",
+        "volume": "2.92万"
     },
     {
-        "code": "000836",
-        "name": "富通信息",
-        "bidding_increase": "-1.35%",
-        "bidding_volume": "27.61万",
-        "bidding_amount": "40.31万",
-        "rank": "178",
-        "volume": "2.40万"
-    },
-    {
-        "code": "002308",
-        "name": "威创股份",
-        "bidding_increase": "0.56%",
-        "bidding_volume": "645.55万",
-        "bidding_amount": "1,155.54万",
-        "rank": "180",
-        "volume": "2.37万"
-    },
-    {
-        "code": "000886",
-        "name": "海南高速",
-        "bidding_increase": "1.88%",
-        "bidding_volume": "35.40万",
-        "bidding_amount": "153.28万",
-        "rank": "181",
-        "volume": "2.36万"
-    },
-    {
-        "code": "002928",
-        "name": "华夏航空",
-        "bidding_increase": "5.79%",
-        "bidding_volume": "126.06万",
-        "bidding_amount": "737.45万",
-        "rank": "185",
-        "volume": "2.34万"
-    },
-    {
-        "code": "601020",
-        "name": "华钰矿业",
-        "bidding_increase": "0.36%",
-        "bidding_volume": "13.01万",
-        "bidding_amount": "107.59万",
-        "rank": "186",
-        "volume": "2.34万"
-    },
-    {
-        "code": "605228",
-        "name": "神通科技",
+        "code": "603048",
+        "name": "浙江黎明",
         "bidding_increase": "0.00%",
-        "bidding_volume": "2,400.00",
-        "bidding_amount": "2.31万",
+        "bidding_volume": "3,800.00",
+        "bidding_amount": "5.35万",
+        "rank": "161",
+        "volume": "2.85万"
+    },
+    {
+        "code": "600714",
+        "name": "金瑞矿业",
+        "bidding_increase": "1.14%",
+        "bidding_volume": "3,900.00",
+        "bidding_amount": "2.76万",
+        "rank": "162",
+        "volume": "2.84万"
+    },
+    {
+        "code": "001301",
+        "name": "尚太科技",
+        "bidding_increase": "5.24%",
+        "bidding_volume": "9.91万",
+        "bidding_amount": "332.38万",
+        "rank": "188",
+        "volume": "2.53万"
+    },
+    {
+        "code": "002282",
+        "name": "博深股份",
+        "bidding_increase": "10.00%",
+        "bidding_volume": "100.72万",
+        "bidding_amount": "686.91万",
         "rank": "195",
-        "volume": "2.25万"
+        "volume": "2.46万"
     },
     {
-        "code": "600753",
-        "name": "庚星股份",
-        "bidding_increase": "-3.56%",
-        "bidding_volume": "14.62万",
-        "bidding_amount": "91.08万",
-        "rank": "216",
-        "volume": "2.05万"
-    },
-    {
-        "code": "600605",
-        "name": "汇通能源",
-        "bidding_increase": "-0.09%",
-        "bidding_volume": "3,000.00",
-        "bidding_amount": "6.65万",
-        "rank": "338",
-        "volume": "1.41万"
+        "code": "002996",
+        "name": "顺博合金",
+        "bidding_increase": "3.18%",
+        "bidding_volume": "15.16万",
+        "bidding_amount": "128.10万",
+        "rank": "213",
+        "volume": "2.30万"
     }
 ]
