@@ -329,23 +329,32 @@ def get_today_info(pre_date,find_date):
             strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
                 
     strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
-    print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
-    for index, item in enumerate(strongest_pool):
-        if convert_to_number(item["bidding_volume"])>0:
-            print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
-        else:
-            print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN}')
-    # get_jingjia_info(find_date, strongest_pool)
+    
+    #二板成功覆盖率为78%
+    hitCount = 0
+    targetCount = 0
+    for item in stocks_data:
+        if item['date'] == find_date:
+            for item2 in item['data']:
+                if item2['limit'] == 2:
+                   targetCount += 1
+                   if isInPool(strongest_pool,item2['code']):
+                       hitCount += 1
+    if targetCount != 0:
+        hitChange.append(hitCount/targetCount)
 
-# for item in dates[len(today_data_list):]:
-#     # find_date = datetime.now().date()
-#     find_date = datetime.strptime(item, '%Y-%m-%d').date()
-#     # pre_date = '2023-01-20'
-#     pre_date = get_previous_trading_day(find_date)
-#     print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
-#     get_today_info(str(pre_date),str(find_date))
 
-# find_date = datetime.strptime('2023-06-19', '%Y-%m-%d').date()
-# pre_date = get_previous_trading_day(find_date)
-# print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
-# get_today_info(str(pre_date),str(find_date))
+#二板成功覆盖率为78%
+for item in dates:
+    # find_date = datetime.now().date()
+    find_date = datetime.strptime(item, '%Y-%m-%d').date()
+    # pre_date = '2023-01-20'
+    pre_date = get_previous_trading_day(find_date)
+    get_today_info(str(pre_date),str(find_date))
+
+count = 0
+for item in hitChange:
+    count += item
+
+print(100*round(count/len(hitChange),2))
+    
