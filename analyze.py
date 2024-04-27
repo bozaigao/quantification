@@ -200,7 +200,6 @@ for idx, workday in enumerate(workdays):
         'limit_open_times':limit_open_times,'market_value':market_value,'limit_type':limit_type,'company_place':company_place,'company_business':company_business}
         stocks.append(stock)
         sorted_stocks = sorted(stocks, key=lambda x: x['limit'], reverse=True)
-        print(f'😁-->>{existing_data}')
         # 将 sorted_stocks 中的股票信息追加到已有数据中
     existing_data.extend([{'date':str(workday.date()),'data':sorted_stocks}])
         # 将数据写入到 JSON 文件中
