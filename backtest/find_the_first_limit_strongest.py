@@ -56,6 +56,7 @@ try:
 except FileNotFoundError:
     today_data_list = []
 todayDates = []
+strongest_stocks = []
 for item in today_data_list:
     todayDates.append(item['date'])
 def convert_to_number(s):
@@ -329,6 +330,9 @@ def get_today_info(pre_date,find_date):
             strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
                 
     strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
+    strongest_stocks.append({'date':find_date,'data':strongest_pool})
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_today_strongest.json', 'w') as file:
+        json.dump(strongest_stocks, file,ensure_ascii=False,  indent=4) 
     print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
     for index, item in enumerate(strongest_pool):
         if convert_to_number(item["bidding_volume"])>0:
@@ -337,7 +341,7 @@ def get_today_info(pre_date,find_date):
             print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN}')
     # get_jingjia_info(find_date, strongest_pool)
 
-# for item in dates[len(today_data_list):]:
+# for item in dates:
 #     # find_date = datetime.now().date()
 #     find_date = datetime.strptime(item, '%Y-%m-%d').date()
 #     # pre_date = '2023-01-20'
