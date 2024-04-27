@@ -286,26 +286,30 @@ def get_today_info(pre_date,find_date):
         for item in yestoday_data_list:
             if pre_date == item['date']:
                 data_list = item['data']
-    next_data_list = get_jingjia_info(find_date, data_list)
-    for item1 in data_list:
-        for item2 in next_data_list:
-            if item1["code"] == item2["code"]:
-                if '--' in item2["bidding_increase"]:
-                    item1["next_bidding_increase"] = '0%'
-                else:
-                    item1["next_bidding_increase"] = item2["bidding_increase"]
-                if '--' in item2["bidding_volume"]:
-                    item1["next_bidding_volume"] = '0%'
-                else:
-                    item1["next_bidding_volume"] = item2["bidding_volume"]
-                if '--' in item2["bidding_amount"]:
-                    item1["next_bidding_amount"] = '0%'
-                else:
-                    item1["next_bidding_amount"] = item2["bidding_amount"]
-    today_data_list.append({'date':str(find_date),'data':data_list})
-    if not str(find_date) in todayDates:
+    if not find_date in todayDates:
+        next_data_list = get_jingjia_info(find_date, data_list)
+        for item1 in data_list:
+            for item2 in next_data_list:
+                if item1["code"] == item2["code"]:
+                    if '--' in item2["bidding_increase"]:
+                        item1["next_bidding_increase"] = '0%'
+                    else:
+                        item1["next_bidding_increase"] = item2["bidding_increase"]
+                    if '--' in item2["bidding_volume"]:
+                        item1["next_bidding_volume"] = '0%'
+                    else:
+                        item1["next_bidding_volume"] = item2["bidding_volume"]
+                    if '--' in item2["bidding_amount"]:
+                        item1["next_bidding_amount"] = '0%'
+                    else:
+                        item1["next_bidding_amount"] = item2["bidding_amount"]
+        today_data_list.append({'date':str(find_date),'data':data_list})
         with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_today_increase.json', 'w') as file:
             json.dump(today_data_list, file,ensure_ascii=False,  indent=4) 
+    else:
+        for item in today_data_list:
+            if find_date == item['date']:
+                data_list = item['data']
     strongest_pool = []
     for item in data_list:
         pre_opening_increase = float(item["bidding_increase"].strip('%'))
@@ -324,10 +328,15 @@ def get_today_info(pre_date,find_date):
         print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
     # get_jingjia_info(find_date, strongest_pool)
 
-for item in dates[len(today_data_list):]:
-    # find_date = datetime.now().date()
-    find_date = datetime.strptime(item, '%Y-%m-%d').date()
-    # pre_date = '2023-01-20'
-    pre_date = get_previous_trading_day(find_date)
-    print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
-    get_today_info(pre_date,find_date)
+# for item in dates[len(today_data_list):]:
+#     # find_date = datetime.now().date()
+#     find_date = datetime.strptime(item, '%Y-%m-%d').date()
+#     # pre_date = '2023-01-20'
+#     pre_date = get_previous_trading_day(find_date)
+#     print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+#     get_today_info(pre_date,find_date)
+
+find_date = datetime.strptime('2023-01-11', '%Y-%m-%d').date()
+pre_date = get_previous_trading_day(find_date)
+print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+get_today_info(str(pre_date),str(find_date))
