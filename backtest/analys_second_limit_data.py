@@ -88,32 +88,37 @@ except FileNotFoundError:
 # plt.grid(True)
 # plt.show()
 
-def convert_to_number(s):
-    # 检查是否含有'万'，如果有，则乘以10000
-    multiplier = 10000 if '万' in s else 1
-    # 移除数字中的'万'和逗号
-    s = re.sub('[万,]', '', s)
-    # 转换为浮点数并根据是否有'万'调整数值
-    return float(s) * multiplier
+# def convert_to_number(s):
+#     # 检查是否含有'万'，如果有，则乘以10000
+#     multiplier = 10000 if '万' in s else 1
+#     # 移除数字中的'万'和逗号
+#     s = re.sub('[万,]', '', s)
+#     # 转换为浮点数并根据是否有'万'调整数值
+#     return float(s) * multiplier
 
-#分析放量系数
-volume = []
+# #分析放量系数
+# volume = []
+# for item in dragon_data:
+#     for item2 in item['data']:
+#         if '--' not in item2["bidding_volume"] and '--' not in item2["pre_bidding_volume"]:
+#             print(round(convert_to_number(item2["bidding_volume"])/convert_to_number(item2["pre_bidding_volume"]),2))
+#             volume.append(round(convert_to_number(item2["bidding_volume"])/convert_to_number(item2["pre_bidding_volume"]),2))
+
+# # 使用numpy的histogram函数计算直方图的数据
+# # bins参数定义了数据分区的方式，这里例如我们将数据分为10个区间
+# hist, bin_edges = np.histogram(volume, bins=10)
+# # 打印每个区间的频率
+# print("Bin edges:", bin_edges)
+# print("Histogram counts:", hist)
+# # 绘制直方图
+# plt.figure()
+# plt.hist(volume, bins=10, alpha=0.75, color='blue', edgecolor='black')
+# plt.title('Volume Distribution')
+# plt.xlabel('Volume')
+# plt.ylabel('Frequency')
+# plt.show()
+
 for item in dragon_data:
     for item2 in item['data']:
-        if '--' not in item2["bidding_volume"] and '--' not in item2["pre_bidding_volume"]:
-            print(round(convert_to_number(item2["bidding_volume"])/convert_to_number(item2["pre_bidding_volume"]),2))
-            volume.append(round(convert_to_number(item2["bidding_volume"])/convert_to_number(item2["pre_bidding_volume"]),2))
-
-# 使用numpy的histogram函数计算直方图的数据
-# bins参数定义了数据分区的方式，这里例如我们将数据分为10个区间
-hist, bin_edges = np.histogram(volume, bins=10)
-# 打印每个区间的频率
-print("Bin edges:", bin_edges)
-print("Histogram counts:", hist)
-# 绘制直方图
-plt.figure()
-plt.hist(volume, bins=10, alpha=0.75, color='blue', edgecolor='black')
-plt.title('Volume Distribution')
-plt.xlabel('Volume')
-plt.ylabel('Frequency')
-plt.show()
+        if float(item2['bidding_increase'].strip('%')) > 8 and float(item2['bidding_increase'].strip('%')) < 9.7:
+            print(f'{item["date"]}-{item2["name"]}')

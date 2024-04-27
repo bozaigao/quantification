@@ -26,7 +26,6 @@ browserTab = browser.new_tab()
 # 打开链接
 browserTab.start()
 browserTab.Network.enable()
-strongest_pool = []
 try:
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_data.json', 'r',) as file:
         stocks_data = json.load(file)
@@ -36,20 +35,28 @@ for item in stocks_data:
     dates.append(item['date'])
 # 从指定日期开始向前搜索上一个交易日
 def get_previous_trading_day(date_object):
+    if str(date_object) == '2023-01-03':
+        return '2022-12-30'
     while True:
         date_object -= timedelta(days=1)  # 递减一天
         if str(date_object) in dates:  # 如果是交易日，则返回该日期
             return date_object
-# find_date = datetime.now().date()
-find_date = datetime.strptime('2024-04-26', '%Y-%m-%d').date()
-pre_date = '2024-04-25'
-# pre_date = get_previous_trading_day(find_date)
-print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 try:
-    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'r',) as file:
-        data_list = json.load(file)
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_yestoday_increase.json', 'r',) as file:
+        yestoday_data_list = json.load(file)
 except FileNotFoundError:
-    data_list = []
+    yestoday_data_list = []
+yestodayDates = []
+for item in yestoday_data_list:
+    yestodayDates.append(item['date'])
+try:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_today_increase.json', 'r',) as file:
+        today_data_list = json.load(file)
+except FileNotFoundError:
+    today_data_list = []
+todayDates = []
+for item in today_data_list:
+    todayDates.append(item['date'])
 def convert_to_number(s):
     # 检查是否含有'万'，如果有，则乘以10000
     multiplier = 10000 if '万' in s else 1
@@ -122,179 +129,205 @@ def get_jingjia_info(date,stocks):
                 })
     return data_list
 
-if len(data_list) == 0:
-    browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + str(pre_date) + "主板非st涨停且按最终涨停时间排序&querytype=stock")
-    browserTab.wait(global_wait_seconds)
-    result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
-    soup = BeautifulSoup(result['result']['value'], 'html.parser')
-    # 获取 tbody 中所有的 tr 标签
-    tbodies = soup.find_all('tbody', {'data-v-00e1661f': True})
-    tbody = tbodies[0]
-    if tbody:
-        tr_tags = tbody.find_all('tr')
-        stocks = []
-        # 获取涨停信息
-        for tr in tr_tags:
-            td_tags = tr.find_all('td')
-            if len(td_tags) >= 22:
-                #代码
-                code_td = td_tags[2] 
-                if code_td:
-                    code = code_td.text.strip() 
-                #名字
-                name_td = td_tags[3]
-                if name_td:
-                    a_tag = name_td.find('a')
-                    if a_tag:
-                            company_name = a_tag.text
-                #价格
-                price_td = td_tags[4]
-                if price_td:
-                    price = price_td.text.strip()
-                #首次涨停时间
-                first_limit_time_td = td_tags[6]
-                if first_limit_time_td:
-                    first_limit_time = first_limit_time_td.text.strip()
-                #连板数
-                limit_td = td_tags[7]
-                if limit_td:
-                    limit = limit_td.text.strip()
-                #最终涨停时间
-                final_limit_time_td = td_tags[8]
-                if final_limit_time_td:
-                    final_limit_time = final_limit_time_td.text.strip()
-                #涨停概念
-                limit_reason_td = td_tags[10]
-                if limit_reason_td:
-                    a_tag = limit_reason_td.find('a')
-                    if a_tag:
-                            limit_reason = a_tag.text
-                #涨停封单量
-                limit_tocks_td = td_tags[11]
-                if limit_tocks_td:
-                    limit_tocks = limit_tocks_td.text.strip()
-                #涨停封单金额
-                limit_money_td = td_tags[12]
-                if limit_money_td:
-                    limit_money = limit_money_td.text.strip()
-                #涨停封成比
-                limit_cheng_ratio_td = td_tags[13]
-                if limit_cheng_ratio_td:
-                    limit_cheng_ratio = limit_cheng_ratio_td.text.strip()
-                #涨停封流比
-                limit_liu_ratio_td = td_tags[14]
-                if limit_liu_ratio_td:
-                    limit_liu_ratio = limit_liu_ratio_td.text.strip()
-                #涨停开板次数
-                limit_open_times_td = td_tags[15]
-                if limit_open_times_td:
-                    limit_open_times = limit_open_times_td.text.strip()
-                #流通市值
-                market_value_td = td_tags[16]
-                if market_value_td:
-                    a_tag = market_value_td.find('a')
-                    if a_tag:
-                            market_value = a_tag.text
-                #涨停类型
-                limit_type_td = td_tags[18]
-                if limit_type_td:
-                    limit_type = limit_type_td.text.strip()
-                #公司注册地址
-                company_place_td = td_tags[20]
-                if company_place_td:
-                    company_place = company_place_td.text.strip()
-                #公司经营范围
-                company_business_td = td_tags[21]
-                if company_business_td:
-                    company_business = company_business_td.text.strip()
-            stock = {'code':code,'name':company_name,'limit':int(limit),'price':price,'first_limit_time':first_limit_time,
-            'final_limit_time':final_limit_time,'limit_reason':limit_reason,'limit_tocks':limit_tocks,'limit_money':limit_money,'limit_cheng_ratio':limit_cheng_ratio,'limit_liu_ratio':limit_liu_ratio,
-            'limit_open_times':limit_open_times,'market_value':market_value,'limit_type':limit_type,'company_place':company_place,'company_business':company_business}
-            if stock["limit"] == 1:
-                stocks.append(stock)
-
-    # stocks = stocks[:5]
-    # 存储结果的列表
-    data_list = get_jingjia_info(pre_date,stocks)
-    #获取竞价信息
-    hot_stocks_data = []
-    # 获取股票热度信息
-    for i in range(len(data_list)):
-        # 计算当前批次的开始和结束索引
-        start_index = i * batch_size
-        end_index = start_index + batch_size
-        # 获取当前批次的股票
-        current_batch = data_list[start_index:end_index]
-        # 初始化搜索文本
-        search_text = ''
-        # 拼接当前批次的股票代码
-        for item in current_batch:
-            search_text += f',{item["code"]}'
-        # 添加 '竞价' 文字到搜索文本中
-        search_text += '热度'
-        # 打印当前的搜索文本，可以选择注释掉这一行
-        if search_text == '热度':
-            break
-        # 导航到搜索页面
-        browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(pre_date)}{search_text}")
-        # 等待页面加载
+def get_today_info(pre_date,find_date):
+    if not pre_date in yestodayDates:
+        browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + str(pre_date) + "主板非st涨停且按最终涨停时间排序&querytype=stock")
         browserTab.wait(global_wait_seconds)
         result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
         soup = BeautifulSoup(result['result']['value'], 'html.parser')
-        # 初始化列表来保存每只股票的代码和简称
-        stock_info = []
-        # 先找到具体的<table>标签
-        table = soup.find('table', class_='static_table tbody_table static_tbody_table')
-        # 在找到的<table>中遍历<tbody>中的<tr>标签
-        for row in table.find('tbody').find_all('tr'):
-            cells = row.find_all('td')
-            if len(cells) >= 4:  # 确保<td>标签的数量足够
-                stock_code = cells[2].get_text(strip=True)  # 获取股票代码
-                stock_name = cells[3].text.strip()  # 获取股票简称，使用.text.strip()更清晰
-                stock_info.append({
-                        'code': stock_code,
-                        'name': stock_name
-                    })
-        # 定位到具体的<table>标签
-        table = soup.find('table', class_='scroll_table tbody_table scroll_tbody_table')
-        # 在找到的<table>中遍历<tbody>中的<tr>标签
-        tbody = table.find('tbody')
-        for index, row in enumerate(tbody.find_all('tr')):
-            cells = row.find_all('td')
-            if len(cells) >= 5:  # 确保列数足够
-                volume = cells[2].get_text(strip=True)  # 交易量，即“热度”
-                rank = cells[3].get_text(strip=True)    # 排名
-                hot_stocks_data.append({"code":stock_info[index]["code"],"name":stock_info[index]["name"], "rank":rank,"volume":volume})
-    for item in data_list:
-        for item2 in hot_stocks_data:
-            if item["code"] == item2["code"]:
-                item["rank"] = item2["rank"].replace(',', '')
-                item["volume"] = item2["volume"]
-    data_list = sorted(data_list, key=lambda x: int(x['rank']))
-    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/yestoday_increase.json', 'w') as file:
-        json.dump(data_list, file,ensure_ascii=False,  indent=4) 
-next_data_list = get_jingjia_info(find_date, data_list)
-for index1, item in enumerate(data_list):
-    for index2, item in enumerate(next_data_list):
-        if data_list[index1]["code"] == next_data_list[index2]["code"]:
-            data_list[index1]["next_bidding_increase"] = next_data_list[index2]["bidding_increase"]
-            data_list[index1]["next_bidding_volume"] = next_data_list[index2]["bidding_volume"]
-            data_list[index1]["next_bidding_amount"] = next_data_list[index2]["bidding_amount"]
-with open(f'{os.getcwd().replace("/backtest", "")}/backtest/today_increase.json', 'w') as file:
-    json.dump(data_list, file,ensure_ascii=False,  indent=4) 
-for item in data_list:
-    pre_opening_increase = float(item["bidding_increase"].strip('%'))
-    current_opening_increase = float(item["next_bidding_increase"].strip('%'))
-   
-    if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
-        bothIsLimitPrice = True
+        # 获取 tbody 中所有的 tr 标签
+        tbodies = soup.find_all('tbody', {'data-v-00e1661f': True})
+        tbody = tbodies[0]
+        if tbody:
+            tr_tags = tbody.find_all('tr')
+            stocks = []
+            # 获取涨停信息
+            for tr in tr_tags:
+                td_tags = tr.find_all('td')
+                if len(td_tags) >= 22:
+                    #代码
+                    code_td = td_tags[2] 
+                    if code_td:
+                        code = code_td.text.strip() 
+                    #名字
+                    name_td = td_tags[3]
+                    if name_td:
+                        a_tag = name_td.find('a')
+                        if a_tag:
+                                company_name = a_tag.text
+                    #价格
+                    price_td = td_tags[4]
+                    if price_td:
+                        price = price_td.text.strip()
+                    #首次涨停时间
+                    first_limit_time_td = td_tags[6]
+                    if first_limit_time_td:
+                        first_limit_time = first_limit_time_td.text.strip()
+                    #连板数
+                    limit_td = td_tags[7]
+                    if limit_td:
+                        limit = limit_td.text.strip()
+                    #最终涨停时间
+                    final_limit_time_td = td_tags[8]
+                    if final_limit_time_td:
+                        final_limit_time = final_limit_time_td.text.strip()
+                    #涨停概念
+                    limit_reason_td = td_tags[10]
+                    if limit_reason_td:
+                        a_tag = limit_reason_td.find('a')
+                        if a_tag:
+                                limit_reason = a_tag.text
+                    #涨停封单量
+                    limit_tocks_td = td_tags[11]
+                    if limit_tocks_td:
+                        limit_tocks = limit_tocks_td.text.strip()
+                    #涨停封单金额
+                    limit_money_td = td_tags[12]
+                    if limit_money_td:
+                        limit_money = limit_money_td.text.strip()
+                    #涨停封成比
+                    limit_cheng_ratio_td = td_tags[13]
+                    if limit_cheng_ratio_td:
+                        limit_cheng_ratio = limit_cheng_ratio_td.text.strip()
+                    #涨停封流比
+                    limit_liu_ratio_td = td_tags[14]
+                    if limit_liu_ratio_td:
+                        limit_liu_ratio = limit_liu_ratio_td.text.strip()
+                    #涨停开板次数
+                    limit_open_times_td = td_tags[15]
+                    if limit_open_times_td:
+                        limit_open_times = limit_open_times_td.text.strip()
+                    #流通市值
+                    market_value_td = td_tags[16]
+                    if market_value_td:
+                        a_tag = market_value_td.find('a')
+                        if a_tag:
+                                market_value = a_tag.text
+                    #涨停类型
+                    limit_type_td = td_tags[18]
+                    if limit_type_td:
+                        limit_type = limit_type_td.text.strip()
+                    #公司注册地址
+                    company_place_td = td_tags[20]
+                    if company_place_td:
+                        company_place = company_place_td.text.strip()
+                    #公司经营范围
+                    company_business_td = td_tags[21]
+                    if company_business_td:
+                        company_business = company_business_td.text.strip()
+                stock = {'code':code,'name':company_name,'limit':int(limit),'price':price,'first_limit_time':first_limit_time,
+                'final_limit_time':final_limit_time,'limit_reason':limit_reason,'limit_tocks':limit_tocks,'limit_money':limit_money,'limit_cheng_ratio':limit_cheng_ratio,'limit_liu_ratio':limit_liu_ratio,
+                'limit_open_times':limit_open_times,'market_value':market_value,'limit_type':limit_type,'company_place':company_place,'company_business':company_business}
+                if stock["limit"] == 1:
+                    stocks.append(stock)
+
+        # 存储结果的列表
+        data_list = get_jingjia_info(pre_date,stocks)
+        #获取竞价信息
+        hot_stocks_data = []
+        # 获取股票热度信息
+        for i in range(len(data_list)):
+            # 计算当前批次的开始和结束索引
+            start_index = i * batch_size
+            end_index = start_index + batch_size
+            # 获取当前批次的股票
+            current_batch = data_list[start_index:end_index]
+            # 初始化搜索文本
+            search_text = ''
+            # 拼接当前批次的股票代码
+            for item in current_batch:
+                search_text += f',{item["code"]}'
+            # 添加 '竞价' 文字到搜索文本中
+            search_text += '热度'
+            # 打印当前的搜索文本，可以选择注释掉这一行
+            if search_text == '热度':
+                break
+            # 导航到搜索页面
+            browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(pre_date)}{search_text}")
+            # 等待页面加载
+            browserTab.wait(global_wait_seconds)
+            result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
+            soup = BeautifulSoup(result['result']['value'], 'html.parser')
+            # 初始化列表来保存每只股票的代码和简称
+            stock_info = []
+            # 先找到具体的<table>标签
+            table = soup.find('table', class_='static_table tbody_table static_tbody_table')
+            # 在找到的<table>中遍历<tbody>中的<tr>标签
+            for row in table.find('tbody').find_all('tr'):
+                cells = row.find_all('td')
+                if len(cells) >= 4:  # 确保<td>标签的数量足够
+                    stock_code = cells[2].get_text(strip=True)  # 获取股票代码
+                    stock_name = cells[3].text.strip()  # 获取股票简称，使用.text.strip()更清晰
+                    stock_info.append({
+                            'code': stock_code,
+                            'name': stock_name
+                        })
+            # 定位到具体的<table>标签
+            table = soup.find('table', class_='scroll_table tbody_table scroll_tbody_table')
+            # 在找到的<table>中遍历<tbody>中的<tr>标签
+            tbody = table.find('tbody')
+            for index, row in enumerate(tbody.find_all('tr')):
+                cells = row.find_all('td')
+                if len(cells) >= 5:  # 确保列数足够
+                    volume = cells[2].get_text(strip=True)  # 交易量，即“热度”
+                    rank = cells[3].get_text(strip=True)    # 排名
+                    hot_stocks_data.append({"code":stock_info[index]["code"],"name":stock_info[index]["name"], "rank":rank,"volume":volume})
+        for item in data_list:
+            for item2 in hot_stocks_data:
+                if item["code"] == item2["code"]:
+                    item["rank"] = item2["rank"].replace(',', '')
+                    item["volume"] = item2["volume"]
+        data_list = sorted(data_list, key=lambda x: int(x['rank']))
+        yestoday_data_list.append({'date':str(pre_date),'data':data_list})
+        if not str(pre_date) in yestodayDates:
+            with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_yestoday_increase.json', 'w') as file:
+                json.dump(yestoday_data_list, file,ensure_ascii=False,  indent=4) 
     else:
-        bothIsLimitPrice = False
-    if (current_opening_increase > pre_opening_increase or bothIsLimitPrice) and current_opening_increase > 0:
-        strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
-               
-strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
-print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
-for index, item in enumerate(strongest_pool):
-    print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
-get_jingjia_info(find_date, strongest_pool)
+        for item in yestoday_data_list:
+            if pre_date == item['date']:
+                data_list = item['data']
+    next_data_list = get_jingjia_info(find_date, data_list)
+    for item1 in data_list:
+        for item2 in next_data_list:
+            if item1["code"] == item2["code"]:
+                if '--' in item2["bidding_increase"]:
+                    item1["next_bidding_increase"] = '0%'
+                else:
+                    item1["next_bidding_increase"] = item2["bidding_increase"]
+                if '--' in item2["bidding_volume"]:
+                    item1["next_bidding_volume"] = '0%'
+                else:
+                    item1["next_bidding_volume"] = item2["bidding_volume"]
+                if '--' in item2["bidding_amount"]:
+                    item1["next_bidding_amount"] = '0%'
+                else:
+                    item1["next_bidding_amount"] = item2["bidding_amount"]
+    today_data_list.append({'date':str(find_date),'data':data_list})
+    if not str(find_date) in todayDates:
+        with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_today_increase.json', 'w') as file:
+            json.dump(today_data_list, file,ensure_ascii=False,  indent=4) 
+    strongest_pool = []
+    for item in data_list:
+        pre_opening_increase = float(item["bidding_increase"].strip('%'))
+        current_opening_increase = float(item["next_bidding_increase"].strip('%'))
+    
+        if pre_opening_increase >= 9.5 and current_opening_increase >= 9.5 and abs(pre_opening_increase - current_opening_increase) <= 0.5:
+            bothIsLimitPrice = True
+        else:
+            bothIsLimitPrice = False
+        if (current_opening_increase > pre_opening_increase or bothIsLimitPrice) and current_opening_increase > 0:
+            strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
+                
+    strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
+    print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
+    for index, item in enumerate(strongest_pool):
+        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
+    # get_jingjia_info(find_date, strongest_pool)
+
+for item in dates[len(today_data_list):]:
+    # find_date = datetime.now().date()
+    find_date = datetime.strptime(item, '%Y-%m-%d').date()
+    # pre_date = '2023-01-20'
+    pre_date = get_previous_trading_day(find_date)
+    print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+    get_today_info(pre_date,find_date)
