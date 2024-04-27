@@ -296,11 +296,11 @@ def get_today_info(pre_date,find_date):
                     else:
                         item1["next_bidding_increase"] = item2["bidding_increase"]
                     if '--' in item2["bidding_volume"]:
-                        item1["next_bidding_volume"] = '0%'
+                        item1["next_bidding_volume"] = '0'
                     else:
                         item1["next_bidding_volume"] = item2["bidding_volume"]
                     if '--' in item2["bidding_amount"]:
-                        item1["next_bidding_amount"] = '0%'
+                        item1["next_bidding_amount"] = '0'
                     else:
                         item1["next_bidding_amount"] = item2["bidding_amount"]
         today_data_list.append({'date':str(find_date),'data':data_list})
@@ -325,7 +325,10 @@ def get_today_info(pre_date,find_date):
     strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
     print(f'从{len(data_list)}个股票中筛选出{len(strongest_pool)}支个股')
     for index, item in enumerate(strongest_pool):
-        print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
+        if convert_to_number(item["bidding_volume"])>0:
+            print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN},放量系数:{Fore.RED}{round(convert_to_number(item["next_bidding_volume"])/convert_to_number(item["bidding_volume"]),2)}')
+        else:
+            print(Fore.GREEN + f'{index+1}.{item["name"]},昨日竞价{item["pre_opening_increase"]}%,当日竞价{Fore.RED}{item["current_opening_increase"]}% {Fore.GREEN},振幅{Fore.RED}{round(abs(item["current_opening_increase"] - item["pre_opening_increase"]),2)}%{Fore.GREEN},热度排名:{Fore.RED}{item["rank"]}{Fore.GREEN}')
     # get_jingjia_info(find_date, strongest_pool)
 
 # for item in dates[len(today_data_list):]:
@@ -334,9 +337,16 @@ def get_today_info(pre_date,find_date):
 #     # pre_date = '2023-01-20'
 #     pre_date = get_previous_trading_day(find_date)
 #     print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
-#     get_today_info(pre_date,find_date)
+#     get_today_info(str(pre_date),str(find_date))
 
-find_date = datetime.strptime('2023-01-11', '%Y-%m-%d').date()
-pre_date = get_previous_trading_day(find_date)
-print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
-get_today_info(str(pre_date),str(find_date))
+# find_date = datetime.strptime('2023-06-19', '%Y-%m-%d').date()
+# pre_date = get_previous_trading_day(find_date)
+# print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+# get_today_info(str(pre_date),str(find_date))
+for item in dates:
+    # find_date = datetime.now().date()
+    find_date = datetime.strptime(item, '%Y-%m-%d').date()
+    # pre_date = '2023-01-20'
+    pre_date = get_previous_trading_day(find_date)
+    print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
+    get_today_info(str(pre_date),str(find_date))

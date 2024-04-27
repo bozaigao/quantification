@@ -10911,8 +10911,8 @@
                 "rank": "441",
                 "volume": "80.75万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             }
         ]
     },
@@ -13710,8 +13710,8 @@
                 "rank": "436",
                 "volume": "80.88万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             }
         ]
     },
@@ -33295,7 +33295,10 @@
                 "bidding_volume": "186.92万",
                 "bidding_amount": "2,502.86万",
                 "rank": "13",
-                "volume": "837.16万"
+                "volume": "837.16万",
+                "next_bidding_increase": "2.85%",
+                "next_bidding_volume": "334.06万",
+                "next_bidding_amount": "4,944.01万"
             },
             {
                 "code": "002995",
@@ -33304,7 +33307,10 @@
                 "bidding_volume": "28.03万",
                 "bidding_amount": "1,112.79万",
                 "rank": "21",
-                "volume": "630.66万"
+                "volume": "630.66万",
+                "next_bidding_increase": "1.78%",
+                "next_bidding_volume": "54.98万",
+                "next_bidding_amount": "2,482.35万"
             },
             {
                 "code": "000815",
@@ -33313,7 +33319,10 @@
                 "bidding_volume": "218.85万",
                 "bidding_amount": "2,641.52万",
                 "rank": "32",
-                "volume": "558.64万"
+                "volume": "558.64万",
+                "next_bidding_increase": "4.50%",
+                "next_bidding_volume": "481.73万",
+                "next_bidding_amount": "6,373.29万"
             },
             {
                 "code": "002777",
@@ -33322,7 +33331,10 @@
                 "bidding_volume": "10.34万",
                 "bidding_amount": "356.63万",
                 "rank": "36",
-                "volume": "525.27万"
+                "volume": "525.27万",
+                "next_bidding_increase": "0.00%",
+                "next_bidding_volume": "46.24万",
+                "next_bidding_amount": "1,783.48万"
             },
             {
                 "code": "600602",
@@ -33331,7 +33343,10 @@
                 "bidding_volume": "72.51万",
                 "bidding_amount": "1,012.96万",
                 "rank": "37",
-                "volume": "524.26万"
+                "volume": "524.26万",
+                "next_bidding_increase": "10.01%",
+                "next_bidding_volume": "603.71万",
+                "next_bidding_amount": "1.04亿"
             },
             {
                 "code": "002236",
@@ -33340,7 +33355,10 @@
                 "bidding_volume": "31.35万",
                 "bidding_amount": "606.62万",
                 "rank": "46",
-                "volume": "454.37万"
+                "volume": "454.37万",
+                "next_bidding_increase": "3.13%",
+                "next_bidding_volume": "447.34万",
+                "next_bidding_amount": "9,863.91万"
             },
             {
                 "code": "603629",
@@ -33349,7 +33367,10 @@
                 "bidding_volume": "65.39万",
                 "bidding_amount": "1,710.00万",
                 "rank": "58",
-                "volume": "381.88万"
+                "volume": "381.88万",
+                "next_bidding_increase": "6.31%",
+                "next_bidding_volume": "162.80万",
+                "next_bidding_amount": "5,046.86万"
             },
             {
                 "code": "603887",
@@ -33358,7 +33379,10 @@
                 "bidding_volume": "148.96万",
                 "bidding_amount": "1,398.73万",
                 "rank": "59",
-                "volume": "377.61万"
+                "volume": "377.61万",
+                "next_bidding_increase": "-0.56%",
+                "next_bidding_volume": "239.17万",
+                "next_bidding_amount": "2,563.90万"
             },
             {
                 "code": "600633",
@@ -33367,7 +33391,10 @@
                 "bidding_volume": "71.97万",
                 "bidding_amount": "1,126.29万",
                 "rank": "60",
-                "volume": "365.21万"
+                "volume": "365.21万",
+                "next_bidding_increase": "4.53%",
+                "next_bidding_volume": "205.81万",
+                "next_bidding_amount": "3,704.58万"
             },
             {
                 "code": "002272",
@@ -33376,7 +33403,10 @@
                 "bidding_volume": "92.16万",
                 "bidding_amount": "681.06万",
                 "rank": "87",
-                "volume": "315.74万"
+                "volume": "315.74万",
+                "next_bidding_increase": "0.00%",
+                "next_bidding_volume": "127.68万",
+                "next_bidding_amount": "1,006.12万"
             },
             {
                 "code": "002424",
@@ -33385,7 +33415,10 @@
                 "bidding_volume": "25.40万",
                 "bidding_amount": "201.93万",
                 "rank": "95",
-                "volume": "302.55万"
+                "volume": "302.55万",
+                "next_bidding_increase": "1.38%",
+                "next_bidding_volume": "487.08万",
+                "next_bidding_amount": "4,281.43万"
             },
             {
                 "code": "600330",
@@ -33394,7 +33427,10 @@
                 "bidding_volume": "228.26万",
                 "bidding_amount": "2,490.29万",
                 "rank": "99",
-                "volume": "291.68万"
+                "volume": "291.68万",
+                "next_bidding_increase": "8.17%",
+                "next_bidding_volume": "1,418.26万",
+                "next_bidding_amount": "1.84亿"
             },
             {
                 "code": "000151",
@@ -33403,7 +33439,10 @@
                 "bidding_volume": "156.26万",
                 "bidding_amount": "1,954.81万",
                 "rank": "132",
-                "volume": "236.36万"
+                "volume": "236.36万",
+                "next_bidding_increase": "7.99%",
+                "next_bidding_volume": "275.22万",
+                "next_bidding_amount": "3,718.22万"
             },
             {
                 "code": "002095",
@@ -33412,7 +33451,10 @@
                 "bidding_volume": "9,200.00",
                 "bidding_amount": "19.52万",
                 "rank": "157",
-                "volume": "204.75万"
+                "volume": "204.75万",
+                "next_bidding_increase": "0.17%",
+                "next_bidding_volume": "69.64万",
+                "next_bidding_amount": "1,628.18万"
             },
             {
                 "code": "603477",
@@ -33421,7 +33463,10 @@
                 "bidding_volume": "2.69万",
                 "bidding_amount": "82.31万",
                 "rank": "158",
-                "volume": "204.22万"
+                "volume": "204.22万",
+                "next_bidding_increase": "-1.22%",
+                "next_bidding_volume": "23.74万",
+                "next_bidding_amount": "786.27万"
             },
             {
                 "code": "600215",
@@ -33430,7 +33475,10 @@
                 "bidding_volume": "9.10万",
                 "bidding_amount": "68.25万",
                 "rank": "218",
-                "volume": "159.08万"
+                "volume": "159.08万",
+                "next_bidding_increase": "-0.62%",
+                "next_bidding_volume": "131.35万",
+                "next_bidding_amount": "1,061.31万"
             },
             {
                 "code": "000421",
@@ -33439,7 +33487,10 @@
                 "bidding_volume": "34.96万",
                 "bidding_amount": "169.21万",
                 "rank": "224",
-                "volume": "156.97万"
+                "volume": "156.97万",
+                "next_bidding_increase": "-2.99%",
+                "next_bidding_volume": "270.66万",
+                "next_bidding_amount": "1,407.43万"
             },
             {
                 "code": "002116",
@@ -35006,8 +35057,8 @@
                 "rank": "302",
                 "volume": "110.16万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "603926",
@@ -38512,8 +38563,8 @@
                 "rank": "81",
                 "volume": "268.15万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "603528",
@@ -59854,8 +59905,8 @@
                 "rank": "303",
                 "volume": "100.52万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "001367",
@@ -59914,8 +59965,8 @@
                 "rank": "961",
                 "volume": "33.69万",
                 "next_bidding_increase": "0%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             }
         ]
     },
@@ -99327,8 +99378,8 @@
                 "rank": "200",
                 "volume": "137.36万",
                 "next_bidding_increase": "2.14%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "603357",
@@ -99339,8 +99390,8 @@
                 "rank": "223",
                 "volume": "127.92万",
                 "next_bidding_increase": "0.71%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "002967",
@@ -99519,8 +99570,8 @@
                 "rank": "529",
                 "volume": "65.56万",
                 "next_bidding_increase": "-1.77%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "002658",
@@ -99603,8 +99654,8 @@
                 "rank": "740",
                 "volume": "47.72万",
                 "next_bidding_increase": "-0.60%",
-                "next_bidding_volume": "0%",
-                "next_bidding_amount": "0%"
+                "next_bidding_volume": "0",
+                "next_bidding_amount": "0"
             },
             {
                 "code": "002638",
@@ -99735,8 +99786,8 @@
                 "code": "600988",
                 "name": "赤峰黄金",
                 "bidding_increase": "2.96%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "71",
                 "volume": "274.93万",
                 "next_bidding_increase": "3.43%",
@@ -99747,8 +99798,8 @@
                 "code": "600200",
                 "name": "江苏吴中",
                 "bidding_increase": "-0.75%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "74",
                 "volume": "265.78万",
                 "next_bidding_increase": "-1.97%",
@@ -99771,8 +99822,8 @@
                 "code": "600203",
                 "name": "福日电子",
                 "bidding_increase": "0.43%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "82",
                 "volume": "250.69万",
                 "next_bidding_increase": "5.61%",
@@ -99819,8 +99870,8 @@
                 "code": "002446",
                 "name": "盛路通信",
                 "bidding_increase": "1.61%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "153",
                 "volume": "162.23万",
                 "next_bidding_increase": "6.25%",
@@ -99831,8 +99882,8 @@
                 "code": "000826",
                 "name": "启迪环境",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "157",
                 "volume": "158.28万",
                 "next_bidding_increase": "1.48%",
@@ -99843,8 +99894,8 @@
                 "code": "000890",
                 "name": "法尔胜",
                 "bidding_increase": "0.49%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "165",
                 "volume": "154.78万",
                 "next_bidding_increase": "0.00%",
@@ -99855,8 +99906,8 @@
                 "code": "002796",
                 "name": "世嘉科技",
                 "bidding_increase": "2.21%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "183",
                 "volume": "145.64万",
                 "next_bidding_increase": "1.15%",
@@ -99867,8 +99918,8 @@
                 "code": "603085",
                 "name": "天成自控",
                 "bidding_increase": "-0.72%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "195",
                 "volume": "136.97万",
                 "next_bidding_increase": "2.52%",
@@ -99879,8 +99930,8 @@
                 "code": "601975",
                 "name": "招商南油",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "197",
                 "volume": "135.48万",
                 "next_bidding_increase": "1.97%",
@@ -99903,8 +99954,8 @@
                 "code": "601808",
                 "name": "中海油服",
                 "bidding_increase": "0.06%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "218",
                 "volume": "123.82万",
                 "next_bidding_increase": "0.95%",
@@ -99915,8 +99966,8 @@
                 "code": "605296",
                 "name": "神农集团",
                 "bidding_increase": "0.48%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "223",
                 "volume": "122.39万",
                 "next_bidding_increase": "0.91%",
@@ -99927,8 +99978,8 @@
                 "code": "002645",
                 "name": "华宏科技",
                 "bidding_increase": "1.83%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "259",
                 "volume": "108.53万",
                 "next_bidding_increase": "0.00%",
@@ -99951,8 +100002,8 @@
                 "code": "603097",
                 "name": "江苏华辰",
                 "bidding_increase": "-0.74%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "269",
                 "volume": "106.75万",
                 "next_bidding_increase": "3.14%",
@@ -99975,8 +100026,8 @@
                 "code": "002660",
                 "name": "茂硕电源",
                 "bidding_increase": "0.24%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "307",
                 "volume": "98.09万",
                 "next_bidding_increase": "4.95%",
@@ -99987,8 +100038,8 @@
                 "code": "605198",
                 "name": "安德利",
                 "bidding_increase": "2.56%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "310",
                 "volume": "97.89万",
                 "next_bidding_increase": "3.62%",
@@ -99999,8 +100050,8 @@
                 "code": "600807",
                 "name": "济南高新",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "316",
                 "volume": "96.56万",
                 "next_bidding_increase": "0.87%",
@@ -100011,8 +100062,8 @@
                 "code": "000603",
                 "name": "盛达资源",
                 "bidding_increase": "2.98%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "318",
                 "volume": "95.85万",
                 "next_bidding_increase": "2.79%",
@@ -100035,8 +100086,8 @@
                 "code": "605178",
                 "name": "时空科技",
                 "bidding_increase": "0.17%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "381",
                 "volume": "84.71万",
                 "next_bidding_increase": "0.00%",
@@ -100047,8 +100098,8 @@
                 "code": "002840",
                 "name": "华统股份",
                 "bidding_increase": "-0.36%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "394",
                 "volume": "81.68万",
                 "next_bidding_increase": "0.00%",
@@ -100059,8 +100110,8 @@
                 "code": "002589",
                 "name": "瑞康医药",
                 "bidding_increase": "-0.73%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "396",
                 "volume": "81.50万",
                 "next_bidding_increase": "-1.98%",
@@ -100095,8 +100146,8 @@
                 "code": "600007",
                 "name": "中国国贸",
                 "bidding_increase": "0.50%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "433",
                 "volume": "74.75万",
                 "next_bidding_increase": "0.41%",
@@ -100107,8 +100158,8 @@
                 "code": "600302",
                 "name": "标准股份",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "439",
                 "volume": "74.08万",
                 "next_bidding_increase": "4.47%",
@@ -100131,8 +100182,8 @@
                 "code": "603843",
                 "name": "正平股份",
                 "bidding_increase": "1.45%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "566",
                 "volume": "60.42万",
                 "next_bidding_increase": "4.61%",
@@ -100143,8 +100194,8 @@
                 "code": "002377",
                 "name": "国创高新",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "601",
                 "volume": "57.55万",
                 "next_bidding_increase": "2.27%",
@@ -100155,8 +100206,8 @@
                 "code": "002778",
                 "name": "中晟高科",
                 "bidding_increase": "0.00%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "634",
                 "volume": "55.19万",
                 "next_bidding_increase": "0.08%",
@@ -100179,8 +100230,8 @@
                 "code": "600113",
                 "name": "浙江东日",
                 "bidding_increase": "-0.56%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "663",
                 "volume": "53.22万",
                 "next_bidding_increase": "-2.02%",
@@ -100191,8 +100242,8 @@
                 "code": "603096",
                 "name": "新经典",
                 "bidding_increase": "-0.06%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "758",
                 "volume": "47.15万",
                 "next_bidding_increase": "-1.35%",
@@ -100203,8 +100254,8 @@
                 "code": "605138",
                 "name": "盛泰集团",
                 "bidding_increase": "-0.63%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "850",
                 "volume": "41.65万",
                 "next_bidding_increase": "-1.99%",
@@ -100239,8 +100290,8 @@
                 "code": "603900",
                 "name": "莱绅通灵",
                 "bidding_increase": "0.22%",
-                "bidding_volume": "--",
-                "bidding_amount": "--",
+                "bidding_volume": "0",
+                "bidding_amount": "0",
                 "rank": "1027",
                 "volume": "34.30万",
                 "next_bidding_increase": "10.02%",
