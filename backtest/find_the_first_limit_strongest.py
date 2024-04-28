@@ -347,7 +347,8 @@ def get_today_info(pre_date,find_date):
 #     print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 #     get_today_info(str(pre_date),str(find_date))
 
-find_date = datetime.strptime('2024-04-29', '%Y-%m-%d').date()
-pre_date = '2024-04-26'
+find_date = datetime.strptime('2023-05-23', '%Y-%m-%d').date()
+# pre_date = '2024-04-26'
+pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 get_today_info(str(pre_date),str(find_date))
