@@ -57,14 +57,21 @@ try:
 except FileNotFoundError:
     today_data_list = []
 
-def isBurst(date,code):
+def isEarly(first_limit_time, compared_time):
+    # 将字符串转换为时间对象
+    first_limit_datetime = datetime.strptime(first_limit_time, '%H:%M:%S')
+    compared_datetime = datetime.strptime(compared_time, '%H:%M:%S')
+    # 比较时间
+    return first_limit_datetime <= compared_datetime
+
+def getBurstTime(date,code):
     global burst_stocks_data
     for item in burst_stocks_data:
         if date == item['date']:
             for item2 in item['data']:
-                if item2['code'] == code:
-                    return True
-    return False
+                if item2['code'] == code and item2['first_time_limit']!='09:30:00' and isEarly(item2['first_time_limit'],'10:00:00'):
+                    return item2['first_time_limit']
+    return ''
 
 def isInStrongest(date,code):
     global strongest_stocks_data
@@ -80,11 +87,12 @@ def isInStrongest(date,code):
 # for item in today_data_list:
 #     burstStocks = []
 #     for item2 in item['data']:
-#         if isBurst(item['date'],item2['code']):
+#         burstTime = getBurstTime(item['date'],item2['code'])
+#         if burstTime:
+#             item2['first_time_limit'] = burstTime
 #             burstStocks.append(item2)
 #     data.append({'date':item['date'],'data':burstStocks})
 
-#生成炸板数据
 # with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_burst_filter.json', 'w') as file:
 #      json.dump(data, file,ensure_ascii=False,  indent=4) 
 # for item in dates[len(burst_stocks_data):]:
@@ -116,26 +124,26 @@ for item in burst_filter_stocks_data:
         if item['date'] == item2['date']:
             count = 0
             for item3 in item2['data']:
-                if item3['limit'] == 2:
+                if item3['limit'] == 2 and item3['first_limit_time']!='09:30:00' and isEarly(item3['first_limit_time'],'10:00:00'):
                     count += 1
     if (len(item['data'])+count) != 0:
         burstRatio.append(len(item['data'])/(len(item['data'])+count))
 
-#采用筛选策略后纠正一板封板率,通过策略筛选，炸板率从28%下降到24%
-# for item in burst_filter_stocks_data:
-#     for item2 in stocks_data:
-#         if item['date'] == item2['date']:
-#             count = 0
-#             for item3 in item2['data']:
-#                 if item3['limit'] == 2:
-#                     count += 1
-#     oringinCount = len(item['data'])
-#     for item4 in item['data']:
-#         if not isInStrongest(item['date'],item4['code']):
-#             oringinCount -= 1
+# 采用筛选策略后纠正一板封板率,通过策略筛选，炸板率从28%下降到24%
+for item in burst_filter_stocks_data:
+    for item2 in stocks_data:
+        if item['date'] == item2['date']:
+            count = 0
+            for item3 in item2['data']:
+                if item3['limit'] == 2:
+                    count += 1
+    oringinCount = len(item['data'])
+    for item4 in item['data']:
+        if not isInStrongest(item['date'],item4['code']):
+            oringinCount -= 1
 
-#     if (oringinCount+count) != 0:
-#         burstRatio.append(oringinCount/(oringinCount+count))
+    if (oringinCount+count) != 0:
+        burstRatio.append(oringinCount/(oringinCount+count))
 
 #一板炸板率为28%
 count = 0
