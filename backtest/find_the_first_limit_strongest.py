@@ -326,8 +326,8 @@ def get_today_info(pre_date,find_date):
             bothIsLimitPrice = True
         else:
             bothIsLimitPrice = False
-        #今日竞价必须比昨日强、竞价必须大于0%、个股热度必须排在前1000名
-        if (current_opening_increase > pre_opening_increase or bothIsLimitPrice) and current_opening_increase > 0 and int(item['rank']) < 1000:
+        #竞价必须大于0%、个股热度必须排在前1000名
+        if current_opening_increase > 0 and int(item['rank']) < 1000:
             strongest_pool.append({'date':str(find_date),'name':item['name'],'code':item['code'],'pre_opening_increase':pre_opening_increase,'current_opening_increase':current_opening_increase,'rank':item['rank'],'bidding_volume':item['bidding_volume'],'next_bidding_volume':item['next_bidding_volume']})
                 
     strongest_pool = sorted(strongest_pool, key=lambda x: (-x['current_opening_increase'], int(x['rank'])))
@@ -348,8 +348,8 @@ def get_today_info(pre_date,find_date):
 #     print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 #     get_today_info(str(pre_date),str(find_date))
 
-find_date = datetime.strptime('2024-04-26', '%Y-%m-%d').date()
-# pre_date = '2024-04-29'
+find_date = datetime.strptime('2024-04-09', '%Y-%m-%d').date()
+# pre_date = '2024-04-25'
 pre_date = get_previous_trading_day(find_date)
 print(f'今日:{str(find_date)},昨日:{str(pre_date)}')
 get_today_info(str(pre_date),str(find_date))
