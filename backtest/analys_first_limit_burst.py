@@ -82,6 +82,21 @@ def getBurstTime(date,code):
                     return item2['first_time_limit']
     return ''
 
+# def getBurstTime(date,code):
+#     global burst_stocks_data
+#     for item in burst_stocks_data:
+#         if date == item['date']:
+#             for item2 in item['data']:
+#                 if item2['code'] == code:
+#                     return item2['first_time_limit']
+#     return ''
+
+def isInStocks(code, stocks):
+    for item in stocks:
+        if code == item['code']:
+            return True
+    return False
+
 def isInStrongest(date,code):
     global strongest_stocks_data
     for item in strongest_stocks_data:
@@ -97,7 +112,7 @@ def isInStrongest(date,code):
 #     burstStocks = []
 #     for item2 in item['data']:
 #         burstTime = getBurstTime(item['date'],item2['code'])
-#         if burstTime and float(item2['next_bidding_increase'].strip('%')) < 8:
+#         if burstTime:
 #             item2['first_time_limit'] = burstTime
 #             burstStocks.append(item2)
 #     data.append({'date':item['date'],'data':burstStocks})
@@ -126,19 +141,53 @@ def isInStrongest(date,code):
 #     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_burst_data.json', 'w') as file:
 #                 json.dump(burst_stocks_data, file,ensure_ascii=False,  indent=4) 
 
-# burstRatio = []
+filter_strongest_stocks_data = []
+for item in strongest_stocks_data:
+    data = []
+    for item2 in item['data']:
+        if float(item2["current_opening_increase"]) < 8:
+            data.append(item2)
+    filter_strongest_stocks_data.append({'date':item['date'],'data':data})
+burstRatio = []
+burstRatioStocks = []
 #统计一板封板率
 # for item in burst_filter_stocks_data:
 #     for item2 in stocks_data:
 #         if item['date'] == item2['date']:
 #             count = 0
 #             for item3 in item2['data']:
-#                 if item3['limit'] == 2 and item3['first_limit_time']!='09:30:00':
+#                 if item3['limit'] == 2:
 #                     count += 1
 #     if (len(item['data'])+count) != 0:
 #         burstRatio.append(len(item['data'])/(len(item['data'])+count))
 
 # 采用筛选策略后纠正一板封板率,通过策略筛选，炸板率从28%下降到24%
+
+for item in filter_strongest_stocks_data:
+     cuccessCount = 0
+     burstCount = 0
+     successStocks = []
+     burstStocks = []
+     for item2 in stocks_data:
+        if item['date'] == item2['date']:
+            for item3 in item2['data']:
+                if item3['limit'] == 2 and isInStocks(item3['code'],item['data']):
+                    cuccessCount += 1
+                    successStocks.append(item3)
+     for item3 in burst_filter_stocks_data:
+        if item['date'] == item3['date']:
+            for item4 in item3['data']:
+                if isInStocks(item4['code'],item['data']):
+                    burstCount += 1
+                    burstStocks.append(item4)
+     if cuccessCount+burstCount != 0:
+        burstRatio.append(burstCount/(cuccessCount+burstCount))
+        burstRatioStocks.append({'state':item['date'],'success':successStocks,'burst':burstStocks})
+        # with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_burst_ratio_data.json', 'w') as file:
+        #     json.dump(burstRatioStocks, file,ensure_ascii=False,  indent=4) 
+
+# print(burstRatio)
+
 # for item in burst_filter_stocks_data:
 #     for item2 in stocks_data:
 #         if item['date'] == item2['date']:
@@ -154,15 +203,15 @@ def isInStrongest(date,code):
 #     if (oringinCount+count) != 0:
 #         burstRatio.append(oringinCount/(oringinCount+count))
 
-#一板炸板率为28%
-# count = 0
-# for item in burstRatio:
-#     count += item
-# print(round(count/len(burstRatio),2))
+#算上一字板一进二自然炸板率为28%
+count = 0
+for item in burstRatio:
+    count += item
+print(round(count/len(burstRatio),2))
 
 #计算总数量
-count = 0
-for item in burst_filter_stocks_data:
-    for item2 in item['data']:
-        count += 1
-print(count)
+# count = 0
+# for item in burst_filter_stocks_data:
+#     for item2 in item['data']:
+#         count += 1
+# print(count)
