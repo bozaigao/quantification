@@ -32,6 +32,12 @@ try:
 except FileNotFoundError:
     today_data_list = []
 
+try:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_burst_filter.json', 'r',) as file:
+        burst_filter_stocks_data = json.load(file)
+except FileNotFoundError:
+    burst_filter_stocks_data = []
+
 def isEarly(first_limit_time, compared_time):
     # 将字符串转换为时间对象
     first_limit_datetime = datetime.strptime(first_limit_time, '%H:%M:%S')
@@ -67,20 +73,19 @@ def isInStrongest(date,code):
     return False
 
 stocks = []
-for item in stocks_data:
-    data = {'date':item['date'],'data':[]}
-    for item3 in item['data']:
-        if item3['limit'] == 2:
-            for item2 in today_data_list:
-                if item2['date'] == item['date']:
-                    for item4 in item2['data']:
-                        if item4['code'] == item3['code']:
-                            item3['next_bidding_increase'] =  item4['next_bidding_increase']
-                            data['data'].append(item3)
-    stocks.append(data)
+# for item in stocks_data:
+#     data = {'date':item['date'],'data':[]}
+#     for item3 in item['data']:
+#         if item3['limit'] == 2:
+#             for item2 in today_data_list:
+#                 if item2['date'] == item['date']:
+#                     for item4 in item2['data']:
+#                         if item4['code'] == item3['code']:
+#                             item3['next_bidding_increase'] =  item4['next_bidding_increase']
+#                             data['data'].append(item3)
+#     stocks.append(data)
 # with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_first_limit_time.json', 'w') as file:
 #      json.dump(stocks, file,ensure_ascii=False,  indent=4) 
-
 
 #计算总数量
 # count = 0
@@ -93,7 +98,7 @@ increaseArr = []
 count1 = 0
 count2 = 0
 flag = 8
-for item in stocks:
+for item in burst_filter_stocks_data:
     for item2 in item['data']:
         increaseArr.append(float(item2['next_bidding_increase'].strip('%')))
 # print(increaseArr)
@@ -102,7 +107,7 @@ for item3 in increaseArr:
         count1 += 1
     else:
         count2 += 1
-print(f'{count1/count2}')
+print(f'{count1/(count2+count1)}')
 # 给定的数据
 data = np.array(increaseArr)
 
@@ -113,10 +118,10 @@ bins = np.linspace(-10, 10, 21)  # 创建20个等间距的区间
 hist, bin_edges = np.histogram(data, bins=bins)
 
 # 绘制直方图
-# plt.figure(figsize=(8, 4))
-# plt.hist(data, bins=bins, alpha=0.75, color='blue', edgecolor='black')
-# plt.title('数据分布频率')
-# plt.xlabel('数值区间')
-# plt.ylabel('频率')
-# plt.grid(True)
-# plt.show()
+plt.figure(figsize=(8, 4))
+plt.hist(data, bins=bins, alpha=0.75, color='blue', edgecolor='black')
+plt.title('数据分布频率')
+plt.xlabel('数值区间')
+plt.ylabel('频率')
+plt.grid(True)
+plt.show()
