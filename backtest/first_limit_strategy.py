@@ -25,7 +25,7 @@ except FileNotFoundError:
     first_limit_log_data = []
 
 try:
-    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stocks_first_limit_backtest_data.json', 'r',) as file:
+    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_new_stocks_first_limit_backtest_data.json', 'r',) as file:
         first_limit_backtest_data = json.load(file)
 except FileNotFoundError:
     first_limit_backtest_data = []
@@ -46,8 +46,11 @@ for item in first_limit_backtest_data:
     #买入个股
     if len(stockPool) == 0 :
         targetPool = []
+        hasStrongest = False
         for item2 in item['data']:
-            if 'isBurst' in item2 and item2['first_limit_time']!='09:30:00' and item2['current_opening_increase'] < 8:
+            if 'isBurst' in item2 and item2['first_limit_time']=='09:30:00':
+                hasStrongest = True
+            if 'isBurst' in item2 and item2['first_limit_time']!='09:30:00' and item2['current_opening_increase'] < 8 and float(item2['pre_jinliang']) > 0 and float(item2['huanshou']) > float(item2['pre_huanshou']):
                 targetPool.append(item2)
         targetPool = sorted(targetPool, key=lambda x: x['first_limit_time'])
         if len(targetPool) > 0:
@@ -60,7 +63,9 @@ for item in first_limit_backtest_data:
                 final_money = latestMoney + latestMoney * earnings/100
                 first_limit_log_data.append({'date': item['date'], 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'打板买入{buyStock["name"]},结果炸板了盈利{earnings}%,rank:{buyStock["rank"]}','stock':buyStock})
             stockPool.append(buyStock)
-                
+        else:
+            first_limit_log_data.append({'date': item['date'], 'money':round(latestMoney), 'earnings':f'{0}%','desc':f'空仓'})
+            stockPool = []
     #卖出个股
     else:
          buyStock = stockPool[0]

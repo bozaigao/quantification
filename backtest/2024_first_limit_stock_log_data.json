@@ -16,7 +16,11 @@
             "first_limit_time": "09:32:00",
             "isBurst": false,
             "next_opening_increase": "3.93%",
-            "pre_jinliang": "1.02"
+            "pre_jinliang": "1.02",
+            "pre_final_limit_time": "09:36:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.10",
+            "huanshou": "2.69"
         }
     },
     {
@@ -42,7 +46,11 @@
             "first_limit_time": "09:57:15",
             "isBurst": false,
             "next_opening_increase": "10.04%",
-            "pre_jinliang": "1.26"
+            "pre_jinliang": "1.26",
+            "pre_final_limit_time": "13:33:18",
+            "pre_open_times": "2",
+            "pre_huanshou": "3.33",
+            "huanshou": "5.10"
         }
     },
     {
@@ -53,34 +61,38 @@
     },
     {
         "date": "2023-01-09",
-        "money": 101112,
-        "earnings": "-11.58%",
-        "desc": "打板买入中原传媒,结果炸板了盈利-11.58%,rank:214",
+        "money": 104988,
+        "earnings": "-8.19%",
+        "desc": "打板买入东旭蓝天,结果炸板了盈利-8.19%,rank:43",
         "stock": {
             "date": "2023-01-09",
-            "name": "中原传媒",
-            "code": "000719",
-            "pre_opening_increase": 0.46,
-            "current_opening_increase": 5.15,
-            "rank": "214",
-            "bidding_volume": "15.66万",
-            "next_bidding_volume": "337.68万",
-            "first_limit_time": "09:30:15",
+            "name": "东旭蓝天",
+            "code": "000040",
+            "pre_opening_increase": -1.24,
+            "current_opening_increase": 5.42,
+            "rank": "43",
+            "bidding_volume": "254.17万",
+            "next_bidding_volume": "1,158.39万",
+            "first_limit_time": "09:34:00",
             "isBurst": true,
-            "next_opening_increase": "-5.02%",
-            "pre_jinliang": "1.17",
-            "current_close_increase": "-1.58"
+            "next_opening_increase": "-3.99%",
+            "pre_jinliang": "3.20",
+            "current_close_increase": "1.81",
+            "pre_final_limit_time": "09:49:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "11.97",
+            "huanshou": "12.51"
         }
     },
     {
         "date": "2023-01-10",
-        "money": 96036,
-        "earnings": "-5.02%",
-        "desc": "竞价卖出中原传媒,当日盈利-5.02%"
+        "money": 100799,
+        "earnings": "-3.99%",
+        "desc": "竞价卖出东旭蓝天,当日盈利-3.99%"
     },
     {
         "date": "2023-01-11",
-        "money": 96036,
+        "money": 100799,
         "earnings": "0%",
         "desc": "打板买入天威视讯,rank:204",
         "stock": {
@@ -95,18 +107,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "-1.11%",
-            "pre_jinliang": "0.81"
+            "pre_jinliang": "0.81",
+            "pre_final_limit_time": "10:37:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.20",
+            "huanshou": "2.57"
         }
     },
     {
         "date": "2023-01-12",
-        "money": 94960,
+        "money": 99670,
         "earnings": "-1.12%",
         "desc": "竞价卖出天威视讯,当日盈利-1.12%"
     },
     {
         "date": "2023-01-13",
-        "money": 94960,
+        "money": 99670,
         "earnings": "0%",
         "desc": "打板买入合力泰,rank:117",
         "stock": {
@@ -121,18 +137,22 @@
             "first_limit_time": "09:34:00",
             "isBurst": false,
             "next_opening_increase": "7.54%",
-            "pre_jinliang": "0.54"
+            "pre_jinliang": "0.54",
+            "pre_final_limit_time": "13:22:45",
+            "pre_open_times": "1",
+            "pre_huanshou": "0.35",
+            "huanshou": "2.13"
         }
     },
     {
         "date": "2023-01-16",
-        "money": 102120,
+        "money": 107185,
         "earnings": "7.54%",
         "desc": "竞价卖出合力泰,当日盈利7.54%"
     },
     {
         "date": "2023-01-17",
-        "money": 102120,
+        "money": 107185,
         "earnings": "0%",
         "desc": "打板买入珠江钢琴,rank:256",
         "stock": {
@@ -147,18 +167,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "-1.90%",
-            "pre_jinliang": "0.43"
+            "pre_jinliang": "0.43",
+            "pre_final_limit_time": "13:21:04",
+            "pre_open_times": "1",
+            "pre_huanshou": "0.27",
+            "huanshou": "1.72"
         }
     },
     {
         "date": "2023-01-18",
-        "money": 100180,
+        "money": 105148,
         "earnings": "-1.9%",
         "desc": "竞价卖出珠江钢琴,当日盈利-1.9%"
     },
     {
         "date": "2023-01-19",
-        "money": 100180,
+        "money": 105148,
         "earnings": "0%",
         "desc": "打板买入久远银海,rank:121",
         "stock": {
@@ -173,18 +197,22 @@
             "first_limit_time": "10:44:45",
             "isBurst": false,
             "next_opening_increase": "3.58%",
-            "pre_jinliang": "1.01"
+            "pre_jinliang": "1.01",
+            "pre_final_limit_time": "14:23:03",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.47",
+            "huanshou": "4.62"
         }
     },
     {
         "date": "2023-01-20",
-        "money": 103766,
+        "money": 108912,
         "earnings": "3.58%",
         "desc": "竞价卖出久远银海,当日盈利3.58%"
     },
     {
         "date": "2023-01-30",
-        "money": 103766,
+        "money": 108912,
         "earnings": "0%",
         "desc": "打板买入岩山科技,rank:13",
         "stock": {
@@ -199,18 +227,22 @@
             "first_limit_time": "09:32:45",
             "isBurst": false,
             "next_opening_increase": "6.98%",
-            "pre_jinliang": "1.70"
+            "pre_jinliang": "1.70",
+            "pre_final_limit_time": "13:24:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "4.91",
+            "huanshou": "9.46"
         }
     },
     {
         "date": "2023-01-31",
-        "money": 111009,
+        "money": 116514,
         "earnings": "6.98%",
         "desc": "竞价卖出岩山科技,当日盈利6.98%"
     },
     {
         "date": "2023-02-01",
-        "money": 106114,
+        "money": 111376,
         "earnings": "-4.41%",
         "desc": "打板买入泰禾智能,结果炸板了盈利-4.41%,rank:359",
         "stock": {
@@ -226,18 +258,22 @@
             "isBurst": true,
             "next_opening_increase": "-3.00%",
             "pre_jinliang": "0.49",
-            "current_close_increase": "5.59"
+            "current_close_increase": "5.59",
+            "pre_final_limit_time": "10:09:00",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.92",
+            "huanshou": "5.95"
         }
     },
     {
         "date": "2023-02-02",
-        "money": 102931,
+        "money": 108035,
         "earnings": "-3.0%",
         "desc": "竞价卖出泰禾智能,当日盈利-3.0%"
     },
     {
         "date": "2023-02-03",
-        "money": 102931,
+        "money": 108035,
         "earnings": "0%",
         "desc": "打板买入达华智能,rank:89",
         "stock": {
@@ -252,18 +288,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "10.00%",
-            "pre_jinliang": "2.06"
+            "pre_jinliang": "2.06",
+            "pre_final_limit_time": "09:46:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "5.75",
+            "huanshou": "7.72"
         }
     },
     {
         "date": "2023-02-06",
-        "money": 113224,
+        "money": 118838,
         "earnings": "10.0%",
         "desc": "竞价卖出达华智能,当日盈利10.0%"
     },
     {
         "date": "2023-02-07",
-        "money": 113224,
+        "money": 118838,
         "earnings": "0%",
         "desc": "打板买入福龙马,rank:183",
         "stock": {
@@ -278,18 +318,22 @@
             "first_limit_time": "09:33:30",
             "isBurst": false,
             "next_opening_increase": "3.88%",
-            "pre_jinliang": "1.57"
+            "pre_jinliang": "1.57",
+            "pre_final_limit_time": "09:50:45",
+            "pre_open_times": "4",
+            "pre_huanshou": "2.13",
+            "huanshou": "6.39"
         }
     },
     {
         "date": "2023-02-08",
-        "money": 117617,
+        "money": 123449,
         "earnings": "3.88%",
         "desc": "竞价卖出福龙马,当日盈利3.88%"
     },
     {
         "date": "2023-02-09",
-        "money": 110360,
+        "money": 115832,
         "earnings": "-6.17%",
         "desc": "打板买入新纶新材,结果炸板了盈利-6.17%,rank:97",
         "stock": {
@@ -305,18 +349,22 @@
             "isBurst": true,
             "next_opening_increase": "-2.60%",
             "pre_jinliang": "1.41",
-            "current_close_increase": "3.83"
+            "current_close_increase": "3.83",
+            "pre_final_limit_time": "09:36:30",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.69",
+            "huanshou": "4.07"
         }
     },
     {
         "date": "2023-02-10",
-        "money": 107491,
+        "money": 112820,
         "earnings": "-2.6%",
         "desc": "竞价卖出新纶新材,当日盈利-2.6%"
     },
     {
         "date": "2023-02-13",
-        "money": 107491,
+        "money": 112820,
         "earnings": "0%",
         "desc": "打板买入南网能源,rank:41",
         "stock": {
@@ -331,18 +379,22 @@
             "first_limit_time": "09:38:00",
             "isBurst": false,
             "next_opening_increase": "3.41%",
-            "pre_jinliang": "2.07"
+            "pre_jinliang": "2.07",
+            "pre_final_limit_time": "13:03:15",
+            "pre_open_times": "1",
+            "pre_huanshou": "2.46",
+            "huanshou": "9.03"
         }
     },
     {
         "date": "2023-02-14",
-        "money": 111156,
+        "money": 116667,
         "earnings": "3.41%",
         "desc": "竞价卖出南网能源,当日盈利3.41%"
     },
     {
         "date": "2023-02-15",
-        "money": 111156,
+        "money": 116667,
         "earnings": "0%",
         "desc": "打板买入新华传媒,rank:221",
         "stock": {
@@ -357,18 +409,22 @@
             "first_limit_time": "09:30:45",
             "isBurst": false,
             "next_opening_increase": "10.04%",
-            "pre_jinliang": "0.50"
+            "pre_jinliang": "0.50",
+            "pre_final_limit_time": "13:21:00",
+            "pre_open_times": "3",
+            "pre_huanshou": "0.43",
+            "huanshou": "4.92"
         }
     },
     {
         "date": "2023-02-16",
-        "money": 122305,
+        "money": 128369,
         "earnings": "10.03%",
         "desc": "竞价卖出新华传媒,当日盈利10.03%"
     },
     {
         "date": "2023-02-17",
-        "money": 117657,
+        "money": 123491,
         "earnings": "-3.8%",
         "desc": "打板买入海航科技,结果炸板了盈利-3.8%,rank:176",
         "stock": {
@@ -384,18 +440,22 @@
             "isBurst": true,
             "next_opening_increase": "-3.44%",
             "pre_jinliang": "1.12",
-            "current_close_increase": "6.20"
+            "current_close_increase": "6.20",
+            "pre_final_limit_time": "13:58:03",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.60",
+            "huanshou": "3.32"
         }
     },
     {
         "date": "2023-02-20",
-        "money": 113610,
+        "money": 119243,
         "earnings": "-3.44%",
         "desc": "竞价卖出海航科技,当日盈利-3.44%"
     },
     {
         "date": "2023-02-21",
-        "money": 113610,
+        "money": 119243,
         "earnings": "0%",
         "desc": "打板买入东易日盛,rank:86",
         "stock": {
@@ -410,18 +470,22 @@
             "first_limit_time": "09:40:45",
             "isBurst": false,
             "next_opening_increase": "0.73%",
-            "pre_jinliang": "3.67"
+            "pre_jinliang": "3.67",
+            "pre_final_limit_time": "10:50:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "4.43",
+            "huanshou": "9.82"
         }
     },
     {
         "date": "2023-02-22",
-        "money": 114439,
+        "money": 120113,
         "earnings": "0.73%",
         "desc": "竞价卖出东易日盛,当日盈利0.73%"
     },
     {
         "date": "2023-02-23",
-        "money": 110731,
+        "money": 116221,
         "earnings": "-3.24%",
         "desc": "打板买入协和电子,结果炸板了盈利-3.24%,rank:75",
         "stock": {
@@ -437,18 +501,22 @@
             "isBurst": true,
             "next_opening_increase": "-4.78%",
             "pre_jinliang": "2.53",
-            "current_close_increase": "6.77"
+            "current_close_increase": "6.77",
+            "pre_final_limit_time": "09:30:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.07",
+            "huanshou": "6.03"
         }
     },
     {
         "date": "2023-02-24",
-        "money": 105438,
+        "money": 110666,
         "earnings": "-4.78%",
         "desc": "竞价卖出协和电子,当日盈利-4.78%"
     },
     {
         "date": "2023-02-27",
-        "money": 105438,
+        "money": 110666,
         "earnings": "0%",
         "desc": "打板买入九牧王,rank:92",
         "stock": {
@@ -463,18 +531,28 @@
             "first_limit_time": "09:43:00",
             "isBurst": false,
             "next_opening_increase": "9.99%",
-            "pre_jinliang": "0.31"
+            "pre_jinliang": "0.31",
+            "pre_final_limit_time": "14:13:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.63",
+            "huanshou": "3.26"
         }
     },
     {
         "date": "2023-02-28",
-        "money": 115971,
+        "money": 121722,
         "earnings": "9.99%",
         "desc": "竞价卖出九牧王,当日盈利9.99%"
     },
     {
+        "date": "2023-03-01",
+        "money": 121722,
+        "earnings": "0%",
+        "desc": "空仓"
+    },
+    {
         "date": "2023-03-02",
-        "money": 107841,
+        "money": 113189,
         "earnings": "-7.01%",
         "desc": "打板买入亚联发展,结果炸板了盈利-7.01%,rank:1998",
         "stock": {
@@ -490,18 +568,22 @@
             "isBurst": true,
             "next_opening_increase": "2.90%",
             "pre_jinliang": "0.79",
-            "current_close_increase": "2.99"
+            "current_close_increase": "2.99",
+            "pre_final_limit_time": "10:07:30",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.11",
+            "huanshou": "2.75"
         }
     },
     {
         "date": "2023-03-03",
-        "money": 110968,
+        "money": 116471,
         "earnings": "2.9%",
         "desc": "竞价卖出亚联发展,当日盈利2.9%"
     },
     {
         "date": "2023-03-06",
-        "money": 101081,
+        "money": 106093,
         "earnings": "-8.91%",
         "desc": "打板买入中成股份,结果炸板了盈利-8.91%,rank:39",
         "stock": {
@@ -517,18 +599,28 @@
             "isBurst": true,
             "next_opening_increase": "0.57%",
             "pre_jinliang": "4.77",
-            "current_close_increase": "1.09"
+            "current_close_increase": "1.09",
+            "pre_final_limit_time": "09:57:16",
+            "pre_open_times": "0",
+            "pre_huanshou": "11.53",
+            "huanshou": "12.78"
         }
     },
     {
         "date": "2023-03-07",
-        "money": 101647,
+        "money": 106687,
         "earnings": "0.56%",
         "desc": "竞价卖出中成股份,当日盈利0.56%"
     },
     {
+        "date": "2023-03-08",
+        "money": 106687,
+        "earnings": "0%",
+        "desc": "空仓"
+    },
+    {
         "date": "2023-03-09",
-        "money": 101647,
+        "money": 106687,
         "earnings": "0%",
         "desc": "打板买入澳弘电子,rank:259",
         "stock": {
@@ -543,72 +635,64 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "3.72%",
-            "pre_jinliang": "2.66"
+            "pre_jinliang": "2.66",
+            "pre_final_limit_time": "10:03:01",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.96",
+            "huanshou": "10.96"
         }
     },
     {
         "date": "2023-03-10",
-        "money": 105428,
+        "money": 110656,
         "earnings": "3.72%",
         "desc": "竞价卖出澳弘电子,当日盈利3.72%"
     },
     {
         "date": "2023-03-13",
-        "money": 96983,
-        "earnings": "-8.01%",
-        "desc": "打板买入龙宇股份,结果炸板了盈利-8.01%,rank:109",
-        "stock": {
-            "date": "2023-03-13",
-            "name": "龙宇股份",
-            "code": "603003",
-            "pre_opening_increase": -0.44,
-            "current_opening_increase": 2.69,
-            "rank": "109",
-            "bidding_volume": "15.54万",
-            "next_bidding_volume": "443.15万",
-            "first_limit_time": "09:32:00",
-            "isBurst": true,
-            "next_opening_increase": "-5.85%",
-            "pre_jinliang": "1.56",
-            "current_close_increase": "1.99"
-        }
+        "money": 110656,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2023-03-14",
-        "money": 91309,
-        "earnings": "-5.85%",
-        "desc": "竞价卖出龙宇股份,当日盈利-5.85%"
-    },
-    {
-        "date": "2023-03-15",
-        "money": 88195,
-        "earnings": "-3.41%",
-        "desc": "打板买入康强电子,结果炸板了盈利-3.41%,rank:20",
+        "money": 110656,
+        "earnings": "0%",
+        "desc": "打板买入新五丰,rank:86",
         "stock": {
-            "date": "2023-03-15",
-            "name": "康强电子",
-            "code": "002119",
-            "pre_opening_increase": -1.2,
-            "current_opening_increase": 1.79,
-            "rank": "20",
-            "bidding_volume": "15.44万",
-            "next_bidding_volume": "193.85万",
-            "first_limit_time": "09:44:45",
-            "isBurst": true,
-            "next_opening_increase": "-1.86%",
-            "pre_jinliang": "3.13",
-            "current_close_increase": "6.59"
+            "date": "2023-03-14",
+            "name": "新五丰",
+            "code": "600975",
+            "pre_opening_increase": 0.28,
+            "current_opening_increase": 3.75,
+            "rank": "86",
+            "bidding_volume": "7.78万",
+            "next_bidding_volume": "337.73万",
+            "first_limit_time": "09:39:45",
+            "isBurst": false,
+            "next_opening_increase": "1.70%",
+            "pre_jinliang": "1.45",
+            "pre_final_limit_time": "14:37:18",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.81",
+            "huanshou": "10.37"
         }
     },
     {
+        "date": "2023-03-15",
+        "money": 112537,
+        "earnings": "1.7%",
+        "desc": "竞价卖出新五丰,当日盈利1.7%"
+    },
+    {
         "date": "2023-03-16",
-        "money": 86555,
-        "earnings": "-1.86%",
-        "desc": "竞价卖出康强电子,当日盈利-1.86%"
+        "money": 112537,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2023-03-17",
-        "money": 86555,
+        "money": 112537,
         "earnings": "0%",
         "desc": "打板买入博深股份,rank:188",
         "stock": {
@@ -623,18 +707,22 @@
             "first_limit_time": "10:01:00",
             "isBurst": false,
             "next_opening_increase": "1.46%",
-            "pre_jinliang": "1.05"
+            "pre_jinliang": "1.05",
+            "pre_final_limit_time": "14:30:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.27",
+            "huanshou": "6.37"
         }
     },
     {
         "date": "2023-03-20",
-        "money": 87819,
+        "money": 114180,
         "earnings": "1.46%",
         "desc": "竞价卖出博深股份,当日盈利1.46%"
     },
     {
         "date": "2023-03-21",
-        "money": 87819,
+        "money": 114180,
         "earnings": "0%",
         "desc": "打板买入雅博股份,rank:187",
         "stock": {
@@ -649,18 +737,22 @@
             "first_limit_time": "09:31:30",
             "isBurst": false,
             "next_opening_increase": "5.15%",
-            "pre_jinliang": "0.59"
+            "pre_jinliang": "0.59",
+            "pre_final_limit_time": "10:33:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.91",
+            "huanshou": "1.76"
         }
     },
     {
         "date": "2023-03-22",
-        "money": 92342,
+        "money": 120060,
         "earnings": "5.15%",
         "desc": "竞价卖出雅博股份,当日盈利5.15%"
     },
     {
         "date": "2023-03-23",
-        "money": 92342,
+        "money": 120060,
         "earnings": "0%",
         "desc": "打板买入惠威科技,rank:232",
         "stock": {
@@ -675,44 +767,52 @@
             "first_limit_time": "09:32:15",
             "isBurst": false,
             "next_opening_increase": "-3.77%",
-            "pre_jinliang": "3.85"
+            "pre_jinliang": "3.85",
+            "pre_final_limit_time": "13:13:15",
+            "pre_open_times": "1",
+            "pre_huanshou": "10.53",
+            "huanshou": "17.96"
         }
     },
     {
         "date": "2023-03-24",
-        "money": 88861,
+        "money": 115534,
         "earnings": "-3.77%",
         "desc": "竞价卖出惠威科技,当日盈利-3.77%"
     },
     {
         "date": "2023-03-27",
-        "money": 88861,
+        "money": 115534,
         "earnings": "0%",
-        "desc": "打板买入拓维信息,rank:3",
+        "desc": "打板买入剑桥科技,rank:28",
         "stock": {
             "date": "2023-03-27",
-            "name": "拓维信息",
-            "code": "002261",
-            "pre_opening_increase": -1.02,
-            "current_opening_increase": 6.77,
-            "rank": "3",
-            "bidding_volume": "507.64万",
-            "next_bidding_volume": "1,527.41万",
-            "first_limit_time": "09:31:00",
+            "name": "剑桥科技",
+            "code": "603083",
+            "pre_opening_increase": 0.26,
+            "current_opening_increase": 3.54,
+            "rank": "28",
+            "bidding_volume": "56.38万",
+            "next_bidding_volume": "213.64万",
+            "first_limit_time": "09:38:30",
             "isBurst": false,
-            "next_opening_increase": "0.00%",
-            "pre_jinliang": "4.18"
+            "next_opening_increase": "0.21%",
+            "pre_jinliang": "2.28",
+            "pre_final_limit_time": "14:09:30",
+            "pre_open_times": "6",
+            "pre_huanshou": "23.23",
+            "huanshou": "23.95"
         }
     },
     {
         "date": "2023-03-28",
-        "money": 88861,
-        "earnings": "0.0%",
-        "desc": "竞价卖出拓维信息,当日盈利0.0%"
+        "money": 115777,
+        "earnings": "0.21%",
+        "desc": "竞价卖出剑桥科技,当日盈利0.21%"
     },
     {
         "date": "2023-03-29",
-        "money": 82925,
+        "money": 108043,
         "earnings": "-6.68%",
         "desc": "打板买入洛凯股份,结果炸板了盈利-6.68%,rank:401",
         "stock": {
@@ -728,18 +828,22 @@
             "isBurst": true,
             "next_opening_increase": "-2.67%",
             "pre_jinliang": "0.75",
-            "current_close_increase": "3.32"
+            "current_close_increase": "3.32",
+            "pre_final_limit_time": "10:14:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.90",
+            "huanshou": "2.94"
         }
     },
     {
         "date": "2023-03-30",
-        "money": 80711,
+        "money": 105158,
         "earnings": "-2.67%",
         "desc": "竞价卖出洛凯股份,当日盈利-2.67%"
     },
     {
         "date": "2023-03-31",
-        "money": 78152,
+        "money": 101824,
         "earnings": "-3.17%",
         "desc": "打板买入新五丰,结果炸板了盈利-3.17%,rank:37",
         "stock": {
@@ -755,18 +859,22 @@
             "isBurst": true,
             "next_opening_increase": "-1.97%",
             "pre_jinliang": "1.72",
-            "current_close_increase": "6.83"
+            "current_close_increase": "6.83",
+            "pre_final_limit_time": "13:29:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.39",
+            "huanshou": "10.49"
         }
     },
     {
         "date": "2023-04-03",
-        "money": 76612,
+        "money": 99818,
         "earnings": "-1.97%",
         "desc": "竞价卖出新五丰,当日盈利-1.97%"
     },
     {
         "date": "2023-04-04",
-        "money": 74766,
+        "money": 97412,
         "earnings": "-2.41%",
         "desc": "打板买入启明信息,结果炸板了盈利-2.41%,rank:91",
         "stock": {
@@ -782,70 +890,94 @@
             "isBurst": true,
             "next_opening_increase": "-3.53%",
             "pre_jinliang": "2.25",
-            "current_close_increase": "7.60"
+            "current_close_increase": "7.60",
+            "pre_final_limit_time": "11:27:01",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.59",
+            "huanshou": "8.90"
         }
     },
     {
         "date": "2023-04-06",
-        "money": 72127,
+        "money": 93973,
         "earnings": "-3.53%",
         "desc": "竞价卖出启明信息,当日盈利-3.53%"
     },
     {
         "date": "2023-04-07",
-        "money": 72127,
+        "money": 93973,
         "earnings": "0%",
-        "desc": "打板买入久远银海,rank:45",
+        "desc": "打板买入创维数字,rank:86",
         "stock": {
             "date": "2023-04-07",
-            "name": "久远银海",
-            "code": "002777",
-            "pre_opening_increase": -2.06,
-            "current_opening_increase": 3.78,
-            "rank": "45",
-            "bidding_volume": "29.75万",
-            "next_bidding_volume": "42.83万",
-            "first_limit_time": "10:08:45",
+            "name": "创维数字",
+            "code": "000810",
+            "pre_opening_increase": 1.29,
+            "current_opening_increase": 2.09,
+            "rank": "86",
+            "bidding_volume": "70.54万",
+            "next_bidding_volume": "208.40万",
+            "first_limit_time": "14:54:30",
             "isBurst": false,
-            "next_opening_increase": "10.01%",
-            "pre_jinliang": "0.12"
+            "next_opening_increase": "0.19%",
+            "pre_jinliang": "1.59",
+            "pre_final_limit_time": "14:56:45",
+            "pre_open_times": "1",
+            "pre_huanshou": "5.22",
+            "huanshou": "8.32"
         }
     },
     {
         "date": "2023-04-10",
-        "money": 79347,
-        "earnings": "10.01%",
-        "desc": "竞价卖出久远银海,当日盈利10.01%"
+        "money": 94152,
+        "earnings": "0.19%",
+        "desc": "竞价卖出创维数字,当日盈利0.19%"
+    },
+    {
+        "date": "2023-04-11",
+        "money": 94152,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2023-04-12",
-        "money": 79347,
+        "money": 94152,
         "earnings": "0%",
-        "desc": "打板买入视觉中国,rank:68",
+        "desc": "打板买入新经典,rank:549",
         "stock": {
             "date": "2023-04-12",
-            "name": "视觉中国",
-            "code": "000681",
-            "pre_opening_increase": 0.25,
-            "current_opening_increase": 5.34,
-            "rank": "68",
-            "bidding_volume": "100.12万",
-            "next_bidding_volume": "408.21万",
-            "first_limit_time": "09:47:00",
+            "name": "新经典",
+            "code": "603096",
+            "pre_opening_increase": -0.14,
+            "current_opening_increase": 5.26,
+            "rank": "549",
+            "bidding_volume": "3,700.00",
+            "next_bidding_volume": "21.52万",
+            "first_limit_time": "14:50:15",
             "isBurst": false,
-            "next_opening_increase": "3.81%",
-            "pre_jinliang": "2.38"
+            "next_opening_increase": "0.31%",
+            "pre_jinliang": "0.74",
+            "pre_final_limit_time": "11:01:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.50",
+            "huanshou": "4.01"
         }
     },
     {
         "date": "2023-04-13",
-        "money": 82370,
-        "earnings": "3.81%",
-        "desc": "竞价卖出视觉中国,当日盈利3.81%"
+        "money": 94444,
+        "earnings": "0.31%",
+        "desc": "竞价卖出新经典,当日盈利0.31%"
+    },
+    {
+        "date": "2023-04-14",
+        "money": 94444,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2023-04-17",
-        "money": 78812,
+        "money": 90364,
         "earnings": "-4.32%",
         "desc": "打板买入赛腾股份,结果炸板了盈利-4.32%,rank:588",
         "stock": {
@@ -861,18 +993,22 @@
             "isBurst": true,
             "next_opening_increase": "0.00%",
             "pre_jinliang": "0.45",
-            "current_close_increase": "5.68"
+            "current_close_increase": "5.68",
+            "pre_final_limit_time": "13:28:17",
+            "pre_open_times": "2",
+            "pre_huanshou": "1.73",
+            "huanshou": "4.01"
         }
     },
     {
         "date": "2023-04-18",
-        "money": 78812,
+        "money": 90364,
         "earnings": "0.0%",
         "desc": "竞价卖出赛腾股份,当日盈利0.0%"
     },
     {
         "date": "2023-04-19",
-        "money": 78812,
+        "money": 90364,
         "earnings": "0%",
         "desc": "打板买入剑桥科技,rank:5",
         "stock": {
@@ -887,18 +1023,22 @@
             "first_limit_time": "09:35:00",
             "isBurst": false,
             "next_opening_increase": "1.73%",
-            "pre_jinliang": "4.64"
+            "pre_jinliang": "4.64",
+            "pre_final_limit_time": "10:59:45",
+            "pre_open_times": "2",
+            "pre_huanshou": "17.56",
+            "huanshou": "27.14"
         }
     },
     {
         "date": "2023-04-20",
-        "money": 80175,
+        "money": 91927,
         "earnings": "1.73%",
         "desc": "竞价卖出剑桥科技,当日盈利1.73%"
     },
     {
         "date": "2023-04-21",
-        "money": 80175,
+        "money": 91927,
         "earnings": "0%",
         "desc": "打板买入中国出版,rank:129",
         "stock": {
@@ -913,18 +1053,22 @@
             "first_limit_time": "09:33:01",
             "isBurst": false,
             "next_opening_increase": "3.17%",
-            "pre_jinliang": "0.41"
+            "pre_jinliang": "0.41",
+            "pre_final_limit_time": "13:05:30",
+            "pre_open_times": "8",
+            "pre_huanshou": "3.65",
+            "huanshou": "4.61"
         }
     },
     {
         "date": "2023-04-24",
-        "money": 82717,
+        "money": 94841,
         "earnings": "3.17%",
         "desc": "竞价卖出中国出版,当日盈利3.17%"
     },
     {
         "date": "2023-04-25",
-        "money": 82717,
+        "money": 94841,
         "earnings": "0%",
         "desc": "打板买入艾艾精工,rank:1137",
         "stock": {
@@ -939,18 +1083,22 @@
             "first_limit_time": "13:33:00",
             "isBurst": false,
             "next_opening_increase": "0.79%",
-            "pre_jinliang": "0.20"
+            "pre_jinliang": "0.20",
+            "pre_final_limit_time": "10:54:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.98",
+            "huanshou": "2.08"
         }
     },
     {
         "date": "2023-04-26",
-        "money": 83370,
+        "money": 95590,
         "earnings": "0.79%",
         "desc": "竞价卖出艾艾精工,当日盈利0.79%"
     },
     {
         "date": "2023-04-27",
-        "money": 77901,
+        "money": 89319,
         "earnings": "-6.56%",
         "desc": "打板买入山东出版,结果炸板了盈利-6.56%,rank:182",
         "stock": {
@@ -966,18 +1114,22 @@
             "isBurst": true,
             "next_opening_increase": "-4.56%",
             "pre_jinliang": "0.40",
-            "current_close_increase": "3.44"
+            "current_close_increase": "3.44",
+            "pre_final_limit_time": "14:48:46",
+            "pre_open_times": "3",
+            "pre_huanshou": "1.38",
+            "huanshou": "3.24"
         }
     },
     {
         "date": "2023-04-28",
-        "money": 74349,
+        "money": 85246,
         "earnings": "-4.56%",
         "desc": "竞价卖出山东出版,当日盈利-4.56%"
     },
     {
         "date": "2023-05-04",
-        "money": 74349,
+        "money": 85246,
         "earnings": "0%",
         "desc": "打板买入返利科技,rank:209",
         "stock": {
@@ -992,18 +1144,22 @@
             "first_limit_time": "09:31:30",
             "isBurst": false,
             "next_opening_increase": "6.90%",
-            "pre_jinliang": "2.58"
+            "pre_jinliang": "2.58",
+            "pre_final_limit_time": "14:30:14",
+            "pre_open_times": "1",
+            "pre_huanshou": "11.19",
+            "huanshou": "12.77"
         }
     },
     {
         "date": "2023-05-05",
-        "money": 79479,
+        "money": 91128,
         "earnings": "6.9%",
         "desc": "竞价卖出返利科技,当日盈利6.9%"
     },
     {
         "date": "2023-05-08",
-        "money": 79479,
+        "money": 91128,
         "earnings": "0%",
         "desc": "打板买入金龙汽车,rank:254",
         "stock": {
@@ -1018,44 +1174,53 @@
             "first_limit_time": "10:36:31",
             "isBurst": false,
             "next_opening_increase": "2.22%",
-            "pre_jinliang": "1.09"
+            "pre_jinliang": "1.09",
+            "pre_final_limit_time": "10:14:16",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.89",
+            "huanshou": "6.51"
         }
     },
     {
         "date": "2023-05-09",
-        "money": 81243,
+        "money": 93151,
         "earnings": "2.22%",
         "desc": "竞价卖出金龙汽车,当日盈利2.22%"
     },
     {
         "date": "2023-05-10",
-        "money": 81243,
-        "earnings": "0%",
-        "desc": "打板买入宝明科技,rank:452",
+        "money": 90105,
+        "earnings": "-3.27%",
+        "desc": "打板买入兆威机电,结果炸板了盈利-3.27%,rank:413",
         "stock": {
             "date": "2023-05-10",
-            "name": "宝明科技",
-            "code": "002992",
-            "pre_opening_increase": 2.01,
-            "current_opening_increase": 0.61,
-            "rank": "452",
-            "bidding_volume": "4,600.00",
-            "next_bidding_volume": "14.71万",
-            "first_limit_time": "09:57:46",
-            "isBurst": false,
-            "next_opening_increase": "7.25%",
-            "pre_jinliang": "1.85"
+            "name": "兆威机电",
+            "code": "003021",
+            "pre_opening_increase": -0.55,
+            "current_opening_increase": 1.71,
+            "rank": "413",
+            "bidding_volume": "4.38万",
+            "next_bidding_volume": "16.63万",
+            "first_limit_time": "13:21:03",
+            "isBurst": true,
+            "next_opening_increase": "1.96%",
+            "pre_jinliang": "2.51",
+            "current_close_increase": "6.73",
+            "pre_final_limit_time": "14:39:47",
+            "pre_open_times": "4",
+            "pre_huanshou": "7.43",
+            "huanshou": "12.97"
         }
     },
     {
         "date": "2023-05-11",
-        "money": 87133,
-        "earnings": "7.25%",
-        "desc": "竞价卖出宝明科技,当日盈利7.25%"
+        "money": 91871,
+        "earnings": "1.96%",
+        "desc": "竞价卖出兆威机电,当日盈利1.96%"
     },
     {
         "date": "2023-05-12",
-        "money": 87133,
+        "money": 91871,
         "earnings": "0%",
         "desc": "打板买入出版传媒,rank:187",
         "stock": {
@@ -1070,18 +1235,22 @@
             "first_limit_time": "09:40:15",
             "isBurst": false,
             "next_opening_increase": "10.04%",
-            "pre_jinliang": "1.24"
+            "pre_jinliang": "1.24",
+            "pre_final_limit_time": "09:54:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.29",
+            "huanshou": "3.81"
         }
     },
     {
         "date": "2023-05-15",
-        "money": 95872,
+        "money": 101086,
         "earnings": "10.03%",
         "desc": "竞价卖出出版传媒,当日盈利10.03%"
     },
     {
         "date": "2023-05-16",
-        "money": 89621,
+        "money": 94495,
         "earnings": "-6.52%",
         "desc": "打板买入北巴传媒,结果炸板了盈利-6.52%,rank:116",
         "stock": {
@@ -1097,18 +1266,22 @@
             "isBurst": true,
             "next_opening_increase": "-3.55%",
             "pre_jinliang": "1.26",
-            "current_close_increase": "3.48"
+            "current_close_increase": "3.48",
+            "pre_final_limit_time": "11:00:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.78",
+            "huanshou": "8.25"
         }
     },
     {
         "date": "2023-05-17",
-        "money": 86439,
+        "money": 91140,
         "earnings": "-3.55%",
         "desc": "竞价卖出北巴传媒,当日盈利-3.55%"
     },
     {
         "date": "2023-05-18",
-        "money": 86439,
+        "money": 91140,
         "earnings": "0%",
         "desc": "打板买入鸣志电器,rank:396",
         "stock": {
@@ -1123,18 +1296,22 @@
             "first_limit_time": "09:34:30",
             "isBurst": false,
             "next_opening_increase": "9.99%",
-            "pre_jinliang": "0.18"
+            "pre_jinliang": "0.18",
+            "pre_final_limit_time": "14:49:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.46",
+            "huanshou": "1.43"
         }
     },
     {
         "date": "2023-05-19",
-        "money": 95074,
+        "money": 100245,
         "earnings": "9.99%",
         "desc": "竞价卖出鸣志电器,当日盈利9.99%"
     },
     {
         "date": "2023-05-22",
-        "money": 95074,
+        "money": 100245,
         "earnings": "0%",
         "desc": "打板买入S佳通,rank:1327",
         "stock": {
@@ -1149,18 +1326,22 @@
             "first_limit_time": "10:14:00",
             "isBurst": false,
             "next_opening_increase": "2.31%",
-            "pre_jinliang": "0.14"
+            "pre_jinliang": "0.14",
+            "pre_final_limit_time": "10:28:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.39",
+            "huanshou": "2.19"
         }
     },
     {
         "date": "2023-05-23",
-        "money": 97270,
+        "money": 102561,
         "earnings": "2.31%",
         "desc": "竞价卖出S佳通,当日盈利2.31%"
     },
     {
         "date": "2023-05-24",
-        "money": 97270,
+        "money": 102561,
         "earnings": "0%",
         "desc": "打板买入若羽臣,rank:85",
         "stock": {
@@ -1175,18 +1356,22 @@
             "first_limit_time": "09:43:00",
             "isBurst": false,
             "next_opening_increase": "-2.84%",
-            "pre_jinliang": "5.43"
+            "pre_jinliang": "5.43",
+            "pre_final_limit_time": "09:45:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.05",
+            "huanshou": "12.47"
         }
     },
     {
         "date": "2023-05-25",
-        "money": 94508,
+        "money": 99648,
         "earnings": "-2.84%",
         "desc": "竞价卖出若羽臣,当日盈利-2.84%"
     },
     {
         "date": "2023-05-26",
-        "money": 94508,
+        "money": 99648,
         "earnings": "0%",
         "desc": "打板买入鸿博股份,rank:2",
         "stock": {
@@ -1201,18 +1386,22 @@
             "first_limit_time": "09:35:45",
             "isBurst": false,
             "next_opening_increase": "9.95%",
-            "pre_jinliang": "4.55"
+            "pre_jinliang": "4.55",
+            "pre_final_limit_time": "13:58:25",
+            "pre_open_times": "4",
+            "pre_huanshou": "23.86",
+            "huanshou": "31.57"
         }
     },
     {
         "date": "2023-05-29",
-        "money": 103902,
+        "money": 109553,
         "earnings": "9.94%",
         "desc": "竞价卖出鸿博股份,当日盈利9.94%"
     },
     {
         "date": "2023-05-30",
-        "money": 95642,
+        "money": 100844,
         "earnings": "-7.95%",
         "desc": "打板买入华纬科技,结果炸板了盈利-7.95%,rank:189",
         "stock": {
@@ -1228,18 +1417,22 @@
             "isBurst": true,
             "next_opening_increase": "-3.96%",
             "pre_jinliang": "8.33",
-            "current_close_increase": "2.05"
+            "current_close_increase": "2.05",
+            "pre_final_limit_time": "11:27:46",
+            "pre_open_times": "0",
+            "pre_huanshou": "30.66",
+            "huanshou": "34.60"
         }
     },
     {
         "date": "2023-05-31",
-        "money": 91855,
+        "money": 96851,
         "earnings": "-3.96%",
         "desc": "竞价卖出华纬科技,当日盈利-3.96%"
     },
     {
         "date": "2023-06-01",
-        "money": 91855,
+        "money": 96851,
         "earnings": "0%",
         "desc": "打板买入冠石科技,rank:405",
         "stock": {
@@ -1254,18 +1447,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.01%",
-            "pre_jinliang": "3.54"
+            "pre_jinliang": "3.54",
+            "pre_final_limit_time": "10:47:45",
+            "pre_open_times": "5",
+            "pre_huanshou": "3.80",
+            "huanshou": "22.66"
         }
     },
     {
         "date": "2023-06-02",
-        "money": 101050,
+        "money": 106546,
         "earnings": "10.01%",
         "desc": "竞价卖出冠石科技,当日盈利10.01%"
     },
     {
         "date": "2023-06-05",
-        "money": 101050,
+        "money": 106546,
         "earnings": "0%",
         "desc": "打板买入东方智造,rank:404",
         "stock": {
@@ -1280,253 +1477,277 @@
             "first_limit_time": "09:31:45",
             "isBurst": false,
             "next_opening_increase": "3.67%",
-            "pre_jinliang": "0.86"
+            "pre_jinliang": "0.86",
+            "pre_final_limit_time": "09:36:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.83",
+            "huanshou": "2.03"
         }
     },
     {
         "date": "2023-06-06",
-        "money": 104759,
+        "money": 110456,
         "earnings": "3.67%",
         "desc": "竞价卖出东方智造,当日盈利3.67%"
     },
     {
         "date": "2023-06-07",
-        "money": 104759,
+        "money": 110456,
         "earnings": "0%",
-        "desc": "打板买入亿道信息,rank:115",
+        "desc": "打板买入京投发展,rank:51",
         "stock": {
             "date": "2023-06-07",
-            "name": "亿道信息",
-            "code": "001314",
-            "pre_opening_increase": 10.0,
-            "current_opening_increase": 7.86,
-            "rank": "115",
-            "bidding_volume": "83.45万",
-            "next_bidding_volume": "175.98万",
-            "first_limit_time": "09:31:30",
+            "name": "京投发展",
+            "code": "600683",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 0.33,
+            "rank": "51",
+            "bidding_volume": "149.62万",
+            "next_bidding_volume": "410.81万",
+            "first_limit_time": "09:32:30",
             "isBurst": false,
-            "next_opening_increase": "10.00%",
-            "pre_jinliang": "5.65"
+            "next_opening_increase": "4.08%",
+            "pre_jinliang": "0.42",
+            "pre_final_limit_time": "14:50:04",
+            "pre_open_times": "10",
+            "pre_huanshou": "9.10",
+            "huanshou": "13.57"
         }
     },
     {
         "date": "2023-06-08",
-        "money": 115235,
-        "earnings": "10.0%",
-        "desc": "竞价卖出亿道信息,当日盈利10.0%"
+        "money": 114963,
+        "earnings": "4.08%",
+        "desc": "竞价卖出京投发展,当日盈利4.08%"
     },
     {
         "date": "2023-06-09",
-        "money": 115235,
+        "money": 114963,
         "earnings": "0%",
-        "desc": "打板买入江苏华辰,rank:93",
+        "desc": "打板买入迪生力,rank:343",
         "stock": {
             "date": "2023-06-09",
-            "name": "江苏华辰",
-            "code": "603097",
-            "pre_opening_increase": -0.09,
-            "current_opening_increase": 5.55,
-            "rank": "93",
-            "bidding_volume": "19.26万",
-            "next_bidding_volume": "80.71万",
-            "first_limit_time": "09:31:00",
+            "name": "迪生力",
+            "code": "603335",
+            "pre_opening_increase": -1.32,
+            "current_opening_increase": 7.71,
+            "rank": "343",
+            "bidding_volume": "7.23万",
+            "next_bidding_volume": "156.86万",
+            "first_limit_time": "09:32:00",
             "isBurst": false,
-            "next_opening_increase": "-1.37%",
-            "pre_jinliang": "6.86"
+            "next_opening_increase": "8.41%",
+            "pre_jinliang": "1.20",
+            "pre_final_limit_time": "09:39:46",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.09",
+            "huanshou": "2.07"
         }
     },
     {
         "date": "2023-06-12",
-        "money": 113656,
-        "earnings": "-1.37%",
-        "desc": "竞价卖出江苏华辰,当日盈利-1.37%"
+        "money": 124631,
+        "earnings": "8.41%",
+        "desc": "竞价卖出迪生力,当日盈利8.41%"
     },
     {
         "date": "2023-06-13",
-        "money": 113656,
+        "money": 124631,
         "earnings": "0%",
-        "desc": "打板买入电广传媒,rank:116",
-        "stock": {
-            "date": "2023-06-13",
-            "name": "电广传媒",
-            "code": "000917",
-            "pre_opening_increase": 3.14,
-            "current_opening_increase": 2.36,
-            "rank": "116",
-            "bidding_volume": "155.73万",
-            "next_bidding_volume": "366.15万",
-            "first_limit_time": "10:04:46",
-            "isBurst": false,
-            "next_opening_increase": "1.69%",
-            "pre_jinliang": "1.44"
-        }
+        "desc": "空仓"
     },
     {
         "date": "2023-06-14",
-        "money": 115577,
-        "earnings": "1.69%",
-        "desc": "竞价卖出电广传媒,当日盈利1.69%"
+        "money": 124631,
+        "earnings": "0%",
+        "desc": "打板买入上海亚虹,rank:456",
+        "stock": {
+            "date": "2023-06-14",
+            "name": "上海亚虹",
+            "code": "603159",
+            "pre_opening_increase": 1.73,
+            "current_opening_increase": 6.85,
+            "rank": "456",
+            "bidding_volume": "18.23万",
+            "next_bidding_volume": "81.59万",
+            "first_limit_time": "09:30:45",
+            "isBurst": false,
+            "next_opening_increase": "3.03%",
+            "pre_jinliang": "0.43",
+            "pre_final_limit_time": "09:36:00",
+            "pre_open_times": "1",
+            "pre_huanshou": "4.07",
+            "huanshou": "4.46"
+        }
     },
     {
         "date": "2023-06-15",
-        "money": 115577,
-        "earnings": "0%",
-        "desc": "打板买入中大力德,rank:166",
-        "stock": {
-            "date": "2023-06-15",
-            "name": "中大力德",
-            "code": "002896",
-            "pre_opening_increase": 0.15,
-            "current_opening_increase": 6.69,
-            "rank": "166",
-            "bidding_volume": "2.49万",
-            "next_bidding_volume": "156.65万",
-            "first_limit_time": "09:30:45",
-            "isBurst": false,
-            "next_opening_increase": "10.01%",
-            "pre_jinliang": "4.01"
-        }
+        "money": 128407,
+        "earnings": "3.03%",
+        "desc": "竞价卖出上海亚虹,当日盈利3.03%"
     },
     {
         "date": "2023-06-16",
-        "money": 127146,
-        "earnings": "10.01%",
-        "desc": "竞价卖出中大力德,当日盈利10.01%"
+        "money": 128407,
+        "earnings": "0%",
+        "desc": "打板买入弘讯科技,rank:263",
+        "stock": {
+            "date": "2023-06-16",
+            "name": "弘讯科技",
+            "code": "603015",
+            "pre_opening_increase": 0.24,
+            "current_opening_increase": 3.58,
+            "rank": "263",
+            "bidding_volume": "1.54万",
+            "next_bidding_volume": "88.92万",
+            "first_limit_time": "09:34:00",
+            "isBurst": false,
+            "next_opening_increase": "6.41%",
+            "pre_jinliang": "0.82",
+            "pre_final_limit_time": "10:26:00",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.05",
+            "huanshou": "4.99"
+        }
     },
     {
         "date": "2023-06-19",
-        "money": 127146,
-        "earnings": "0%",
-        "desc": "打板买入美利云,rank:32",
-        "stock": {
-            "date": "2023-06-19",
-            "name": "美利云",
-            "code": "000815",
-            "pre_opening_increase": 4.87,
-            "current_opening_increase": 4.5,
-            "rank": "32",
-            "bidding_volume": "218.85万",
-            "next_bidding_volume": "481.73万",
-            "first_limit_time": "09:33:30",
-            "isBurst": false,
-            "next_opening_increase": "-1.51%",
-            "pre_jinliang": "2.16"
-        }
+        "money": 136638,
+        "earnings": "6.41%",
+        "desc": "竞价卖出弘讯科技,当日盈利6.41%"
     },
     {
         "date": "2023-06-20",
-        "money": 125226,
-        "earnings": "-1.51%",
-        "desc": "竞价卖出美利云,当日盈利-1.51%"
+        "money": 125133,
+        "earnings": "-8.42%",
+        "desc": "打板买入同为股份,结果炸板了盈利-8.42%,rank:150",
+        "stock": {
+            "date": "2023-06-20",
+            "name": "同为股份",
+            "code": "002835",
+            "pre_opening_increase": 0.7,
+            "current_opening_increase": 2.11,
+            "rank": "150",
+            "bidding_volume": "5.21万",
+            "next_bidding_volume": "81.12万",
+            "first_limit_time": "09:33:30",
+            "isBurst": true,
+            "next_opening_increase": "-0.73%",
+            "pre_jinliang": "2.93",
+            "current_close_increase": "1.58",
+            "pre_final_limit_time": "10:01:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.79",
+            "huanshou": "9.15"
+        }
     },
     {
         "date": "2023-06-21",
-        "money": 125226,
-        "earnings": "0%",
-        "desc": "打板买入新时达,rank:26",
-        "stock": {
-            "date": "2023-06-21",
-            "name": "新时达",
-            "code": "002527",
-            "pre_opening_increase": -3.59,
-            "current_opening_increase": 7.38,
-            "rank": "26",
-            "bidding_volume": "241.21万",
-            "next_bidding_volume": "458.97万",
-            "first_limit_time": "09:31:15",
-            "isBurst": false,
-            "next_opening_increase": "3.74%",
-            "pre_jinliang": "2.25"
-        }
+        "money": 124220,
+        "earnings": "-0.73%",
+        "desc": "竞价卖出同为股份,当日盈利-0.73%"
     },
     {
         "date": "2023-06-26",
-        "money": 129909,
-        "earnings": "3.74%",
-        "desc": "竞价卖出新时达,当日盈利3.74%"
+        "money": 124220,
+        "earnings": "0%",
+        "desc": "打板买入深南电A,rank:67",
+        "stock": {
+            "date": "2023-06-26",
+            "name": "深南电A",
+            "code": "000037",
+            "pre_opening_increase": -0.23,
+            "current_opening_increase": 3.66,
+            "rank": "67",
+            "bidding_volume": "3.21万",
+            "next_bidding_volume": "249.39万",
+            "first_limit_time": "09:34:45",
+            "isBurst": false,
+            "next_opening_increase": "9.98%",
+            "pre_jinliang": "4.20",
+            "pre_final_limit_time": "10:19:00",
+            "pre_open_times": "2",
+            "pre_huanshou": "5.34",
+            "huanshou": "14.53"
+        }
     },
     {
         "date": "2023-06-27",
-        "money": 129909,
-        "earnings": "0%",
-        "desc": "打板买入长白山,rank:218",
-        "stock": {
-            "date": "2023-06-27",
-            "name": "长白山",
-            "code": "603099",
-            "pre_opening_increase": -0.97,
-            "current_opening_increase": 2.01,
-            "rank": "218",
-            "bidding_volume": "5.30万",
-            "next_bidding_volume": "17.98万",
-            "first_limit_time": "09:46:00",
-            "isBurst": false,
-            "next_opening_increase": "0.00%",
-            "pre_jinliang": "0.44"
-        }
+        "money": 136617,
+        "earnings": "9.98%",
+        "desc": "竞价卖出深南电A,当日盈利9.98%"
     },
     {
         "date": "2023-06-28",
-        "money": 129909,
-        "earnings": "0.0%",
-        "desc": "竞价卖出长白山,当日盈利0.0%"
+        "money": 134882,
+        "earnings": "-1.27%",
+        "desc": "打板买入顾地科技,结果炸板了盈利-1.27%,rank:332",
+        "stock": {
+            "date": "2023-06-28",
+            "name": "顾地科技",
+            "code": "002694",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 4.45,
+            "rank": "332",
+            "bidding_volume": "3.61万",
+            "next_bidding_volume": "229.38万",
+            "first_limit_time": "09:32:00",
+            "isBurst": true,
+            "next_opening_increase": "-1.52%",
+            "pre_jinliang": "0.96",
+            "current_close_increase": "8.73",
+            "pre_final_limit_time": "09:35:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.19",
+            "huanshou": "2.45"
+        }
     },
     {
         "date": "2023-06-29",
-        "money": 129909,
-        "earnings": "0%",
-        "desc": "打板买入联诚精密,rank:127",
-        "stock": {
-            "date": "2023-06-29",
-            "name": "联诚精密",
-            "code": "002921",
-            "pre_opening_increase": -1.32,
-            "current_opening_increase": 6.46,
-            "rank": "127",
-            "bidding_volume": "1.52万",
-            "next_bidding_volume": "126.35万",
-            "first_limit_time": "09:30:15",
-            "isBurst": false,
-            "next_opening_increase": "0.05%",
-            "pre_jinliang": "2.92"
-        }
+        "money": 132832,
+        "earnings": "-1.52%",
+        "desc": "竞价卖出顾地科技,当日盈利-1.52%"
     },
     {
         "date": "2023-06-30",
-        "money": 129974,
-        "earnings": "0.05%",
-        "desc": "竞价卖出联诚精密,当日盈利0.05%"
-    },
-    {
-        "date": "2023-07-03",
-        "money": 115079,
-        "earnings": "-11.46%",
-        "desc": "打板买入东风科技,结果炸板了盈利-11.46%,rank:79",
+        "money": 123228,
+        "earnings": "-7.23%",
+        "desc": "打板买入禾盛新材,结果炸板了盈利-7.23%,rank:491",
         "stock": {
-            "date": "2023-07-03",
-            "name": "东风科技",
-            "code": "600081",
-            "pre_opening_increase": -1.9,
-            "current_opening_increase": 6.45,
-            "rank": "79",
-            "bidding_volume": "22.66万",
-            "next_bidding_volume": "65.48万",
-            "first_limit_time": "09:30:45",
+            "date": "2023-06-30",
+            "name": "禾盛新材",
+            "code": "002290",
+            "pre_opening_increase": -0.68,
+            "current_opening_increase": 5.85,
+            "rank": "491",
+            "bidding_volume": "8,500.00",
+            "next_bidding_volume": "51.71万",
+            "first_limit_time": "09:31:30",
             "isBurst": true,
-            "next_opening_increase": "-1.15%",
-            "pre_jinliang": "0.32",
-            "current_close_increase": "-1.46"
+            "next_opening_increase": "-1.50%",
+            "pre_jinliang": "0.66",
+            "current_close_increase": "2.77",
+            "pre_final_limit_time": "11:23:09",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.56",
+            "huanshou": "3.87"
         }
     },
     {
+        "date": "2023-07-03",
+        "money": 121380,
+        "earnings": "-1.5%",
+        "desc": "竞价卖出禾盛新材,当日盈利-1.5%"
+    },
+    {
         "date": "2023-07-04",
-        "money": 113756,
-        "earnings": "-1.15%",
-        "desc": "竞价卖出东风科技,当日盈利-1.15%"
+        "money": 121380,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2023-07-05",
-        "money": 113756,
+        "money": 121380,
         "earnings": "0%",
         "desc": "打板买入福达合金,rank:384",
         "stock": {
@@ -1541,123 +1762,150 @@
             "first_limit_time": "10:29:15",
             "isBurst": false,
             "next_opening_increase": "9.99%",
-            "pre_jinliang": "0.49"
+            "pre_jinliang": "0.49",
+            "pre_final_limit_time": "14:44:03",
+            "pre_open_times": "3",
+            "pre_huanshou": "2.23",
+            "huanshou": "8.36"
         }
     },
     {
         "date": "2023-07-06",
-        "money": 125120,
+        "money": 133506,
         "earnings": "9.99%",
         "desc": "竞价卖出福达合金,当日盈利9.99%"
     },
     {
         "date": "2023-07-07",
-        "money": 125120,
+        "money": 133506,
         "earnings": "0%",
-        "desc": "打板买入深华发A,rank:128",
-        "stock": {
-            "date": "2023-07-07",
-            "name": "深华发A",
-            "code": "000020",
-            "pre_opening_increase": -1.51,
-            "current_opening_increase": 6.77,
-            "rank": "128",
-            "bidding_volume": "35.90万",
-            "next_bidding_volume": "134.65万",
-            "first_limit_time": "09:31:15",
-            "isBurst": false,
-            "next_opening_increase": "7.12%",
-            "pre_jinliang": "1.73"
-        }
+        "desc": "空仓"
     },
     {
         "date": "2023-07-10",
-        "money": 134029,
-        "earnings": "7.12%",
-        "desc": "竞价卖出深华发A,当日盈利7.12%"
+        "money": 133506,
+        "earnings": "0%",
+        "desc": "打板买入晋控电力,rank:72",
+        "stock": {
+            "date": "2023-07-10",
+            "name": "晋控电力",
+            "code": "000767",
+            "pre_opening_increase": 0.63,
+            "current_opening_increase": 6.3,
+            "rank": "72",
+            "bidding_volume": "4.38万",
+            "next_bidding_volume": "2,041.48万",
+            "first_limit_time": "09:31:45",
+            "isBurst": false,
+            "next_opening_increase": "-2.08%",
+            "pre_jinliang": "1.19",
+            "pre_final_limit_time": "10:20:45",
+            "pre_open_times": "2",
+            "pre_huanshou": "0.43",
+            "huanshou": "3.70"
+        }
     },
     {
         "date": "2023-07-11",
-        "money": 123132,
-        "earnings": "-8.13%",
-        "desc": "打板买入津滨发展,结果炸板了盈利-8.13%,rank:237",
-        "stock": {
-            "date": "2023-07-11",
-            "name": "津滨发展",
-            "code": "000897",
-            "pre_opening_increase": 0.52,
-            "current_opening_increase": 5.16,
-            "rank": "237",
-            "bidding_volume": "36.89万",
-            "next_bidding_volume": "1,269.10万",
-            "first_limit_time": "09:30:30",
-            "isBurst": true,
-            "next_opening_increase": "-4.61%",
-            "pre_jinliang": "1.78",
-            "current_close_increase": "1.88"
-        }
+        "money": 130729,
+        "earnings": "-2.08%",
+        "desc": "竞价卖出晋控电力,当日盈利-2.08%"
     },
     {
         "date": "2023-07-12",
-        "money": 117443,
-        "earnings": "-4.62%",
-        "desc": "竞价卖出津滨发展,当日盈利-4.62%"
+        "money": 130729,
+        "earnings": "0%",
+        "desc": "打板买入众泰汽车,rank:4",
+        "stock": {
+            "date": "2023-07-12",
+            "name": "众泰汽车",
+            "code": "000980",
+            "pre_opening_increase": 1.94,
+            "current_opening_increase": 3.52,
+            "rank": "4",
+            "bidding_volume": "284.97万",
+            "next_bidding_volume": "1,498.48万",
+            "first_limit_time": "10:44:00",
+            "isBurst": false,
+            "next_opening_increase": "-9.87%",
+            "pre_jinliang": "2.05",
+            "pre_final_limit_time": "10:35:45",
+            "pre_open_times": "3",
+            "pre_huanshou": "8.94",
+            "huanshou": "9.73"
+        }
     },
     {
         "date": "2023-07-13",
-        "money": 117443,
-        "earnings": "0%",
-        "desc": "打板买入林州重机,rank:24",
-        "stock": {
-            "date": "2023-07-13",
-            "name": "林州重机",
-            "code": "002535",
-            "pre_opening_increase": 9.52,
-            "current_opening_increase": 5.77,
-            "rank": "24",
-            "bidding_volume": "700.78万",
-            "next_bidding_volume": "857.49万",
-            "first_limit_time": "09:40:30",
-            "isBurst": false,
-            "next_opening_increase": "5.99%",
-            "pre_jinliang": "3.57"
-        }
+        "money": 117826,
+        "earnings": "-9.87%",
+        "desc": "竞价卖出众泰汽车,当日盈利-9.87%"
     },
     {
         "date": "2023-07-14",
-        "money": 124478,
-        "earnings": "5.99%",
-        "desc": "竞价卖出林州重机,当日盈利5.99%"
-    },
-    {
-        "date": "2023-07-17",
-        "money": 124478,
-        "earnings": "0%",
-        "desc": "打板买入中央商场,rank:326",
+        "money": 111558,
+        "earnings": "-5.32%",
+        "desc": "打板买入中国出版,结果炸板了盈利-5.32%,rank:44",
         "stock": {
-            "date": "2023-07-17",
-            "name": "中央商场",
-            "code": "600280",
-            "pre_opening_increase": 1.54,
-            "current_opening_increase": 4.21,
-            "rank": "326",
-            "bidding_volume": "22.77万",
-            "next_bidding_volume": "190.49万",
-            "first_limit_time": "09:45:45",
-            "isBurst": false,
-            "next_opening_increase": "8.28%",
-            "pre_jinliang": "0.81"
+            "date": "2023-07-14",
+            "name": "中国出版",
+            "code": "601949",
+            "pre_opening_increase": 0.86,
+            "current_opening_increase": 2.77,
+            "rank": "44",
+            "bidding_volume": "13.26万",
+            "next_bidding_volume": "182.14万",
+            "first_limit_time": "09:50:15",
+            "isBurst": true,
+            "next_opening_increase": "-1.24%",
+            "pre_jinliang": "0.77",
+            "current_close_increase": "4.68",
+            "pre_final_limit_time": "13:53:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.86",
+            "huanshou": "3.66"
         }
     },
     {
+        "date": "2023-07-17",
+        "money": 110175,
+        "earnings": "-1.24%",
+        "desc": "竞价卖出中国出版,当日盈利-1.24%"
+    },
+    {
         "date": "2023-07-18",
-        "money": 134772,
-        "earnings": "8.27%",
-        "desc": "竞价卖出中央商场,当日盈利8.27%"
+        "money": 97560,
+        "earnings": "-11.45%",
+        "desc": "打板买入宏达新材,结果炸板了盈利-11.45%,rank:145",
+        "stock": {
+            "date": "2023-07-18",
+            "name": "宏达新材",
+            "code": "002211",
+            "pre_opening_increase": -1.33,
+            "current_opening_increase": 2.66,
+            "rank": "145",
+            "bidding_volume": "29.19万",
+            "next_bidding_volume": "179.52万",
+            "first_limit_time": "09:32:00",
+            "isBurst": true,
+            "next_opening_increase": "-1.96%",
+            "pre_jinliang": "2.43",
+            "current_close_increase": "-1.45",
+            "pre_final_limit_time": "10:21:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "4.78",
+            "huanshou": "10.40"
+        }
+    },
+    {
+        "date": "2023-07-19",
+        "money": 95648,
+        "earnings": "-1.96%",
+        "desc": "竞价卖出宏达新材,当日盈利-1.96%"
     },
     {
         "date": "2023-07-20",
-        "money": 134772,
+        "money": 95648,
         "earnings": "0%",
         "desc": "打板买入东方园林,rank:99",
         "stock": {
@@ -1672,18 +1920,22 @@
             "first_limit_time": "09:31:45",
             "isBurst": false,
             "next_opening_increase": "10.19%",
-            "pre_jinliang": "0.63"
+            "pre_jinliang": "0.63",
+            "pre_final_limit_time": "09:37:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.54",
+            "huanshou": "1.93"
         }
     },
     {
         "date": "2023-07-21",
-        "money": 148505,
+        "money": 105395,
         "earnings": "10.19%",
         "desc": "竞价卖出东方园林,当日盈利10.19%"
     },
     {
         "date": "2023-07-24",
-        "money": 134189,
+        "money": 95235,
         "earnings": "-9.64%",
         "desc": "打板买入棕榈股份,结果炸板了盈利-9.64%,rank:142",
         "stock": {
@@ -1699,45 +1951,52 @@
             "isBurst": true,
             "next_opening_increase": "-4.68%",
             "pre_jinliang": "1.23",
-            "current_close_increase": "0.36"
+            "current_close_increase": "0.36",
+            "pre_final_limit_time": "13:14:43",
+            "pre_open_times": "1",
+            "pre_huanshou": "0.73",
+            "huanshou": "4.56"
         }
     },
     {
         "date": "2023-07-25",
-        "money": 127909,
+        "money": 90778,
         "earnings": "-4.68%",
         "desc": "竞价卖出棕榈股份,当日盈利-4.68%"
     },
     {
         "date": "2023-07-26",
-        "money": 123228,
-        "earnings": "-3.66%",
-        "desc": "打板买入亚星客车,结果炸板了盈利-3.66%,rank:103",
+        "money": 90778,
+        "earnings": "0%",
+        "desc": "打板买入迪马股份,rank:170",
         "stock": {
             "date": "2023-07-26",
-            "name": "亚星客车",
-            "code": "600213",
-            "pre_opening_increase": 2.56,
-            "current_opening_increase": 5.31,
-            "rank": "103",
-            "bidding_volume": "19.42万",
-            "next_bidding_volume": "103.55万",
-            "first_limit_time": "09:32:15",
-            "isBurst": true,
-            "next_opening_increase": "7.80%",
-            "pre_jinliang": "1.79",
-            "current_close_increase": "6.34"
+            "name": "迪马股份",
+            "code": "600565",
+            "pre_opening_increase": 1.19,
+            "current_opening_increase": 7.03,
+            "rank": "170",
+            "bidding_volume": "94.43万",
+            "next_bidding_volume": "777.47万",
+            "first_limit_time": "09:33:30",
+            "isBurst": false,
+            "next_opening_increase": "-3.43%",
+            "pre_jinliang": "0.56",
+            "pre_final_limit_time": "09:52:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.44",
+            "huanshou": "4.07"
         }
     },
     {
         "date": "2023-07-27",
-        "money": 132840,
-        "earnings": "7.8%",
-        "desc": "竞价卖出亚星客车,当日盈利7.8%"
+        "money": 87664,
+        "earnings": "-3.43%",
+        "desc": "竞价卖出迪马股份,当日盈利-3.43%"
     },
     {
         "date": "2023-07-28",
-        "money": 132840,
+        "money": 87664,
         "earnings": "0%",
         "desc": "打板买入海马汽车,rank:52",
         "stock": {
@@ -1752,18 +2011,22 @@
             "first_limit_time": "10:47:15",
             "isBurst": false,
             "next_opening_increase": "6.59%",
-            "pre_jinliang": "1.00"
+            "pre_jinliang": "1.00",
+            "pre_final_limit_time": "09:30:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.46",
+            "huanshou": "2.28"
         }
     },
     {
         "date": "2023-07-31",
-        "money": 141594,
+        "money": 93441,
         "earnings": "6.59%",
         "desc": "竞价卖出海马汽车,当日盈利6.59%"
     },
     {
         "date": "2023-08-01",
-        "money": 141594,
+        "money": 93441,
         "earnings": "0%",
         "desc": "打板买入华西能源,rank:115",
         "stock": {
@@ -1778,18 +2041,22 @@
             "first_limit_time": "09:32:00",
             "isBurst": false,
             "next_opening_increase": "2.86%",
-            "pre_jinliang": "4.84"
+            "pre_jinliang": "4.84",
+            "pre_final_limit_time": "13:34:17",
+            "pre_open_times": "1",
+            "pre_huanshou": "3.56",
+            "huanshou": "17.10"
         }
     },
     {
         "date": "2023-08-02",
-        "money": 145644,
+        "money": 96113,
         "earnings": "2.86%",
         "desc": "竞价卖出华西能源,当日盈利2.86%"
     },
     {
         "date": "2023-08-03",
-        "money": 145644,
+        "money": 96113,
         "earnings": "0%",
         "desc": "打板买入柯利达,rank:84",
         "stock": {
@@ -1804,18 +2071,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "8.37%",
-            "pre_jinliang": "3.77"
+            "pre_jinliang": "3.77",
+            "pre_final_limit_time": "13:17:31",
+            "pre_open_times": "3",
+            "pre_huanshou": "9.47",
+            "huanshou": "14.42"
         }
     },
     {
         "date": "2023-08-04",
-        "money": 157820,
+        "money": 104148,
         "earnings": "8.36%",
         "desc": "竞价卖出柯利达,当日盈利8.36%"
     },
     {
         "date": "2023-08-07",
-        "money": 157820,
+        "money": 104148,
         "earnings": "0%",
         "desc": "打板买入海鸥住工,rank:281",
         "stock": {
@@ -1830,18 +2101,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "4.29%",
-            "pre_jinliang": "1.55"
+            "pre_jinliang": "1.55",
+            "pre_final_limit_time": "10:54:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.78",
+            "huanshou": "4.47"
         }
     },
     {
         "date": "2023-08-08",
-        "money": 164590,
+        "money": 108616,
         "earnings": "4.29%",
         "desc": "竞价卖出海鸥住工,当日盈利4.29%"
     },
     {
         "date": "2023-08-09",
-        "money": 164590,
+        "money": 108616,
         "earnings": "0%",
         "desc": "打板买入塞力医疗,rank:176",
         "stock": {
@@ -1856,18 +2131,22 @@
             "first_limit_time": "09:31:45",
             "isBurst": false,
             "next_opening_increase": "9.99%",
-            "pre_jinliang": "2.50"
+            "pre_jinliang": "2.50",
+            "pre_final_limit_time": "11:02:45",
+            "pre_open_times": "1",
+            "pre_huanshou": "4.01",
+            "huanshou": "7.60"
         }
     },
     {
         "date": "2023-08-10",
-        "money": 181033,
+        "money": 119467,
         "earnings": "9.99%",
         "desc": "竞价卖出塞力医疗,当日盈利9.99%"
     },
     {
         "date": "2023-08-11",
-        "money": 181033,
+        "money": 119467,
         "earnings": "0%",
         "desc": "打板买入美能能源,rank:77",
         "stock": {
@@ -1882,44 +2161,53 @@
             "first_limit_time": "09:31:15",
             "isBurst": false,
             "next_opening_increase": "-0.99%",
-            "pre_jinliang": "6.55"
+            "pre_jinliang": "6.55",
+            "pre_final_limit_time": "09:30:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.02",
+            "huanshou": "12.44"
         }
     },
     {
         "date": "2023-08-14",
-        "money": 179241,
+        "money": 118284,
         "earnings": "-0.99%",
         "desc": "竞价卖出美能能源,当日盈利-0.99%"
     },
     {
         "date": "2023-08-15",
-        "money": 179241,
-        "earnings": "0%",
-        "desc": "打板买入赛隆药业,rank:133",
+        "money": 115942,
+        "earnings": "-1.98%",
+        "desc": "打板买入竞业达,结果炸板了盈利-1.98%,rank:35",
         "stock": {
             "date": "2023-08-15",
-            "name": "赛隆药业",
-            "code": "002898",
-            "pre_opening_increase": 5.15,
-            "current_opening_increase": 5.45,
-            "rank": "133",
-            "bidding_volume": "16.45万",
-            "next_bidding_volume": "151.93万",
-            "first_limit_time": "09:33:00",
-            "isBurst": false,
-            "next_opening_increase": "4.60%",
-            "pre_jinliang": "2.55"
+            "name": "竞业达",
+            "code": "003005",
+            "pre_opening_increase": -0.12,
+            "current_opening_increase": 3.99,
+            "rank": "35",
+            "bidding_volume": "9.29万",
+            "next_bidding_volume": "55.42万",
+            "first_limit_time": "09:38:15",
+            "isBurst": true,
+            "next_opening_increase": "-4.99%",
+            "pre_jinliang": "5.80",
+            "current_close_increase": "8.03",
+            "pre_final_limit_time": "09:58:33",
+            "pre_open_times": "1",
+            "pre_huanshou": "19.33",
+            "huanshou": "22.83"
         }
     },
     {
         "date": "2023-08-16",
-        "money": 187468,
-        "earnings": "4.59%",
-        "desc": "竞价卖出赛隆药业,当日盈利4.59%"
+        "money": 110156,
+        "earnings": "-4.99%",
+        "desc": "竞价卖出竞业达,当日盈利-4.99%"
     },
     {
         "date": "2023-08-17",
-        "money": 187468,
+        "money": 110156,
         "earnings": "0%",
         "desc": "打板买入渝开发,rank:64",
         "stock": {
@@ -1934,18 +2222,22 @@
             "first_limit_time": "09:37:45",
             "isBurst": false,
             "next_opening_increase": "2.02%",
-            "pre_jinliang": "1.37"
+            "pre_jinliang": "1.37",
+            "pre_final_limit_time": "10:09:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.75",
+            "huanshou": "5.93"
         }
     },
     {
         "date": "2023-08-18",
-        "money": 191255,
+        "money": 112381,
         "earnings": "2.02%",
         "desc": "竞价卖出渝开发,当日盈利2.02%"
     },
     {
         "date": "2023-08-21",
-        "money": 191255,
+        "money": 112381,
         "earnings": "0%",
         "desc": "打板买入皇台酒业,rank:68",
         "stock": {
@@ -1960,18 +2252,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "-1.11%",
-            "pre_jinliang": "0.20"
+            "pre_jinliang": "0.20",
+            "pre_final_limit_time": "09:30:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "0",
+            "huanshou": "0.72"
         }
     },
     {
         "date": "2023-08-22",
-        "money": 189113,
+        "money": 111122,
         "earnings": "-1.12%",
         "desc": "竞价卖出皇台酒业,当日盈利-1.12%"
     },
     {
         "date": "2023-08-23",
-        "money": 189113,
+        "money": 111122,
         "earnings": "0%",
         "desc": "打板买入江盐集团,rank:60",
         "stock": {
@@ -1986,18 +2282,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "4.91%",
-            "pre_jinliang": "10.44"
+            "pre_jinliang": "10.44",
+            "pre_final_limit_time": "11:09:30",
+            "pre_open_times": "3",
+            "pre_huanshou": "13.40",
+            "huanshou": "39.39"
         }
     },
     {
         "date": "2023-08-24",
-        "money": 198398,
+        "money": 116578,
         "earnings": "4.91%",
         "desc": "竞价卖出江盐集团,当日盈利4.91%"
     },
     {
         "date": "2023-08-25",
-        "money": 198398,
+        "money": 116578,
         "earnings": "0%",
         "desc": "打板买入洪汇新材,rank:346",
         "stock": {
@@ -2012,18 +2312,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.02%",
-            "pre_jinliang": "0.04"
+            "pre_jinliang": "0.04",
+            "pre_final_limit_time": "09:30:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.55",
+            "huanshou": "2.39"
         }
     },
     {
         "date": "2023-08-28",
-        "money": 218277,
+        "money": 128259,
         "earnings": "10.02%",
         "desc": "竞价卖出洪汇新材,当日盈利10.02%"
     },
     {
         "date": "2023-08-29",
-        "money": 218277,
+        "money": 128259,
         "earnings": "0%",
         "desc": "打板买入我乐家居,rank:1231",
         "stock": {
@@ -2038,18 +2342,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "7.03%",
-            "pre_jinliang": "0.19"
+            "pre_jinliang": "0.19",
+            "pre_final_limit_time": "09:33:15",
+            "pre_open_times": "1",
+            "pre_huanshou": "0.30",
+            "huanshou": "0.68"
         }
     },
     {
         "date": "2023-08-30",
-        "money": 233622,
+        "money": 137276,
         "earnings": "7.03%",
         "desc": "竞价卖出我乐家居,当日盈利7.03%"
     },
     {
         "date": "2023-08-31",
-        "money": 233622,
+        "money": 137276,
         "earnings": "0%",
         "desc": "打板买入宏和科技,rank:385",
         "stock": {
@@ -2064,18 +2372,22 @@
             "first_limit_time": "09:31:00",
             "isBurst": false,
             "next_opening_increase": "2.09%",
-            "pre_jinliang": "0.41"
+            "pre_jinliang": "0.41",
+            "pre_final_limit_time": "14:06:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.30",
+            "huanshou": "1.49"
         }
     },
     {
         "date": "2023-09-01",
-        "money": 238505,
+        "money": 140145,
         "earnings": "2.09%",
         "desc": "竞价卖出宏和科技,当日盈利2.09%"
     },
     {
         "date": "2023-09-04",
-        "money": 217254,
+        "money": 127658,
         "earnings": "-8.91%",
         "desc": "打板买入新疆火炬,结果炸板了盈利-8.91%,rank:153",
         "stock": {
@@ -2091,18 +2403,28 @@
             "isBurst": true,
             "next_opening_increase": "-4.48%",
             "pre_jinliang": "2.79",
-            "current_close_increase": "1.09"
+            "current_close_increase": "1.09",
+            "pre_final_limit_time": "13:52:19",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.53",
+            "huanshou": "9.06"
         }
     },
     {
         "date": "2023-09-05",
-        "money": 207499,
+        "money": 121926,
         "earnings": "-4.49%",
         "desc": "竞价卖出新疆火炬,当日盈利-4.49%"
     },
     {
+        "date": "2023-09-06",
+        "money": 121926,
+        "earnings": "0%",
+        "desc": "空仓"
+    },
+    {
         "date": "2023-09-07",
-        "money": 207499,
+        "money": 121926,
         "earnings": "0%",
         "desc": "打板买入张江高科,rank:30",
         "stock": {
@@ -2117,18 +2439,22 @@
             "first_limit_time": "09:38:00",
             "isBurst": false,
             "next_opening_increase": "5.51%",
-            "pre_jinliang": "1.61"
+            "pre_jinliang": "1.61",
+            "pre_final_limit_time": "09:55:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.52",
+            "huanshou": "4.65"
         }
     },
     {
         "date": "2023-09-08",
-        "money": 218932,
+        "money": 128644,
         "earnings": "5.51%",
         "desc": "竞价卖出张江高科,当日盈利5.51%"
     },
     {
         "date": "2023-09-11",
-        "money": 218932,
+        "money": 128644,
         "earnings": "0%",
         "desc": "打板买入新纶新材,rank:253",
         "stock": {
@@ -2143,18 +2469,22 @@
             "first_limit_time": "09:32:01",
             "isBurst": false,
             "next_opening_increase": "3.38%",
-            "pre_jinliang": "1.41"
+            "pre_jinliang": "1.41",
+            "pre_final_limit_time": "13:02:05",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.19",
+            "huanshou": "2.96"
         }
     },
     {
         "date": "2023-09-12",
-        "money": 226332,
+        "money": 132992,
         "earnings": "3.38%",
         "desc": "竞价卖出新纶新材,当日盈利3.38%"
     },
     {
         "date": "2023-09-13",
-        "money": 213725,
+        "money": 125584,
         "earnings": "-5.57%",
         "desc": "打板买入大连热电,结果炸板了盈利-5.57%,rank:49",
         "stock": {
@@ -2170,18 +2500,22 @@
             "isBurst": true,
             "next_opening_increase": "-5.78%",
             "pre_jinliang": "0.84",
-            "current_close_increase": "4.43"
+            "current_close_increase": "4.43",
+            "pre_final_limit_time": "09:53:01",
+            "pre_open_times": "3",
+            "pre_huanshou": "4.10",
+            "huanshou": "10.23"
         }
     },
     {
         "date": "2023-09-14",
-        "money": 201372,
+        "money": 118325,
         "earnings": "-5.78%",
         "desc": "竞价卖出大连热电,当日盈利-5.78%"
     },
     {
         "date": "2023-09-15",
-        "money": 201372,
+        "money": 118325,
         "earnings": "0%",
         "desc": "打板买入东方嘉盛,rank:96",
         "stock": {
@@ -2196,18 +2530,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.01%",
-            "pre_jinliang": "3.07"
+            "pre_jinliang": "3.07",
+            "pre_final_limit_time": "09:38:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.45",
+            "huanshou": "8.83"
         }
     },
     {
         "date": "2023-09-18",
-        "money": 221529,
+        "money": 130169,
         "earnings": "10.01%",
         "desc": "竞价卖出东方嘉盛,当日盈利10.01%"
     },
     {
         "date": "2023-09-19",
-        "money": 198357,
+        "money": 116553,
         "earnings": "-10.46%",
         "desc": "打板买入龙头股份,结果炸板了盈利-10.46%,rank:105",
         "stock": {
@@ -2223,18 +2561,22 @@
             "isBurst": true,
             "next_opening_increase": "-2.91%",
             "pre_jinliang": "2.08",
-            "current_close_increase": "-0.46"
+            "current_close_increase": "-0.46",
+            "pre_final_limit_time": "13:06:18",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.91",
+            "huanshou": "6.76"
         }
     },
     {
         "date": "2023-09-20",
-        "money": 192585,
+        "money": 113161,
         "earnings": "-2.91%",
         "desc": "竞价卖出龙头股份,当日盈利-2.91%"
     },
     {
         "date": "2023-09-21",
-        "money": 192585,
+        "money": 113161,
         "earnings": "0%",
         "desc": "打板买入罗普斯金,rank:87",
         "stock": {
@@ -2249,18 +2591,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "-4.99%",
-            "pre_jinliang": "2.80"
+            "pre_jinliang": "2.80",
+            "pre_final_limit_time": "10:06:30",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.22",
+            "huanshou": "8.32"
         }
     },
     {
         "date": "2023-09-22",
-        "money": 182975,
+        "money": 107514,
         "earnings": "-4.99%",
         "desc": "竞价卖出罗普斯金,当日盈利-4.99%"
     },
     {
         "date": "2023-09-25",
-        "money": 182975,
+        "money": 107514,
         "earnings": "0%",
         "desc": "打板买入德展健康,rank:34",
         "stock": {
@@ -2275,18 +2621,22 @@
             "first_limit_time": "09:31:45",
             "isBurst": false,
             "next_opening_increase": "5.14%",
-            "pre_jinliang": "2.14"
+            "pre_jinliang": "2.14",
+            "pre_final_limit_time": "13:16:46",
+            "pre_open_times": "7",
+            "pre_huanshou": "6.76",
+            "huanshou": "11.82"
         }
     },
     {
         "date": "2023-09-26",
-        "money": 192380,
+        "money": 113040,
         "earnings": "5.14%",
         "desc": "竞价卖出德展健康,当日盈利5.14%"
     },
     {
         "date": "2023-09-27",
-        "money": 192380,
+        "money": 113040,
         "earnings": "0%",
         "desc": "打板买入贝肯能源,rank:69",
         "stock": {
@@ -2301,18 +2651,22 @@
             "first_limit_time": "09:31:16",
             "isBurst": false,
             "next_opening_increase": "8.92%",
-            "pre_jinliang": "4.59"
+            "pre_jinliang": "4.59",
+            "pre_final_limit_time": "10:32:46",
+            "pre_open_times": "2",
+            "pre_huanshou": "12.77",
+            "huanshou": "25.94"
         }
     },
     {
         "date": "2023-09-28",
-        "money": 209540,
+        "money": 123123,
         "earnings": "8.92%",
         "desc": "竞价卖出贝肯能源,当日盈利8.92%"
     },
     {
         "date": "2023-10-09",
-        "money": 209540,
+        "money": 123123,
         "earnings": "0%",
         "desc": "打板买入日盈电子,rank:207",
         "stock": {
@@ -2327,18 +2681,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "-2.49%",
-            "pre_jinliang": "2.29"
+            "pre_jinliang": "2.29",
+            "pre_final_limit_time": "10:17:47",
+            "pre_open_times": "4",
+            "pre_huanshou": "7.36",
+            "huanshou": "13.92"
         }
     },
     {
         "date": "2023-10-10",
-        "money": 204302,
+        "money": 120045,
         "earnings": "-2.5%",
         "desc": "竞价卖出日盈电子,当日盈利-2.5%"
     },
     {
         "date": "2023-10-11",
-        "money": 204302,
+        "money": 120045,
         "earnings": "0%",
         "desc": "打板买入润达医疗,rank:107",
         "stock": {
@@ -2353,44 +2711,52 @@
             "first_limit_time": "09:30:45",
             "isBurst": false,
             "next_opening_increase": "8.57%",
-            "pre_jinliang": "1.60"
+            "pre_jinliang": "1.60",
+            "pre_final_limit_time": "13:31:18",
+            "pre_open_times": "0",
+            "pre_huanshou": "5.70",
+            "huanshou": "12.25"
         }
     },
     {
         "date": "2023-10-12",
-        "money": 221811,
+        "money": 130333,
         "earnings": "8.57%",
         "desc": "竞价卖出润达医疗,当日盈利8.57%"
     },
     {
         "date": "2023-10-13",
-        "money": 221811,
+        "money": 130333,
         "earnings": "0%",
-        "desc": "打板买入冠捷科技,rank:15",
+        "desc": "打板买入通化金马,rank:21",
         "stock": {
             "date": "2023-10-13",
-            "name": "冠捷科技",
-            "code": "000727",
-            "pre_opening_increase": -3.94,
-            "current_opening_increase": 4.24,
-            "rank": "15",
-            "bidding_volume": "1,039.49万",
-            "next_bidding_volume": "2,919.78万",
-            "first_limit_time": "09:31:15",
+            "name": "通化金马",
+            "code": "000766",
+            "pre_opening_increase": -1.4,
+            "current_opening_increase": 4.85,
+            "rank": "21",
+            "bidding_volume": "97.97万",
+            "next_bidding_volume": "569.18万",
+            "first_limit_time": "09:38:45",
             "isBurst": false,
-            "next_opening_increase": "10.06%",
-            "pre_jinliang": "3.14"
+            "next_opening_increase": "3.19%",
+            "pre_jinliang": "1.22",
+            "pre_final_limit_time": "13:34:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "11.76",
+            "huanshou": "12.95"
         }
     },
     {
         "date": "2023-10-16",
-        "money": 244125,
-        "earnings": "10.06%",
-        "desc": "竞价卖出冠捷科技,当日盈利10.06%"
+        "money": 134491,
+        "earnings": "3.19%",
+        "desc": "竞价卖出通化金马,当日盈利3.19%"
     },
     {
         "date": "2023-10-17",
-        "money": 231479,
+        "money": 127524,
         "earnings": "-5.18%",
         "desc": "打板买入宁夏建材,结果炸板了盈利-5.18%,rank:177",
         "stock": {
@@ -2406,18 +2772,22 @@
             "isBurst": true,
             "next_opening_increase": "7.25%",
             "pre_jinliang": "1.08",
-            "current_close_increase": "4.82"
+            "current_close_increase": "4.82",
+            "pre_final_limit_time": "09:57:18",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.93",
+            "huanshou": "3.23"
         }
     },
     {
         "date": "2023-10-18",
-        "money": 248261,
+        "money": 136769,
         "earnings": "7.25%",
         "desc": "竞价卖出宁夏建材,当日盈利7.25%"
     },
     {
         "date": "2023-10-19",
-        "money": 248261,
+        "money": 136769,
         "earnings": "0%",
         "desc": "打板买入浩物股份,rank:156",
         "stock": {
@@ -2432,18 +2802,22 @@
             "first_limit_time": "09:31:15",
             "isBurst": false,
             "next_opening_increase": "9.93%",
-            "pre_jinliang": "2.24"
+            "pre_jinliang": "2.24",
+            "pre_final_limit_time": "09:43:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "6.11",
+            "huanshou": "6.41"
         }
     },
     {
         "date": "2023-10-20",
-        "money": 272913,
+        "money": 150350,
         "earnings": "9.93%",
         "desc": "竞价卖出浩物股份,当日盈利9.93%"
     },
     {
         "date": "2023-10-23",
-        "money": 251435,
+        "money": 138517,
         "earnings": "-7.87%",
         "desc": "打板买入德尔未来,结果炸板了盈利-7.87%,rank:153",
         "stock": {
@@ -2459,18 +2833,22 @@
             "isBurst": true,
             "next_opening_increase": "-2.72%",
             "pre_jinliang": "0.87",
-            "current_close_increase": "2.13"
+            "current_close_increase": "2.13",
+            "pre_final_limit_time": "10:20:47",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.71",
+            "huanshou": "2.61"
         }
     },
     {
         "date": "2023-10-24",
-        "money": 244596,
+        "money": 134749,
         "earnings": "-2.72%",
         "desc": "竞价卖出德尔未来,当日盈利-2.72%"
     },
     {
         "date": "2023-10-25",
-        "money": 244596,
+        "money": 134749,
         "earnings": "0%",
         "desc": "打板买入富佳股份,rank:800",
         "stock": {
@@ -2485,45 +2863,53 @@
             "first_limit_time": "09:31:45",
             "isBurst": false,
             "next_opening_increase": "2.99%",
-            "pre_jinliang": "0.54"
+            "pre_jinliang": "0.54",
+            "pre_final_limit_time": "11:26:51",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.68",
+            "huanshou": "3.52"
         }
     },
     {
         "date": "2023-10-26",
-        "money": 251909,
+        "money": 138778,
         "earnings": "2.99%",
         "desc": "竞价卖出富佳股份,当日盈利2.99%"
     },
     {
         "date": "2023-10-27",
-        "money": 216289,
-        "earnings": "-14.14%",
-        "desc": "打板买入亚联发展,结果炸板了盈利-14.14%,rank:40",
+        "money": 133393,
+        "earnings": "-3.88%",
+        "desc": "打板买入甘源食品,结果炸板了盈利-3.88%,rank:595",
         "stock": {
             "date": "2023-10-27",
-            "name": "亚联发展",
-            "code": "002316",
-            "pre_opening_increase": 1.1,
-            "current_opening_increase": 5.14,
-            "rank": "40",
-            "bidding_volume": "92.88万",
-            "next_bidding_volume": "712.84万",
-            "first_limit_time": "09:30:30",
+            "name": "甘源食品",
+            "code": "002991",
+            "pre_opening_increase": 10.01,
+            "current_opening_increase": 1.97,
+            "rank": "595",
+            "bidding_volume": "12.60万",
+            "next_bidding_volume": "4.05万",
+            "first_limit_time": "09:53:17",
             "isBurst": true,
-            "next_opening_increase": "-4.02%",
-            "pre_jinliang": "3.94",
-            "current_close_increase": "-4.14"
+            "next_opening_increase": "0.73%",
+            "pre_jinliang": "0.26",
+            "current_close_increase": "6.12",
+            "pre_final_limit_time": "09:30:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.48",
+            "huanshou": "1.91"
         }
     },
     {
         "date": "2023-10-30",
-        "money": 207594,
-        "earnings": "-4.02%",
-        "desc": "竞价卖出亚联发展,当日盈利-4.02%"
+        "money": 134367,
+        "earnings": "0.73%",
+        "desc": "竞价卖出甘源食品,当日盈利0.73%"
     },
     {
         "date": "2023-10-31",
-        "money": 207594,
+        "money": 134367,
         "earnings": "0%",
         "desc": "打板买入赛隆药业,rank:424",
         "stock": {
@@ -2538,18 +2924,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "2.86%",
-            "pre_jinliang": "2.22"
+            "pre_jinliang": "2.22",
+            "pre_final_limit_time": "10:20:17",
+            "pre_open_times": "0",
+            "pre_huanshou": "4.02",
+            "huanshou": "9.67"
         }
     },
     {
         "date": "2023-11-01",
-        "money": 213531,
+        "money": 138210,
         "earnings": "2.86%",
         "desc": "竞价卖出赛隆药业,当日盈利2.86%"
     },
     {
         "date": "2023-11-02",
-        "money": 213531,
+        "money": 138210,
         "earnings": "0%",
         "desc": "打板买入通达电气,rank:183",
         "stock": {
@@ -2564,44 +2954,53 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.04%",
-            "pre_jinliang": "0.14"
+            "pre_jinliang": "0.14",
+            "pre_final_limit_time": "10:03:15",
+            "pre_open_times": "2",
+            "pre_huanshou": "1.11",
+            "huanshou": "3.08"
         }
     },
     {
         "date": "2023-11-03",
-        "money": 234948,
+        "money": 152072,
         "earnings": "10.03%",
         "desc": "竞价卖出通达电气,当日盈利10.03%"
     },
     {
         "date": "2023-11-06",
-        "money": 234948,
-        "earnings": "0%",
-        "desc": "打板买入亚翔集成,rank:23",
+        "money": 140013,
+        "earnings": "-7.93%",
+        "desc": "打板买入圣晖集成,结果炸板了盈利-7.93%,rank:398",
         "stock": {
             "date": "2023-11-06",
-            "name": "亚翔集成",
-            "code": "603929",
-            "pre_opening_increase": -6.38,
-            "current_opening_increase": 6.46,
-            "rank": "23",
-            "bidding_volume": "367.84万",
-            "next_bidding_volume": "193.43万",
+            "name": "圣晖集成",
+            "code": "603163",
+            "pre_opening_increase": -0.29,
+            "current_opening_increase": 6.19,
+            "rank": "398",
+            "bidding_volume": "11.79万",
+            "next_bidding_volume": "73.32万",
             "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "-2.43%",
-            "pre_jinliang": "2.53"
+            "isBurst": true,
+            "next_opening_increase": "-2.99%",
+            "pre_jinliang": "3.24",
+            "current_close_increase": "2.07",
+            "pre_final_limit_time": "10:29:08",
+            "pre_open_times": "1",
+            "pre_huanshou": "11.42",
+            "huanshou": "17.28"
         }
     },
     {
         "date": "2023-11-07",
-        "money": 229215,
-        "earnings": "-2.44%",
-        "desc": "竞价卖出亚翔集成,当日盈利-2.44%"
+        "money": 135827,
+        "earnings": "-2.99%",
+        "desc": "竞价卖出圣晖集成,当日盈利-2.99%"
     },
     {
         "date": "2023-11-08",
-        "money": 229215,
+        "money": 135827,
         "earnings": "0%",
         "desc": "打板买入天普股份,rank:323",
         "stock": {
@@ -2616,18 +3015,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.02%",
-            "pre_jinliang": "1.33"
+            "pre_jinliang": "1.33",
+            "pre_final_limit_time": "10:15:46",
+            "pre_open_times": "0",
+            "pre_huanshou": "4.27",
+            "huanshou": "5.75"
         }
     },
     {
         "date": "2023-11-09",
-        "money": 252182,
+        "money": 149437,
         "earnings": "10.02%",
         "desc": "竞价卖出天普股份,当日盈利10.02%"
     },
     {
         "date": "2023-11-10",
-        "money": 252182,
+        "money": 149437,
         "earnings": "0%",
         "desc": "打板买入统一股份,rank:144",
         "stock": {
@@ -2642,18 +3045,22 @@
             "first_limit_time": "09:31:00",
             "isBurst": false,
             "next_opening_increase": "9.82%",
-            "pre_jinliang": "1.93"
+            "pre_jinliang": "1.93",
+            "pre_final_limit_time": "13:33:21",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.32",
+            "huanshou": "11.11"
         }
     },
     {
         "date": "2023-11-13",
-        "money": 276946,
+        "money": 164112,
         "earnings": "9.82%",
         "desc": "竞价卖出统一股份,当日盈利9.82%"
     },
     {
         "date": "2023-11-14",
-        "money": 276946,
+        "money": 164112,
         "earnings": "0%",
         "desc": "打板买入达华智能,rank:44",
         "stock": {
@@ -2668,18 +3075,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "9.95%",
-            "pre_jinliang": "2.97"
+            "pre_jinliang": "2.97",
+            "pre_final_limit_time": "10:17:21",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.46",
+            "huanshou": "9.78"
         }
     },
     {
         "date": "2023-11-15",
-        "money": 304474,
+        "money": 180425,
         "earnings": "9.94%",
         "desc": "竞价卖出达华智能,当日盈利9.94%"
     },
     {
         "date": "2023-11-16",
-        "money": 304474,
+        "money": 180425,
         "earnings": "0%",
         "desc": "打板买入统一股份,rank:93",
         "stock": {
@@ -2694,18 +3105,22 @@
             "first_limit_time": "09:32:00",
             "isBurst": false,
             "next_opening_increase": "1.50%",
-            "pre_jinliang": "2.35"
+            "pre_jinliang": "2.35",
+            "pre_final_limit_time": "14:13:11",
+            "pre_open_times": "0",
+            "pre_huanshou": "18.66",
+            "huanshou": "20.00"
         }
     },
     {
         "date": "2023-11-17",
-        "money": 309041,
+        "money": 183131,
         "earnings": "1.5%",
         "desc": "竞价卖出统一股份,当日盈利1.5%"
     },
     {
         "date": "2023-11-20",
-        "money": 283483,
+        "money": 167986,
         "earnings": "-8.27%",
         "desc": "打板买入亚普股份,结果炸板了盈利-8.27%,rank:205",
         "stock": {
@@ -2721,18 +3136,22 @@
             "isBurst": true,
             "next_opening_increase": "-1.70%",
             "pre_jinliang": "0.41",
-            "current_close_increase": "1.73"
+            "current_close_increase": "1.73",
+            "pre_final_limit_time": "09:43:45",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.47",
+            "huanshou": "2.02"
         }
     },
     {
         "date": "2023-11-21",
-        "money": 278664,
+        "money": 165130,
         "earnings": "-1.7%",
         "desc": "竞价卖出亚普股份,当日盈利-1.7%"
     },
     {
         "date": "2023-11-22",
-        "money": 278664,
+        "money": 165130,
         "earnings": "0%",
         "desc": "打板买入中广天择,rank:146",
         "stock": {
@@ -2747,18 +3166,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "1.21%",
-            "pre_jinliang": "1.92"
+            "pre_jinliang": "1.92",
+            "pre_final_limit_time": "14:54:07",
+            "pre_open_times": "3",
+            "pre_huanshou": "12.17",
+            "huanshou": "15.69"
         }
     },
     {
         "date": "2023-11-23",
-        "money": 282036,
+        "money": 167128,
         "earnings": "1.21%",
         "desc": "竞价卖出中广天择,当日盈利1.21%"
     },
     {
         "date": "2023-11-24",
-        "money": 282036,
+        "money": 167128,
         "earnings": "0%",
         "desc": "打板买入联环药业,rank:156",
         "stock": {
@@ -2773,18 +3196,22 @@
             "first_limit_time": "09:30:45",
             "isBurst": false,
             "next_opening_increase": "10.01%",
-            "pre_jinliang": "0.85"
+            "pre_jinliang": "0.85",
+            "pre_final_limit_time": "14:40:27",
+            "pre_open_times": "8",
+            "pre_huanshou": "2.10",
+            "huanshou": "13.74"
         }
     },
     {
         "date": "2023-11-27",
-        "money": 310268,
+        "money": 183858,
         "earnings": "10.01%",
         "desc": "竞价卖出联环药业,当日盈利10.01%"
     },
     {
         "date": "2023-11-28",
-        "money": 310268,
+        "money": 183858,
         "earnings": "0%",
         "desc": "打板买入云内动力,rank:99",
         "stock": {
@@ -2799,18 +3226,22 @@
             "first_limit_time": "09:31:30",
             "isBurst": false,
             "next_opening_increase": "10.03%",
-            "pre_jinliang": "1.37"
+            "pre_jinliang": "1.37",
+            "pre_final_limit_time": "09:51:51",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.14",
+            "huanshou": "4.65"
         }
     },
     {
         "date": "2023-11-29",
-        "money": 341357,
+        "money": 202281,
         "earnings": "10.02%",
         "desc": "竞价卖出云内动力,当日盈利10.02%"
     },
     {
         "date": "2023-11-30",
-        "money": 298244,
+        "money": 176733,
         "earnings": "-12.63%",
         "desc": "打板买入中持股份,结果炸板了盈利-12.63%,rank:139",
         "stock": {
@@ -2826,18 +3257,22 @@
             "isBurst": true,
             "next_opening_increase": "-2.70%",
             "pre_jinliang": "2.16",
-            "current_close_increase": "-2.63"
+            "current_close_increase": "-2.63",
+            "pre_final_limit_time": "11:16:42",
+            "pre_open_times": "5",
+            "pre_huanshou": "6.30",
+            "huanshou": "11.12"
         }
     },
     {
         "date": "2023-12-01",
-        "money": 290191,
+        "money": 171961,
         "earnings": "-2.7%",
         "desc": "竞价卖出中持股份,当日盈利-2.7%"
     },
     {
         "date": "2023-12-04",
-        "money": 290191,
+        "money": 171961,
         "earnings": "0%",
         "desc": "打板买入苏豪弘业,rank:318",
         "stock": {
@@ -2852,44 +3287,52 @@
             "first_limit_time": "09:31:57",
             "isBurst": false,
             "next_opening_increase": "-4.09%",
-            "pre_jinliang": "1.49"
+            "pre_jinliang": "1.49",
+            "pre_final_limit_time": "09:35:15",
+            "pre_open_times": "3",
+            "pre_huanshou": "2.03",
+            "huanshou": "7.57"
         }
     },
     {
         "date": "2023-12-05",
-        "money": 278322,
+        "money": 164928,
         "earnings": "-4.09%",
         "desc": "竞价卖出苏豪弘业,当日盈利-4.09%"
     },
     {
         "date": "2023-12-06",
-        "money": 278322,
+        "money": 164928,
         "earnings": "0%",
-        "desc": "打板买入联明股份,rank:176",
+        "desc": "打板买入南京化纤,rank:187",
         "stock": {
             "date": "2023-12-06",
-            "name": "联明股份",
-            "code": "603006",
-            "pre_opening_increase": 0.53,
-            "current_opening_increase": 7.89,
-            "rank": "176",
-            "bidding_volume": "17.14万",
-            "next_bidding_volume": "153.87万",
-            "first_limit_time": "09:30:18",
+            "name": "南京化纤",
+            "code": "600889",
+            "pre_opening_increase": 1.36,
+            "current_opening_increase": 3.87,
+            "rank": "187",
+            "bidding_volume": "29.36万",
+            "next_bidding_volume": "293.44万",
+            "first_limit_time": "09:30:48",
             "isBurst": false,
-            "next_opening_increase": "7.05%",
-            "pre_jinliang": "1.70"
+            "next_opening_increase": "-3.66%",
+            "pre_jinliang": "1.80",
+            "pre_final_limit_time": "09:54:20",
+            "pre_open_times": "1",
+            "pre_huanshou": "7.44",
+            "huanshou": "9.79"
         }
     },
     {
         "date": "2023-12-07",
-        "money": 297944,
-        "earnings": "7.05%",
-        "desc": "竞价卖出联明股份,当日盈利7.05%"
+        "money": 158892,
+        "earnings": "-3.66%",
+        "desc": "竞价卖出南京化纤,当日盈利-3.66%"
     },
     {
         "date": "2023-12-08",
-        "money": 297944,
+        "money": 158892,
         "earnings": "0%",
         "desc": "打板买入三孚股份,rank:333",
         "stock": {
@@ -2904,70 +3347,83 @@
             "first_limit_time": "09:39:28",
             "isBurst": false,
             "next_opening_increase": "-1.62%",
-            "pre_jinliang": "0.32"
+            "pre_jinliang": "0.32",
+            "pre_final_limit_time": "09:42:00",
+            "pre_open_times": "5",
+            "pre_huanshou": "0.44",
+            "huanshou": "2.33"
         }
     },
     {
         "date": "2023-12-11",
-        "money": 293117,
+        "money": 156318,
         "earnings": "-1.62%",
         "desc": "竞价卖出三孚股份,当日盈利-1.62%"
     },
     {
         "date": "2023-12-12",
-        "money": 293117,
-        "earnings": "0%",
-        "desc": "打板买入龙版传媒,rank:9",
+        "money": 145735,
+        "earnings": "-6.77%",
+        "desc": "打板买入泰慕士,结果炸板了盈利-6.77%,rank:205",
         "stock": {
             "date": "2023-12-12",
-            "name": "龙版传媒",
-            "code": "605577",
-            "pre_opening_increase": -5.24,
-            "current_opening_increase": 7.51,
-            "rank": "9",
-            "bidding_volume": "261.49万",
-            "next_bidding_volume": "151.27万",
-            "first_limit_time": "09:30:33",
-            "isBurst": false,
-            "next_opening_increase": "0.00%",
-            "pre_jinliang": "4.15"
+            "name": "泰慕士",
+            "code": "001234",
+            "pre_opening_increase": 0.22,
+            "current_opening_increase": 1.74,
+            "rank": "205",
+            "bidding_volume": "4.69万",
+            "next_bidding_volume": "43.00万",
+            "first_limit_time": "09:45:03",
+            "isBurst": true,
+            "next_opening_increase": "-1.15%",
+            "pre_jinliang": "8.17",
+            "current_close_increase": "3.23",
+            "pre_final_limit_time": "09:36:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "20.16",
+            "huanshou": "23.27"
         }
     },
     {
         "date": "2023-12-13",
-        "money": 293117,
-        "earnings": "0.0%",
-        "desc": "竞价卖出龙版传媒,当日盈利0.0%"
+        "money": 144059,
+        "earnings": "-1.15%",
+        "desc": "竞价卖出泰慕士,当日盈利-1.15%"
     },
     {
         "date": "2023-12-14",
-        "money": 293117,
+        "money": 144059,
         "earnings": "0%",
-        "desc": "打板买入引力传媒,rank:13",
+        "desc": "打板买入浙江震元,rank:131",
         "stock": {
             "date": "2023-12-14",
-            "name": "引力传媒",
-            "code": "603598",
-            "pre_opening_increase": -2.92,
-            "current_opening_increase": 3.51,
-            "rank": "13",
-            "bidding_volume": "121.24万",
-            "next_bidding_volume": "228.76万",
-            "first_limit_time": "09:36:04",
+            "name": "浙江震元",
+            "code": "000705",
+            "pre_opening_increase": 0.57,
+            "current_opening_increase": 1.96,
+            "rank": "131",
+            "bidding_volume": "11.05万",
+            "next_bidding_volume": "286.82万",
+            "first_limit_time": "09:42:49",
             "isBurst": false,
-            "next_opening_increase": "2.87%",
-            "pre_jinliang": "4.36"
+            "next_opening_increase": "-2.35%",
+            "pre_jinliang": "1.98",
+            "pre_final_limit_time": "09:47:53",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.51",
+            "huanshou": "6.15"
         }
     },
     {
         "date": "2023-12-15",
-        "money": 301529,
-        "earnings": "2.87%",
-        "desc": "竞价卖出引力传媒,当日盈利2.87%"
+        "money": 140674,
+        "earnings": "-2.35%",
+        "desc": "竞价卖出浙江震元,当日盈利-2.35%"
     },
     {
         "date": "2023-12-18",
-        "money": 301529,
+        "money": 140674,
         "earnings": "0%",
         "desc": "打板买入科华生物,rank:255",
         "stock": {
@@ -2982,18 +3438,22 @@
             "first_limit_time": "09:36:39",
             "isBurst": false,
             "next_opening_increase": "1.02%",
-            "pre_jinliang": "0.97"
+            "pre_jinliang": "0.97",
+            "pre_final_limit_time": "11:13:16",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.58",
+            "huanshou": "5.04"
         }
     },
     {
         "date": "2023-12-19",
-        "money": 304605,
+        "money": 142109,
         "earnings": "1.02%",
         "desc": "竞价卖出科华生物,当日盈利1.02%"
     },
     {
         "date": "2023-12-20",
-        "money": 304605,
+        "money": 142109,
         "earnings": "0%",
         "desc": "打板买入泰禾智能,rank:183",
         "stock": {
@@ -3008,45 +3468,52 @@
             "first_limit_time": "09:30:52",
             "isBurst": false,
             "next_opening_increase": "-0.18%",
-            "pre_jinliang": "2.00"
+            "pre_jinliang": "2.00",
+            "pre_final_limit_time": "13:52:19",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.71",
+            "huanshou": "8.79"
         }
     },
     {
         "date": "2023-12-21",
-        "money": 304057,
+        "money": 141853,
         "earnings": "-0.18%",
         "desc": "竞价卖出泰禾智能,当日盈利-0.18%"
     },
     {
         "date": "2023-12-22",
-        "money": 282439,
-        "earnings": "-7.11%",
-        "desc": "打板买入海程邦达,结果炸板了盈利-7.11%,rank:225",
+        "money": 141853,
+        "earnings": "0%",
+        "desc": "打板买入捷荣技术,rank:13",
         "stock": {
             "date": "2023-12-22",
-            "name": "海程邦达",
-            "code": "603836",
-            "pre_opening_increase": 0.06,
-            "current_opening_increase": 7.4,
-            "rank": "225",
-            "bidding_volume": "10.87万",
-            "next_bidding_volume": "151.41万",
-            "first_limit_time": "09:40:00",
-            "isBurst": true,
-            "next_opening_increase": "-0.39%",
-            "pre_jinliang": "3.92",
-            "current_close_increase": "2.89"
+            "name": "捷荣技术",
+            "code": "002855",
+            "pre_opening_increase": -1.4,
+            "current_opening_increase": 3.11,
+            "rank": "13",
+            "bidding_volume": "30.60万",
+            "next_bidding_volume": "144.39万",
+            "first_limit_time": "09:42:15",
+            "isBurst": false,
+            "next_opening_increase": "1.67%",
+            "pre_jinliang": "2.08",
+            "pre_final_limit_time": "14:54:24",
+            "pre_open_times": "1",
+            "pre_huanshou": "13.59",
+            "huanshou": "19.24"
         }
     },
     {
         "date": "2023-12-25",
-        "money": 281337,
-        "earnings": "-0.39%",
-        "desc": "竞价卖出海程邦达,当日盈利-0.39%"
+        "money": 144222,
+        "earnings": "1.67%",
+        "desc": "竞价卖出捷荣技术,当日盈利1.67%"
     },
     {
         "date": "2023-12-26",
-        "money": 281337,
+        "money": 144222,
         "earnings": "0%",
         "desc": "打板买入佳隆股份,rank:73",
         "stock": {
@@ -3061,18 +3528,22 @@
             "first_limit_time": "09:31:00",
             "isBurst": false,
             "next_opening_increase": "-4.96%",
-            "pre_jinliang": "1.87"
+            "pre_jinliang": "1.87",
+            "pre_final_limit_time": "13:18:33",
+            "pre_open_times": "3",
+            "pre_huanshou": "17.56",
+            "huanshou": "20.22"
         }
     },
     {
         "date": "2023-12-27",
-        "money": 267383,
+        "money": 137069,
         "earnings": "-4.96%",
         "desc": "竞价卖出佳隆股份,当日盈利-4.96%"
     },
     {
         "date": "2023-12-28",
-        "money": 267383,
+        "money": 137069,
         "earnings": "0%",
         "desc": "打板买入神马电力,rank:194",
         "stock": {
@@ -3087,18 +3558,22 @@
             "first_limit_time": "09:30:30",
             "isBurst": false,
             "next_opening_increase": "10.03%",
-            "pre_jinliang": "0.27"
+            "pre_jinliang": "0.27",
+            "pre_final_limit_time": "13:58:48",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.38",
+            "huanshou": "2.33"
         }
     },
     {
         "date": "2023-12-29",
-        "money": 294175,
+        "money": 150803,
         "earnings": "10.02%",
         "desc": "竞价卖出神马电力,当日盈利10.02%"
     },
     {
         "date": "2024-01-02",
-        "money": 294175,
+        "money": 150803,
         "earnings": "0%",
         "desc": "打板买入利柏特,rank:552",
         "stock": {
@@ -3113,18 +3588,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "9.96%",
-            "pre_jinliang": "4.11"
+            "pre_jinliang": "4.11",
+            "pre_final_limit_time": "13:00:05",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.81",
+            "huanshou": "11.00"
         }
     },
     {
         "date": "2024-01-03",
-        "money": 323475,
+        "money": 165823,
         "earnings": "9.96%",
         "desc": "竞价卖出利柏特,当日盈利9.96%"
     },
     {
         "date": "2024-01-04",
-        "money": 323475,
+        "money": 165823,
         "earnings": "0%",
         "desc": "打板买入东方中科,rank:152",
         "stock": {
@@ -3139,18 +3618,22 @@
             "first_limit_time": "09:34:30",
             "isBurst": false,
             "next_opening_increase": "10.01%",
-            "pre_jinliang": "0.79"
+            "pre_jinliang": "0.79",
+            "pre_final_limit_time": "13:48:00",
+            "pre_open_times": "1",
+            "pre_huanshou": "1.39",
+            "huanshou": "3.77"
         }
     },
     {
         "date": "2024-01-05",
-        "money": 355855,
+        "money": 182422,
         "earnings": "10.01%",
         "desc": "竞价卖出东方中科,当日盈利10.01%"
     },
     {
         "date": "2024-01-08",
-        "money": 355855,
+        "money": 182422,
         "earnings": "0%",
         "desc": "打板买入华达新材,rank:215",
         "stock": {
@@ -3165,18 +3648,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "-3.83%",
-            "pre_jinliang": "1.00"
+            "pre_jinliang": "1.00",
+            "pre_final_limit_time": "10:17:15",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.86",
+            "huanshou": "4.74"
         }
     },
     {
         "date": "2024-01-09",
-        "money": 342226,
+        "money": 175435,
         "earnings": "-3.83%",
         "desc": "竞价卖出华达新材,当日盈利-3.83%"
     },
     {
         "date": "2024-01-10",
-        "money": 342226,
+        "money": 175435,
         "earnings": "0%",
         "desc": "打板买入深中华A,rank:216",
         "stock": {
@@ -3191,18 +3678,22 @@
             "first_limit_time": "09:30:15",
             "isBurst": false,
             "next_opening_increase": "9.98%",
-            "pre_jinliang": "1.69"
+            "pre_jinliang": "1.69",
+            "pre_final_limit_time": "13:02:47",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.51",
+            "huanshou": "6.31"
         }
     },
     {
         "date": "2024-01-11",
-        "money": 376380,
+        "money": 192943,
         "earnings": "9.98%",
         "desc": "竞价卖出深中华A,当日盈利9.98%"
     },
     {
         "date": "2024-01-12",
-        "money": 376380,
+        "money": 192943,
         "earnings": "0%",
         "desc": "打板买入恒兴新材,rank:305",
         "stock": {
@@ -3217,18 +3708,22 @@
             "first_limit_time": "09:35:45",
             "isBurst": false,
             "next_opening_increase": "-3.74%",
-            "pre_jinliang": "5.48"
+            "pre_jinliang": "5.48",
+            "pre_final_limit_time": "13:07:09",
+            "pre_open_times": "0",
+            "pre_huanshou": "9.87",
+            "huanshou": "13.80"
         }
     },
     {
         "date": "2024-01-15",
-        "money": 362303,
+        "money": 185727,
         "earnings": "-3.74%",
         "desc": "竞价卖出恒兴新材,当日盈利-3.74%"
     },
     {
         "date": "2024-01-16",
-        "money": 362303,
+        "money": 185727,
         "earnings": "0%",
         "desc": "打板买入九华旅游,rank:91",
         "stock": {
@@ -3243,18 +3738,22 @@
             "first_limit_time": "09:31:00",
             "isBurst": false,
             "next_opening_increase": "4.82%",
-            "pre_jinliang": "2.57"
+            "pre_jinliang": "2.57",
+            "pre_final_limit_time": "10:53:27",
+            "pre_open_times": "7",
+            "pre_huanshou": "4.89",
+            "huanshou": "12.37"
         }
     },
     {
         "date": "2024-01-17",
-        "money": 379766,
+        "money": 194679,
         "earnings": "4.82%",
         "desc": "竞价卖出九华旅游,当日盈利4.82%"
     },
     {
         "date": "2024-01-18",
-        "money": 379766,
+        "money": 194679,
         "earnings": "0%",
         "desc": "打板买入华生科技,rank:177",
         "stock": {
@@ -3269,18 +3768,22 @@
             "first_limit_time": "09:30:34",
             "isBurst": false,
             "next_opening_increase": "-4.29%",
-            "pre_jinliang": "6.00"
+            "pre_jinliang": "6.00",
+            "pre_final_limit_time": "13:30:13",
+            "pre_open_times": "3",
+            "pre_huanshou": "2.09",
+            "huanshou": "24.04"
         }
     },
     {
         "date": "2024-01-19",
-        "money": 363474,
+        "money": 186327,
         "earnings": "-4.29%",
         "desc": "竞价卖出华生科技,当日盈利-4.29%"
     },
     {
         "date": "2024-01-22",
-        "money": 327127,
+        "money": 167694,
         "earnings": "-10.0%",
         "desc": "打板买入永艺股份,结果炸板了盈利-10.0%,rank:153",
         "stock": {
@@ -3296,18 +3799,22 @@
             "isBurst": true,
             "next_opening_increase": "-9.96%",
             "pre_jinliang": "1.13",
-            "current_close_increase": "0.00"
+            "current_close_increase": "0.00",
+            "pre_final_limit_time": "14:33:33",
+            "pre_open_times": "1",
+            "pre_huanshou": "4.19",
+            "huanshou": "5.34"
         }
     },
     {
         "date": "2024-01-23",
-        "money": 294512,
+        "money": 150975,
         "earnings": "-9.97%",
         "desc": "竞价卖出永艺股份,当日盈利-9.97%"
     },
     {
         "date": "2024-01-24",
-        "money": 294512,
+        "money": 150975,
         "earnings": "0%",
         "desc": "打板买入浦东金桥,rank:211",
         "stock": {
@@ -3322,18 +3829,22 @@
             "first_limit_time": "09:32:14",
             "isBurst": false,
             "next_opening_increase": "9.96%",
-            "pre_jinliang": "0.16"
+            "pre_jinliang": "0.16",
+            "pre_final_limit_time": "14:17:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.65",
+            "huanshou": "1.88"
         }
     },
     {
         "date": "2024-01-25",
-        "money": 323845,
+        "money": 166012,
         "earnings": "9.96%",
         "desc": "竞价卖出浦东金桥,当日盈利9.96%"
     },
     {
         "date": "2024-01-26",
-        "money": 323845,
+        "money": 166012,
         "earnings": "0%",
         "desc": "打板买入光明地产,rank:560",
         "stock": {
@@ -3348,750 +3859,854 @@
             "first_limit_time": "09:34:30",
             "isBurst": false,
             "next_opening_increase": "7.84%",
-            "pre_jinliang": "0.32"
+            "pre_jinliang": "0.32",
+            "pre_final_limit_time": "10:59:58",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.47",
+            "huanshou": "3.90"
         }
     },
     {
         "date": "2024-01-29",
-        "money": 349234,
+        "money": 179027,
         "earnings": "7.84%",
         "desc": "竞价卖出光明地产,当日盈利7.84%"
     },
     {
         "date": "2024-01-30",
-        "money": 349234,
+        "money": 179027,
         "earnings": "0%",
-        "desc": "打板买入深南电A,rank:56",
-        "stock": {
-            "date": "2024-01-30",
-            "name": "深南电A",
-            "code": "000037",
-            "pre_opening_increase": -1.61,
-            "current_opening_increase": 4.69,
-            "rank": "56",
-            "bidding_volume": "42.69万",
-            "next_bidding_volume": "377.79万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "10.04%",
-            "pre_jinliang": "3.76"
-        }
+        "desc": "空仓"
     },
     {
         "date": "2024-01-31",
-        "money": 384262,
-        "earnings": "10.03%",
-        "desc": "竞价卖出深南电A,当日盈利10.03%"
+        "money": 164078,
+        "earnings": "-8.35%",
+        "desc": "打板买入赣能股份,结果炸板了盈利-8.35%,rank:68",
+        "stock": {
+            "date": "2024-01-31",
+            "name": "赣能股份",
+            "code": "000899",
+            "pre_opening_increase": 7.54,
+            "current_opening_increase": 5.97,
+            "rank": "68",
+            "bidding_volume": "64.76万",
+            "next_bidding_volume": "339.48万",
+            "first_limit_time": "09:30:31",
+            "isBurst": true,
+            "next_opening_increase": "-9.99%",
+            "pre_jinliang": "0.41",
+            "current_close_increase": "1.65",
+            "pre_final_limit_time": "09:41:15",
+            "pre_open_times": "2",
+            "pre_huanshou": "0.61",
+            "huanshou": "2.41"
+        }
     },
     {
         "date": "2024-02-01",
-        "money": 319360,
-        "earnings": "-16.89%",
-        "desc": "打板买入中设股份,结果炸板了盈利-16.89%,rank:168",
-        "stock": {
-            "date": "2024-02-01",
-            "name": "中设股份",
-            "code": "002883",
-            "pre_opening_increase": -0.6,
-            "current_opening_increase": 5.95,
-            "rank": "168",
-            "bidding_volume": "11.63万",
-            "next_bidding_volume": "185.61万",
-            "first_limit_time": "09:30:15",
-            "isBurst": true,
-            "next_opening_increase": "-10.00%",
-            "pre_jinliang": "3.27",
-            "current_close_increase": "-6.89"
-        }
+        "money": 147687,
+        "earnings": "-9.99%",
+        "desc": "竞价卖出赣能股份,当日盈利-9.99%"
     },
     {
         "date": "2024-02-02",
-        "money": 287424,
-        "earnings": "-10.0%",
-        "desc": "竞价卖出中设股份,当日盈利-10.0%"
+        "money": 135843,
+        "earnings": "-8.02%",
+        "desc": "打板买入创新医疗,结果炸板了盈利-8.02%,rank:34",
+        "stock": {
+            "date": "2024-02-02",
+            "name": "创新医疗",
+            "code": "002173",
+            "pre_opening_increase": -2.94,
+            "current_opening_increase": 5.47,
+            "rank": "34",
+            "bidding_volume": "68.19万",
+            "next_bidding_volume": "381.57万",
+            "first_limit_time": "09:30:45",
+            "isBurst": true,
+            "next_opening_increase": "-10.03%",
+            "pre_jinliang": "2.27",
+            "current_close_increase": "1.98",
+            "pre_final_limit_time": "10:00:58",
+            "pre_open_times": "2",
+            "pre_huanshou": "9.97",
+            "huanshou": "12.66"
+        }
     },
     {
         "date": "2024-02-05",
-        "money": 247242,
-        "earnings": "-13.98%",
-        "desc": "打板买入永创智能,结果炸板了盈利-13.98%,rank:616",
-        "stock": {
-            "date": "2024-02-05",
-            "name": "永创智能",
-            "code": "603901",
-            "pre_opening_increase": 0.24,
-            "current_opening_increase": 2.21,
-            "rank": "616",
-            "bidding_volume": "800.00",
-            "next_bidding_volume": "21.25万",
-            "first_limit_time": "09:34:47",
-            "isBurst": true,
-            "next_opening_increase": "-10.02%",
-            "pre_jinliang": "0.19",
-            "current_close_increase": "-3.98"
-        }
+        "money": 122218,
+        "earnings": "-10.03%",
+        "desc": "竞价卖出创新医疗,当日盈利-10.03%"
     },
     {
         "date": "2024-02-06",
-        "money": 222468,
-        "earnings": "-10.02%",
-        "desc": "竞价卖出永创智能,当日盈利-10.02%"
+        "money": 122218,
+        "earnings": "0%",
+        "desc": "打板买入中重科技,rank:119",
+        "stock": {
+            "date": "2024-02-06",
+            "name": "中重科技",
+            "code": "603135",
+            "pre_opening_increase": 1.21,
+            "current_opening_increase": 2.72,
+            "rank": "119",
+            "bidding_volume": "1.74万",
+            "next_bidding_volume": "85.69万",
+            "first_limit_time": "09:30:48",
+            "isBurst": false,
+            "next_opening_increase": "10.02%",
+            "pre_jinliang": "2.95",
+            "pre_final_limit_time": "09:31:17",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.99",
+            "huanshou": "7.77"
+        }
     },
     {
         "date": "2024-02-07",
-        "money": 222468,
-        "earnings": "0%",
-        "desc": "打板买入大族激光,rank:63",
-        "stock": {
-            "date": "2024-02-07",
-            "name": "大族激光",
-            "code": "002008",
-            "pre_opening_increase": 2.85,
-            "current_opening_increase": 7.7,
-            "rank": "63",
-            "bidding_volume": "30.00万",
-            "next_bidding_volume": "147.63万",
-            "first_limit_time": "09:31:00",
-            "isBurst": false,
-            "next_opening_increase": "1.29%",
-            "pre_jinliang": "0.39"
-        }
+        "money": 134464,
+        "earnings": "10.02%",
+        "desc": "竞价卖出中重科技,当日盈利10.02%"
     },
     {
         "date": "2024-02-08",
-        "money": 225338,
-        "earnings": "1.29%",
-        "desc": "竞价卖出大族激光,当日盈利1.29%"
+        "money": 132528,
+        "earnings": "-1.44%",
+        "desc": "打板买入新大陆,结果炸板了盈利-1.44%,rank:527",
+        "stock": {
+            "date": "2024-02-08",
+            "name": "新大陆",
+            "code": "000997",
+            "pre_opening_increase": 0.77,
+            "current_opening_increase": 1.22,
+            "rank": "527",
+            "bidding_volume": "3.07万",
+            "next_bidding_volume": "16.61万",
+            "first_limit_time": "10:20:26",
+            "isBurst": true,
+            "next_opening_increase": "0.59%",
+            "pre_jinliang": "0.18",
+            "current_close_increase": "8.56",
+            "pre_final_limit_time": "14:15:02",
+            "pre_open_times": "4",
+            "pre_huanshou": "1.59",
+            "huanshou": "1.83"
+        }
     },
     {
         "date": "2024-02-19",
-        "money": 225338,
-        "earnings": "0%",
-        "desc": "打板买入东方智造,rank:953",
-        "stock": {
-            "date": "2024-02-19",
-            "name": "东方智造",
-            "code": "002175",
-            "pre_opening_increase": 1.22,
-            "current_opening_increase": 4.44,
-            "rank": "953",
-            "bidding_volume": "7.94万",
-            "next_bidding_volume": "92.21万",
-            "first_limit_time": "09:31:00",
-            "isBurst": false,
-            "next_opening_increase": "0.00%",
-            "pre_jinliang": "0.56"
-        }
+        "money": 133310,
+        "earnings": "0.59%",
+        "desc": "竞价卖出新大陆,当日盈利0.59%"
     },
     {
         "date": "2024-02-20",
-        "money": 225338,
-        "earnings": "0.0%",
-        "desc": "竞价卖出东方智造,当日盈利0.0%"
+        "money": 133310,
+        "earnings": "0%",
+        "desc": "打板买入掌阅科技,rank:240",
+        "stock": {
+            "date": "2024-02-20",
+            "name": "掌阅科技",
+            "code": "603533",
+            "pre_opening_increase": 9.46,
+            "current_opening_increase": 2.7,
+            "rank": "240",
+            "bidding_volume": "58.74万",
+            "next_bidding_volume": "85.25万",
+            "first_limit_time": "10:29:43",
+            "isBurst": false,
+            "next_opening_increase": "-1.81%",
+            "pre_jinliang": "1.51",
+            "pre_final_limit_time": "10:05:03",
+            "pre_open_times": "1",
+            "pre_huanshou": "4.44",
+            "huanshou": "4.61"
+        }
     },
     {
         "date": "2024-02-21",
-        "money": 218195,
-        "earnings": "-3.17%",
-        "desc": "打板买入瑞玛精密,结果炸板了盈利-3.17%,rank:466",
-        "stock": {
-            "date": "2024-02-21",
-            "name": "瑞玛精密",
-            "code": "002976",
-            "pre_opening_increase": 5.37,
-            "current_opening_increase": 1.77,
-            "rank": "466",
-            "bidding_volume": "6.32万",
-            "next_bidding_volume": "11.63万",
-            "first_limit_time": "10:01:31",
-            "isBurst": true,
-            "next_opening_increase": "-6.88%",
-            "pre_jinliang": "0.54",
-            "current_close_increase": "6.83"
-        }
+        "money": 130897,
+        "earnings": "-1.81%",
+        "desc": "竞价卖出掌阅科技,当日盈利-1.81%"
     },
     {
         "date": "2024-02-22",
-        "money": 203183,
-        "earnings": "-6.88%",
-        "desc": "竞价卖出瑞玛精密,当日盈利-6.88%"
+        "money": 130897,
+        "earnings": "0%",
+        "desc": "打板买入合锻智能,rank:368",
+        "stock": {
+            "date": "2024-02-22",
+            "name": "合锻智能",
+            "code": "603011",
+            "pre_opening_increase": -1.44,
+            "current_opening_increase": 1.47,
+            "rank": "368",
+            "bidding_volume": "5.19万",
+            "next_bidding_volume": "166.76万",
+            "first_limit_time": "10:37:43",
+            "isBurst": false,
+            "next_opening_increase": "5.21%",
+            "pre_jinliang": "1.31",
+            "pre_final_limit_time": "09:38:00",
+            "pre_open_times": "1",
+            "pre_huanshou": "2.70",
+            "huanshou": "3.17"
+        }
     },
     {
         "date": "2024-02-23",
-        "money": 203183,
-        "earnings": "0%",
-        "desc": "打板买入鹿山新材,rank:534",
-        "stock": {
-            "date": "2024-02-23",
-            "name": "鹿山新材",
-            "code": "603051",
-            "pre_opening_increase": 0.26,
-            "current_opening_increase": 5.83,
-            "rank": "534",
-            "bidding_volume": "7,800.00",
-            "next_bidding_volume": "25.16万",
-            "first_limit_time": "09:31:00",
-            "isBurst": false,
-            "next_opening_increase": "-0.11%",
-            "pre_jinliang": "1.20"
-        }
+        "money": 137717,
+        "earnings": "5.21%",
+        "desc": "竞价卖出合锻智能,当日盈利5.21%"
     },
     {
         "date": "2024-02-26",
-        "money": 202959,
-        "earnings": "-0.11%",
-        "desc": "竞价卖出鹿山新材,当日盈利-0.11%"
+        "money": 137717,
+        "earnings": "0%",
+        "desc": "打板买入宁波东力,rank:440",
+        "stock": {
+            "date": "2024-02-26",
+            "name": "宁波东力",
+            "code": "002164",
+            "pre_opening_increase": 0.47,
+            "current_opening_increase": 5.98,
+            "rank": "440",
+            "bidding_volume": "1.43万",
+            "next_bidding_volume": "325.51万",
+            "first_limit_time": "09:30:31",
+            "isBurst": false,
+            "next_opening_increase": "3.11%",
+            "pre_jinliang": "2.02",
+            "pre_final_limit_time": "10:23:19",
+            "pre_open_times": "1",
+            "pre_huanshou": "3.24",
+            "huanshou": "5.71"
+        }
     },
     {
         "date": "2024-02-27",
-        "money": 202959,
-        "earnings": "0%",
-        "desc": "打板买入南方精工,rank:164",
-        "stock": {
-            "date": "2024-02-27",
-            "name": "南方精工",
-            "code": "002553",
-            "pre_opening_increase": 5.13,
-            "current_opening_increase": 6.15,
-            "rank": "164",
-            "bidding_volume": "38.22万",
-            "next_bidding_volume": "140.04万",
-            "first_limit_time": "09:30:45",
-            "isBurst": false,
-            "next_opening_increase": "10.00%",
-            "pre_jinliang": "1.26"
-        }
+        "money": 142000,
+        "earnings": "3.11%",
+        "desc": "竞价卖出宁波东力,当日盈利3.11%"
     },
     {
         "date": "2024-02-28",
-        "money": 223255,
-        "earnings": "10.0%",
-        "desc": "竞价卖出南方精工,当日盈利10.0%"
+        "money": 132287,
+        "earnings": "-6.84%",
+        "desc": "打板买入西部证券,结果炸板了盈利-6.84%,rank:18",
+        "stock": {
+            "date": "2024-02-28",
+            "name": "西部证券",
+            "code": "002673",
+            "pre_opening_increase": 0.44,
+            "current_opening_increase": 6.85,
+            "rank": "18",
+            "bidding_volume": "259.85万",
+            "next_bidding_volume": "1,910.74万",
+            "first_limit_time": "09:31:01",
+            "isBurst": true,
+            "next_opening_increase": "-2.94%",
+            "pre_jinliang": "0.87",
+            "current_close_increase": "3.16",
+            "pre_final_limit_time": "14:54:28",
+            "pre_open_times": "0",
+            "pre_huanshou": "6.50",
+            "huanshou": "7.72"
+        }
     },
     {
         "date": "2024-02-29",
-        "money": 223255,
-        "earnings": "0%",
-        "desc": "打板买入康普顿,rank:349",
-        "stock": {
-            "date": "2024-02-29",
-            "name": "康普顿",
-            "code": "603798",
-            "pre_opening_increase": -0.24,
-            "current_opening_increase": 4.92,
-            "rank": "349",
-            "bidding_volume": "12.66万",
-            "next_bidding_volume": "192.30万",
-            "first_limit_time": "09:30:31",
-            "isBurst": false,
-            "next_opening_increase": "10.05%",
-            "pre_jinliang": "4.69"
-        }
+        "money": 128398,
+        "earnings": "-2.94%",
+        "desc": "竞价卖出西部证券,当日盈利-2.94%"
     },
     {
         "date": "2024-03-01",
-        "money": 245692,
-        "earnings": "10.05%",
-        "desc": "竞价卖出康普顿,当日盈利10.05%"
+        "money": 121413,
+        "earnings": "-5.44%",
+        "desc": "打板买入恒大高新,结果炸板了盈利-5.44%,rank:280",
+        "stock": {
+            "date": "2024-03-01",
+            "name": "恒大高新",
+            "code": "002591",
+            "pre_opening_increase": -4.57,
+            "current_opening_increase": 2.7,
+            "rank": "280",
+            "bidding_volume": "20.97万",
+            "next_bidding_volume": "171.60万",
+            "first_limit_time": "09:32:30",
+            "isBurst": true,
+            "next_opening_increase": "-1.98%",
+            "pre_jinliang": "3.10",
+            "current_close_increase": "4.56",
+            "pre_final_limit_time": "14:09:48",
+            "pre_open_times": "6",
+            "pre_huanshou": "14.32",
+            "huanshou": "21.83"
+        }
     },
     {
         "date": "2024-03-04",
-        "money": 245692,
-        "earnings": "0%",
-        "desc": "打板买入思维列控,rank:465",
-        "stock": {
-            "date": "2024-03-04",
-            "name": "思维列控",
-            "code": "603508",
-            "pre_opening_increase": 5.41,
-            "current_opening_increase": 6.33,
-            "rank": "465",
-            "bidding_volume": "39.70万",
-            "next_bidding_volume": "129.38万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "0.11%",
-            "pre_jinliang": "1.04"
-        }
+        "money": 119009,
+        "earnings": "-1.98%",
+        "desc": "竞价卖出恒大高新,当日盈利-1.98%"
     },
     {
         "date": "2024-03-05",
-        "money": 245962,
-        "earnings": "0.11%",
-        "desc": "竞价卖出思维列控,当日盈利0.11%"
+        "money": 113035,
+        "earnings": "-5.02%",
+        "desc": "打板买入湖南白银,结果炸板了盈利-5.02%,rank:243",
+        "stock": {
+            "date": "2024-03-05",
+            "name": "湖南白银",
+            "code": "002716",
+            "pre_opening_increase": 2.75,
+            "current_opening_increase": 5.34,
+            "rank": "243",
+            "bidding_volume": "73.12万",
+            "next_bidding_volume": "610.89万",
+            "first_limit_time": "09:31:15",
+            "isBurst": true,
+            "next_opening_increase": "-2.03%",
+            "pre_jinliang": "0.55",
+            "current_close_increase": "4.98",
+            "pre_final_limit_time": "09:37:45",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.92",
+            "huanshou": "2.07"
+        }
     },
     {
         "date": "2024-03-06",
-        "money": 245962,
-        "earnings": "0%",
-        "desc": "打板买入合力泰,rank:84",
-        "stock": {
-            "date": "2024-03-06",
-            "name": "合力泰",
-            "code": "002217",
-            "pre_opening_increase": 5.88,
-            "current_opening_increase": 6.95,
-            "rank": "84",
-            "bidding_volume": "690.75万",
-            "next_bidding_volume": "2,422.21万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "1.46%",
-            "pre_jinliang": "1.42"
-        }
+        "money": 110740,
+        "earnings": "-2.03%",
+        "desc": "竞价卖出湖南白银,当日盈利-2.03%"
     },
     {
         "date": "2024-03-07",
-        "money": 249553,
-        "earnings": "1.46%",
-        "desc": "竞价卖出合力泰,当日盈利1.46%"
+        "money": 108592,
+        "earnings": "-1.94%",
+        "desc": "打板买入天域生态,结果炸板了盈利-1.94%,rank:901",
+        "stock": {
+            "date": "2024-03-07",
+            "name": "天域生态",
+            "code": "603717",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 7.89,
+            "rank": "901",
+            "bidding_volume": "4,300.00",
+            "next_bidding_volume": "53.93万",
+            "first_limit_time": "09:31:00",
+            "isBurst": true,
+            "next_opening_increase": "-1.59%",
+            "pre_jinliang": "0.63",
+            "current_close_increase": "8.06",
+            "pre_final_limit_time": "09:50:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.65",
+            "huanshou": "1.79"
+        }
     },
     {
         "date": "2024-03-08",
-        "money": 223525,
-        "earnings": "-10.43%",
-        "desc": "打板买入创元科技,结果炸板了盈利-10.43%,rank:504",
-        "stock": {
-            "date": "2024-03-08",
-            "name": "创元科技",
-            "code": "000551",
-            "pre_opening_increase": 0.84,
-            "current_opening_increase": 6.52,
-            "rank": "504",
-            "bidding_volume": "1.85万",
-            "next_bidding_volume": "236.19万",
-            "first_limit_time": "09:30:15",
-            "isBurst": true,
-            "next_opening_increase": "-1.75%",
-            "pre_jinliang": "0.49",
-            "current_close_increase": "-0.43"
-        }
+        "money": 106865,
+        "earnings": "-1.59%",
+        "desc": "竞价卖出天域生态,当日盈利-1.59%"
     },
     {
         "date": "2024-03-11",
-        "money": 219613,
-        "earnings": "-1.75%",
-        "desc": "竞价卖出创元科技,当日盈利-1.75%"
+        "money": 100261,
+        "earnings": "-6.18%",
+        "desc": "打板买入城地香江,结果炸板了盈利-6.18%,rank:521",
+        "stock": {
+            "date": "2024-03-11",
+            "name": "城地香江",
+            "code": "603887",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 0.17,
+            "rank": "521",
+            "bidding_volume": "1.41万",
+            "next_bidding_volume": "242.92万",
+            "first_limit_time": "09:39:45",
+            "isBurst": true,
+            "next_opening_increase": "-1.60%",
+            "pre_jinliang": "1.03",
+            "current_close_increase": "3.82",
+            "pre_final_limit_time": "13:11:16",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.41",
+            "huanshou": "3.77"
+        }
     },
     {
         "date": "2024-03-12",
-        "money": 202703,
-        "earnings": "-7.7%",
-        "desc": "打板买入川润股份,结果炸板了盈利-7.7%,rank:24",
-        "stock": {
-            "date": "2024-03-12",
-            "name": "川润股份",
-            "code": "002272",
-            "pre_opening_increase": -3.24,
-            "current_opening_increase": 7.03,
-            "rank": "24",
-            "bidding_volume": "645.16万",
-            "next_bidding_volume": "932.93万",
-            "first_limit_time": "09:30:45",
-            "isBurst": true,
-            "next_opening_increase": "5.25%",
-            "pre_jinliang": "7.24",
-            "current_close_increase": "2.30"
-        }
+        "money": 98657,
+        "earnings": "-1.6%",
+        "desc": "竞价卖出城地香江,当日盈利-1.6%"
     },
     {
         "date": "2024-03-13",
-        "money": 213345,
-        "earnings": "5.25%",
-        "desc": "竞价卖出川润股份,当日盈利5.25%"
+        "money": 98657,
+        "earnings": "0%",
+        "desc": "打板买入榕基软件,rank:295",
+        "stock": {
+            "date": "2024-03-13",
+            "name": "榕基软件",
+            "code": "002474",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 4.46,
+            "rank": "295",
+            "bidding_volume": "6.17万",
+            "next_bidding_volume": "420.87万",
+            "first_limit_time": "09:30:30",
+            "isBurst": false,
+            "next_opening_increase": "7.33%",
+            "pre_jinliang": "1.15",
+            "pre_final_limit_time": "09:36:00",
+            "pre_open_times": "3",
+            "pre_huanshou": "2.23",
+            "huanshou": "2.77"
+        }
     },
     {
         "date": "2024-03-14",
-        "money": 200950,
-        "earnings": "-5.81%",
-        "desc": "打板买入众兴菌业,结果炸板了盈利-5.81%,rank:949",
-        "stock": {
-            "date": "2024-03-14",
-            "name": "众兴菌业",
-            "code": "002772",
-            "pre_opening_increase": 0.72,
-            "current_opening_increase": 6.55,
-            "rank": "949",
-            "bidding_volume": "7.14万",
-            "next_bidding_volume": "339.47万",
-            "first_limit_time": "09:30:45",
-            "isBurst": true,
-            "next_opening_increase": "2.39%",
-            "pre_jinliang": "1.51",
-            "current_close_increase": "4.19"
-        }
+        "money": 105889,
+        "earnings": "7.33%",
+        "desc": "竞价卖出榕基软件,当日盈利7.33%"
     },
     {
         "date": "2024-03-15",
-        "money": 205753,
-        "earnings": "2.39%",
-        "desc": "竞价卖出众兴菌业,当日盈利2.39%"
+        "money": 105889,
+        "earnings": "0%",
+        "desc": "打板买入三夫户外,rank:300",
+        "stock": {
+            "date": "2024-03-15",
+            "name": "三夫户外",
+            "code": "002780",
+            "pre_opening_increase": 0.09,
+            "current_opening_increase": 5.94,
+            "rank": "300",
+            "bidding_volume": "5,100.00",
+            "next_bidding_volume": "93.95万",
+            "first_limit_time": "09:30:30",
+            "isBurst": false,
+            "next_opening_increase": "0.45%",
+            "pre_jinliang": "1.98",
+            "pre_final_limit_time": "13:23:59",
+            "pre_open_times": "0",
+            "pre_huanshou": "3.18",
+            "huanshou": "7.60"
+        }
     },
     {
         "date": "2024-03-18",
-        "money": 205753,
-        "earnings": "0%",
-        "desc": "打板买入华嵘控股,rank:923",
-        "stock": {
-            "date": "2024-03-18",
-            "name": "华嵘控股",
-            "code": "600421",
-            "pre_opening_increase": 0.0,
-            "current_opening_increase": 7.56,
-            "rank": "923",
-            "bidding_volume": "2,900.00",
-            "next_bidding_volume": "82.54万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "6.64%",
-            "pre_jinliang": "0.48"
-        }
+        "money": 106366,
+        "earnings": "0.45%",
+        "desc": "竞价卖出三夫户外,当日盈利0.45%"
     },
     {
         "date": "2024-03-19",
-        "money": 219415,
-        "earnings": "6.64%",
-        "desc": "竞价卖出华嵘控股,当日盈利6.64%"
+        "money": 97516,
+        "earnings": "-8.32%",
+        "desc": "打板买入兴业股份,结果炸板了盈利-8.32%,rank:1025",
+        "stock": {
+            "date": "2024-03-19",
+            "name": "兴业股份",
+            "code": "603928",
+            "pre_opening_increase": 1.55,
+            "current_opening_increase": 7.32,
+            "rank": "1025",
+            "bidding_volume": "1.21万",
+            "next_bidding_volume": "67.41万",
+            "first_limit_time": "09:30:30",
+            "isBurst": true,
+            "next_opening_increase": "-3.99%",
+            "pre_jinliang": "0.60",
+            "current_close_increase": "1.68",
+            "pre_final_limit_time": "09:51:37",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.78",
+            "huanshou": "1.42"
+        }
     },
     {
         "date": "2024-03-20",
-        "money": 219415,
-        "earnings": "0%",
-        "desc": "打板买入再升科技,rank:473",
-        "stock": {
-            "date": "2024-03-20",
-            "name": "再升科技",
-            "code": "603601",
-            "pre_opening_increase": 0.0,
-            "current_opening_increase": 7.21,
-            "rank": "473",
-            "bidding_volume": "25.39万",
-            "next_bidding_volume": "1,024.48万",
-            "first_limit_time": "09:30:15",
-            "isBurst": false,
-            "next_opening_increase": "8.90%",
-            "pre_jinliang": "1.15"
-        }
+        "money": 93625,
+        "earnings": "-3.99%",
+        "desc": "竞价卖出兴业股份,当日盈利-3.99%"
     },
     {
         "date": "2024-03-21",
-        "money": 238943,
-        "earnings": "8.9%",
-        "desc": "竞价卖出再升科技,当日盈利8.9%"
+        "money": 89168,
+        "earnings": "-4.76%",
+        "desc": "打板买入中核科技,结果炸板了盈利-4.76%,rank:270",
+        "stock": {
+            "date": "2024-03-21",
+            "name": "中核科技",
+            "code": "000777",
+            "pre_opening_increase": 0.56,
+            "current_opening_increase": 2.02,
+            "rank": "270",
+            "bidding_volume": "7.07万",
+            "next_bidding_volume": "171.36万",
+            "first_limit_time": "09:42:15",
+            "isBurst": true,
+            "next_opening_increase": "-0.42%",
+            "pre_jinliang": "1.19",
+            "current_close_increase": "5.24",
+            "pre_final_limit_time": "09:52:01",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.04",
+            "huanshou": "4.90"
+        }
     },
     {
         "date": "2024-03-22",
-        "money": 238943,
-        "earnings": "0%",
-        "desc": "打板买入青海华鼎,rank:423",
-        "stock": {
-            "date": "2024-03-22",
-            "name": "青海华鼎",
-            "code": "600243",
-            "pre_opening_increase": 0.26,
-            "current_opening_increase": 7.75,
-            "rank": "423",
-            "bidding_volume": "1.68万",
-            "next_bidding_volume": "316.99万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "9.38%",
-            "pre_jinliang": "1.79"
-        }
+        "money": 88793,
+        "earnings": "-0.42%",
+        "desc": "竞价卖出中核科技,当日盈利-0.42%"
     },
     {
         "date": "2024-03-25",
-        "money": 261356,
-        "earnings": "9.38%",
-        "desc": "竞价卖出青海华鼎,当日盈利9.38%"
+        "money": 82435,
+        "earnings": "-7.16%",
+        "desc": "打板买入南京化纤,结果炸板了盈利-7.16%,rank:550",
+        "stock": {
+            "date": "2024-03-25",
+            "name": "南京化纤",
+            "code": "600889",
+            "pre_opening_increase": 0.22,
+            "current_opening_increase": 5.68,
+            "rank": "550",
+            "bidding_volume": "2.06万",
+            "next_bidding_volume": "175.60万",
+            "first_limit_time": "09:30:30",
+            "isBurst": true,
+            "next_opening_increase": "-10.06%",
+            "pre_jinliang": "0.81",
+            "current_close_increase": "2.84",
+            "pre_final_limit_time": "09:39:00",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.68",
+            "huanshou": "3.22"
+        }
     },
     {
         "date": "2024-03-26",
-        "money": 261356,
-        "earnings": "0%",
-        "desc": "打板买入科森科技,rank:332",
-        "stock": {
-            "date": "2024-03-26",
-            "name": "科森科技",
-            "code": "603626",
-            "pre_opening_increase": -0.32,
-            "current_opening_increase": 3.9,
-            "rank": "332",
-            "bidding_volume": "1.06万",
-            "next_bidding_volume": "360.95万",
-            "first_limit_time": "09:30:45",
-            "isBurst": false,
-            "next_opening_increase": "9.97%",
-            "pre_jinliang": "1.10"
-        }
+        "money": 74142,
+        "earnings": "-10.06%",
+        "desc": "竞价卖出南京化纤,当日盈利-10.06%"
     },
     {
         "date": "2024-03-27",
-        "money": 287413,
-        "earnings": "9.97%",
-        "desc": "竞价卖出科森科技,当日盈利9.97%"
+        "money": 68515,
+        "earnings": "-7.59%",
+        "desc": "打板买入丰元股份,结果炸板了盈利-7.59%,rank:246",
+        "stock": {
+            "date": "2024-03-27",
+            "name": "丰元股份",
+            "code": "002805",
+            "pre_opening_increase": -0.35,
+            "current_opening_increase": 4.58,
+            "rank": "246",
+            "bidding_volume": "2.28万",
+            "next_bidding_volume": "158.73万",
+            "first_limit_time": "09:32:15",
+            "isBurst": true,
+            "next_opening_increase": "-9.96%",
+            "pre_jinliang": "3.85",
+            "current_close_increase": "2.41",
+            "pre_final_limit_time": "09:59:27",
+            "pre_open_times": "1",
+            "pre_huanshou": "3.48",
+            "huanshou": "8.30"
+        }
     },
     {
         "date": "2024-03-28",
-        "money": 287413,
-        "earnings": "0%",
-        "desc": "打板买入新中港,rank:227",
-        "stock": {
-            "date": "2024-03-28",
-            "name": "新中港",
-            "code": "605162",
-            "pre_opening_increase": 5.23,
-            "current_opening_increase": 5.01,
-            "rank": "227",
-            "bidding_volume": "19.78万",
-            "next_bidding_volume": "170.28万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "-4.44%",
-            "pre_jinliang": "2.60"
-        }
+        "money": 61684,
+        "earnings": "-9.97%",
+        "desc": "竞价卖出丰元股份,当日盈利-9.97%"
     },
     {
         "date": "2024-03-29",
-        "money": 274623,
-        "earnings": "-4.45%",
-        "desc": "竞价卖出新中港,当日盈利-4.45%"
+        "money": 61684,
+        "earnings": "0%",
+        "desc": "打板买入天禾股份,rank:265",
+        "stock": {
+            "date": "2024-03-29",
+            "name": "天禾股份",
+            "code": "002999",
+            "pre_opening_increase": -0.98,
+            "current_opening_increase": 1.19,
+            "rank": "265",
+            "bidding_volume": "33.32万",
+            "next_bidding_volume": "220.46万",
+            "first_limit_time": "09:32:47",
+            "isBurst": false,
+            "next_opening_increase": "7.40%",
+            "pre_jinliang": "2.69",
+            "pre_final_limit_time": "11:29:10",
+            "pre_open_times": "0",
+            "pre_huanshou": "7.07",
+            "huanshou": "7.41"
+        }
     },
     {
         "date": "2024-04-01",
-        "money": 274623,
-        "earnings": "0%",
-        "desc": "打板买入铁流股份,rank:1022",
-        "stock": {
-            "date": "2024-04-01",
-            "name": "铁流股份",
-            "code": "603926",
-            "pre_opening_increase": 5.88,
-            "current_opening_increase": 6.84,
-            "rank": "1022",
-            "bidding_volume": "9.62万",
-            "next_bidding_volume": "54.92万",
-            "first_limit_time": "09:30:45",
-            "isBurst": false,
-            "next_opening_increase": "6.90%",
-            "pre_jinliang": "0.71"
-        }
+        "money": 66249,
+        "earnings": "7.4%",
+        "desc": "竞价卖出天禾股份,当日盈利7.4%"
     },
     {
         "date": "2024-04-02",
-        "money": 293572,
-        "earnings": "6.9%",
-        "desc": "竞价卖出铁流股份,当日盈利6.9%"
+        "money": 66249,
+        "earnings": "0%",
+        "desc": "打板买入冠盛股份,rank:472",
+        "stock": {
+            "date": "2024-04-02",
+            "name": "冠盛股份",
+            "code": "605088",
+            "pre_opening_increase": 0.52,
+            "current_opening_increase": 0.81,
+            "rank": "472",
+            "bidding_volume": "14.55万",
+            "next_bidding_volume": "42.59万",
+            "first_limit_time": "09:36:45",
+            "isBurst": false,
+            "next_opening_increase": "0.12%",
+            "pre_jinliang": "0.84",
+            "pre_final_limit_time": "14:47:14",
+            "pre_open_times": "0",
+            "pre_huanshou": "2.02",
+            "huanshou": "6.75"
+        }
     },
     {
         "date": "2024-04-03",
-        "money": 266123,
-        "earnings": "-9.35%",
-        "desc": "打板买入世龙实业,结果炸板了盈利-9.35%,rank:271",
-        "stock": {
-            "date": "2024-04-03",
-            "name": "世龙实业",
-            "code": "002748",
-            "pre_opening_increase": -0.12,
-            "current_opening_increase": 5.76,
-            "rank": "271",
-            "bidding_volume": "9.27万",
-            "next_bidding_volume": "217.88万",
-            "first_limit_time": "09:30:15",
-            "isBurst": true,
-            "next_opening_increase": "-7.13%",
-            "pre_jinliang": "1.92",
-            "current_close_increase": "0.65"
-        }
+        "money": 66328,
+        "earnings": "0.12%",
+        "desc": "竞价卖出冠盛股份,当日盈利0.12%"
     },
     {
         "date": "2024-04-08",
-        "money": 247148,
-        "earnings": "-7.13%",
-        "desc": "竞价卖出世龙实业,当日盈利-7.13%"
+        "money": 66328,
+        "earnings": "0%",
+        "desc": "打板买入一鸣食品,rank:250",
+        "stock": {
+            "date": "2024-04-08",
+            "name": "一鸣食品",
+            "code": "605179",
+            "pre_opening_increase": 0.97,
+            "current_opening_increase": 0.72,
+            "rank": "250",
+            "bidding_volume": "1.26万",
+            "next_bidding_volume": "68.13万",
+            "first_limit_time": "09:37:45",
+            "isBurst": false,
+            "next_opening_increase": "-8.41%",
+            "pre_jinliang": "0.74",
+            "pre_final_limit_time": "13:21:27",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.88",
+            "huanshou": "2.77"
+        }
     },
     {
         "date": "2024-04-09",
-        "money": 247148,
-        "earnings": "0%",
-        "desc": "打板买入百通能源,rank:94",
-        "stock": {
-            "date": "2024-04-09",
-            "name": "百通能源",
-            "code": "001376",
-            "pre_opening_increase": -0.71,
-            "current_opening_increase": 4.02,
-            "rank": "94",
-            "bidding_volume": "4.59万",
-            "next_bidding_volume": "56.96万",
-            "first_limit_time": "09:36:48",
-            "isBurst": false,
-            "next_opening_increase": "9.98%",
-            "pre_jinliang": "3.32"
-        }
+        "money": 60750,
+        "earnings": "-8.41%",
+        "desc": "竞价卖出一鸣食品,当日盈利-8.41%"
     },
     {
         "date": "2024-04-10",
-        "money": 271813,
-        "earnings": "9.98%",
-        "desc": "竞价卖出百通能源,当日盈利9.98%"
+        "money": 55768,
+        "earnings": "-8.2%",
+        "desc": "打板买入迪生力,结果炸板了盈利-8.2%,rank:315",
+        "stock": {
+            "date": "2024-04-10",
+            "name": "迪生力",
+            "code": "603335",
+            "pre_opening_increase": -1.98,
+            "current_opening_increase": 5.04,
+            "rank": "315",
+            "bidding_volume": "9.43万",
+            "next_bidding_volume": "279.80万",
+            "first_limit_time": "09:30:45",
+            "isBurst": true,
+            "next_opening_increase": "-10.07%",
+            "pre_jinliang": "1.42",
+            "current_close_increase": "1.80",
+            "pre_final_limit_time": "10:31:17",
+            "pre_open_times": "0",
+            "pre_huanshou": "1.65",
+            "huanshou": "3.72"
+        }
     },
     {
         "date": "2024-04-11",
-        "money": 271813,
-        "earnings": "0%",
-        "desc": "打板买入天洋新材,rank:369",
-        "stock": {
-            "date": "2024-04-11",
-            "name": "天洋新材",
-            "code": "603330",
-            "pre_opening_increase": 0.0,
-            "current_opening_increase": 7.55,
-            "rank": "369",
-            "bidding_volume": "1.65万",
-            "next_bidding_volume": "258.68万",
-            "first_limit_time": "09:30:15",
-            "isBurst": false,
-            "next_opening_increase": "8.93%",
-            "pre_jinliang": "1.75"
-        }
+        "money": 50152,
+        "earnings": "-10.07%",
+        "desc": "竞价卖出迪生力,当日盈利-10.07%"
     },
     {
         "date": "2024-04-12",
-        "money": 296086,
-        "earnings": "8.93%",
-        "desc": "竞价卖出天洋新材,当日盈利8.93%"
+        "money": 44515,
+        "earnings": "-11.24%",
+        "desc": "打板买入新宏泰,结果炸板了盈利-11.24%,rank:641",
+        "stock": {
+            "date": "2024-04-12",
+            "name": "新宏泰",
+            "code": "603016",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 5.73,
+            "rank": "641",
+            "bidding_volume": "1,100.00",
+            "next_bidding_volume": "37.77万",
+            "first_limit_time": "09:30:30",
+            "isBurst": true,
+            "next_opening_increase": "-2.85%",
+            "pre_jinliang": "0.62",
+            "current_close_increase": "-1.24",
+            "pre_final_limit_time": "10:00:18",
+            "pre_open_times": "0",
+            "pre_huanshou": "0.49",
+            "huanshou": "1.27"
+        }
     },
     {
         "date": "2024-04-15",
-        "money": 296086,
-        "earnings": "0%",
-        "desc": "打板买入春光科技,rank:398",
-        "stock": {
-            "date": "2024-04-15",
-            "name": "春光科技",
-            "code": "603657",
-            "pre_opening_increase": -0.98,
-            "current_opening_increase": 1.04,
-            "rank": "398",
-            "bidding_volume": "3.37万",
-            "next_bidding_volume": "131.30万",
-            "first_limit_time": "09:30:30",
-            "isBurst": false,
-            "next_opening_increase": "9.99%",
-            "pre_jinliang": "1.95"
-        }
+        "money": 43246,
+        "earnings": "-2.85%",
+        "desc": "竞价卖出新宏泰,当日盈利-2.85%"
     },
     {
         "date": "2024-04-16",
-        "money": 325665,
-        "earnings": "9.99%",
-        "desc": "竞价卖出春光科技,当日盈利9.99%"
+        "money": 43246,
+        "earnings": "0%",
+        "desc": "打板买入哈三联,rank:302",
+        "stock": {
+            "date": "2024-04-16",
+            "name": "哈三联",
+            "code": "002900",
+            "pre_opening_increase": 0.0,
+            "current_opening_increase": 6.56,
+            "rank": "302",
+            "bidding_volume": "1.81万",
+            "next_bidding_volume": "148.90万",
+            "first_limit_time": "09:30:17",
+            "isBurst": false,
+            "next_opening_increase": "6.39%",
+            "pre_jinliang": "2.03",
+            "pre_final_limit_time": "13:29:54",
+            "pre_open_times": "1",
+            "pre_huanshou": "2.55",
+            "huanshou": "6.47"
+        }
     },
     {
         "date": "2024-04-17",
-        "money": 308307,
-        "earnings": "-5.33%",
-        "desc": "打板买入醋化股份,结果炸板了盈利-5.33%,rank:173",
-        "stock": {
-            "date": "2024-04-17",
-            "name": "醋化股份",
-            "code": "603968",
-            "pre_opening_increase": -2.21,
-            "current_opening_increase": 7.8,
-            "rank": "173",
-            "bidding_volume": "9.83万",
-            "next_bidding_volume": "110.16万",
-            "first_limit_time": "09:30:30",
-            "isBurst": true,
-            "next_opening_increase": "-3.46%",
-            "pre_jinliang": "1.86",
-            "current_close_increase": "4.67"
-        }
+        "money": 46009,
+        "earnings": "6.39%",
+        "desc": "竞价卖出哈三联,当日盈利6.39%"
     },
     {
         "date": "2024-04-18",
-        "money": 297640,
-        "earnings": "-3.46%",
-        "desc": "竞价卖出醋化股份,当日盈利-3.46%"
+        "money": 46009,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2024-04-19",
-        "money": 274543,
-        "earnings": "-7.76%",
-        "desc": "打板买入西麦食品,结果炸板了盈利-7.76%,rank:543",
-        "stock": {
-            "date": "2024-04-19",
-            "name": "西麦食品",
-            "code": "002956",
-            "pre_opening_increase": 0.72,
-            "current_opening_increase": 4.69,
-            "rank": "543",
-            "bidding_volume": "3.17万",
-            "next_bidding_volume": "50.27万",
-            "first_limit_time": "09:33:00",
-            "isBurst": true,
-            "next_opening_increase": "-3.11%",
-            "pre_jinliang": "0.76",
-            "current_close_increase": "2.24"
-        }
+        "money": 46009,
+        "earnings": "0%",
+        "desc": "空仓"
     },
     {
         "date": "2024-04-22",
-        "money": 266005,
-        "earnings": "-3.11%",
-        "desc": "竞价卖出西麦食品,当日盈利-3.11%"
+        "money": 43419,
+        "earnings": "-5.63%",
+        "desc": "打板买入华锡有色,结果炸板了盈利-5.63%,rank:286",
+        "stock": {
+            "date": "2024-04-22",
+            "name": "华锡有色",
+            "code": "600301",
+            "pre_opening_increase": 5.34,
+            "current_opening_increase": 4.98,
+            "rank": "286",
+            "bidding_volume": "41.03万",
+            "next_bidding_volume": "190.70万",
+            "first_limit_time": "09:33:00",
+            "isBurst": true,
+            "next_opening_increase": "-10.00%",
+            "pre_jinliang": "1.74",
+            "current_close_increase": "4.37",
+            "pre_final_limit_time": "14:54:07",
+            "pre_open_times": "2",
+            "pre_huanshou": "3.96",
+            "huanshou": "11.44"
+        }
     },
     {
         "date": "2024-04-23",
-        "money": 266005,
-        "earnings": "0%",
-        "desc": "打板买入亚太实业,rank:538",
-        "stock": {
-            "date": "2024-04-23",
-            "name": "亚太实业",
-            "code": "000691",
-            "pre_opening_increase": 4.89,
-            "current_opening_increase": 0.0,
-            "rank": "538",
-            "bidding_volume": "36.64万",
-            "next_bidding_volume": "44.42万",
-            "first_limit_time": "09:31:30",
-            "isBurst": false,
-            "next_opening_increase": "10.10%",
-            "pre_jinliang": "0.76"
-        }
+        "money": 39077,
+        "earnings": "-10.0%",
+        "desc": "竞价卖出华锡有色,当日盈利-10.0%"
     },
     {
         "date": "2024-04-24",
-        "money": 292872,
-        "earnings": "10.1%",
-        "desc": "竞价卖出亚太实业,当日盈利10.1%"
-    },
-    {
-        "date": "2024-04-25",
-        "money": 292872,
+        "money": 39077,
         "earnings": "0%",
-        "desc": "打板买入博信股份,rank:111",
+        "desc": "打板买入科新发展,rank:429",
         "stock": {
-            "date": "2024-04-25",
-            "name": "博信股份",
-            "code": "600083",
+            "date": "2024-04-24",
+            "name": "科新发展",
+            "code": "600234",
             "pre_opening_increase": 0.0,
-            "current_opening_increase": 0.66,
-            "rank": "111",
-            "bidding_volume": "913.05万",
-            "next_bidding_volume": "312.94万",
-            "first_limit_time": "09:34:03",
+            "current_opening_increase": 1.56,
+            "rank": "429",
+            "bidding_volume": "2.73万",
+            "next_bidding_volume": "41.34万",
+            "first_limit_time": "09:32:45",
             "isBurst": false,
-            "next_opening_increase": "4.18%",
-            "pre_jinliang": "2.71"
+            "next_opening_increase": "6.64%",
+            "pre_jinliang": "0.58",
+            "pre_final_limit_time": "13:21:35",
+            "pre_open_times": "2",
+            "pre_huanshou": "5.16",
+            "huanshou": "6.07"
         }
     },
     {
+        "date": "2024-04-25",
+        "money": 41672,
+        "earnings": "6.64%",
+        "desc": "竞价卖出科新发展,当日盈利6.64%"
+    },
+    {
         "date": "2024-04-26",
-        "money": 305114,
-        "earnings": "4.18%",
-        "desc": "竞价卖出博信股份,当日盈利4.18%"
+        "money": 41672,
+        "earnings": "0%",
+        "desc": "打板买入南国置业,rank:232",
+        "stock": {
+            "date": "2024-04-26",
+            "name": "南国置业",
+            "code": "002305",
+            "pre_opening_increase": 5.19,
+            "current_opening_increase": 0.67,
+            "rank": "232",
+            "bidding_volume": "301.48万",
+            "next_bidding_volume": "469.91万",
+            "first_limit_time": "13:00:11",
+            "isBurst": false,
+            "next_opening_increase": "5.49%",
+            "pre_jinliang": "0.38",
+            "pre_final_limit_time": "09:51:06",
+            "pre_open_times": "2",
+            "pre_huanshou": "1.40",
+            "huanshou": "3.93"
+        }
     }
 ]

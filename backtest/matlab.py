@@ -10,6 +10,11 @@ try:
 except FileNotFoundError:
     dragon_log_data = []
 print(len(dragon_log_data))
+# index = 0
+# for _index,item in enumerate(dragon_log_data):
+#     if item['date'] == '2023-04-28':
+#         index = _index
+# dragon_log_data = dragon_log_data[:index]
 
 # 提取日期和资金数据
 dates = [datetime.strptime(entry["date"], "%Y-%m-%d") for entry in dragon_log_data]

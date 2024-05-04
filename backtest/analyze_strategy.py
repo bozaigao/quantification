@@ -16,17 +16,19 @@ except FileNotFoundError:
 kongcang = 0
 peak = dragon_log_data[0]['money']
 max_drawdown = 0
-count = 0
+successCount = 0
+failCount = 0
 for item in dragon_log_data:
     current_money = item['money']
     increase = float(item["earnings"].strip('%'))
-    if increase < -5:
-        if 'stock' in item:
-            print(f'{item["date"]} {item["desc"]},炸板时间{item["stock"]["first_limit_time"]}')
-        else:
-            print(f'{item["date"]} {item["desc"]}')
-        count += 1
-print(count)
+    # if increase > 5:
+    #     print(f'{item["date"]} {item["desc"]}')
+    #     successCount += 1
+    if increase >0:
+        successCount += 1
+    else:
+        failCount += 1
+print(successCount/(failCount+failCount))
 #     if current_money > peak:
 #         peak = current_money
 #     else:
