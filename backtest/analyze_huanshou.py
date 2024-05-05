@@ -22,19 +22,16 @@ fail = 0
 count = 0
 kongcang = 0
 for item in stock_log_data:
-    if float(item['earnings'].strip('%')) < -5:
-        print(item['date'], item['desc'])
-#     if '空仓' not in item['desc']:
-#         count += 1
-#         if 'stock' in item and item['earnings'] == '0%':
-#             # print(f'{item["date"]},{item["desc"]}')
-#             success += 1
-#         elif 'stock' in item and item['earnings'] != '0%':
-#             print(f'{item["date"]},{item["desc"]}')
-#             fail += 1
-#     else:
-#         kongcang += 1
-# print(success/(fail+success),success,fail,kongcang,count)
+    if '空仓' not in item['desc']:
+        if 'stock' in item and item['earnings'] == '0%':
+            print(f'{item["date"]},{item["desc"]}')
+            success += 1
+        elif 'stock' in item and item['earnings'] != '0%':
+            # print(f'{item["date"]},{item["desc"]}')
+            fail += 1
+    else:
+        kongcang += 1
+print(f'成功:{success},失败{fail},成功概率{success/(fail+success)},空仓{kongcang}')
 
 # for item in stock_data:
 #     for item2 in item['data']:

@@ -21,7 +21,7 @@ failCount = 0
 for item in dragon_log_data:
     current_money = item['money']
     increase = float(item["earnings"].strip('%'))
-    if increase < -5:
+    if increase > -5 and increase < 0:
         print(f'{item["date"]} {item["desc"]}')
         successCount += 1
     if increase >=0:
