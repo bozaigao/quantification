@@ -144,7 +144,7 @@ def get_close_info(date,stocks):
 for item in first_limit_backtest_data[len(new_first_limit_backtest_data):]:
     data = []
     for item2 in item['data']:
-        if 'isBurst' in item2 and not item2['isBurst']:
+        if 'isBurst' in item2:
             data.append(item2)
     data_list = get_close_info(str(get_next_trading_day(datetime.strptime(item['date'], '%Y-%m-%d').date())),data)
     for item3 in data_list:

@@ -71,28 +71,31 @@ for item in first_limit_backtest_data:
         if len(targetPool) > 0:
             buyStock = targetPool[0]
             if not buyStock['isBurst']:
-               first_limit_log_data.append({'date': item['date'], 'money':latestMoney,'suggest_shipping_space':current_shipping_space, 'earnings':'0%','desc':f'打板买入{buyStock["name"]},rank:{buyStock["rank"]}','stock':buyStock})
+               first_limit_log_data.append({'date': item['date'], 'money':latestMoney,'suggest_shipping_space':current_shipping_space, 'earnings':'0%','earnings_money':'0','desc':f'打板买入{buyStock["name"]},rank:{buyStock["rank"]}','stock':buyStock})
             else:
                 earnings = float(buyStock['current_close_increase'])-10
                 earnings = formartNumber(earnings)
-                final_money = latestMoney + latestMoney * earnings/100
-                first_limit_log_data.append({'date': item['date'], 'money':round(final_money),'suggest_shipping_space':current_shipping_space, 'earnings':f'{earnings}%','desc':f'打板买入{buyStock["name"]},结果炸板了盈利{earnings}%,rank:{buyStock["rank"]}','stock':buyStock})
+                earnings_money = round(latestMoney * current_shipping_space * earnings/100)
+                final_money = latestMoney + earnings_money
+                first_limit_log_data.append({'date': item['date'], 'money':round(final_money),'suggest_shipping_space':current_shipping_space, 'earnings':f'{earnings}%','earnings_money':earnings_money,'desc':f'打板买入{buyStock["name"]},结果炸板了盈利{earnings}%,rank:{buyStock["rank"]}','stock':buyStock})
             stockPool.append(buyStock)
         else:
-            first_limit_log_data.append({'date': item['date'], 'money':round(latestMoney),'suggest_shipping_space':current_shipping_space, 'earnings':f'{0}%','desc':f'空仓'})
+            first_limit_log_data.append({'date': item['date'], 'money':round(latestMoney),'suggest_shipping_space':current_shipping_space, 'earnings':f'{0}%','earnings_money':'0','desc':f'空仓'})
             stockPool = []
     #卖出个股
     else:
          buyStock = stockPool[0]
-         next_opening_increase = float(buyStock['next_close_increase'])
-         final_money = latestMoney + latestMoney * current_shipping_space * next_opening_increase/100
+         next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
+        #  next_opening_increase = float(buyStock['next_close_increase'])
+         earnings_money = round(latestMoney * current_shipping_space * next_opening_increase/100)
+         final_money = latestMoney + earnings_money
          if next_opening_increase < 0:
             next_shipping_space = 1
         #    next_shipping_space = current_shipping_space * 0.5
          #如果出现盈利，马上又推全仓
          else:
             next_shipping_space = 1
-         first_limit_log_data.append({'date':item['date'], 'money':round(final_money),'suggest_shipping_space':next_shipping_space, 'earnings':f'{next_opening_increase}%','desc':f'竞价卖出{buyStock["name"]},当日盈利{next_opening_increase}%'})
+         first_limit_log_data.append({'date':item['date'], 'money':round(final_money),'suggest_shipping_space':next_shipping_space, 'earnings':f'{next_opening_increase}%','earnings_money':earnings_money,'desc':f'竞价卖出{buyStock["name"]},当日盈利{next_opening_increase}%'})
          stockPool = []
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_first_limit_stock_log_data.json', 'w') as file:
         json.dump(first_limit_log_data, file,ensure_ascii=False,  indent=4) 
