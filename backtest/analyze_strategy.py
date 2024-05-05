@@ -24,11 +24,11 @@ for item in dragon_log_data:
     # if increase > 5:
     #     print(f'{item["date"]} {item["desc"]}')
     #     successCount += 1
-    if increase >0:
+    if increase >=0:
         successCount += 1
     else:
         failCount += 1
-print(successCount/(failCount+failCount))
+print(successCount/(failCount+successCount))
 #     if current_money > peak:
 #         peak = current_money
 #     else:
