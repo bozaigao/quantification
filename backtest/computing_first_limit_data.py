@@ -137,11 +137,11 @@ def get_jingliang_info(date,stocks):
         for item in current_batch:
             search_text += f',{item["code"]}'
         if len(current_batch) == 1:
-            jinliang = getJinLiang(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),current_batch[0]["code"])
+            jinliang = getJinLiang(date,current_batch[0]["code"])
             data_list.append({
                     'code': current_batch[0]["code"],
                     'name': current_batch[0]["name"],
-                    'pre_jinliang': jinliang,
+                    'jinliang': jinliang,
                 })
         else:
             # 添加 '净量' 文字到搜索文本中
@@ -150,7 +150,7 @@ def get_jingliang_info(date,stocks):
             if search_text == '净量':
                 break
             # 导航到搜索页面
-            browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date()))}{search_text}")
+            browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={date}{search_text}")
             # 等待页面加载
             browserTab.wait(global_wait_seconds)
             result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
@@ -183,7 +183,7 @@ def get_jingliang_info(date,stocks):
                     data_list.append({
                         'code': stocks_data[index]["code"],
                         'name': stocks_data[index]["name"],
-                        'pre_jinliang': jinliang,
+                        'jinliang': jinliang,
                     })
     return data_list
 
@@ -357,7 +357,7 @@ for item in strongest_stocks_data[len(first_limit_backtest_data):]:
             jingjiaArr.append(iem2)
         data['data'].append(iem2)
     datalist1 = get_jingjia_info(str(get_next_trading_day(datetime.strptime(item['date'], '%Y-%m-%d').date())), jingjiaArr)
-    datalist2 = get_jingliang_info(item['date'], jingjiaArr)
+    datalist2 = get_jingliang_info(item['date'], item['data'])
     datalist3 = get_close_info(item['date'], closeArr)
     for item3 in data['data']:
         for item4 in datalist1:
@@ -365,7 +365,7 @@ for item in strongest_stocks_data[len(first_limit_backtest_data):]:
                 item3['next_opening_increase'] = item4['bidding_increase']
         for item5 in datalist2:
             if item3['code'] == item5['code']:
-                item3['pre_jinliang'] = item5['pre_jinliang']
+                item3['jinliang'] = item5['jinliang']
         for item6 in datalist3:
             if item3['code'] == item6['code']:
                 item3['current_close_increase'] = item6['current_close_increase']
