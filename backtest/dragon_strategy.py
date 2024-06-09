@@ -185,7 +185,7 @@ def strategy(pre_date,date):
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
-                   opening_increase = getOpeningIncrease(browserTab,date,buyStock['name'])
+                   opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
                    next_opening_increase = float(opening_increase[0].strip('%'))
                 else:
                    next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
@@ -247,7 +247,7 @@ def strategy(pre_date,date):
                             print(Style.RESET_ALL)
                             dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
                             stockPool.append(updateStock)
-                        elif not forecast and buyStock['next_isLimitUp'] and isEarly(first_limit_time,'11:30:00'):
+                        elif not forecast and buyStock['next_isLimitUp']:
                             updateStock = getTodayStock(todayStocks,buyStock)
                             if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
                                 reason = f'1.{buyStock["name"]}今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
@@ -300,7 +300,7 @@ def strategy(pre_date,date):
     else:
         buyStock = stockPool[0]
         #获取当日竞价信息
-        opening_increase = getOpeningIncrease(browserTab,date,buyStock['name'])
+        opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
         next_opening_increase = float(opening_increase[0].strip('%'))
         #纠正错误的数据
         if next_opening_increase == -313:
@@ -370,11 +370,24 @@ def strategy(pre_date,date):
 date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
 next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
 today = datetime.now().date()
+findIndex = 1
+# 从指定日期开始向前搜索上一个交易日
+def get_previous_trading_day(date_object):
+    if str(date_object) == '2023-01-03':
+        return '2022-12-30'
+    while True:
+        date_object -= timedelta(days=1)  # 递减一天
+        if str(date_object) in dates:  # 如果是交易日，则返回该日期
+            return date_object
 
+# for index,item in enumerate(dates):
+#     if '2024-04-01' == item:
+#        findIndex = index 
+#        break
 if forecast:
    strategy(str(date_object),str(today))
 #    strategy('2024-04-01','2024-04-02')
 else:
     for idx, date in enumerate(dates[1:]):
-        strategy(dates[idx],date)
+        strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
    

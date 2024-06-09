@@ -195,6 +195,7 @@ for idx, workday in enumerate(workdays):
            company_business_td = td_tags[21]
            if company_business_td:
              company_business = company_business_td.text.strip()
+        print(limit,limit_ups,limit_downs)
         stock = {'code':code,'name':company_name, 'limit':int(limit),'limit_ups':int(limit_ups),'limit_downs':int(limit_downs),'price':price,'first_limit_time':first_limit_time,
         'final_limit_time':final_limit_time,'limit_reason':limit_reason,'limit_tocks':limit_tocks,'limit_money':limit_money,'limit_cheng_ratio':limit_cheng_ratio,'limit_liu_ratio':limit_liu_ratio,
         'limit_open_times':limit_open_times,'market_value':market_value,'limit_type':limit_type,'company_place':company_place,'company_business':company_business}

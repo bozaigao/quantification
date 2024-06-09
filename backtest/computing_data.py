@@ -66,7 +66,7 @@ for idx, date in enumerate(dates):
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
          #获取次日竞价涨幅信息
-         opening_increase = getOpeningIncrease(browserTab,str(next_date.date()),item['name'])
+         opening_increase = getOpeningIncrease(browserTab,str(next_date.date()),item['code'])
          #获取次日涨幅信息
          next_increase = getIncrease(browserTab,str(next_date.date()),item['name'])
          #次日收盘涨幅

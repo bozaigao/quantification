@@ -46,7 +46,7 @@ dates = dates[len(dragon_opening_data):]
 for idx, workday in enumerate(dates):
     arr = []
     for item in dragon_data[idx]['data']:
-        browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={workday} {item['name']}竞价涨幅&querytype=stock")
+        browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={workday} {item['code']}竞价涨幅&querytype=stock")
         browserTab.wait(global_wait_seconds)
         result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
         soup = BeautifulSoup(result['result']['value'], 'html.parser')
