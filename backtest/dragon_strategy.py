@@ -56,7 +56,6 @@ def getJinLiang(date,code):
         for div in div_content:
             if 'alignRight' in div['class']:
                 jinliang = div.a.text.strip()
-                print(f'净量{jinliang}')
                 return jinliang
     return ''
 
@@ -131,20 +130,16 @@ def get_max_increase_stocks(stocks):
 
 #筛选当日有上板动作且不是一字板的股票
 def filter_limit(stocks):
-    global forecast
     # 初始化筛选结果列表
     filtered_stocks = []
     # 遍历股票列表
     for stock in stocks:
         # 检查是否 next_isLimitUp 或 next_isBurst 为 True
-        if (stock['next_isLimitUp'] or stock['next_isBurst']) and not stock['next_isLimitUpNoBuy'] and float(stock['close_increase'].strip('%')) > 9.5:
+        if (stock['next_isLimitUp'] or stock['next_isBurst']) and float(stock['close_increase'].strip('%')) > 9.5:
             filtered_stocks.append(stock)
 
     # 返回筛选结果
-    if forecast:
-       return stocks
-    else:
-       return filtered_stocks
+    return filtered_stocks
 
 # 创建一个Browser实例
 browser = pychrome.Browser(url="http://127.0.0.1:9222")
@@ -161,6 +156,7 @@ for item in dragon_backtest_data:
 dates = dates[len(dragon_log_data):]
 
 def strategy(pre_date,date):
+    print(pre_date,date)
     global stockPool
     global forecast
     if len(dragon_log_data)>0:
@@ -195,8 +191,8 @@ def strategy(pre_date,date):
             max_increase_stock = get_max_increase_stocks(filtered_stocks)
             #筛选出有上板动作的股票
             focusSocks = filter_limit(max_increase_stock)
-            # print(f'😁-->>targetStocks{targetStocks}')
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
+            # print(f'😁-->>filtered_stocks{filtered_stocks}')
             # print(f'😁-->>focusSocks{focusSocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
@@ -207,6 +203,7 @@ def strategy(pre_date,date):
                    next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
 
                 # print(f'😁next_opening_increase->{next_opening_increase}')
+                # print(f'😁-->>buyStock{buyStock}')
                 #高换手且次日没有出现竞价大幅高开情况则主动空仓
                 jinliang = float(getJinLiang(pre_date,buyStock["code"]))
                 if isHightChangeHands(pre_date,buyStock) and jinliang < 0:
@@ -302,16 +299,16 @@ def strategy(pre_date,date):
                         print(Style.RESET_ALL)
                         dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                         stockPool = []
-            elif len(limit_no_buy_stocks) > 0:
+            elif len(limit_no_buy_stocks) > 0 and len(max_increase_stock) == 0:
                 # 空仓
-                reason = '1.目标个股全部一字板没有买入机会;'
+                reason = '1.目标个股一字板没有买入机会;'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                 stockPool = []
             else:
                 # 空仓
-                reason = '1.在上午的交易时间段内没有触摸涨停;'
+                reason = '1.目标个股在上午的交易时间段内没有触摸涨停;'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
@@ -406,7 +403,7 @@ def get_previous_trading_day(date_object):
 #        break
 if forecast:
    strategy(str(date_object),str(today))
-#    strategy('2024-04-01','2024-04-02')
+#    strategy('2024-06-06','2024-06-07')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
