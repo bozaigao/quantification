@@ -115,51 +115,23 @@
         "date": "2023-01-11",
         "money": 105699,
         "earnings": "0%",
-        "desc": "涨停打板买入通达动力",
-        "stock": {
-            "code": "002576",
-            "name": "通达动力",
-            "limit": 5,
-            "limit_ups": 25,
-            "limit_downs": 1,
-            "price": "16.09",
-            "first_limit_time": "09:30:00",
-            "final_limit_time": "09:38:45",
-            "limit_reason": "电机+比亚迪铁芯+机器人+风电",
-            "limit_tocks": "468.43万",
-            "limit_money": "9,101.59万",
-            "limit_cheng_ratio": "14.38",
-            "limit_liu_ratio": "2.89",
-            "limit_open_times": "3",
-            "market_value": "31.46亿",
-            "limit_type": "【T字涨停|放量涨停】",
-            "company_place": "江苏省南通市通州区四安镇庵东村",
-            "company_business": "电动机、发电机定转子铁心产品的研发、制造、销售、服务；电动机、电气控制设备、电动工具的研发、制造、销售、服务；风力、柴油、水轮、汽轮发电机设备及配件的研发、制造、销售、服务；专用设备，专用模具的研发、制造、销售、服务；电机制造专用材料的采购、加工、销售、配送、仓储、服务；金属切削加工；经营本企业自产产品的进出口业务（国家限定公司经营或禁止进出口的商品除外）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
-            "opening_increase": "10.02%",
-            "desc": "2023年1月11日通达动力集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价19.43元，成交量142.68万股，成交额2772.27万，未成交量1339.12万股，未成交额2.60亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "5.39%",
-            "shockValue": "4.64",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "4.79",
-            "next_opening_increase": "6.33%",
-            "next_desc": "2023年1月12日通达动力集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅6.33%，成交价20.66元，成交量228.58万股，成交额4722.46万，未成交量-5.93万股，未成交额-122.46万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.02",
-            "next_close_increase": "9.98"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.通达动力今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.通达动力股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-01-12",
-        "money": 116269,
-        "earnings": "10%",
-        "desc": "继续持有通达动力,当日盈利10%",
+        "money": 105699,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.通达动力今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+    },
+    {
+        "date": "2023-01-13",
+        "money": 100721,
+        "earnings": "-4.71%",
+        "desc": "涨停打板买入通达动力,结果炸板了,当日盈利-4.71%",
         "stock": {
             "code": "002576",
             "name": "通达动力",
@@ -197,27 +169,19 @@
             "next_close_increase": "5.29"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.通达动力今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
-        "date": "2023-01-13",
-        "money": 127896,
+        "date": "2023-01-16",
+        "money": 110793,
         "earnings": "10%",
         "desc": "炸板卖出通达动力,当日盈利10%",
         "suggest_shipping_space": 1,
         "reason": "1.炸板卖出;\n"
     },
     {
-        "date": "2023-01-16",
-        "money": 127896,
-        "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.在上午的交易时间段内没有触摸涨停;"
-    },
-    {
         "date": "2023-01-17",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -225,59 +189,23 @@
     },
     {
         "date": "2023-01-18",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
-        "desc": "涨停打板买入泰永长征",
-        "stock": {
-            "code": "002927",
-            "name": "泰永长征",
-            "limit": 5,
-            "limit_ups": 31,
-            "limit_downs": 3,
-            "price": "14.86",
-            "first_limit_time": "09:30:00",
-            "final_limit_time": "09:30:30",
-            "limit_reason": "电力设备+充电桩+数字经济+比亚迪",
-            "limit_tocks": "554.77万",
-            "limit_money": "9,675.17万",
-            "limit_cheng_ratio": "47.65",
-            "limit_liu_ratio": "2.52",
-            "limit_open_times": "1",
-            "market_value": "38.40亿",
-            "limit_type": "【T字涨停|放量涨停】",
-            "company_place": "贵州省遵义市汇川区外高桥工业园区武汉路中段",
-            "company_business": "法律、法规、国务院决定规定禁止的不得经营；法律、法规、国务院决定规定应当许可（审批）的，经审批机关批准后凭许可（审批）文件经营；法律、法规、国务院决定规定无需许可（审批）的，市场主体自主选择经营。开发、生产经营智能型低压电器系列产品、机电一体化工业自动化产品、输配电设备及附件、消防类产品；电动汽车充电设备研发、制造及销售；新能源汽车充电设施运营；电动汽车充电系统及互联网平台技术研发、技术咨询及销售；电动汽车充电站监控系统的研发、技术咨询及销售。",
-            "opening_increase": "10.03%",
-            "desc": "2023年1月18日泰永长征集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.03%，成交价17.44元，成交量337.37万股，成交额5883.67万，未成交量246.83万股，未成交额4304.78万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "7.31%",
-            "shockValue": "2.78",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": true,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "18.00",
-            "next_opening_increase": "5.22%",
-            "next_desc": "2023年1月19日泰永长征集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅5.22%，成交价18.35元，成交量187.40万股，成交额3438.79万，未成交量-296.00股，未成交额-5431.60。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.03",
-            "next_close_increase": "-9.98"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.泰永长征今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.泰永长征股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-01-19",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
-        "desc": "断板卖出泰永长征,当日盈利0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.未能继续涨停;\n"
+        "reason": "1.在上午的交易时间段内没有触摸涨停;"
     },
     {
         "date": "2023-01-20",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -285,15 +213,15 @@
     },
     {
         "date": "2023-01-30",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.中远海科股票处于高位高换手，主动空仓;\n"
+        "reason": "1.中远海科股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-01-31",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -301,15 +229,15 @@
     },
     {
         "date": "2023-02-01",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.爱仕达今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.爱仕达股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-02-02",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "涨停打板买入达意隆",
         "stock": {
@@ -353,7 +281,7 @@
     },
     {
         "date": "2023-02-03",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "断板卖出达意隆,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -361,7 +289,7 @@
     },
     {
         "date": "2023-02-06",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -369,7 +297,7 @@
     },
     {
         "date": "2023-02-07",
-        "money": 127896,
+        "money": 110793,
         "earnings": "0%",
         "desc": "涨停打板买入汉王科技",
         "stock": {
@@ -413,7 +341,7 @@
     },
     {
         "date": "2023-02-08",
-        "money": 140686,
+        "money": 121872,
         "earnings": "10%",
         "desc": "炸板卖出汉王科技,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -421,15 +349,15 @@
     },
     {
         "date": "2023-02-09",
-        "money": 140686,
+        "money": 121872,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.信达证券在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.信达证券开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-02-10",
-        "money": 140686,
+        "money": 121872,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -437,7 +365,7 @@
     },
     {
         "date": "2023-02-13",
-        "money": 140686,
+        "money": 121872,
         "earnings": "0%",
         "desc": "涨停打板买入鸿博股份",
         "stock": {
@@ -481,7 +409,7 @@
     },
     {
         "date": "2023-02-14",
-        "money": 154755,
+        "money": 134059,
         "earnings": "10%",
         "desc": "炸板卖出鸿博股份,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -489,7 +417,7 @@
     },
     {
         "date": "2023-02-15",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -497,15 +425,15 @@
     },
     {
         "date": "2023-02-16",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.宁夏建材在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.宁夏建材开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-02-17",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -513,7 +441,7 @@
     },
     {
         "date": "2023-02-20",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -521,7 +449,7 @@
     },
     {
         "date": "2023-02-21",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -529,7 +457,7 @@
     },
     {
         "date": "2023-02-22",
-        "money": 154755,
+        "money": 134059,
         "earnings": "0%",
         "desc": "涨停打板买入坤泰股份",
         "stock": {
@@ -573,7 +501,7 @@
     },
     {
         "date": "2023-02-23",
-        "money": 170230,
+        "money": 147465,
         "earnings": "10%",
         "desc": "继续持有坤泰股份,当日盈利10%",
         "stock": {
@@ -617,7 +545,7 @@
     },
     {
         "date": "2023-02-24",
-        "money": 161701,
+        "money": 140077,
         "earnings": "-5.01%",
         "desc": "竞价卖出坤泰股份,当日盈利-5.01%",
         "suggest_shipping_space": 1,
@@ -625,7 +553,7 @@
     },
     {
         "date": "2023-02-27",
-        "money": 161701,
+        "money": 140077,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -633,7 +561,7 @@
     },
     {
         "date": "2023-02-28",
-        "money": 161701,
+        "money": 140077,
         "earnings": "0%",
         "desc": "涨停打板买入九牧王",
         "stock": {
@@ -677,7 +605,7 @@
     },
     {
         "date": "2023-03-01",
-        "money": 177871,
+        "money": 154085,
         "earnings": "10%",
         "desc": "继续持有九牧王,当日盈利10%",
         "stock": {
@@ -721,7 +649,7 @@
     },
     {
         "date": "2023-03-02",
-        "money": 195658,
+        "money": 169494,
         "earnings": "10%",
         "desc": "继续持有九牧王,当日盈利10%",
         "stock": {
@@ -765,7 +693,7 @@
     },
     {
         "date": "2023-03-03",
-        "money": 193114,
+        "money": 167291,
         "earnings": "-1.3%",
         "desc": "竞价卖出九牧王,当日盈利-1.3%",
         "suggest_shipping_space": 1,
@@ -773,7 +701,7 @@
     },
     {
         "date": "2023-03-06",
-        "money": 193114,
+        "money": 167291,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -781,7 +709,7 @@
     },
     {
         "date": "2023-03-07",
-        "money": 193114,
+        "money": 167291,
         "earnings": "0%",
         "desc": "涨停打板买入中公高科",
         "stock": {
@@ -825,7 +753,7 @@
     },
     {
         "date": "2023-03-08",
-        "money": 196745,
+        "money": 170436,
         "earnings": "1.88%",
         "desc": "断板卖出中公高科,当日盈利1.88%",
         "suggest_shipping_space": 1,
@@ -833,7 +761,7 @@
     },
     {
         "date": "2023-03-09",
-        "money": 196745,
+        "money": 170436,
         "earnings": "0%",
         "desc": "涨停打板买入金海通",
         "stock": {
@@ -877,7 +805,7 @@
     },
     {
         "date": "2023-03-10",
-        "money": 187950,
+        "money": 162818,
         "earnings": "-4.47%",
         "desc": "竞价卖出金海通,当日盈利-4.47%",
         "suggest_shipping_space": 1,
@@ -885,7 +813,7 @@
     },
     {
         "date": "2023-03-13",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -893,7 +821,7 @@
     },
     {
         "date": "2023-03-14",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -901,7 +829,7 @@
     },
     {
         "date": "2023-03-15",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -909,7 +837,7 @@
     },
     {
         "date": "2023-03-16",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -917,7 +845,7 @@
     },
     {
         "date": "2023-03-17",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -925,7 +853,7 @@
     },
     {
         "date": "2023-03-20",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -933,7 +861,7 @@
     },
     {
         "date": "2023-03-21",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -941,7 +869,7 @@
     },
     {
         "date": "2023-03-22",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -949,7 +877,7 @@
     },
     {
         "date": "2023-03-23",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -957,7 +885,7 @@
     },
     {
         "date": "2023-03-24",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -965,15 +893,15 @@
     },
     {
         "date": "2023-03-27",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.鸿博股份在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.鸿博股份开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-03-28",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -981,7 +909,7 @@
     },
     {
         "date": "2023-03-29",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -989,7 +917,7 @@
     },
     {
         "date": "2023-03-30",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -997,7 +925,7 @@
     },
     {
         "date": "2023-03-31",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1005,7 +933,7 @@
     },
     {
         "date": "2023-04-03",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1013,7 +941,7 @@
     },
     {
         "date": "2023-04-04",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1021,7 +949,7 @@
     },
     {
         "date": "2023-04-06",
-        "money": 187950,
+        "money": 162818,
         "earnings": "0%",
         "desc": "涨停打板买入联合水务",
         "stock": {
@@ -1065,7 +993,7 @@
     },
     {
         "date": "2023-04-07",
-        "money": 206745,
+        "money": 179100,
         "earnings": "10%",
         "desc": "继续持有联合水务,当日盈利10%",
         "stock": {
@@ -1109,7 +1037,7 @@
     },
     {
         "date": "2023-04-10",
-        "money": 197028,
+        "money": 170682,
         "earnings": "-4.7%",
         "desc": "竞价卖出联合水务,当日盈利-4.7%",
         "suggest_shipping_space": 1,
@@ -1117,7 +1045,7 @@
     },
     {
         "date": "2023-04-11",
-        "money": 197028,
+        "money": 170682,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1125,7 +1053,7 @@
     },
     {
         "date": "2023-04-12",
-        "money": 197028,
+        "money": 170682,
         "earnings": "0%",
         "desc": "涨停打板买入奥飞娱乐",
         "stock": {
@@ -1169,7 +1097,7 @@
     },
     {
         "date": "2023-04-13",
-        "money": 216731,
+        "money": 187750,
         "earnings": "10%",
         "desc": "继续持有奥飞娱乐,当日盈利10%",
         "stock": {
@@ -1213,7 +1141,7 @@
     },
     {
         "date": "2023-04-14",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "断板卖出奥飞娱乐,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -1221,7 +1149,7 @@
     },
     {
         "date": "2023-04-17",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1229,7 +1157,7 @@
     },
     {
         "date": "2023-04-18",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1237,7 +1165,7 @@
     },
     {
         "date": "2023-04-19",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1245,7 +1173,7 @@
     },
     {
         "date": "2023-04-20",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1253,7 +1181,7 @@
     },
     {
         "date": "2023-04-21",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1261,23 +1189,59 @@
     },
     {
         "date": "2023-04-24",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
-        "desc": "空仓",
+        "desc": "涨停打板买入中国出版",
+        "stock": {
+            "code": "601949",
+            "name": "中国出版",
+            "limit": 3,
+            "limit_ups": 28,
+            "limit_downs": 12,
+            "price": "7.35",
+            "first_limit_time": "10:24:00",
+            "final_limit_time": "14:38:06",
+            "limit_reason": "出版+数字藏品+中字头+签约对外贸易",
+            "limit_tocks": "135.20万",
+            "limit_money": "1,265.46万",
+            "limit_cheng_ratio": "0.77",
+            "limit_liu_ratio": "0.07",
+            "limit_open_times": "16",
+            "market_value": "170.59亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "北京市东城区朝阳门内大街甲55号",
+            "company_business": "组织所属单位出版物的出版（含合作出版、版权贸易）、发行（含总发行、批发、零售以及连锁经营）、印刷、复制相关业务；经营、管理所属单位的经营性国有资产（含国有股权）。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "3.17%",
+            "desc": "2023年4月24日中国出版集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅3.17%，成交价8.78元，成交量368.41万股，成交额3234.62万，未成交量3320.00股，未成交额2.91万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "0.6%",
+            "shockValue": "1.76亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.44亿",
+            "next_opening_increase": "-0.75%",
+            "next_desc": "2023年4月25日中国出版集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅-0.75%，成交价9.29元，成交量423.59万股，成交额3935.15万，未成交量139.37万股，未成交额1294.75万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.99",
+            "next_close_increase": "-4.27"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.中国出版股票处于高位高换手，主动空仓;\n"
+        "reason": "1.中国出版今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-04-25",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
-        "desc": "空仓",
+        "desc": "断板卖出中国出版,当日盈利0%",
         "suggest_shipping_space": 1,
-        "reason": "1.在上午的交易时间段内没有触摸涨停;"
+        "reason": "1.未能继续涨停;\n"
     },
     {
         "date": "2023-04-26",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1285,15 +1249,15 @@
     },
     {
         "date": "2023-04-27",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.新华文轩股票处于高位高换手，主动空仓;\n"
+        "reason": "1.新华文轩股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-04-28",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1301,7 +1265,7 @@
     },
     {
         "date": "2023-05-04",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1309,7 +1273,7 @@
     },
     {
         "date": "2023-05-05",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1317,15 +1281,15 @@
     },
     {
         "date": "2023-05-08",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.长江传媒股票处于高位高换手，主动空仓;\n"
+        "reason": "1.长江传媒今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-05-09",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1333,15 +1297,15 @@
     },
     {
         "date": "2023-05-10",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.国新文化股票处于高位高换手，主动空仓;\n"
+        "reason": "1.国新文化今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-05-11",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1349,7 +1313,7 @@
     },
     {
         "date": "2023-05-12",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1357,7 +1321,7 @@
     },
     {
         "date": "2023-05-15",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1365,7 +1329,7 @@
     },
     {
         "date": "2023-05-16",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1373,15 +1337,15 @@
     },
     {
         "date": "2023-05-17",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.杭州热电今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.杭州热电股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-05-18",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1389,7 +1353,7 @@
     },
     {
         "date": "2023-05-19",
-        "money": 216731,
+        "money": 187750,
         "earnings": "0%",
         "desc": "涨停打板买入日播时尚",
         "stock": {
@@ -1433,7 +1397,7 @@
     },
     {
         "date": "2023-05-22",
-        "money": 238404,
+        "money": 206525,
         "earnings": "10%",
         "desc": "继续持有日播时尚,当日盈利10%",
         "stock": {
@@ -1477,7 +1441,7 @@
     },
     {
         "date": "2023-05-23",
-        "money": 262244,
+        "money": 227178,
         "earnings": "10%",
         "desc": "继续持有日播时尚,当日盈利10%",
         "stock": {
@@ -1521,7 +1485,7 @@
     },
     {
         "date": "2023-05-24",
-        "money": 288468,
+        "money": 249896,
         "earnings": "10%",
         "desc": "继续持有日播时尚,当日盈利10%",
         "stock": {
@@ -1565,7 +1529,7 @@
     },
     {
         "date": "2023-05-25",
-        "money": 317315,
+        "money": 274886,
         "earnings": "10%",
         "desc": "继续持有日播时尚,当日盈利10%",
         "stock": {
@@ -1609,7 +1573,7 @@
     },
     {
         "date": "2023-05-26",
-        "money": 349046,
+        "money": 302375,
         "earnings": "10%",
         "desc": "继续持有日播时尚,当日盈利10%",
         "stock": {
@@ -1653,7 +1617,7 @@
     },
     {
         "date": "2023-05-29",
-        "money": 383951,
+        "money": 332612,
         "earnings": "10%",
         "desc": "炸板卖出日播时尚,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -1661,7 +1625,7 @@
     },
     {
         "date": "2023-05-30",
-        "money": 383951,
+        "money": 332612,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1669,7 +1633,7 @@
     },
     {
         "date": "2023-05-31",
-        "money": 383951,
+        "money": 332612,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1677,7 +1641,7 @@
     },
     {
         "date": "2023-06-01",
-        "money": 383951,
+        "money": 332612,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1685,15 +1649,15 @@
     },
     {
         "date": "2023-06-02",
-        "money": 383951,
+        "money": 332612,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.创新医疗在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.创新医疗开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-06-05",
-        "money": 383951,
+        "money": 332612,
         "earnings": "0%",
         "desc": "涨停打板买入冠石科技",
         "stock": {
@@ -1737,7 +1701,7 @@
     },
     {
         "date": "2023-06-06",
-        "money": 422193,
+        "money": 365740,
         "earnings": "9.96%",
         "desc": "断板卖出冠石科技,当日盈利9.96%",
         "suggest_shipping_space": 1,
@@ -1745,7 +1709,7 @@
     },
     {
         "date": "2023-06-07",
-        "money": 422193,
+        "money": 365740,
         "earnings": "0%",
         "desc": "涨停打板买入铭普光磁",
         "stock": {
@@ -1789,7 +1753,7 @@
     },
     {
         "date": "2023-06-08",
-        "money": 464412,
+        "money": 402314,
         "earnings": "10%",
         "desc": "炸板卖出铭普光磁,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -1797,15 +1761,15 @@
     },
     {
         "date": "2023-06-09",
-        "money": 464412,
+        "money": 402314,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.上海物贸股票处于高位高换手，主动空仓;\n"
+        "reason": "1.上海物贸股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-06-12",
-        "money": 464412,
+        "money": 402314,
         "earnings": "0%",
         "desc": "涨停打板买入上海物贸",
         "stock": {
@@ -1849,7 +1813,7 @@
     },
     {
         "date": "2023-06-13",
-        "money": 510853,
+        "money": 442545,
         "earnings": "10%",
         "desc": "炸板卖出上海物贸,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -1857,7 +1821,7 @@
     },
     {
         "date": "2023-06-14",
-        "money": 467584,
+        "money": 405061,
         "earnings": "-8.47%",
         "desc": "涨停打板买入迪生力,结果炸板了,当日盈利-8.47%",
         "stock": {
@@ -1901,7 +1865,7 @@
     },
     {
         "date": "2023-06-15",
-        "money": 420779,
+        "money": 364514,
         "earnings": "-10.01%",
         "desc": "竞价卖出迪生力,当日盈利-10.01%",
         "suggest_shipping_space": 1,
@@ -1909,7 +1873,7 @@
     },
     {
         "date": "2023-06-16",
-        "money": 420779,
+        "money": 364514,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1917,7 +1881,7 @@
     },
     {
         "date": "2023-06-19",
-        "money": 420779,
+        "money": 364514,
         "earnings": "0%",
         "desc": "涨停打板买入中大力德",
         "stock": {
@@ -1961,7 +1925,7 @@
     },
     {
         "date": "2023-06-20",
-        "money": 462857,
+        "money": 400965,
         "earnings": "10%",
         "desc": "炸板卖出中大力德,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -1969,7 +1933,7 @@
     },
     {
         "date": "2023-06-21",
-        "money": 462857,
+        "money": 400965,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1977,7 +1941,7 @@
     },
     {
         "date": "2023-06-26",
-        "money": 462857,
+        "money": 400965,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -1985,111 +1949,75 @@
     },
     {
         "date": "2023-06-27",
-        "money": 462857,
+        "money": 400965,
         "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.南方精工股票处于高位高换手，主动空仓;\n"
-    },
-    {
-        "date": "2023-06-28",
-        "money": 462857,
-        "earnings": "0%",
-        "desc": "涨停打板买入中马传动",
+        "desc": "涨停打板买入南方精工",
         "stock": {
-            "code": "603767",
-            "name": "中马传动",
-            "limit": 5,
-            "limit_ups": 32,
-            "limit_downs": 8,
-            "price": "13.13",
-            "first_limit_time": "09:31:30",
-            "final_limit_time": "09:31:30",
-            "limit_reason": "汽车变速器+车辆齿轮+减速器",
-            "limit_tocks": "613.54万",
-            "limit_money": "8,080.27万",
-            "limit_cheng_ratio": "17.44",
-            "limit_liu_ratio": "2.00",
-            "limit_open_times": "0",
-            "market_value": "40.49亿",
+            "code": "002553",
+            "name": "南方精工",
+            "limit": 4,
+            "limit_ups": 55,
+            "limit_downs": 3,
+            "price": "11.10",
+            "first_limit_time": "09:31:15",
+            "final_limit_time": "14:24:08",
+            "limit_reason": "RV减速机配套轴承+机器人+SoC芯片+人工智能",
+            "limit_tocks": "104.70万",
+            "limit_money": "1,973.60万",
+            "limit_cheng_ratio": "0.78",
+            "limit_liu_ratio": "0.45",
+            "limit_open_times": "4",
+            "market_value": "44.16亿",
             "limit_type": "【放量涨停】",
-            "company_place": "浙江省台州市温岭市石塘镇上马工业区经一路1号",
-            "company_business": "齿轮、传动部件、汽车变速器、摩托车配件制造、销售、太阳能光伏发电、售电服务（凭许可证经营）、货物进出口、技术进出口。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
-            "opening_increase": "0.50%",
-            "desc": "2023年6月28日中马传动集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅0.50%，成交价12.03元，成交量333.68万股，成交额4014.21万，未成交量7.10万股，未成交额85.38万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "0.5%",
-            "shockValue": "9.52",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": true,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "0",
-            "next_opening_increase": "10.02%",
-            "next_desc": "2023年6月29日中马传动集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价14.49元，成交量233.77万股，成交额3387.33万，未成交量909.59万股，未成交额1.32亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.03",
-            "next_close_increase": "10.02"
-        },
-        "suggest_shipping_space": 1,
-        "reason": "1.中马传动虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n"
-    },
-    {
-        "date": "2023-06-29",
-        "money": 509143,
-        "earnings": "10%",
-        "desc": "继续持有中马传动,当日盈利10%",
-        "stock": {
-            "code": "603767",
-            "name": "中马传动",
-            "limit": 6,
-            "limit_ups": 48,
-            "limit_downs": 1,
-            "price": "13.13",
-            "first_limit_time": "09:30:00",
-            "final_limit_time": "09:30:00",
-            "limit_reason": "汽车变速器+车辆齿轮+减速器",
-            "limit_tocks": "423.93万",
-            "limit_money": "6,142.77万",
-            "limit_cheng_ratio": "49.54",
-            "limit_liu_ratio": "1.38",
-            "limit_open_times": "0",
-            "market_value": "44.55亿",
-            "limit_type": "【一字涨停】;【缩量涨停】",
-            "company_place": "浙江省台州市温岭市石塘镇上马工业区经一路1号",
-            "company_business": "齿轮、传动部件、汽车变速器、摩托车配件制造、销售、太阳能光伏发电、售电服务（凭许可证经营）、货物进出口、技术进出口。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
-            "opening_increase": "10.02%",
-            "desc": "2023年6月29日中马传动集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.02%，成交价14.49元，成交量233.77万股，成交额3387.33万，未成交量909.59万股，未成交额1.32亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "10.02%",
-            "shockValue": "0",
+            "company_place": "江苏省常州市武进区高新技术开发区龙翔路9号",
+            "company_business": "轴承制造；轴承销售；汽车零部件研发；汽车零部件及配件制造；汽车零配件批发；汽车零配件零售；机械零件、零部件加工；机械零件、零部件销售；工业机器人制造；集成电路芯片设计及服务；集成电路芯片及产品制造；集成电路芯片及产品销售（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。",
+            "opening_increase": "5.02%",
+            "desc": "2023年6月27日南方精工集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅5.02%，成交价18.00元，成交量1507.69万股，成交额2.71亿，未成交量-4.79万股，未成交额-86.22万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.73%",
+            "shockValue": "1.35亿",
             "next_isLimitUp": false,
             "next_isLimitUpNoBuy": false,
             "next_isLimitDown": false,
             "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "14:46:45",
-            "next_shockValue": "8.83",
-            "next_opening_increase": "3.52%",
-            "next_desc": "2023年6月30日中马传动集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅3.52%，成交价15.00元，成交量383.62万股，成交额5754.36万，未成交量3.37万股，未成交额50.49万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.02",
-            "next_close_increase": "6.69"
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "1.25亿",
+            "next_opening_increase": "-7.64%",
+            "next_desc": "2023年6月28日南方精工集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅-7.64%，成交价17.41元，成交量639.47万股，成交额1.11亿，未成交量2.48万股，未成交额43.18万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "5.04"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.南方精工虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n"
+    },
+    {
+        "date": "2023-06-28",
+        "money": 370331,
+        "earnings": "-7.64%",
+        "desc": "竞价卖出南方精工,当日盈利-7.64%",
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
+    },
+    {
+        "date": "2023-06-29",
+        "money": 370331,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股全部一字板没有买入机会;"
     },
     {
         "date": "2023-06-30",
-        "money": 560057,
-        "earnings": "10%",
-        "desc": "炸板卖出中马传动,当日盈利10%",
+        "money": 370331,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.中马传动今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-07-03",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2097,7 +2025,7 @@
     },
     {
         "date": "2023-07-04",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2105,7 +2033,7 @@
     },
     {
         "date": "2023-07-05",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2113,7 +2041,7 @@
     },
     {
         "date": "2023-07-06",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2121,7 +2049,7 @@
     },
     {
         "date": "2023-07-07",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2129,7 +2057,7 @@
     },
     {
         "date": "2023-07-10",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2137,7 +2065,7 @@
     },
     {
         "date": "2023-07-11",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2145,7 +2073,7 @@
     },
     {
         "date": "2023-07-12",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2153,7 +2081,7 @@
     },
     {
         "date": "2023-07-13",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "涨停打板买入大连热电",
         "stock": {
@@ -2197,7 +2125,7 @@
     },
     {
         "date": "2023-07-14",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "断板卖出大连热电,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -2205,7 +2133,7 @@
     },
     {
         "date": "2023-07-17",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2213,15 +2141,15 @@
     },
     {
         "date": "2023-07-18",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.国华网安股票处于高位高换手，主动空仓;\n"
+        "reason": "1.国华网安今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-07-19",
-        "money": 560057,
+        "money": 370331,
         "earnings": "0%",
         "desc": "涨停打板买入中央商场",
         "stock": {
@@ -2265,7 +2193,7 @@
     },
     {
         "date": "2023-07-20",
-        "money": 616063,
+        "money": 407364,
         "earnings": "10%",
         "desc": "继续持有中央商场,当日盈利10%",
         "stock": {
@@ -2309,7 +2237,7 @@
     },
     {
         "date": "2023-07-21",
-        "money": 677669,
+        "money": 448100,
         "earnings": "10%",
         "desc": "继续持有中央商场,当日盈利10%",
         "stock": {
@@ -2353,7 +2281,7 @@
     },
     {
         "date": "2023-07-24",
-        "money": 686479,
+        "money": 453925,
         "earnings": "1.3%",
         "desc": "断板卖出中央商场,当日盈利1.3%",
         "suggest_shipping_space": 1,
@@ -2361,7 +2289,7 @@
     },
     {
         "date": "2023-07-25",
-        "money": 686479,
+        "money": 453925,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2369,7 +2297,7 @@
     },
     {
         "date": "2023-07-26",
-        "money": 686479,
+        "money": 453925,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2377,7 +2305,7 @@
     },
     {
         "date": "2023-07-27",
-        "money": 686479,
+        "money": 453925,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2385,7 +2313,7 @@
     },
     {
         "date": "2023-07-28",
-        "money": 686479,
+        "money": 453925,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2393,17 +2321,9 @@
     },
     {
         "date": "2023-07-31",
-        "money": 686479,
+        "money": 453925,
         "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.国芳集团股票处于高位高换手，主动空仓;\n"
-    },
-    {
-        "date": "2023-08-01",
-        "money": 623117,
-        "earnings": "-9.23%",
-        "desc": "涨停打板买入国芳集团,结果炸板了,当日盈利-9.23%",
+        "desc": "涨停打板买入国芳集团",
         "stock": {
             "code": "601086",
             "name": "国芳集团",
@@ -2441,19 +2361,27 @@
             "next_close_increase": "0.78"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
+        "reason": "1.国芳集团今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
+    },
+    {
+        "date": "2023-08-01",
+        "money": 499318,
+        "earnings": "10%",
+        "desc": "炸板卖出国芳集团,当日盈利10%",
+        "suggest_shipping_space": 1,
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2023-08-02",
-        "money": 586042,
-        "earnings": "-5.95%",
-        "desc": "竞价卖出国芳集团,当日盈利-5.95%",
+        "money": 499318,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
+        "reason": "1.国创高新今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-08-03",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2461,15 +2389,15 @@
     },
     {
         "date": "2023-08-04",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.惠发食品在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.惠发食品开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-08-07",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2477,7 +2405,7 @@
     },
     {
         "date": "2023-08-08",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2485,15 +2413,15 @@
     },
     {
         "date": "2023-08-09",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.恒银科技今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.恒银科技股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-08-10",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2501,7 +2429,7 @@
     },
     {
         "date": "2023-08-11",
-        "money": 586042,
+        "money": 499318,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2509,23 +2437,59 @@
     },
     {
         "date": "2023-08-14",
-        "money": 586042,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 461420,
+        "earnings": "-7.59%",
+        "desc": "涨停打板买入塞力医疗,结果炸板了,当日盈利-7.59%",
+        "stock": {
+            "code": "603716",
+            "name": "塞力医疗",
+            "limit": 4,
+            "limit_ups": 15,
+            "limit_downs": 3,
+            "price": "10.48",
+            "first_limit_time": "09:32:00",
+            "final_limit_time": "09:33:30",
+            "limit_reason": "SPD+降压疫苗+DRG/DIP+智慧医疗",
+            "limit_tocks": "783.11万",
+            "limit_money": "1.14亿",
+            "limit_cheng_ratio": "29.39",
+            "limit_liu_ratio": "3.89",
+            "limit_open_times": "1",
+            "market_value": "29.25亿",
+            "limit_type": "【放量涨停】;【逆势涨停】",
+            "company_place": "湖北省武汉市东西湖区金山大道1310号",
+            "company_business": "自动化设备、机电、仪器设备的维护修理；设备租赁；相关产品技术咨询；化工产品（不含化学危险品），医用器械软件开发；互联网药品与医疗器械信息服务；生物科技品、医用电子设备及配套消耗品、试剂等进出口业务及批发业务；货物专用运输（冷藏保鲜）；实验室科教仪器及耗材的批发兼零售；销售临床及科研用检验仪器、检验试剂、新型诊断试剂、生物技术科研产品、塑料制品。第I、II、III类医疗器械及体外诊断试剂（含医疗器械类和药品类）和耗材的批发和零售。为其他医疗器械生产经营企业提供第II、III类医疗器械贮存、配送服务（含体外诊断试剂、冷藏、冷冻库）。计算机软硬件的设计、开发、销售；计算机信息技术服务；电子智能设备科技领域的技术开发、技术咨询、技术转让、技术服务；物联网技术研发；货运代理；货物及技术进出口（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+            "opening_increase": "6.36%",
+            "desc": "2023年8月11日塞力医疗集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅6.36%，成交价14.05元，成交量268.91万股，成交额3778.25万，未成交量4254.00股，未成交额5.98万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "3.86%",
+            "shockValue": "6.13",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:31:30",
+            "next_shockValue": "8.33",
+            "next_opening_increase": "7.71%",
+            "next_desc": "2023年8月14日塞力医疗集合竞价大幅高开，大幅高开7.70%，竞价评级看多，竞价涨幅7.71%，成交价15.65元，成交量170.37万股，成交额2666.29万，未成交量-650.00股，未成交额-1.02万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.99",
+            "next_close_increase": "2.41"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.塞力医疗股票处于高位高换手，主动空仓;\n"
+        "reason": "1.塞力医疗今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-08-15",
-        "money": 586042,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 447485,
+        "earnings": "-3.02%",
+        "desc": "竞价卖出塞力医疗,当日盈利-3.02%",
         "suggest_shipping_space": 1,
-        "reason": "1.摩恩电气股票处于高位高换手，主动空仓;\n"
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-08-16",
-        "money": 586042,
+        "money": 447485,
         "earnings": "0%",
         "desc": "涨停打板买入开开实业",
         "stock": {
@@ -2569,7 +2533,7 @@
     },
     {
         "date": "2023-08-17",
-        "money": 644646,
+        "money": 492234,
         "earnings": "10%",
         "desc": "继续持有开开实业,当日盈利10%",
         "stock": {
@@ -2613,7 +2577,7 @@
     },
     {
         "date": "2023-08-18",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "断板卖出开开实业,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -2621,7 +2585,7 @@
     },
     {
         "date": "2023-08-21",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2629,7 +2593,7 @@
     },
     {
         "date": "2023-08-22",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2637,7 +2601,7 @@
     },
     {
         "date": "2023-08-23",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2645,7 +2609,7 @@
     },
     {
         "date": "2023-08-24",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2653,7 +2617,7 @@
     },
     {
         "date": "2023-08-25",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2661,7 +2625,7 @@
     },
     {
         "date": "2023-08-28",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "涨停打板买入大湖股份",
         "stock": {
@@ -2705,7 +2669,7 @@
     },
     {
         "date": "2023-08-29",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "断板卖出大湖股份,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -2713,7 +2677,7 @@
     },
     {
         "date": "2023-08-30",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2721,33 +2685,141 @@
     },
     {
         "date": "2023-08-31",
-        "money": 644646,
+        "money": 492234,
         "earnings": "0%",
-        "desc": "空仓",
+        "desc": "涨停打板买入我乐家居",
+        "stock": {
+            "code": "603326",
+            "name": "我乐家居",
+            "limit": 4,
+            "limit_ups": 26,
+            "limit_downs": 8,
+            "price": "9.38",
+            "first_limit_time": "09:30:30",
+            "final_limit_time": "09:30:30",
+            "limit_reason": "半年报增长+定制家具",
+            "limit_tocks": "351.50万",
+            "limit_money": "3,873.54万",
+            "limit_cheng_ratio": "59.70",
+            "limit_liu_ratio": "1.11",
+            "limit_open_times": "0",
+            "market_value": "34.77亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "江苏省南京市江宁区江宁经济技术开发区清水亭西路218号",
+            "company_business": "家具、厨房卫生间用具、家居装饰；新型建筑材料（轻质高强多功能墙体材料、高档环保型装饰装修材料、优质防水密封材料、高效保温材料）；日用品、配件和附件；木制品（木地板）；石英石台面的设计、生产；装饰材料、涂料、瓷砖；家用电器、燃气灶具、吸油烟机、消毒柜、燃气热水器、电热水器、电磁炉、烤箱、洗碗机、微波炉、水龙头、水槽（国家禁止和限制的产品除外）的委托生产及相关配套服务，销售自产产品。（依法须经批准的项目，经相关部门批准后方可开展经营活动）许可项目：住宅室内装饰装修（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：市场营销策划；品牌管理；企业形象策划；项目策划与公关服务；咨询策划服务；会议及展览服务；非居住房地产租赁；物业管理（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。",
+            "opening_increase": "7.39%",
+            "desc": "2023年8月31日我乐家居集合竞价大幅高开，大幅高开7.40%，竞价评级偏多，竞价涨幅7.39%，成交价10.76元，成交量93.62万股，成交额1007.35万，未成交量-18.53万股，未成交额-199.38万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "5.59%",
+            "shockValue": "4.39",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": true,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "0",
+            "next_opening_increase": "9.98%",
+            "next_desc": "2023年9月1日我乐家居集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价12.12元，成交量62.81万股，成交额761.32万，未成交量1259.66万股，未成交额1.53亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "9.98"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.我乐家居股票处于高位高换手，主动空仓;\n"
+        "reason": "1.我乐家居今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2023-09-01",
-        "money": 644646,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 541457,
+        "earnings": "10%",
+        "desc": "继续持有我乐家居,当日盈利10%",
+        "stock": {
+            "code": "603326",
+            "name": "我乐家居",
+            "limit": 5,
+            "limit_ups": 21,
+            "limit_downs": 0,
+            "price": "9.38",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "09:30:00",
+            "limit_reason": "半年报增长+定制家具",
+            "limit_tocks": "636.50万",
+            "limit_money": "7,714.37万",
+            "limit_cheng_ratio": "373.09",
+            "limit_liu_ratio": "2.02",
+            "limit_open_times": "0",
+            "market_value": "38.24亿",
+            "limit_type": "【一字涨停】;【缩量涨停】",
+            "company_place": "江苏省南京市江宁区江宁经济技术开发区清水亭西路218号",
+            "company_business": "家具、厨房卫生间用具、家居装饰；新型建筑材料（轻质高强多功能墙体材料、高档环保型装饰装修材料、优质防水密封材料、高效保温材料）；日用品、配件和附件；木制品（木地板）；石英石台面的设计、生产；装饰材料、涂料、瓷砖；家用电器、燃气灶具、吸油烟机、消毒柜、燃气热水器、电热水器、电磁炉、烤箱、洗碗机、微波炉、水龙头、水槽（国家禁止和限制的产品除外）的委托生产及相关配套服务，销售自产产品。（依法须经批准的项目，经相关部门批准后方可开展经营活动）许可项目：住宅室内装饰装修（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：市场营销策划；品牌管理；企业形象策划；项目策划与公关服务；咨询策划服务；会议及展览服务；非居住房地产租赁；物业管理（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。",
+            "opening_increase": "9.98%",
+            "desc": "2023年9月1日我乐家居集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价12.12元，成交量62.81万股，成交额761.32万，未成交量1259.66万股，未成交额1.53亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "9.98%",
+            "shockValue": "0",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": true,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "0",
+            "next_opening_increase": "9.98%",
+            "next_desc": "2023年9月4日我乐家居集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价13.33元，成交量27.29万股，成交额363.73万，未成交量2599.58万股，未成交额3.47亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "9.98"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.目标个股全部一字板没有买入机会;"
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-04",
-        "money": 644646,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 595603,
+        "earnings": "10%",
+        "desc": "继续持有我乐家居,当日盈利10%",
+        "stock": {
+            "code": "603326",
+            "name": "我乐家居",
+            "limit": 6,
+            "limit_ups": 45,
+            "limit_downs": 2,
+            "price": "9.38",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "09:30:00",
+            "limit_reason": "定制家具+半年报增长",
+            "limit_tocks": "852.41万",
+            "limit_money": "1.14亿",
+            "limit_cheng_ratio": "291.97",
+            "limit_liu_ratio": "2.70",
+            "limit_open_times": "0",
+            "market_value": "42.06亿",
+            "limit_type": "【一字涨停】;【放量涨停】",
+            "company_place": "江苏省南京市江宁区江宁经济技术开发区清水亭西路218号",
+            "company_business": "家具、厨房卫生间用具、家居装饰；新型建筑材料（轻质高强多功能墙体材料、高档环保型装饰装修材料、优质防水密封材料、高效保温材料）；日用品、配件和附件；木制品（木地板）；石英石台面的设计、生产；装饰材料、涂料、瓷砖；家用电器、燃气灶具、吸油烟机、消毒柜、燃气热水器、电热水器、电磁炉、烤箱、洗碗机、微波炉、水龙头、水槽（国家禁止和限制的产品除外）的委托生产及相关配套服务，销售自产产品。（依法须经批准的项目，经相关部门批准后方可开展经营活动）许可项目：住宅室内装饰装修（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：市场营销策划；品牌管理；企业形象策划；项目策划与公关服务；咨询策划服务；会议及展览服务；非居住房地产租赁；物业管理（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）。",
+            "opening_increase": "9.98%",
+            "desc": "2023年9月4日我乐家居集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价13.33元，成交量27.29万股，成交额363.73万，未成交量2599.58万股，未成交额3.47亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "9.98%",
+            "shockValue": "0",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "2.03",
+            "next_opening_increase": "9.98%",
+            "next_desc": "2023年9月5日我乐家居集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价14.66元，成交量593.56万股，成交额8701.62万，未成交量249.60万股，未成交额3659.10万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "9.98"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.目标个股全部一字板没有买入机会;"
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-05",
-        "money": 644646,
-        "earnings": "0%",
-        "desc": "涨停打板买入我乐家居",
+        "money": 655163,
+        "earnings": "10%",
+        "desc": "继续持有我乐家居,当日盈利10%",
         "stock": {
             "code": "603326",
             "name": "我乐家居",
@@ -2785,11 +2857,11 @@
             "next_close_increase": "10.03"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.我乐家居今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-06",
-        "money": 709111,
+        "money": 720679,
         "earnings": "10%",
         "desc": "继续持有我乐家居,当日盈利10%",
         "stock": {
@@ -2833,7 +2905,7 @@
     },
     {
         "date": "2023-09-07",
-        "money": 709111,
+        "money": 720679,
         "earnings": "0%",
         "desc": "断板卖出我乐家居,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -2841,15 +2913,15 @@
     },
     {
         "date": "2023-09-08",
-        "money": 709111,
+        "money": 720679,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.华映科技今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.华映科技股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-09-11",
-        "money": 709111,
+        "money": 720679,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2857,23 +2929,59 @@
     },
     {
         "date": "2023-09-12",
-        "money": 709111,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 630018,
+        "earnings": "-12.58%",
+        "desc": "涨停打板买入冠石科技,结果炸板了,当日盈利-12.58%",
+        "stock": {
+            "code": "605588",
+            "name": "冠石科技",
+            "limit": 4,
+            "limit_ups": 23,
+            "limit_downs": 2,
+            "price": "45.28",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "09:30:00",
+            "limit_reason": "半导体光掩膜版制造+特种胶粘材料+华为+OLED",
+            "limit_tocks": "271.61万",
+            "limit_money": "1.66亿",
+            "limit_cheng_ratio": "529.76",
+            "limit_liu_ratio": "11.76",
+            "limit_open_times": "0",
+            "market_value": "14.16亿",
+            "limit_type": "【一字涨停】;【缩量涨停】",
+            "company_place": "江苏省南京市栖霞区经济技术开发区恒通大道60号",
+            "company_business": "半导体显示器件及配套产品、电子材料及器件、绝缘材料及器件、光学材料及器件、玻璃材料及器件、新型材料及其衍生产品、精密结构件、金属结构件、胶带产品的研发、生产、加工、销售；机械设备、机电设备的销售；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品和技术除外）；道路普通货物运输。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+            "opening_increase": "10.00%",
+            "desc": "2023年9月11日冠石科技集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.00%，成交价61.30元，成交量7.03万股，成交额430.94万，未成交量435.75万股，未成交额2.67亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "9.99%",
+            "shockValue": "0",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:43:30",
+            "next_shockValue": "14.57",
+            "next_opening_increase": "4.39%",
+            "next_desc": "2023年9月12日冠石科技集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅4.39%，成交价63.99元，成交量108.43万股，成交额6938.44万，未成交量-4.92万股，未成交额-314.83万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.99",
+            "next_close_increase": "-2.58"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.冠石科技昨日一字板但是次日没有在09:40:00之前涨停;\n"
+        "reason": "1.冠石科技虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n"
     },
     {
         "date": "2023-09-13",
-        "money": 709111,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 567016,
+        "earnings": "-10.0%",
+        "desc": "竞价卖出冠石科技,当日盈利-10.0%",
         "suggest_shipping_space": 1,
-        "reason": "1.在上午的交易时间段内没有触摸涨停;"
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     },
     {
         "date": "2023-09-14",
-        "money": 709111,
+        "money": 567016,
         "earnings": "0%",
         "desc": "涨停打板买入联合精密",
         "stock": {
@@ -2917,7 +3025,7 @@
     },
     {
         "date": "2023-09-15",
-        "money": 780022,
+        "money": 623718,
         "earnings": "10%",
         "desc": "继续持有联合精密,当日盈利10%",
         "stock": {
@@ -2961,7 +3069,7 @@
     },
     {
         "date": "2023-09-18",
-        "money": 780022,
+        "money": 623718,
         "earnings": "0%",
         "desc": "断板卖出联合精密,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -2969,7 +3077,7 @@
     },
     {
         "date": "2023-09-19",
-        "money": 780022,
+        "money": 623718,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2977,7 +3085,7 @@
     },
     {
         "date": "2023-09-20",
-        "money": 780022,
+        "money": 623718,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2985,7 +3093,7 @@
     },
     {
         "date": "2023-09-21",
-        "money": 780022,
+        "money": 623718,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -2993,61 +3101,61 @@
     },
     {
         "date": "2023-09-22",
-        "money": 751083,
-        "earnings": "-3.71%",
-        "desc": "涨停打板买入日久光电,结果炸板了,当日盈利-3.71%",
-        "stock": {
-            "code": "003015",
-            "name": "日久光电",
-            "limit": 3,
-            "limit_ups": 16,
-            "limit_downs": 0,
-            "price": "12.48",
-            "first_limit_time": "09:31:45",
-            "final_limit_time": "13:25:02",
-            "limit_reason": "华为折叠屏+消费电子+ITO导电膜",
-            "limit_tocks": "770.70万",
-            "limit_money": "1.02亿",
-            "limit_cheng_ratio": "8.74",
-            "limit_liu_ratio": "3.98",
-            "limit_open_times": "1",
-            "market_value": "25.55亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "江苏省苏州市昆山市周庄镇锦周公路东侧、园区大道南侧",
-            "company_business": "生产、研发、销售氢燃料电池、氢燃料电池MEA组件、车辆及建筑玻璃用安全防爆节能薄膜材料、显示器用光学薄膜材料、导电薄膜材料、压电薄膜材料、外观装饰用热转印材料、外观装饰用贴合薄膜材料、模具内使用转印及贴合薄膜材料、复核高光薄膜材料；经营相关产品的进出口业务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
-            "opening_increase": "5.09%",
-            "desc": "2023年9月21日日久光电集合竞价砸盘，单笔放量10%以上砸盘，竞价评级混战，竞价涨幅5.09%，成交价12.60元，成交量535.54万股，成交额6747.80万，未成交量-1.03万股，未成交额-12.98万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "-4.0%",
-            "shockValue": "14.01",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:31:15",
-            "next_shockValue": "1.13亿",
-            "next_opening_increase": "8.19%",
-            "next_desc": "2023年9月22日日久光电集合竞价大幅高开，大幅高开8.20%，竞价评级偏多，竞价涨幅8.19%，成交价14.27元，成交量685.34万股，成交额9779.74万，未成交量4544.00股，未成交额6.48万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.01",
-            "next_close_increase": "6.29"
-        },
+        "money": 623718,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.日久光电今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.日久光电股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-09-25",
-        "money": 676050,
-        "earnings": "-9.99%",
-        "desc": "竞价卖出日久光电,当日盈利-9.99%",
+        "money": 623718,
+        "earnings": "0%",
+        "desc": "涨停打板买入捷荣技术",
+        "stock": {
+            "code": "002855",
+            "name": "捷荣技术",
+            "limit": 4,
+            "limit_ups": 25,
+            "limit_downs": 5,
+            "price": "32.20",
+            "first_limit_time": "10:14:57",
+            "final_limit_time": "14:10:05",
+            "limit_reason": "华为+消费电子",
+            "limit_tocks": "185.02万",
+            "limit_money": "7,313.84万",
+            "limit_cheng_ratio": "7.18",
+            "limit_liu_ratio": "0.75",
+            "limit_open_times": "2",
+            "market_value": "97.29亿",
+            "limit_type": "【缩量涨停】",
+            "company_place": "广东省东莞市长安镇长安步步高路408号",
+            "company_business": "一般项目：模具制造；模具销售；合成材料制造（不含危险化学品）；合成材料销售；金属材料制造；金属材料销售；金属结构制造；金属结构销售；金属表面处理及热处理加工；非金属矿物制品制造；非金属矿及制品销售；光学玻璃制造；光学玻璃销售；化工产品生产（不含许可类化工产品）；化工产品销售（不含许可类化工产品）；特种陶瓷制品制造；特种陶瓷制品销售；高性能纤维及复合材料制造；高性能纤维及复合材料销售；有色金属合金制造；有色金属合金销售；非居住房地产租赁；货物进出口；新兴能源技术研发；新材料技术推广服务；合同能源管理；新材料技术研发；储能技术服务；发电技术服务；在线能源监测技术研发；节能管理服务；电力行业高效节能技术研发；软件开发；信息系统集成服务；智能控制系统集成；数据处理和存储支持服务；电力电子元器件制造；配电开关控制设备研发；配电开关控制设备制造；输配电及控制设备制造；电池制造；机械电气设备制造；电池零配件生产；电力设施器材制造；五金产品制造；通用设备修理；充电桩销售；太阳能热利用产品销售；太阳能热发电产品销售；先进电力电子装置销售；智能输配电及控制设备销售；配电开关控制设备销售；电力电子元器件销售；电池销售；新能源原动设备销售；电力设施器材销售；电池零配件销售；信息技术咨询服务；光伏发电设备租赁；充电控制设备租赁；租赁服务（不含许可类租赁服务）；工程和技术研究和试验发展；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+            "opening_increase": "5.57%",
+            "desc": "2023年9月25日捷荣技术集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅5.57%，成交价37.94元，成交量118.88万股，成交额4510.31万，未成交量-4600.00股，未成交额-17.45万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "2.95%",
+            "shockValue": "7.04",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "7.84",
+            "next_opening_increase": "4.98%",
+            "next_desc": "2023年9月26日捷荣技术集合竞价大买单试盘，大买单试盘576万元，竞价评级-，竞价涨幅4.98%，成交价41.50元，成交量94.82万股，成交额3935.03万，未成交量-2.61万股，未成交额-108.32万。建议关注主力动向，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.99",
+            "next_close_increase": "9.99"
+        },
         "suggest_shipping_space": 1,
-        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
+        "reason": "1.捷荣技术今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
     },
     {
         "date": "2023-09-26",
-        "money": 676050,
-        "earnings": "0%",
-        "desc": "涨停打板买入捷荣技术",
+        "money": 686090,
+        "earnings": "10%",
+        "desc": "继续持有捷荣技术,当日盈利10%",
         "stock": {
             "code": "002855",
             "name": "捷荣技术",
@@ -3085,11 +3193,11 @@
             "next_close_increase": "10.00"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
+        "reason": "1.继续涨停;\n"
     },
     {
         "date": "2023-09-27",
-        "money": 743655,
+        "money": 754699,
         "earnings": "10%",
         "desc": "继续持有捷荣技术,当日盈利10%",
         "stock": {
@@ -3133,7 +3241,7 @@
     },
     {
         "date": "2023-09-28",
-        "money": 749902,
+        "money": 761038,
         "earnings": "0.84%",
         "desc": "断板卖出捷荣技术,当日盈利0.84%",
         "suggest_shipping_space": 1,
@@ -3141,7 +3249,7 @@
     },
     {
         "date": "2023-10-09",
-        "money": 749902,
+        "money": 761038,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3149,7 +3257,7 @@
     },
     {
         "date": "2023-10-10",
-        "money": 749902,
+        "money": 761038,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3157,7 +3265,7 @@
     },
     {
         "date": "2023-10-11",
-        "money": 749902,
+        "money": 761038,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3165,7 +3273,7 @@
     },
     {
         "date": "2023-10-12",
-        "money": 749902,
+        "money": 761038,
         "earnings": "0%",
         "desc": "涨停打板买入欧菲光",
         "stock": {
@@ -3209,7 +3317,7 @@
     },
     {
         "date": "2023-10-13",
-        "money": 824892,
+        "money": 837142,
         "earnings": "10%",
         "desc": "继续持有欧菲光,当日盈利10%",
         "stock": {
@@ -3253,7 +3361,7 @@
     },
     {
         "date": "2023-10-16",
-        "money": 848896,
+        "money": 861503,
         "earnings": "2.91%",
         "desc": "断板卖出欧菲光,当日盈利2.91%",
         "suggest_shipping_space": 1,
@@ -3261,7 +3369,7 @@
     },
     {
         "date": "2023-10-17",
-        "money": 848896,
+        "money": 861503,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3269,15 +3377,15 @@
     },
     {
         "date": "2023-10-18",
-        "money": 848896,
+        "money": 861503,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.圣龙股份股票处于高位高换手，主动空仓;\n"
+        "reason": "1.圣龙股份股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-10-19",
-        "money": 848896,
+        "money": 861503,
         "earnings": "0%",
         "desc": "涨停打板买入圣龙股份",
         "stock": {
@@ -3321,7 +3429,7 @@
     },
     {
         "date": "2023-10-20",
-        "money": 820288,
+        "money": 832470,
         "earnings": "-3.37%",
         "desc": "竞价卖出圣龙股份,当日盈利-3.37%",
         "suggest_shipping_space": 1,
@@ -3329,15 +3437,15 @@
     },
     {
         "date": "2023-10-23",
-        "money": 820288,
+        "money": 832470,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.圣龙股份股票处于高位高换手，主动空仓;\n"
+        "reason": "1.圣龙股份股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-10-24",
-        "money": 820288,
+        "money": 832470,
         "earnings": "0%",
         "desc": "涨停打板买入圣龙股份",
         "stock": {
@@ -3381,7 +3489,7 @@
     },
     {
         "date": "2023-10-25",
-        "money": 902317,
+        "money": 915717,
         "earnings": "10%",
         "desc": "继续持有圣龙股份,当日盈利10%",
         "stock": {
@@ -3425,7 +3533,7 @@
     },
     {
         "date": "2023-10-26",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "10%",
         "desc": "炸板卖出圣龙股份,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -3433,7 +3541,7 @@
     },
     {
         "date": "2023-10-27",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3441,7 +3549,7 @@
     },
     {
         "date": "2023-10-30",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3449,7 +3557,7 @@
     },
     {
         "date": "2023-10-31",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3457,7 +3565,7 @@
     },
     {
         "date": "2023-11-01",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3465,7 +3573,7 @@
     },
     {
         "date": "2023-11-02",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "涨停打板买入高新发展",
         "stock": {
@@ -3509,7 +3617,7 @@
     },
     {
         "date": "2023-11-03",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "断板卖出高新发展,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -3517,7 +3625,7 @@
     },
     {
         "date": "2023-11-06",
-        "money": 992549,
+        "money": 1007289,
         "earnings": "0%",
         "desc": "涨停打板买入天龙股份",
         "stock": {
@@ -3561,7 +3669,7 @@
     },
     {
         "date": "2023-11-07",
-        "money": 1091804,
+        "money": 1108018,
         "earnings": "10%",
         "desc": "继续持有天龙股份,当日盈利10%",
         "stock": {
@@ -3605,7 +3713,7 @@
     },
     {
         "date": "2023-11-08",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "10%",
         "desc": "炸板卖出天龙股份,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -3613,7 +3721,7 @@
     },
     {
         "date": "2023-11-09",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3621,7 +3729,7 @@
     },
     {
         "date": "2023-11-10",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3629,15 +3737,15 @@
     },
     {
         "date": "2023-11-13",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.天威视讯股票处于高位高换手，主动空仓;\n"
+        "reason": "1.天威视讯今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-11-14",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "涨停打板买入豪美新材",
         "stock": {
@@ -3681,7 +3789,7 @@
     },
     {
         "date": "2023-11-15",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "断板卖出豪美新材,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -3689,7 +3797,7 @@
     },
     {
         "date": "2023-11-16",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3697,7 +3805,7 @@
     },
     {
         "date": "2023-11-17",
-        "money": 1200984,
+        "money": 1218820,
         "earnings": "0%",
         "desc": "涨停打板买入银宝山新",
         "stock": {
@@ -3741,7 +3849,7 @@
     },
     {
         "date": "2023-11-20",
-        "money": 1321082,
+        "money": 1340702,
         "earnings": "10%",
         "desc": "继续持有银宝山新,当日盈利10%",
         "stock": {
@@ -3785,7 +3893,7 @@
     },
     {
         "date": "2023-11-21",
-        "money": 1453190,
+        "money": 1474772,
         "earnings": "10%",
         "desc": "继续持有银宝山新,当日盈利10%",
         "stock": {
@@ -3829,7 +3937,7 @@
     },
     {
         "date": "2023-11-22",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "-1.54%",
         "desc": "竞价卖出银宝山新,当日盈利-1.54%",
         "suggest_shipping_space": 1,
@@ -3837,7 +3945,7 @@
     },
     {
         "date": "2023-11-23",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3845,7 +3953,7 @@
     },
     {
         "date": "2023-11-24",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3853,7 +3961,7 @@
     },
     {
         "date": "2023-11-27",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3861,23 +3969,23 @@
     },
     {
         "date": "2023-11-28",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.伟时电子股票处于高位高换手，主动空仓;\n"
+        "reason": "1.伟时电子股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-11-29",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.皖通科技在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.皖通科技开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-11-30",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -3885,147 +3993,39 @@
     },
     {
         "date": "2023-12-01",
-        "money": 1430811,
+        "money": 1452061,
         "earnings": "0%",
-        "desc": "涨停打板买入东安动力",
-        "stock": {
-            "code": "600178",
-            "name": "东安动力",
-            "limit": 7,
-            "limit_ups": 45,
-            "limit_downs": 2,
-            "price": "13.07",
-            "first_limit_time": "11:20:57",
-            "final_limit_time": "11:20:57",
-            "limit_reason": "长安汽车+汽车发动机+增程器",
-            "limit_tocks": "435.33万",
-            "limit_money": "6,617.02万",
-            "limit_cheng_ratio": "3.28",
-            "limit_liu_ratio": "0.94",
-            "limit_open_times": "0",
-            "market_value": "70.24亿",
-            "limit_type": "【地天板涨停】;【放量涨停】",
-            "company_place": "黑龙江省哈尔滨市南岗区高新技术开发区13栋",
-            "company_business": "汽车发动机、变速器及其零部件的开发、生产、销售；制造锻铸件、液压件；购销汽车；货物进出口，技术进出口；仓储服务(不含危险化学品)。",
-            "opening_increase": "1.23%",
-            "desc": "2023年12月1日东安动力集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅1.23%，成交价13.99元，成交量549.37万股，成交额7685.62万，未成交量5.60万股，未成交额78.41万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "-9.99%",
-            "shockValue": "1.33亿",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "1.32亿",
-            "next_opening_increase": "1.97%",
-            "next_desc": "2023年12月4日东安动力集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅1.97%，成交价15.50元，成交量814.50万股，成交额1.26亿，未成交量14.90万股，未成交额230.95万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.99",
-            "next_close_increase": "10.00"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.东安动力今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.东安动力股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-12-04",
-        "money": 1573892,
-        "earnings": "10%",
-        "desc": "继续持有东安动力,当日盈利10%",
-        "stock": {
-            "code": "600178",
-            "name": "东安动力",
-            "limit": 8,
-            "limit_ups": 51,
-            "limit_downs": 2,
-            "price": "13.07",
-            "first_limit_time": "09:35:42",
-            "final_limit_time": "13:58:26",
-            "limit_reason": "长安汽车+汽车发动机+增程器",
-            "limit_tocks": "314.55万",
-            "limit_money": "5,259.23万",
-            "limit_cheng_ratio": "2.38",
-            "limit_liu_ratio": "0.68",
-            "limit_open_times": "6",
-            "market_value": "77.26亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "黑龙江省哈尔滨市南岗区高新技术开发区13栋",
-            "company_business": "汽车发动机、变速器及其零部件的开发、生产、销售；制造锻铸件、液压件；购销汽车；货物进出口，技术进出口；仓储服务(不含危险化学品)。",
-            "opening_increase": "1.97%",
-            "desc": "2023年12月4日东安动力集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅1.97%，成交价15.50元，成交量814.50万股，成交额1.26亿，未成交量14.90万股，未成交额230.95万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "1.84%",
-            "shockValue": "1.32亿",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "1.04亿",
-            "next_opening_increase": "7.00%",
-            "next_desc": "2023年12月5日东安动力集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅7.00%，成交价17.89元，成交量501.08万股，成交额8964.32万，未成交量-3.27万股，未成交额-58.57万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.00",
-            "next_close_increase": "9.99"
-        },
+        "money": 1452061,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.东安动力股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-12-05",
-        "money": 1731281,
-        "earnings": "10%",
-        "desc": "继续持有东安动力,当日盈利10%",
-        "stock": {
-            "code": "600178",
-            "name": "东安动力",
-            "limit": 9,
-            "limit_ups": 36,
-            "limit_downs": 2,
-            "price": "13.08",
-            "first_limit_time": "10:44:44",
-            "final_limit_time": "10:45:39",
-            "limit_reason": "长安汽车+汽车发动机+增程器",
-            "limit_tocks": "546.92万",
-            "limit_money": "1.01亿",
-            "limit_cheng_ratio": "5.25",
-            "limit_liu_ratio": "1.18",
-            "limit_open_times": "1",
-            "market_value": "84.98亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "黑龙江省哈尔滨市南岗区高新技术开发区13栋",
-            "company_business": "汽车发动机、变速器及其零部件的开发、生产、销售；制造锻铸件、液压件；购销汽车；货物进出口，技术进出口；仓储服务(不含危险化学品)。",
-            "opening_increase": "7.00%",
-            "desc": "2023年12月5日东安动力集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅7.00%，成交价17.89元，成交量501.08万股，成交额8964.32万，未成交量-3.27万股，未成交额-58.57万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "-5.2%",
-            "shockValue": "1.04亿",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": true,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:34:48",
-            "next_shockValue": "1.53亿",
-            "next_opening_increase": "4.95%",
-            "next_desc": "2023年12月6日东安动力集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅4.95%，成交价19.30元，成交量524.15万股，成交额1.01亿，未成交量-18.67万股，未成交额-360.32万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.99",
-            "next_close_increase": "-10.01"
-        },
+        "money": 1452061,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.东安动力股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-12-06",
-        "money": 1904409,
-        "earnings": "10%",
-        "desc": "炸板卖出东安动力,当日盈利10%",
+        "money": 1452061,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.东安动力今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2023-12-07",
-        "money": 1904409,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4033,7 +4033,7 @@
     },
     {
         "date": "2023-12-08",
-        "money": 1904409,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4041,7 +4041,7 @@
     },
     {
         "date": "2023-12-11",
-        "money": 1904409,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4049,7 +4049,7 @@
     },
     {
         "date": "2023-12-12",
-        "money": 1904409,
+        "money": 1452061,
         "earnings": "0%",
         "desc": "涨停打板买入四川金顶",
         "stock": {
@@ -4093,7 +4093,7 @@
     },
     {
         "date": "2023-12-13",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "10%",
         "desc": "继续持有四川金顶,当日盈利10%",
         "stock": {
@@ -4137,7 +4137,7 @@
     },
     {
         "date": "2023-12-14",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "断板卖出四川金顶,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -4145,7 +4145,7 @@
     },
     {
         "date": "2023-12-15",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4153,7 +4153,7 @@
     },
     {
         "date": "2023-12-18",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4161,15 +4161,15 @@
     },
     {
         "date": "2023-12-19",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.龙头股份在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.龙头股份开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2023-12-20",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4177,7 +4177,7 @@
     },
     {
         "date": "2023-12-21",
-        "money": 2094850,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4185,59 +4185,23 @@
     },
     {
         "date": "2023-12-22",
-        "money": 1675880,
-        "earnings": "-20.0%",
-        "desc": "涨停打板买入星光农机,结果炸板了,当日盈利-20.0%",
-        "stock": {
-            "code": "603789",
-            "name": "星光农机",
-            "limit": 5,
-            "limit_ups": 35,
-            "limit_downs": 4,
-            "price": "9.65",
-            "first_limit_time": "09:32:45",
-            "final_limit_time": "14:50:16",
-            "limit_reason": "农机+数据要素+无人驾驶+资产注入预期",
-            "limit_tocks": "243.67万",
-            "limit_money": "3,533.18万",
-            "limit_cheng_ratio": "4.69",
-            "limit_liu_ratio": "0.94",
-            "limit_open_times": "6",
-            "market_value": "37.70亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "浙江省湖州市南浔区和孚镇星光大街1699号",
-            "company_business": "一般项目：农业机械制造；农业机械销售；农业机械租赁；农业机械服务；农林牧副渔业专业机械的制造；农、林、牧、副、渔业专业机械的销售；农林牧副渔业专业机械的安装、维修；智能农业管理；智能农机装备销售；农林牧渔机械配件制造；农林牧渔机械配件销售；机械设备研发；机械设备销售；渔业机械销售；渔业机械制造；金属材料销售；汽车零部件及配件制造；农作物秸秆处理及加工利用服务；农林牧渔业废弃物综合利用；农林废物资源化无害化利用技术研发；生物有机肥料研发；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；技术进出口；货物进出口；环境保护专用设备制造；环境保护专用设备销售；互联网销售（除销售需要许可的商品）；金属结构制造；金属结构销售(除依法须经批准的项目外，凭营业执照依法自主开展经营活动)。许可项目：道路机动车辆生产(依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准)。",
-            "opening_increase": "2.43%",
-            "desc": "2023年12月21日星光农机集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅2.43%，成交价13.50元，成交量494.65万股，成交额6677.78万，未成交量-24.79万股，未成交额-334.62万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "2.43%",
-            "shockValue": "7.59",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": true,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:30:30",
-            "next_shockValue": "20.00",
-            "next_opening_increase": "7.04%",
-            "next_desc": "2023年12月22日星光农机集合竞价大幅高开，大幅高开7.00%，竞价评级看多，竞价涨幅7.04%，成交价15.52元，成交量414.33万股，成交额6430.40万，未成交量-4911.00股，未成交额-7.62万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.02",
-            "next_close_increase": "-10.00"
-        },
+        "money": 1597267,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.星光农机今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.星光农机股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2023-12-25",
-        "money": 1508795,
-        "earnings": "-9.97%",
-        "desc": "竞价卖出星光农机,当日盈利-9.97%",
+        "money": 1597267,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
+        "reason": "1.在上午的交易时间段内没有触摸涨停;"
     },
     {
         "date": "2023-12-26",
-        "money": 1508795,
+        "money": 1597267,
         "earnings": "0%",
         "desc": "涨停打板买入亚世光电",
         "stock": {
@@ -4281,7 +4245,7 @@
     },
     {
         "date": "2023-12-27",
-        "money": 1659674,
+        "money": 1756994,
         "earnings": "10%",
         "desc": "继续持有亚世光电,当日盈利10%",
         "stock": {
@@ -4325,7 +4289,7 @@
     },
     {
         "date": "2023-12-28",
-        "money": 1825641,
+        "money": 1932693,
         "earnings": "10%",
         "desc": "继续持有亚世光电,当日盈利10%",
         "stock": {
@@ -4369,7 +4333,7 @@
     },
     {
         "date": "2023-12-29",
-        "money": 2008205,
+        "money": 2125962,
         "earnings": "10%",
         "desc": "继续持有亚世光电,当日盈利10%",
         "stock": {
@@ -4413,7 +4377,7 @@
     },
     {
         "date": "2024-01-02",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "10%",
         "desc": "继续持有亚世光电,当日盈利10%",
         "stock": {
@@ -4457,7 +4421,7 @@
     },
     {
         "date": "2024-01-03",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "断板卖出亚世光电,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -4465,7 +4429,7 @@
     },
     {
         "date": "2024-01-04",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4473,7 +4437,7 @@
     },
     {
         "date": "2024-01-05",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4481,15 +4445,15 @@
     },
     {
         "date": "2024-01-08",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.长白山股票处于高位高换手，主动空仓;\n"
+        "reason": "1.长白山股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-01-09",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4497,7 +4461,7 @@
     },
     {
         "date": "2024-01-10",
-        "money": 2209026,
+        "money": 2338558,
         "earnings": "0%",
         "desc": "涨停打板买入长白山",
         "stock": {
@@ -4541,7 +4505,7 @@
     },
     {
         "date": "2024-01-11",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "1.78%",
         "desc": "断板卖出长白山,当日盈利1.78%",
         "suggest_shipping_space": 1,
@@ -4549,7 +4513,7 @@
     },
     {
         "date": "2024-01-12",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4557,15 +4521,15 @@
     },
     {
         "date": "2024-01-15",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.公元股份在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.公元股份开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2024-01-16",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4573,7 +4537,7 @@
     },
     {
         "date": "2024-01-17",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4581,23 +4545,23 @@
     },
     {
         "date": "2024-01-18",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.深中华A股票处于高位高换手，主动空仓;\n"
+        "reason": "1.深中华A股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-01-19",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.深中华A今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.深中华A股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-01-22",
-        "money": 2248347,
+        "money": 2380184,
         "earnings": "0%",
         "desc": "涨停打板买入深中华A",
         "stock": {
@@ -4641,7 +4605,7 @@
     },
     {
         "date": "2024-01-23",
-        "money": 2473182,
+        "money": 2618202,
         "earnings": "10%",
         "desc": "继续持有深中华A,当日盈利10%",
         "stock": {
@@ -4685,7 +4649,7 @@
     },
     {
         "date": "2024-01-24",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "10%",
         "desc": "炸板卖出深中华A,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -4693,7 +4657,7 @@
     },
     {
         "date": "2024-01-25",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4701,7 +4665,7 @@
     },
     {
         "date": "2024-01-26",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4709,7 +4673,7 @@
     },
     {
         "date": "2024-01-29",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4717,7 +4681,7 @@
     },
     {
         "date": "2024-01-30",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4725,53 +4689,17 @@
     },
     {
         "date": "2024-01-31",
-        "money": 2720500,
+        "money": 2880022,
         "earnings": "0%",
-        "desc": "涨停打板买入中视传媒",
-        "stock": {
-            "code": "600088",
-            "name": "中视传媒",
-            "limit": 7,
-            "limit_ups": 26,
-            "limit_downs": 124,
-            "price": "18.55",
-            "first_limit_time": "09:31:01",
-            "final_limit_time": "09:31:01",
-            "limit_reason": "年报预增+中字头+上海+虚拟数字人+股权划转",
-            "limit_tocks": "1,362.03万",
-            "limit_money": "3.58亿",
-            "limit_cheng_ratio": "55.83",
-            "limit_liu_ratio": "3.42",
-            "limit_open_times": "0",
-            "market_value": "104.68亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "上海市浦东新区中国(上海)自由贸易试验区福山路450号新天国际大厦17层A座",
-            "company_business": "影视拍摄基地开发、经营,影视拍摄[摄制电影(单片)]、电视剧节目制作、销售经营,影视设备租赁,高清晰度影视技术、宽带数字信息技术、网络系统集成技术的开发及相关的信息服务,设计、制作、发布、代理各类广告等业务,文化(含演出)经纪,房地产开发,实业投资、投资咨询,综合文艺表演等。",
-            "opening_increase": "5.73%",
-            "desc": "2024年1月31日中视传媒集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅5.73%，成交价25.30元，成交量403.76万股，成交额1.02亿，未成交量-2.23万股，未成交额-56.35万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "3.64%",
-            "shockValue": "6.35",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "10.83",
-            "next_opening_increase": "9.99%",
-            "next_desc": "2024年2月1日中视传媒集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.99%，成交价28.95元，成交量609.45万股，成交额1.76亿，未成交量596.05万股，未成交额1.73亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.99",
-            "next_close_increase": "9.99"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.中视传媒虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n"
+        "reason": "1.中视传媒股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-02-01",
-        "money": 2992550,
-        "earnings": "10%",
-        "desc": "继续持有中视传媒,当日盈利10%",
+        "money": 2880022,
+        "earnings": "0%",
+        "desc": "涨停打板买入中视传媒",
         "stock": {
             "code": "600088",
             "name": "中视传媒",
@@ -4809,11 +4737,11 @@
             "next_close_increase": "-9.98"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.中视传媒今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-02-02",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "10%",
         "desc": "炸板卖出中视传媒,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -4821,7 +4749,7 @@
     },
     {
         "date": "2024-02-05",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4829,23 +4757,23 @@
     },
     {
         "date": "2024-02-06",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.中基健康今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.中基健康股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-02-07",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.中基健康在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.中基健康股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-02-08",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4853,15 +4781,15 @@
     },
     {
         "date": "2024-02-19",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.克来机电今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.克来机电股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-02-20",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -4869,7 +4797,7 @@
     },
     {
         "date": "2024-02-21",
-        "money": 3291805,
+        "money": 3168024,
         "earnings": "0%",
         "desc": "涨停打板买入克来机电",
         "stock": {
@@ -4913,7 +4841,7 @@
     },
     {
         "date": "2024-02-22",
-        "money": 3620986,
+        "money": 3484826,
         "earnings": "10%",
         "desc": "继续持有克来机电,当日盈利10%",
         "stock": {
@@ -4957,7 +4885,7 @@
     },
     {
         "date": "2024-02-23",
-        "money": 3983085,
+        "money": 3833309,
         "earnings": "10%",
         "desc": "继续持有克来机电,当日盈利10%",
         "stock": {
@@ -5001,7 +4929,7 @@
     },
     {
         "date": "2024-02-26",
-        "money": 4381394,
+        "money": 4216640,
         "earnings": "10%",
         "desc": "继续持有克来机电,当日盈利10%",
         "stock": {
@@ -5045,7 +4973,7 @@
     },
     {
         "date": "2024-02-27",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "10%",
         "desc": "继续持有克来机电,当日盈利10%",
         "stock": {
@@ -5089,7 +5017,7 @@
     },
     {
         "date": "2024-02-28",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "断板卖出克来机电,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -5097,7 +5025,7 @@
     },
     {
         "date": "2024-02-29",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5105,7 +5033,7 @@
     },
     {
         "date": "2024-03-01",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5113,7 +5041,7 @@
     },
     {
         "date": "2024-03-04",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5121,23 +5049,23 @@
     },
     {
         "date": "2024-03-05",
-        "money": 4819533,
-        "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.安奈儿股票处于高位高换手，主动空仓;\n"
-    },
-    {
-        "date": "2024-03-06",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
         "reason": "1.安奈儿今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
+        "date": "2024-03-06",
+        "money": 4638304,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.安奈儿股票处于高位高换手，且主力净量小于0，主动空仓;\n"
+    },
+    {
         "date": "2024-03-07",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5145,7 +5073,7 @@
     },
     {
         "date": "2024-03-08",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5153,7 +5081,7 @@
     },
     {
         "date": "2024-03-11",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5161,7 +5089,7 @@
     },
     {
         "date": "2024-03-12",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5169,7 +5097,7 @@
     },
     {
         "date": "2024-03-13",
-        "money": 4819533,
+        "money": 4638304,
         "earnings": "0%",
         "desc": "涨停打板买入艾艾精工",
         "stock": {
@@ -5213,7 +5141,7 @@
     },
     {
         "date": "2024-03-14",
-        "money": 5301486,
+        "money": 5102134,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5257,7 +5185,7 @@
     },
     {
         "date": "2024-03-15",
-        "money": 5831635,
+        "money": 5612347,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5301,7 +5229,7 @@
     },
     {
         "date": "2024-03-18",
-        "money": 6414798,
+        "money": 6173582,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5345,7 +5273,7 @@
     },
     {
         "date": "2024-03-19",
-        "money": 7056278,
+        "money": 6790940,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5389,7 +5317,7 @@
     },
     {
         "date": "2024-03-20",
-        "money": 7761906,
+        "money": 7470034,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5433,7 +5361,7 @@
     },
     {
         "date": "2024-03-21",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "10%",
         "desc": "继续持有艾艾精工,当日盈利10%",
         "stock": {
@@ -5477,7 +5405,7 @@
     },
     {
         "date": "2024-03-22",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "断板卖出艾艾精工,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -5485,15 +5413,15 @@
     },
     {
         "date": "2024-03-25",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.博信股份股票处于高位高换手，主动空仓;\n"
+        "reason": "1.博信股份股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-03-26",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5501,7 +5429,7 @@
     },
     {
         "date": "2024-03-27",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5509,7 +5437,7 @@
     },
     {
         "date": "2024-03-28",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5517,15 +5445,15 @@
     },
     {
         "date": "2024-03-29",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.宁科生物在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.宁科生物股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-04-01",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5533,7 +5461,7 @@
     },
     {
         "date": "2024-04-02",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5541,7 +5469,7 @@
     },
     {
         "date": "2024-04-03",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5549,7 +5477,7 @@
     },
     {
         "date": "2024-04-08",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5557,61 +5485,25 @@
     },
     {
         "date": "2024-04-09",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.世嘉科技在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.世嘉科技开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2024-04-10",
-        "money": 8538097,
+        "money": 8217037,
         "earnings": "0%",
-        "desc": "涨停打板买入莱绅通灵",
-        "stock": {
-            "code": "603900",
-            "name": "莱绅通灵",
-            "limit": 7,
-            "limit_ups": 26,
-            "limit_downs": 16,
-            "price": "10.92",
-            "first_limit_time": "09:30:15",
-            "final_limit_time": "09:30:15",
-            "limit_reason": "珠宝首饰+开辟“欧金”新赛道",
-            "limit_tocks": "1,037.27万",
-            "limit_money": "9,366.54万",
-            "limit_cheng_ratio": "53.40",
-            "limit_liu_ratio": "3.05",
-            "limit_open_times": "0",
-            "market_value": "30.74亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "江苏省南京市雨花台区花神大道19号",
-            "company_business": "珠宝饰品、工艺美术品、铂金制品及黄金制品的零售、收购、生产、加工、修理改制、以旧换新，办公用品零售、批发，经营本企业自产产品及技术的出口业务，经营本企业生产、科研所需的原辅材料、仪器仪表、机械设备、零配件及技术的进口业务，经营进料加工和“三来一补”业务，企业管理咨询及服务，以特许经营方式进行商业活动（涉及行政许可的凭许可证经营）。",
-            "opening_increase": "9.62%",
-            "desc": "2024年4月10日莱绅通灵集合竞价大幅高开，大幅高开9.60%，竞价评级看多，竞价涨幅9.62%，成交价9.00元，成交量699.95万股，成交额6299.56万，未成交量1.71万股，未成交额15.38万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "8.04%",
-            "shockValue": "1.95",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "6.87",
-            "next_opening_increase": "9.97%",
-            "next_desc": "2024年4月11日莱绅通灵集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.97%，成交价9.93元，成交量698.93万股，成交额6940.37万，未成交量-101.76万股，未成交额-1010.49万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.99",
-            "next_close_increase": "9.97"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.莱绅通灵今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.莱绅通灵股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-04-11",
-        "money": 9391907,
-        "earnings": "10%",
-        "desc": "继续持有莱绅通灵,当日盈利10%",
+        "money": 8217037,
+        "earnings": "0%",
+        "desc": "涨停打板买入莱绅通灵",
         "stock": {
             "code": "603900",
             "name": "莱绅通灵",
@@ -5649,11 +5541,11 @@
             "next_close_increase": "9.97"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.莱绅通灵今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-04-12",
-        "money": 10331098,
+        "money": 9038741,
         "earnings": "10%",
         "desc": "继续持有莱绅通灵,当日盈利10%",
         "stock": {
@@ -5697,7 +5589,7 @@
     },
     {
         "date": "2024-04-15",
-        "money": 9300054,
+        "money": 8136675,
         "earnings": "-9.98%",
         "desc": "竞价卖出莱绅通灵,当日盈利-9.98%",
         "suggest_shipping_space": 1,
@@ -5705,7 +5597,7 @@
     },
     {
         "date": "2024-04-16",
-        "money": 9300054,
+        "money": 8136675,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5713,7 +5605,7 @@
     },
     {
         "date": "2024-04-17",
-        "money": 9300054,
+        "money": 8136675,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5721,7 +5613,7 @@
     },
     {
         "date": "2024-04-18",
-        "money": 9300054,
+        "money": 8136675,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5729,7 +5621,7 @@
     },
     {
         "date": "2024-04-19",
-        "money": 9300054,
+        "money": 8136675,
         "earnings": "0%",
         "desc": "涨停打板买入春光科技",
         "stock": {
@@ -5773,7 +5665,7 @@
     },
     {
         "date": "2024-04-22",
-        "money": 10230059,
+        "money": 8950342,
         "earnings": "10%",
         "desc": "炸板卖出春光科技,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -5781,75 +5673,75 @@
     },
     {
         "date": "2024-04-23",
-        "money": 10230059,
-        "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.中衡设计股票处于高位高换手，主动空仓;\n"
-    },
-    {
-        "date": "2024-04-24",
-        "money": 10230059,
-        "earnings": "0%",
-        "desc": "空仓",
-        "suggest_shipping_space": 1,
-        "reason": "1.中衡设计今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
-    },
-    {
-        "date": "2024-04-25",
-        "money": 10230059,
+        "money": 8950342,
         "earnings": "0%",
         "desc": "涨停打板买入中衡设计",
         "stock": {
             "code": "603017",
             "name": "中衡设计",
-            "limit": 7,
-            "limit_ups": 37,
-            "limit_downs": 4,
+            "limit": 5,
+            "limit_ups": 38,
+            "limit_downs": 17,
             "price": "13.64",
-            "first_limit_time": "09:30:00",
-            "final_limit_time": "09:52:21",
-            "limit_reason": "低空经济+建筑设计+业绩增长",
-            "limit_tocks": "882.46万",
-            "limit_money": "1.21亿",
-            "limit_cheng_ratio": "30.17",
-            "limit_liu_ratio": "3.20",
-            "limit_open_times": "1",
-            "market_value": "37.69亿",
-            "limit_type": "【T字涨停】;【放量涨停】",
+            "first_limit_time": "09:30:30",
+            "final_limit_time": "09:30:30",
+            "limit_reason": "低空经济+建筑设计+数据中心+年报增长",
+            "limit_tocks": "1,065.54万",
+            "limit_money": "1.20亿",
+            "limit_cheng_ratio": "54.90",
+            "limit_liu_ratio": "3.86",
+            "limit_open_times": "0",
+            "market_value": "31.15亿",
+            "limit_type": "【放量涨停】",
             "company_place": "江苏省苏州市吴中区工业园区八达街111号",
             "company_business": "国内外各类民用建设项目及工业工程项目的工程咨询、工程设计、工程监理、项目管理、工程总承包及所需建筑材料和设备的采购和销售；开发区规划与建设咨询；城市规划咨询、市政设计、景观与园林设计；软件研发；图文设计与制作；自有房屋租赁。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
-            "opening_increase": "9.98%",
-            "desc": "2024年4月25日中衡设计集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价13.66元，成交量584.02万股，成交额7977.71万，未成交量1500.13万股，未成交额2.05亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "7.49%",
-            "shockValue": "2.50",
-            "next_isLimitUp": false,
+            "opening_increase": "4.39%",
+            "desc": "2024年4月23日中衡设计集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅4.39%，成交价10.71元，成交量474.29万股，成交额5079.70万，未成交量1.11万股，未成交额11.84万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "4.29%",
+            "shockValue": "5.75",
+            "next_isLimitUp": true,
             "next_isLimitUpNoBuy": false,
             "next_isLimitDown": false,
             "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:30:00",
-            "next_shockValue": "15.74",
-            "next_opening_increase": "10.03%",
-            "next_desc": "昨天中衡设计集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.03%，成交价15.03元，成交量291.33万股，成交额4378.69万，未成交量1286.14万股，未成交额1.93亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.98",
-            "next_close_increase": "-0.15"
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "20.02",
+            "next_opening_increase": "-10.01%",
+            "next_desc": "2024年4月24日中衡设计集合竞价大幅低开，大幅低开-10.00%，竞价评级看空，竞价涨幅-10.01%，成交价10.16元，成交量180.60万股，成交额1834.90万，未成交量-1712.52万股，未成交额-1.74亿。建议规避风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "10.04",
+            "next_close_increase": "10.01"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.中衡设计今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.中衡设计虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n"
+    },
+    {
+        "date": "2024-04-24",
+        "money": 8054413,
+        "earnings": "-10.01%",
+        "desc": "竞价卖出中衡设计,当日盈利-10.01%",
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
+    },
+    {
+        "date": "2024-04-25",
+        "money": 8054413,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.中衡设计股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-04-26",
-        "money": 11253065,
-        "earnings": "10%",
-        "desc": "炸板卖出中衡设计,当日盈利10%",
+        "money": 8054413,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.中衡设计开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2024-04-29",
-        "money": 11253065,
+        "money": 8054413,
         "earnings": "0%",
         "desc": "涨停打板买入奥维通信",
         "stock": {
@@ -5893,7 +5785,7 @@
     },
     {
         "date": "2024-04-30",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "10%",
         "desc": "炸板卖出奥维通信,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -5901,7 +5793,7 @@
     },
     {
         "date": "2024-05-06",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5909,7 +5801,7 @@
     },
     {
         "date": "2024-05-07",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5917,7 +5809,7 @@
     },
     {
         "date": "2024-05-08",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5925,7 +5817,7 @@
     },
     {
         "date": "2024-05-09",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5933,15 +5825,15 @@
     },
     {
         "date": "2024-05-10",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.蔚蓝生物今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.蔚蓝生物股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-13",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -5949,155 +5841,47 @@
     },
     {
         "date": "2024-05-14",
-        "money": 12378372,
+        "money": 8859854,
         "earnings": "0%",
-        "desc": "涨停打板买入积成电子",
-        "stock": {
-            "code": "002339",
-            "name": "积成电子",
-            "limit": 4,
-            "limit_ups": 43,
-            "limit_downs": 7,
-            "price": "6.09",
-            "first_limit_time": "09:30:16",
-            "final_limit_time": "09:30:16",
-            "limit_reason": "电力设备+液冷超充+华为",
-            "limit_tocks": "1,834.04万",
-            "limit_money": "1.54亿",
-            "limit_cheng_ratio": "44.60",
-            "limit_liu_ratio": "3.83",
-            "limit_open_times": "0",
-            "market_value": "40.08亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "山东省济南市历城区科航路1677号",
-            "company_business": "发电、输电、变电、配电、用电、调度控制系统及设备、继电保护系统、电工仪器仪表、电气设备、电子器件及通信设备、公用事业自动化系统、水资源自动化和信息化系统、新能源利用与开发系统、视频监控及安全技术防范系统、电动汽车智能充换电设备及系统的设计、制造、咨询、销售、安装、调试、维修；电动汽车充换电站（场）的设计、建设、施工、维护及运营服务；电力工程的设计、施工、安装、调试、维修、运维、监理及技术咨询服务；计算机软件及系统网络的研究、开发、生产、销售、技术咨询服务；批准证书范围内进出口业务；自有设备租赁；房屋租赁。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
-            "opening_increase": "9.99%",
-            "desc": "2024年5月14日积成电子集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.99%，成交价8.37元，成交量1226.95万股，成交额1.03亿，未成交量-470.49万股，未成交额-3937.97万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": false,
-            "dip_increase": "7.75%",
-            "shockValue": "2.23",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:30:31",
-            "next_shockValue": "1.92亿",
-            "next_opening_increase": "7.53%",
-            "next_desc": "2024年5月15日积成电子集合竞价大幅高开，大幅高开7.50%，竞价评级看多，竞价涨幅7.53%，成交价9.00元，成交量1475.57万股，成交额1.33亿，未成交量-38.51万股，未成交额-346.59万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.99",
-            "next_close_increase": "-6.57"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.积成电子今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.积成电子股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-15",
-        "money": 13616209,
-        "earnings": "10%",
-        "desc": "炸板卖出积成电子,当日盈利10%",
+        "money": 8859854,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.积成电子今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-05-16",
-        "money": 13616209,
+        "money": 8859854,
         "earnings": "0%",
-        "desc": "涨停打板买入南京化纤",
-        "stock": {
-            "code": "600889",
-            "name": "南京化纤",
-            "limit": 5,
-            "limit_ups": 35,
-            "limit_downs": 1,
-            "price": "4.84",
-            "first_limit_time": "09:30:00",
-            "final_limit_time": "14:27:23",
-            "limit_reason": "化学纤维+参股券商+南京国企",
-            "limit_tocks": "255.29万",
-            "limit_money": "1,758.93万",
-            "limit_cheng_ratio": "3.89",
-            "limit_liu_ratio": "0.70",
-            "limit_open_times": "9",
-            "market_value": "25.24亿",
-            "limit_type": "【T字涨停】;【放量涨停】",
-            "company_place": "江苏省南京市六合区雄州街道郁庄路2号",
-            "company_business": "自来水生产与供应（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）；一般项目：纤维素纤维原料及纤维制造；生物基材料制造；高性能纤维及复合材料制造；合成材料制造（不含危险化学品）；包装材料及制品销售；服装制造；针纺织品及原料销售；普通货物仓储服务（不含危险化学品等需许可审批的项目）；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；新材料技术研发；工程管理服务；货物进出口（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
-            "opening_increase": "10.06%",
-            "desc": "2024年5月16日南京化纤集合竞价大幅高开，大幅高开10.10%，竞价评级看多，竞价涨幅10.06%，成交价6.89元，成交量729.64万股，成交额5027.21万，未成交量1108.01万股，未成交额7634.20万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "7.19%",
-            "shockValue": "2.88",
-            "next_isLimitUp": true,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": false,
-            "next_burst_time": "",
-            "next_shockValue": "2.76",
-            "next_opening_increase": "7.40%",
-            "next_desc": "2024年5月17日南京化纤集合竞价大幅高开，大幅高开7.40%，竞价评级看多，竞价涨幅7.40%，成交价7.40元，成交量520.27万股，成交额3849.97万，未成交量10.96万股，未成交额81.13万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.06",
-            "next_close_increase": "10.01"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.南京化纤今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.南京化纤股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-17",
-        "money": 14977830,
-        "earnings": "10%",
-        "desc": "继续持有南京化纤,当日盈利10%",
-        "stock": {
-            "code": "600889",
-            "name": "南京化纤",
-            "limit": 6,
-            "limit_ups": 63,
-            "limit_downs": 1,
-            "price": "4.84",
-            "first_limit_time": "09:30:15",
-            "final_limit_time": "09:32:45",
-            "limit_reason": "化学纤维+参股券商+南京国企",
-            "limit_tocks": "720.94万",
-            "limit_money": "5,464.76万",
-            "limit_cheng_ratio": "23.01",
-            "limit_liu_ratio": "1.97",
-            "limit_open_times": "1",
-            "market_value": "27.77亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "江苏省南京市六合区雄州街道郁庄路2号",
-            "company_business": "自来水生产与供应（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）；一般项目：纤维素纤维原料及纤维制造；生物基材料制造；高性能纤维及复合材料制造；合成材料制造（不含危险化学品）；包装材料及制品销售；服装制造；针纺织品及原料销售；普通货物仓储服务（不含危险化学品等需许可审批的项目）；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；新材料技术研发；工程管理服务；货物进出口（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
-            "opening_increase": "7.40%",
-            "desc": "2024年5月17日南京化纤集合竞价大幅高开，大幅高开7.40%，竞价评级看多，竞价涨幅7.40%，成交价7.40元，成交量520.27万股，成交额3849.97万，未成交量10.96万股，未成交额81.13万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "7.26%",
-            "shockValue": "2.76",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": true,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "09:30:00",
-            "next_shockValue": "20.05",
-            "next_opening_increase": "10.03%",
-            "next_desc": "2024年5月20日南京化纤集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.03%，成交价8.34元，成交量150.19万股，成交额1252.58万，未成交量1340.33万股，未成交额1.12亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
-            "close_increase": "10.01",
-            "next_close_increase": "-10.03"
-        },
+        "money": 8859854,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.继续涨停;\n"
+        "reason": "1.南京化纤股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-20",
-        "money": 16475613,
-        "earnings": "10%",
-        "desc": "炸板卖出南京化纤,当日盈利10%",
+        "money": 8859854,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.南京化纤开盘一字涨停，主动空仓;\n"
     },
     {
         "date": "2024-05-21",
-        "money": 16475613,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6105,7 +5889,7 @@
     },
     {
         "date": "2024-05-22",
-        "money": 16475613,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6113,7 +5897,7 @@
     },
     {
         "date": "2024-05-23",
-        "money": 16475613,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6121,59 +5905,23 @@
     },
     {
         "date": "2024-05-24",
-        "money": 16475613,
+        "money": 8859854,
         "earnings": "0%",
-        "desc": "涨停打板买入正虹科技",
-        "stock": {
-            "code": "000702",
-            "name": "正虹科技",
-            "limit": 5,
-            "limit_ups": 29,
-            "limit_downs": 10,
-            "price": "4.82",
-            "first_limit_time": "09:30:15",
-            "final_limit_time": "10:37:15",
-            "limit_reason": "饲料+猪肉+参股券商+国企",
-            "limit_tocks": "326.82万",
-            "limit_money": "2,451.15万",
-            "limit_cheng_ratio": "3.85",
-            "limit_liu_ratio": "1.23",
-            "limit_open_times": "8",
-            "market_value": "20.00亿",
-            "limit_type": "【放量涨停】",
-            "company_place": "湖南省岳阳市云溪区岳阳城陵矶综合保税区二期二号标准化厂房3楼303室",
-            "company_business": "各类饲料的研制、生产、销售；饲料原料销售；粮食收购、加工；农业产业化的系列开发；生物工程科技项目的投资、开发；经营本企业《中华人民共和国进出口企业资格证书》核定范围内的进出口业务。(依法须经批准的项目，经相关部门批准后方可开展经营活动)",
-            "opening_increase": "9.24%",
-            "desc": "2024年5月24日正虹科技集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅9.24%，成交价7.45元，成交量605.02万股，成交额4507.40万，未成交量-9.40万股，未成交额-70.03万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
-            "isBurst": true,
-            "dip_increase": "-0.29%",
-            "shockValue": "10.26",
-            "next_isLimitUp": false,
-            "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
-            "next_isLimitDownNoSale": false,
-            "next_isBurst": true,
-            "next_burst_time": "14:31:53",
-            "next_shockValue": "1.14亿",
-            "next_opening_increase": "0%",
-            "next_desc": "2024年5月27日正虹科技集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅0%，成交价7.50元，成交量452.20万股，成交额3391.50万，未成交量17.76万股，未成交额133.20万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
-            "close_increase": "9.97",
-            "next_close_increase": "-6.67"
-        },
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.正虹科技今日竞价涨幅大于等于昨日，接力情绪增强;\n"
+        "reason": "1.正虹科技股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-27",
-        "money": 18123174,
-        "earnings": "10%",
-        "desc": "炸板卖出正虹科技,当日盈利10%",
+        "money": 8859854,
+        "earnings": "0%",
+        "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.炸板卖出;\n"
+        "reason": "1.正虹科技今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
         "date": "2024-05-28",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6181,15 +5929,15 @@
     },
     {
         "date": "2024-05-29",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.博通集成在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.博通集成股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-05-30",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6197,15 +5945,15 @@
     },
     {
         "date": "2024-05-31",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.航天晨光股票处于高位高换手，主动空仓;\n"
+        "reason": "1.航天晨光股票处于高位高换手，且主力净量小于0，主动空仓;\n"
     },
     {
         "date": "2024-06-03",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6213,23 +5961,59 @@
     },
     {
         "date": "2024-06-04",
-        "money": 18123174,
+        "money": 8859854,
         "earnings": "0%",
-        "desc": "空仓",
+        "desc": "涨停打板买入申华控股",
+        "stock": {
+            "code": "600653",
+            "name": "申华控股",
+            "limit": 4,
+            "limit_ups": 25,
+            "limit_downs": 12,
+            "price": "1.43",
+            "first_limit_time": "09:30:30",
+            "final_limit_time": "09:30:30",
+            "limit_reason": "增持+汽车服务",
+            "limit_tocks": "3,323.15万",
+            "limit_money": "5,616.12万",
+            "limit_cheng_ratio": "62.76",
+            "limit_liu_ratio": "1.71",
+            "limit_open_times": "0",
+            "market_value": "32.89亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "辽宁省沈阳市浑南区中国(辽宁)自由贸易试验区沈阳片区全运路109-1号2层235室",
+            "company_business": "实业投资，兴办各类经济实体，国内商业（除专项审批规定），附设各类分支机构，中华品牌、金杯品牌汽车销售，汽车配件销售，项目投资，投资控股，资产重组，收购兼并及相关业务咨询。（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+            "opening_increase": "7.14%",
+            "desc": "2024年6月4日申华控股集合竞价大幅高开，大幅高开7.10%，竞价评级看多，竞价涨幅7.14%，成交价1.65元，成交量1083.18万股，成交额1787.25万，未成交量-44.24万股，未成交额-72.99万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": false,
+            "dip_increase": "4.55%",
+            "shockValue": "5.19",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "09:30:00",
+            "next_shockValue": "1.98亿",
+            "next_opening_increase": "10.06%",
+            "next_desc": "2024年6月5日申华控股集合竞价大幅高开，大幅高开10.10%，竞价评级看多，竞价涨幅10.06%，成交价1.86元，成交量1525.27万股，成交额2837.01万，未成交量3285.46万股，未成交额6110.95万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.74",
+            "next_close_increase": "1.78"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.申华控股股票处于高位高换手，主动空仓;\n"
+        "reason": "1.申华控股今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-06-05",
-        "money": 18123174,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 9745839,
+        "earnings": "10%",
+        "desc": "炸板卖出申华控股,当日盈利10%",
         "suggest_shipping_space": 1,
-        "reason": "1.申华控股在上午的交易时间段内没有触摸涨停;\n"
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2024-06-06",
-        "money": 18123174,
+        "money": 9745839,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6237,7 +6021,7 @@
     },
     {
         "date": "2024-06-07",
-        "money": 18123174,
+        "money": 9745839,
         "earnings": "0%",
         "desc": "涨停打板买入协和电子",
         "stock": {

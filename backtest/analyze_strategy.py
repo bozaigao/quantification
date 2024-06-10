@@ -8,7 +8,7 @@ import math
 
 year = 2024
 try:
-    with open(f'{os.getcwd()}/backtest/{year}_first_limit_stock_log_data.json', 'r') as file:
+    with open(f'{os.getcwd()}/backtest/{year}_stock_log_data.json', 'r') as file:
         dragon_log_data = json.load(file)
 except FileNotFoundError:
     dragon_log_data = []
@@ -21,14 +21,16 @@ failCount = 0
 for item in dragon_log_data:
     current_money = item['money']
     increase = float(item["earnings"].strip('%'))
-    if increase > -5 and increase < 0:
+    if increase < 0:
         print(f'{item["date"]} {item["desc"]}')
-        successCount += 1
-    if increase >=0:
-        successCount += 1
-    else:
-        failCount += 1
-print(successCount/(failCount+successCount))
+    # if increase > -5 and increase < 0:
+    #     print(f'{item["date"]} {item["desc"]}')
+    #     successCount += 1
+    # if increase >=0:
+    #     successCount += 1
+    # else:
+    #     failCount += 1
+# print(successCount/(failCount+successCount))
 #     if current_money > peak:
 #         peak = current_money
 #     else:
