@@ -23,6 +23,9 @@ for item in dragon_log_data:
     increase = float(item["earnings"].strip('%'))
     if increase < 0:
         print(f'{item["date"]} {item["desc"]}')
+    if '打板买入' in item["desc"]:
+        successCount += 1
+print(successCount)
     # if increase > -5 and increase < 0:
     #     print(f'{item["date"]} {item["desc"]}')
     #     successCount += 1
