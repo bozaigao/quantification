@@ -185,8 +185,13 @@ def strategy(pre_date,date):
             stockPool = []
         else:
             #排除当天一字涨停买不到的股票
-            filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False)]
-            limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True)]
+            print(targetStocks)
+            if not forecast:
+                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False)]
+                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True)]
+            else:
+                filtered_stocks = targetStocks
+                limit_no_buy_stocks = targetStocks
             # 找到涨幅最高的股票
             max_increase_stock = get_max_increase_stocks(filtered_stocks)
             #筛选出有上板动作的股票
@@ -229,13 +234,13 @@ def strategy(pre_date,date):
                     # print(f'😁-->>{pre_opening_increase}->>{next_opening_increase}-->>{bothIsLimitPrice}-->>{len(targetStocks)}-->{date}->>{buyStock["name"]}')
                     if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
                         if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                            print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
-                        elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
-                            print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.今日竞价涨幅大于等于昨日，接力情绪增强;\n')
+                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                        elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice):
+                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于等于昨日，接力情绪增强;\n')
                         elif(len(limit_no_buy_stocks) > 0):
-                            print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
+                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
                         else:
-                            print(Fore.RED + f'😁准备涨停打板买入{buyStock["name"]}\n原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
+                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
                         print(Style.RESET_ALL)
                         # print(f'😁-->>{buyStock["limit_type"]}')
                         #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字,且必须在早上收盘前有上板动作
@@ -403,7 +408,7 @@ def get_previous_trading_day(date_object):
 #        break
 if forecast:
    strategy(str(date_object),str(today))
-#    strategy('2024-06-06','2024-06-07')
+#    strategy('2024-05-17','2024-05-20')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
