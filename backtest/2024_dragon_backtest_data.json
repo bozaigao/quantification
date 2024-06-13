@@ -15663,6 +15663,7 @@
                 "price": "21.60",
                 "first_limit_time": "09:30:00",
                 "final_limit_time": "09:30:30",
+                "open_limit_is_small": true,
                 "limit_reason": "新质生产力+机器人+CPO+自动化设备+华为汽车",
                 "limit_tocks": "1,139.18万",
                 "limit_money": "3.19亿",

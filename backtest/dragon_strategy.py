@@ -62,12 +62,11 @@ def getJinLiang(date,code):
 #检查是否为涨停以来的高换手率
 def isHightChangeHands(date,buyStock):
     global stocks_data
-    # print(f'😁-->>isHightChangeHands{date}-->>{buyStock}')
     for index, item in enumerate(stocks_data): 
-                if item['date'] == date:
-                    endIndex = index
-                    startIndex = index - buyStock['limit'] + 2
-                    break
+        if item['date'] == date:
+            endIndex = index
+            startIndex = index - buyStock['limit'] + 2
+            break
     if startIndex < 0:
        return False
     currentHuanShou = float(buyStock['limit_liu_ratio'].replace(",", ""))/float(buyStock['limit_cheng_ratio'].replace(",", "").replace("万", ""))*100
@@ -156,7 +155,6 @@ for item in dragon_backtest_data:
 dates = dates[len(dragon_log_data):]
 
 def strategy(pre_date,date):
-    print(pre_date,date)
     global stockPool
     global forecast
     if len(dragon_log_data)>0:
@@ -184,11 +182,15 @@ def strategy(pre_date,date):
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
             stockPool = []
         else:
-            #排除当天一字涨停买不到的股票
-            print(targetStocks)
+            #排除当天开盘就一字涨停买不到的股票
             if not forecast:
-                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False)]
-                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True)]
+                #如果目标个股有多个则排除竞价出来一字板的股票
+                if len(targetStocks) > 1:
+                    filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) and stock['next_burst_time'] != '09:30:00']
+                #如果目标个股只有一个，只接受开盘竞价不涨停或者竞价封单很小的个股
+                else:
+                    filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
+                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
             else:
                 filtered_stocks = targetStocks
                 limit_no_buy_stocks = targetStocks
@@ -408,7 +410,7 @@ def get_previous_trading_day(date_object):
 #        break
 if forecast:
    strategy(str(date_object),str(today))
-#    strategy('2024-05-17','2024-05-20')
+#    strategy('2024-01-12','2024-01-15')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
