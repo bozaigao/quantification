@@ -237,7 +237,7 @@ def strategy(pre_date,date):
                 jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
                 #大换手并且前两日资金呈净流出
                 if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0):
-                    reason = f'1.{buyStock["name"]}股票处于高位高换手，且主力净量小于0，主动空仓;\n'
+                    reason = f'1.{buyStock["name"]}股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n'
                     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                     print(Style.RESET_ALL)
                     dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
