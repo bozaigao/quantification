@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from pandas_market_calendars import get_calendar
 from utils.opening_increase import getOpeningIncrease
 from  utils.judgeBurst import judgeBurst
+from  utils.opening_limit import judgeOpeningLimit
 import pychrome
 import math
 from colorama import Fore, Back, Style
@@ -136,9 +137,10 @@ def filter_limit(stocks):
         # 检查是否 next_isLimitUp 或 next_isBurst 为 True
         if (stock['next_isLimitUp'] or stock['next_isBurst']) and float(stock['close_increase'].strip('%')) > 9.5:
             filtered_stocks.append(stock)
-
-    # 返回筛选结果
-    return filtered_stocks
+    if forecast:
+        return stocks
+    else:
+        return filtered_stocks
 
 # 创建一个Browser实例
 browser = pychrome.Browser(url="http://127.0.0.1:9222")
@@ -192,8 +194,15 @@ def strategy(pre_date,date):
                     filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
                 limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
             else:
-                filtered_stocks = targetStocks
-                limit_no_buy_stocks = targetStocks
+                filtered_stocks = []
+                limit_no_buy_stocks = []
+                #判断是否竞价开盘就顶一字
+                for item in targetStocks:
+                    isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
+                    if not isOpenYiZi:
+                        filtered_stocks.append(item)
+                    else:
+                        limit_no_buy_stocks.append(item)
             # 找到涨幅最高的股票
             max_increase_stock = get_max_increase_stocks(filtered_stocks)
             #筛选出有上板动作的股票
@@ -390,11 +399,11 @@ def strategy(pre_date,date):
     with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_stock_log_data.json', 'w') as file:
         json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 
 
-# 获取下一个交易日
-date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
-next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
-today = datetime.now().date()
-findIndex = 1
+# # 获取下一个交易日
+# date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
+# next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
+# today = datetime.now().date()
+# findIndex = 1
 # 从指定日期开始向前搜索上一个交易日
 def get_previous_trading_day(date_object):
     if str(date_object) == '2023-01-03':
@@ -409,8 +418,8 @@ def get_previous_trading_day(date_object):
 #        findIndex = index 
 #        break
 if forecast:
-   strategy(str(date_object),str(today))
-#    strategy('2024-01-12','2024-01-15')
+#    strategy(str(date_object),str(today))
+   strategy('2024-06-13','2024-06-14')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)

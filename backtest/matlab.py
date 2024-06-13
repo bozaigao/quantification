@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import json
 
-year = 2024
+year = 2021
 try:
     with open(f'{os.getcwd()}/backtest/{year}_stock_log_data.json', 'r') as file:
         dragon_log_data = json.load(file)

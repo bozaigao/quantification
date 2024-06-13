@@ -2932,5 +2932,81 @@
             "next_close_increase": "95.73"
         },
         "suggest_shipping_space": 1
+    },
+    {
+        "date": "2021-12-22",
+        "money": 988145,
+        "earnings": "0%",
+        "desc": "断板卖出三羊马,当日盈利0%",
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
+    },
+    {
+        "date": "2021-12-23",
+        "money": 988145,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2021-12-24",
+        "money": 988145,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2021-12-27",
+        "money": 988145,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2021-12-28",
+        "money": 988145,
+        "earnings": "0%",
+        "desc": "涨停打板买入龙津药业",
+        "stock": {
+            "code": "002750",
+            "name": "龙津药业",
+            "limit": 5,
+            "limit_ups": 58,
+            "limit_downs": 12,
+            "price": "9.40",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "10:16:32",
+            "limit_reason": "中药+工业大麻",
+            "limit_tocks": "933.74万",
+            "limit_money": "1.13亿",
+            "limit_cheng_ratio": "38.65",
+            "limit_liu_ratio": "2.35",
+            "limit_open_times": "1",
+            "market_value": "48.26亿",
+            "limit_type": "【T字涨停|放量涨停】",
+            "company_place": "云南省昆明市呈贡区高新区马金铺街道办事处兰茂路789号",
+            "company_business": "研制、生产和销售经行业管理部门批准的各类中、西医药（以上经营范围中涉及国家法律、行政法规规定的专项审批，按审批的项目和时限开展经营活动）。",
+            "opening_increase": "9.98%",
+            "desc": "2021年12月28日龙津药业集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅9.98%，成交价12.12元，成交量51.80万股，成交额627.82万，未成交量1816.96万股，未成交额2.20亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "8.89%",
+            "shockValue": "1.09",
+            "next_isLimitUp": true,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "15.02",
+            "next_opening_increase": "2.64%",
+            "next_desc": "2021年12月29日龙津药业集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅2.64%，成交价12.44元，成交量326.43万股，成交额4060.79万，未成交量-2.31万股，未成交额-28.74万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.98",
+            "next_close_increase": "9.98"
+        },
+        "suggest_shipping_space": 1,
+        "reason": "1.龙津药业今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     }
 ]
