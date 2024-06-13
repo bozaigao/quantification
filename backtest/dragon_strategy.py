@@ -20,6 +20,7 @@ suggest_shipping_space = 1
 #资金记录
 stockLog = []
 #交易日期
+origindates = []
 dates = []
 #是否输出策略分析
 forecast = False
@@ -154,7 +155,17 @@ with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backte
 
 for item in dragon_backtest_data:
     dates.append(item['date'])
+    origindates.append(item['date'])
 dates = dates[len(dragon_log_data):]
+
+# 从指定日期开始向前搜索上一个交易日
+def get_previous_trading_day(date_object):
+    if str(date_object) == '2023-01-03':
+        return '2022-12-30'
+    while True:
+        date_object -= timedelta(days=1)  # 递减一天
+        if str(date_object) in origindates:  # 如果是交易日，则返回该日期
+            return date_object
 
 def strategy(pre_date,date):
     global stockPool
@@ -221,8 +232,11 @@ def strategy(pre_date,date):
                 # print(f'😁next_opening_increase->{next_opening_increase}')
                 # print(f'😁-->>buyStock{buyStock}')
                 #高换手且次日没有出现竞价大幅高开情况则主动空仓
-                jinliang = float(getJinLiang(pre_date,buyStock["code"]))
-                if isHightChangeHands(pre_date,buyStock) and jinliang < 0:
+                _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
+                jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
+                jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
+                #大换手并且前两日资金呈净流出
+                if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0):
                     reason = f'1.{buyStock["name"]}股票处于高位高换手，且主力净量小于0，主动空仓;\n'
                     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                     print(Style.RESET_ALL)
@@ -404,14 +418,6 @@ def strategy(pre_date,date):
 # next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
 # today = datetime.now().date()
 # findIndex = 1
-# 从指定日期开始向前搜索上一个交易日
-def get_previous_trading_day(date_object):
-    if str(date_object) == '2023-01-03':
-        return '2022-12-30'
-    while True:
-        date_object -= timedelta(days=1)  # 递减一天
-        if str(date_object) in dates:  # 如果是交易日，则返回该日期
-            return date_object
 
 # for index,item in enumerate(dates):
 #     if '2024-04-01' == item:
