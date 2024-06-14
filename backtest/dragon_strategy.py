@@ -203,7 +203,7 @@ def strategy(pre_date,date):
                 #如果目标个股只有一个，只接受开盘竞价不涨停或者竞价封单很小的个股
                 else:
                     filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
-                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
+                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['first_limit_time'] == '09:30:00' or stock['next_burst_time'] == '09:30:00' or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
             else:
                 filtered_stocks = []
                 limit_no_buy_stocks = []
@@ -221,7 +221,7 @@ def strategy(pre_date,date):
             focusSocks = filter_limit(max_increase_stock)
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
             # print(f'😁-->>filtered_stocks{filtered_stocks}')
-            # print(f'😁-->>focusSocks{focusSocks}')
+            print(f'😁-->>filtered_stocks{filtered_stocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
