@@ -258,7 +258,7 @@ def strategy(pre_date,date):
                         bothIsLimitPrice = False
                     #如果昨日出现最大换手且烂板则主动空仓
                     # print(f'😁-->>{pre_opening_increase}->>{next_opening_increase}-->>{bothIsLimitPrice}-->>{len(targetStocks)}-->{date}->>{buyStock["name"]}')
-                    if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase >= 0:
+                    if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
                         if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
                             print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
                         elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice):
