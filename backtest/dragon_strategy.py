@@ -236,8 +236,9 @@ def strategy(pre_date,date):
                 _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
                 jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
                 jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
-                #大换手并且前两日资金呈净流出
-                if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0):
+                jinliang3 = float(getJinLiang(date,buyStock["code"]))
+                #大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
+                if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0) and jinliang3 < 0:
                     reason = f'1.{buyStock["name"]}股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n'
                     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                     print(Style.RESET_ALL)
@@ -325,7 +326,7 @@ def strategy(pre_date,date):
                                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                                 stockPool = []
                     else:
-                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
+                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，且竞价小于0，接力情绪减弱;\n2.没有一字板做助攻;\n'
                         print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                         print(Style.RESET_ALL)
                         dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})

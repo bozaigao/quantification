@@ -6520,21 +6520,57 @@
         "date": "2024-05-24",
         "money": 25655919,
         "earnings": "0%",
-        "desc": "空仓",
+        "desc": "涨停打板买入正虹科技",
+        "stock": {
+            "code": "000702",
+            "name": "正虹科技",
+            "limit": 5,
+            "limit_ups": 29,
+            "limit_downs": 10,
+            "price": "4.82",
+            "first_limit_time": "09:30:15",
+            "final_limit_time": "10:37:15",
+            "limit_reason": "饲料+猪肉+参股券商+国企",
+            "limit_tocks": "326.82万",
+            "limit_money": "2,451.15万",
+            "limit_cheng_ratio": "3.85",
+            "limit_liu_ratio": "1.23",
+            "limit_open_times": "8",
+            "market_value": "20.00亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "湖南省岳阳市云溪区岳阳城陵矶综合保税区二期二号标准化厂房3楼303室",
+            "company_business": "各类饲料的研制、生产、销售；饲料原料销售；粮食收购、加工；农业产业化的系列开发；生物工程科技项目的投资、开发；经营本企业《中华人民共和国进出口企业资格证书》核定范围内的进出口业务。(依法须经批准的项目，经相关部门批准后方可开展经营活动)",
+            "opening_increase": "9.24%",
+            "desc": "2024年5月24日正虹科技集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅9.24%，成交价7.45元，成交量605.02万股，成交额4507.40万，未成交量-9.40万股，未成交额-70.03万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "-0.29%",
+            "shockValue": "10.26",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": true,
+            "next_burst_time": "14:31:53",
+            "next_shockValue": "1.14亿",
+            "next_opening_increase": "0%",
+            "next_desc": "2024年5月27日正虹科技集合竞价砸盘，单笔放量10%以上砸盘，竞价评级偏空，竞价涨幅0%，成交价7.50元，成交量452.20万股，成交额3391.50万，未成交量17.76万股，未成交额133.20万。建议关注主力动向及风险，并结合其他指标使用，判断行情走势。",
+            "close_increase": "9.97",
+            "next_close_increase": "-6.67"
+        },
         "suggest_shipping_space": 1,
-        "reason": "1.正虹科技股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n"
+        "reason": "1.正虹科技今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-05-27",
-        "money": 25655919,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 28221511,
+        "earnings": "10%",
+        "desc": "炸板卖出正虹科技,当日盈利10%",
         "suggest_shipping_space": 1,
-        "reason": "1.正虹科技今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "1.炸板卖出;\n"
     },
     {
         "date": "2024-05-28",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6542,7 +6578,7 @@
     },
     {
         "date": "2024-05-29",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "涨停打板买入郴电国际",
         "stock": {
@@ -6582,11 +6618,11 @@
             "next_close_increase": "-10.05"
         },
         "suggest_shipping_space": 1,
-        "reason": "1.郴电国际今日竞价涨幅大于等于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
+        "reason": "1.郴电国际今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-05-30",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "断板卖出郴电国际,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -6594,7 +6630,7 @@
     },
     {
         "date": "2024-05-31",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "涨停打板买入航天晨光",
         "stock": {
@@ -6638,7 +6674,7 @@
     },
     {
         "date": "2024-06-03",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "断板卖出航天晨光,当日盈利0%",
         "suggest_shipping_space": 1,
@@ -6646,7 +6682,7 @@
     },
     {
         "date": "2024-06-04",
-        "money": 25655919,
+        "money": 28221511,
         "earnings": "0%",
         "desc": "涨停打板买入申华控股",
         "stock": {
@@ -6690,7 +6726,7 @@
     },
     {
         "date": "2024-06-05",
-        "money": 28221511,
+        "money": 31043662,
         "earnings": "10%",
         "desc": "炸板卖出申华控股,当日盈利10%",
         "suggest_shipping_space": 1,
@@ -6698,7 +6734,7 @@
     },
     {
         "date": "2024-06-06",
-        "money": 28221511,
+        "money": 31043662,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
@@ -6706,7 +6742,7 @@
     },
     {
         "date": "2024-06-07",
-        "money": 28221511,
+        "money": 31043662,
         "earnings": "0%",
         "desc": "涨停打板买入协和电子",
         "stock": {
@@ -6750,7 +6786,7 @@
     },
     {
         "date": "2024-06-11",
-        "money": 31043662,
+        "money": 34148028,
         "earnings": "10%",
         "desc": "继续持有协和电子,当日盈利10%",
         "stock": {
@@ -6794,7 +6830,7 @@
     },
     {
         "date": "2024-06-12",
-        "money": 34148028,
+        "money": 37562831,
         "earnings": "10%",
         "desc": "继续持有协和电子,当日盈利10%",
         "stock": {
@@ -6838,10 +6874,54 @@
     },
     {
         "date": "2024-06-13",
-        "money": 37562831,
+        "money": 41319114,
         "earnings": "10%",
         "desc": "炸板卖出协和电子,当日盈利10%",
         "suggest_shipping_space": 1,
         "reason": "1.炸板卖出;\n"
+    },
+    {
+        "date": "2024-06-14",
+        "money": 41319114,
+        "earnings": "0%",
+        "desc": "涨停打板买入华闻集团",
+        "stock": {
+            "code": "000793",
+            "name": "华闻集团",
+            "limit": 5,
+            "limit_ups": 0,
+            "limit_downs": 3,
+            "price": "1.47",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "10:02:00",
+            "limit_reason": "公司被海南联瀚举牌+低价微小盘股",
+            "limit_tocks": "2,470.15万",
+            "limit_money": "3,631.12万",
+            "limit_cheng_ratio": "6.13",
+            "limit_liu_ratio": "1.26",
+            "limit_open_times": "5",
+            "market_value": "28.83亿",
+            "limit_type": "【T字涨停】;【放量涨停】",
+            "company_place": "海南省海口市美兰区国兴大道15A号全球贸易之窗28楼",
+            "company_business": "传播与文化产业的投资、开发、管理及咨询服务；信息集成、多媒体内容制作与经营,广告策划、制作和经营,多媒体技术开发与投资,电子商务,股权投资，创业投资，高科技风险投资；贸易及贸易代理（一般经营项目自主经营，许可经营项目凭相关许可证或批准文件经营）（依法须经批准的项目，经相关部门批准后方可开展经营活动。）",
+            "opening_increase": "9.70%",
+            "desc": "今天华闻集团集合竞价涨幅为9.70%，竞价评级为看多，竞价期间出现了大幅高开9.70%的现象。其中，竞价成交价为1.47元，成交量为522.67万股，成交额为768.32万元，未成交量为2.78亿股，未成交额为4.09亿元。",
+            "isBurst": true,
+            "dip_increase": "4.48%",
+            "shockValue": "4.03亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "--",
+            "next_opening_increase": "9.70%",
+            "next_desc": "今天华闻集团集合竞价涨幅为9.70%，竞价评级为看多，竞价期间出现了大幅高开9.70%的现象。其中，竞价成交价为1.47元，成交量为522.67万股，成交额为768.32万元，未成交量为2.78亿股，未成交额为4.09亿元。",
+            "close_increase": "9.70",
+            "next_close_increase": "1.47"
+        },
+        "suggest_shipping_space": 1,
+        "reason": "1.华闻集团今日竞价涨幅大于等于昨日，接力情绪增强;\n"
     }
 ]
