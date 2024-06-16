@@ -4,7 +4,7 @@ global_wait_seconds = 3
 #判断是否开盘就涨停
 def judgeOpeningLimit(browserTab, date, code):
     #从炸板中提取数据
-    browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} 主板非st炸板&querytype=stock")
+    browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} 主板炸板&querytype=stock")
     browserTab.wait(global_wait_seconds)
     result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
     soup = BeautifulSoup(result['result']['value'], 'html.parser')
@@ -26,7 +26,7 @@ def judgeOpeningLimit(browserTab, date, code):
     else:
         print("未找到具有data-v-00e1661f属性的table元素")
     #从涨停连板中提取数据  
-    browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + date + "主板非st涨停,且连板&querytype=stock")
+    browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + date + "主板涨停,且连板&querytype=stock")
     browserTab.wait(global_wait_seconds)
     result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
     soup = BeautifulSoup(result['result']['value'], 'html.parser')

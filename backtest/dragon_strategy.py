@@ -46,7 +46,8 @@ if len(dragon_log_data) != 0 and 'stock' in dragon_log_data[-1]:
    stockPool =  [dragon_log_data[-1]['stock']]
 if len(dragon_log_data) != 0:
    suggest_shipping_space =  dragon_log_data[-1]['suggest_shipping_space']
-
+if forecast:
+   stockPool = []
 def getJinLiang(date,code):
     browserTab.Page.navigate(url=f"https://www.iwencai.com/stockpick/search?rsh=3&typed=1&preParams=&ts=1&f=1&qs=result_rewrite&selfsectsn=&querytype=stock&searchfilter=&tid=stockpick&w={str(date)} {code}净量&queryarea=")
     browserTab.wait(3)
@@ -220,8 +221,8 @@ def strategy(pre_date,date):
             #筛选出有上板动作的股票
             focusSocks = filter_limit(max_increase_stock)
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
-            # print(f'😁-->>filtered_stocks{filtered_stocks}')
-            print(f'😁-->>filtered_stocks{filtered_stocks}')
+            # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
+            # print(f'😁-->>focusSocks{focusSocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
@@ -427,7 +428,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-06-13','2024-06-14')
+   strategy('2024-02-20','2024-02-21')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
