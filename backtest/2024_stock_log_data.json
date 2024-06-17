@@ -7067,5 +7067,13 @@
         },
         "suggest_shipping_space": 1,
         "reason": "1.华闻集团今日竞价涨幅大于或约等于昨日，接力情绪增强;\n"
+    },
+    {
+        "date": "2024-06-17",
+        "money": 52740501,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.华闻集团今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     }
 ]
