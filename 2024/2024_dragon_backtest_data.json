@@ -19697,15 +19697,56 @@
                 "shockValue": "4.03亿",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "3.40",
+                "next_opening_increase": "-10.20%",
+                "next_desc": "今天华闻集团集合竞价涨幅为-10.20%，竞价评级为看空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为1.32元，成交量为2322.28万股，成交额为3065.41万元，未成交量为-232.34万股，未成交额为-306.69万元。",
+                "close_increase": "9.70",
+                "next_close_increase": "-10.20"
+            }
+        ]
+    },
+    {
+        "date": "2024-06-17",
+        "data": [
+            {
+                "code": "002199",
+                "name": "东晶电子",
+                "limit": 4,
+                "limit_ups": 23,
+                "limit_downs": 4,
+                "price": "6.93",
+                "first_limit_time": "09:30:15",
+                "final_limit_time": "09:59:31",
+                "limit_reason": "石英晶体元器件+晶体振荡器",
+                "limit_tocks": "469.04万",
+                "limit_money": "3,250.47万",
+                "limit_cheng_ratio": "8.41",
+                "limit_liu_ratio": "1.93",
+                "limit_open_times": "5",
+                "market_value": "16.87亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "浙江省金华市婺城区宾虹西路555号",
+                "company_business": "电子元件、计算机及网络产品、通信产品的研发、设计、生产与销售。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+                "opening_increase": "8.25%",
+                "desc": "今天东晶电子集合竞价涨幅为8.25%，竞价评级为看多，竞价期间出现了大幅高开8.30%的现象。其中，竞价成交价为6.82元，成交量为435.91万股，成交额为2972.91万元，未成交量为6500.00股，未成交额为4.43万元。",
+                "isBurst": true,
+                "dip_increase": "-3.17%",
+                "shockValue": "13.18",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "9.70%",
-                "next_desc": "今天华闻集团集合竞价涨幅为9.70%，竞价评级为看多，竞价期间出现了大幅高开9.70%的现象。其中，竞价成交价为1.47元，成交量为522.67万股，成交额为768.32万元，未成交量为2.78亿股，未成交额为4.09亿元。",
-                "close_increase": "9.70",
-                "next_close_increase": "1.47"
+                "next_opening_increase": "8.25%",
+                "next_desc": "今天东晶电子集合竞价涨幅为8.25%，竞价评级为看多，竞价期间出现了大幅高开8.30%的现象。其中，竞价成交价为6.82元，成交量为435.91万股，成交额为2972.91万元，未成交量为6500.00股，未成交额为4.43万元。",
+                "close_increase": "10.00",
+                "next_close_increase": "6.82"
             }
         ]
     }

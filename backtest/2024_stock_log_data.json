@@ -7055,25 +7055,25 @@
             "shockValue": "4.03亿",
             "next_isLimitUp": false,
             "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
+            "next_isLimitDown": true,
             "next_isLimitDownNoSale": false,
             "next_isBurst": false,
             "next_burst_time": "",
-            "next_shockValue": "--",
-            "next_opening_increase": "9.70%",
-            "next_desc": "今天华闻集团集合竞价涨幅为9.70%，竞价评级为看多，竞价期间出现了大幅高开9.70%的现象。其中，竞价成交价为1.47元，成交量为522.67万股，成交额为768.32万元，未成交量为2.78亿股，未成交额为4.09亿元。",
+            "next_shockValue": "3.40",
+            "next_opening_increase": "-10.20%",
+            "next_desc": "今天华闻集团集合竞价涨幅为-10.20%，竞价评级为看空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为1.32元，成交量为2322.28万股，成交额为3065.41万元，未成交量为-232.34万股，未成交额为-306.69万元。",
             "close_increase": "9.70",
-            "next_close_increase": "1.47"
+            "next_close_increase": "-10.20"
         },
         "suggest_shipping_space": 1,
         "reason": "1.华闻集团今日竞价涨幅大于或约等于昨日，接力情绪增强;\n"
     },
     {
         "date": "2024-06-17",
-        "money": 52740501,
-        "earnings": "0%",
-        "desc": "空仓",
+        "money": 47360970,
+        "earnings": "-10.2%",
+        "desc": "竞价卖出华闻集团,当日盈利-10.2%",
         "suggest_shipping_space": 1,
-        "reason": "1.华闻集团今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     }
 ]
