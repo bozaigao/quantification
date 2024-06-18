@@ -19735,7 +19735,48 @@
                 "desc": "今天东晶电子集合竞价涨幅为8.25%，竞价评级为看多，竞价期间出现了大幅高开8.30%的现象。其中，竞价成交价为6.82元，成交量为435.91万股，成交额为2972.91万元，未成交量为6500.00股，未成交额为4.43万元。",
                 "isBurst": true,
                 "dip_increase": "-3.17%",
-                "shockValue": "13.18",
+                "shockValue": "13.17",
+                "next_isLimitUp": true,
+                "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": false,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "0.43",
+                "next_opening_increase": "9.67%",
+                "next_desc": "今天东晶电子集合竞价涨幅为9.67%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为7.60元，成交量为545.61万股，成交额为4146.64万元，未成交量为-7.87万股，未成交额为-59.81万元。",
+                "close_increase": "10.00",
+                "next_close_increase": "9.96"
+            }
+        ]
+    },
+    {
+        "date": "2024-06-18",
+        "data": [
+            {
+                "code": "002199",
+                "name": "东晶电子",
+                "limit": 5,
+                "limit_ups": 34,
+                "limit_downs": 1,
+                "price": "7.62",
+                "first_limit_time": "09:30:15",
+                "final_limit_time": "09:30:15",
+                "limit_reason": "石英晶体元器件+晶体振荡器",
+                "limit_tocks": "725.76万",
+                "limit_money": "5,530.29万",
+                "limit_cheng_ratio": "43.19",
+                "limit_liu_ratio": "2.98",
+                "limit_open_times": "0",
+                "market_value": "18.55亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "浙江省金华市婺城区宾虹西路555号",
+                "company_business": "电子元件、计算机及网络产品、通信产品的研发、设计、生产与销售。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+                "opening_increase": "9.67%",
+                "desc": "今天东晶电子集合竞价涨幅为9.67%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为7.60元，成交量为545.61万股，成交额为4146.64万元，未成交量为-7.87万股，未成交额为-59.81万元。",
+                "isBurst": false,
+                "dip_increase": "9.52%",
+                "shockValue": "0.43",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
@@ -19743,10 +19784,10 @@
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "8.25%",
-                "next_desc": "今天东晶电子集合竞价涨幅为8.25%，竞价评级为看多，竞价期间出现了大幅高开8.30%的现象。其中，竞价成交价为6.82元，成交量为435.91万股，成交额为2972.91万元，未成交量为6500.00股，未成交额为4.43万元。",
-                "close_increase": "10.00",
-                "next_close_increase": "6.82"
+                "next_opening_increase": "9.67%",
+                "next_desc": "今天东晶电子集合竞价涨幅为9.67%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为7.60元，成交量为545.61万股，成交额为4146.64万元，未成交量为-7.87万股，未成交额为-59.81万元。",
+                "close_increase": "9.96",
+                "next_close_increase": "7.60"
             }
         ]
     }
