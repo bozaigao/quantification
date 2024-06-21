@@ -7195,17 +7195,25 @@
             "shockValue": "20.05",
             "next_isLimitUp": false,
             "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
+            "next_isLimitDown": true,
             "next_isLimitDownNoSale": false,
             "next_isBurst": false,
             "next_burst_time": "",
-            "next_shockValue": "--",
-            "next_opening_increase": "6.09%",
-            "next_desc": "今天东晶电子集合竞价涨幅为6.09%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为8.89元，成交量为293.92万股，成交额为2612.95万元，未成交量为-1.44万股，未成交额为-12.80万元。",
+            "next_shockValue": "18.44",
+            "next_opening_increase": "-6.73%",
+            "next_desc": "今天东晶电子集合竞价涨幅为-6.73%，竞价评级为偏空，竞价期间出现了大幅低开-6.70%的现象。其中，竞价成交价为8.60元，成交量为298.15万股，成交额为2564.09万元，未成交量为22.90万股，未成交额为196.94万元。",
             "close_increase": "10.02",
-            "next_close_increase": "8.89"
+            "next_close_increase": "-9.98"
         },
         "suggest_shipping_space": 1,
         "reason": "1.继续涨停;\n"
+    },
+    {
+        "date": "2024-06-21",
+        "money": 225713,
+        "earnings": "-6.73%",
+        "desc": "竞价卖出东晶电子,当日盈利-6.73%",
+        "suggest_shipping_space": 1,
+        "reason": "触发下面三个条件其中一个\n1.个股炸板且当日开盘涨幅小于-3%;\n2.个股买入后未曾开板，但是开盘竞价为负;\n3.买入后曾经开板，但是当日竞价涨幅小于-3%;\n"
     }
 ]

@@ -19861,15 +19861,56 @@
                 "shockValue": "20.05",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "18.44",
+                "next_opening_increase": "-6.73%",
+                "next_desc": "今天东晶电子集合竞价涨幅为-6.73%，竞价评级为偏空，竞价期间出现了大幅低开-6.70%的现象。其中，竞价成交价为8.60元，成交量为298.15万股，成交额为2564.09万元，未成交量为22.90万股，未成交额为196.94万元。",
+                "close_increase": "10.02",
+                "next_close_increase": "-9.98"
+            }
+        ]
+    },
+    {
+        "date": "2024-06-21",
+        "data": [
+            {
+                "code": "002766",
+                "name": "索菱股份",
+                "limit": 5,
+                "limit_ups": 24,
+                "limit_downs": 10,
+                "price": "6.57",
+                "first_limit_time": "09:31:00",
+                "final_limit_time": "14:15:24",
+                "limit_reason": "车联网+无人驾驶+智能座舱+CID系统",
+                "limit_tocks": "433.41万",
+                "limit_money": "2,847.47万",
+                "limit_cheng_ratio": "1.97",
+                "limit_liu_ratio": "0.51",
+                "limit_open_times": "18",
+                "market_value": "55.70亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "广东省深圳市南山区粤海街道海珠社区海德一道88号中洲控股金融中心B栋34M02",
+                "company_business": "一般经营项目是：汽车用收录(放)音机、车载CD、车载VCD、车载DVD(含GPS)液晶显示屏一体机、车载智能终端、汽车自动驾驶系统及软硬件、新能源汽车充电设施、新能源汽车动力电池、云计算软硬件、物联网智能设备的研发和销售；国内贸易（不含专营、专卖、专控商品）；经营进出口业务（法律、行政法规、国务院决定禁止的项目除外，限制的项目须取得许可后方可经营），与上述项目有关的技术开发、咨询；投资兴办实业。(以上均不含法律、行政法规、国务院决定禁止及规定需前置审批项目）。许可经营项目是：汽车用收录(放)音机、车载CD、车载VCD、车载DVD(含GPS)液晶显示屏一体机、车载智能终端、汽车自动驾驶系统及软硬件、新能源汽车充电设施、新能源汽车动力电池、云计算软硬件、物联网智能设备的生产。",
+                "opening_increase": "10.05%",
+                "desc": "今天索菱股份集合竞价涨幅为10.05%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为6.57元，成交量为3455.25万股，成交额为2.27亿元，未成交量为-1153.01万股，未成交额为-7575.29万元。",
+                "isBurst": true,
+                "dip_increase": "5.86%",
+                "shockValue": "2.20亿",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "6.09%",
-                "next_desc": "今天东晶电子集合竞价涨幅为6.09%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为8.89元，成交量为293.92万股，成交额为2612.95万元，未成交量为-1.44万股，未成交额为-12.80万元。",
-                "close_increase": "10.02",
-                "next_close_increase": "8.89"
+                "next_opening_increase": "10.05%",
+                "next_desc": "今天索菱股份集合竞价涨幅为10.05%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为6.57元，成交量为3455.25万股，成交额为2.27亿元，未成交量为-1153.01万股，未成交额为-7575.29万元。",
+                "close_increase": "10.05",
+                "next_close_increase": "6.57"
             }
         ]
     }
