@@ -404,8 +404,8 @@ def strategy(pre_date,date):
                stockPool = []
                #如果竞价大于5%且开盘走势一路向上则有机会触摸涨停板，如果竞价收益为正且开盘后一路向下则跟随砸，如果竞价>-5%,开盘有机会上拉翻红出，止损点位位0%。
                earnings = float(buyStock['next_close_increase'].strip('%'))
-            #    if earnings < 0:
-            #       earnings = 0
+               if earnings < 0:
+                  earnings = 0
                final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
                reason = '1.未能继续涨停;\n'
                print(Fore.GREEN + f'断板卖出{buyStock["name"]}\n原因:\n{reason}')
