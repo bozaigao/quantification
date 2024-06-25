@@ -7223,5 +7223,45 @@
         "desc": "空仓",
         "suggest_shipping_space": 1,
         "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2024-06-25",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.美丽生态今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+    },
+    {
+        "date": "2024-06-25",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.美丽生态今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+    },
+    {
+        "date": "2024-06-25",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.美丽生态今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+    },
+    {
+        "date": "2024-06-25",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.美丽生态今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
+    },
+    {
+        "date": "2024-06-25",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.美丽生态今日竞价涨幅小于0%，接力情绪减弱;\n2.有一字板做助攻;\n"
     }
 ]

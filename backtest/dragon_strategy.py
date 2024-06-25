@@ -222,7 +222,7 @@ def strategy(pre_date,date):
             focusSocks = filter_limit(max_increase_stock)
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
             # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
-            # print(f'😁-->>focusSocks{focusSocks}')
+            # print(f'😁-->>targetStocks{targetStocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
@@ -326,6 +326,12 @@ def strategy(pre_date,date):
                                 print(Style.RESET_ALL)
                                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                                 stockPool = []
+                    elif len(targetStocks) > 1 and next_opening_increase <= 0:
+                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于0%，接力情绪减弱;\n2.有一字板做助攻;\n'
+                        print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                        print(Style.RESET_ALL)
+                        dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                        stockPool = []
                     else:
                         reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
                         print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
