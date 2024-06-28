@@ -7263,17 +7263,33 @@
             "shockValue": "2.48",
             "next_isLimitUp": false,
             "next_isLimitUpNoBuy": false,
-            "next_isLimitDown": false,
+            "next_isLimitDown": true,
             "next_isLimitDownNoSale": false,
             "next_isBurst": false,
             "next_burst_time": "",
-            "next_shockValue": "--",
-            "next_opening_increase": "10.02%",
-            "next_desc": "今天金麒麟集合竞价涨幅为10.02%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为18.22元，成交量为290.46万股，成交额为5292.18万元，未成交量为-129.38万股，未成交额为-2357.30万元。",
+            "next_shockValue": "19.87",
+            "next_opening_increase": "9.88%",
+            "next_desc": "昨天金麒麟集合竞价大幅高开，大幅高开9.90%，竞价评级看多，竞价涨幅9.88%，成交价20.02元，成交量262.92万股，成交额5263.66万，未成交量-8.66万股，未成交额-173.37万。建议关注高开原因，并结合其他指标使用，判断行情走势。",
             "close_increase": "10.02",
-            "next_close_increase": "18.22"
+            "next_close_increase": "-9.99"
         },
         "suggest_shipping_space": 1,
         "reason": "1.金麒麟今日竞价涨幅大于或约等于昨日，接力情绪增强;\n"
+    },
+    {
+        "date": "2024-06-27",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "断板卖出金麒麟,当日盈利0%",
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
+    },
+    {
+        "date": "2024-06-28",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.时空科技今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     }
 ]
