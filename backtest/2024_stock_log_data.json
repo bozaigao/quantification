@@ -7285,11 +7285,63 @@
         "reason": "1.未能继续涨停;\n"
     },
     {
-        "date": "2024-07-01",
+        "date": "2024-06-28",
         "money": 225713,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.目标个股一字板没有买入机会;"
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2024-07-01",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "涨停打板买入瀛通通讯",
+        "stock": {
+            "code": "002861",
+            "name": "瀛通通讯",
+            "limit": 4,
+            "limit_ups": 11,
+            "limit_downs": 6,
+            "price": "11.76",
+            "first_limit_time": "09:30:00",
+            "final_limit_time": "09:30:00",
+            "limit_reason": "其它",
+            "limit_tocks": "407.89万",
+            "limit_money": "4,796.73万",
+            "limit_cheng_ratio": "52.42",
+            "limit_liu_ratio": "3.41",
+            "limit_open_times": "0",
+            "market_value": "14.05亿",
+            "limit_type": "【一字涨停】;【缩量涨停】",
+            "company_place": "湖北省咸宁市通城县隽水镇经济开发区新塔社区",
+            "company_business": "研发、生产、销售：声学、光学、无线通信产品、精密电子产品、模具、精密五金件、塑胶件、高速传输线、连接线、连接器及手机、电脑周边设备，通讯传导线材、耳机线材、微细通讯线材、各类超微细铜线、铜合金及特种铜导体、智能耳机、智能家居设备、电子产品、智能机电及信息产品、智能化设备；物联网智能设备与以上产品相关的嵌入式软件的开发、销售及以上产品相关的技术服务；货物进出口、技术进出口（不含国家限制或禁止的技术及货物）；声学、光学、无线通信产品的技术服务；商务信息咨询（不含金融类）；市场推广；企业管理咨询。（涉及许可经营项目，应取得相关部门许可后方可经营）",
+            "opening_increase": "10.01%",
+            "desc": "今天瀛通通讯集合竞价涨幅为10.01%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为11.76元，成交量为289.74万股，成交额为3407.32万元，未成交量为198.71万股，未成交额为2336.85万元。",
+            "isBurst": false,
+            "dip_increase": "8.14%",
+            "shockValue": "1.87",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": true,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "18.54",
+            "next_opening_increase": "5.36%",
+            "next_desc": "今天瀛通通讯集合竞价涨幅为5.36%，竞价评级为看多，竞价期间出现了单笔放量10%以上抢筹的现象。其中，竞价成交价为12.39元，成交量为191.49万股，成交额为2372.56万元，未成交量为-1423.00股，未成交额为-1.76万元。",
+            "close_increase": "10.01",
+            "next_close_increase": "-10.03"
+        },
+        "suggest_shipping_space": 1,
+        "reason": "1.瀛通通讯今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n"
+    },
+    {
+        "date": "2024-07-02",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "断板卖出瀛通通讯,当日盈利0%",
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     }
 ]

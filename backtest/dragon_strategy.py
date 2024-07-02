@@ -221,8 +221,8 @@ def strategy(pre_date,date):
             #筛选出有上板动作的股票
             focusSocks = filter_limit(max_increase_stock)
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
-            # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
-            # print(f'😁-->>targetStocks{targetStocks}')
+            print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
+            print(f'😁-->>targetStocks{targetStocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
