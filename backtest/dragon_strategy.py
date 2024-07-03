@@ -221,8 +221,8 @@ def strategy(pre_date,date):
             #筛选出有上板动作的股票
             focusSocks = filter_limit(max_increase_stock)
             # print(f'😁-->>max_increase_stock{max_increase_stock}')
-            print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
-            print(f'😁-->>targetStocks{targetStocks}')
+            # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
+            # print(f'😁-->>targetStocks{targetStocks}')
             if len(focusSocks) > 0:
                 buyStock = focusSocks[0]
                 if forecast:
@@ -434,7 +434,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-07-01','2024-07-02')
+   strategy('2024-07-02','2024-07-03')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
