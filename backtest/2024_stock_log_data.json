@@ -7353,11 +7353,55 @@
         "reason": "1.三晖电气今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n"
     },
     {
-        "date": "2024-07-03",
+        "date": "2024-07-04",
         "money": 225713,
         "earnings": "0%",
         "desc": "空仓",
         "suggest_shipping_space": 1,
-        "reason": "1.三晖电气股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n"
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2024-07-05",
+        "money": 225713,
+        "earnings": "0%",
+        "desc": "涨停打板买入东方集团",
+        "stock": {
+            "code": "600811",
+            "name": "东方集团",
+            "limit": 4,
+            "limit_ups": 25,
+            "limit_downs": 2,
+            "price": "0.94",
+            "first_limit_time": "09:39:00",
+            "final_limit_time": "09:50:15",
+            "limit_reason": "面退博弈+申请重整+农产品加工+数字乡村+跨境支付",
+            "limit_tocks": "3,589.18万",
+            "limit_money": "3,373.83万",
+            "limit_cheng_ratio": "12.96",
+            "limit_liu_ratio": "0.98",
+            "limit_open_times": "2",
+            "market_value": "34.39亿",
+            "limit_type": "【放量涨停】",
+            "company_place": "黑龙江省哈尔滨市南岗区长江路368号经开区大厦第9层901室",
+            "company_business": "粮食收购。货物（或技术）进出口（国家禁止的项目除外，国营贸易或国家限制项目取得授权或许可后方可经营）。对外经济技术合作，对外工程承包，职业中介；物业管理；经销建筑轻工材料，家具，家居装饰材料，建筑机械，五金交电，卫生洁具；生产、销售电接触材料产品，开发无银触头相关产品；粮食销售，水稻种植，优良种子培育、研发。",
+            "opening_increase": "2.35%",
+            "desc": "2024年7月5日东方集团集合竞价急速下跌，一分钟跌幅大于3%，竞价评级-，竞价涨幅2.35%，成交价0.87元，成交量1628.40万股，成交额1416.71万，未成交量-145.83万股，未成交额-126.87万。建议关注资金流向，并结合其他指标使用，判断行情走势。",
+            "isBurst": true,
+            "dip_increase": "1.18%",
+            "shockValue": "2.77亿",
+            "next_isLimitUp": false,
+            "next_isLimitUpNoBuy": false,
+            "next_isLimitDown": false,
+            "next_isLimitDownNoSale": false,
+            "next_isBurst": false,
+            "next_burst_time": "",
+            "next_shockValue": "--",
+            "next_opening_increase": "2.35%",
+            "next_desc": "2024年7月5日东方集团集合竞价涨幅为2.35%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为0.87元，成交量为1628.40万股，成交额为1416.71万元，未成交量为-145.83万股，未成交额为-126.87万元。",
+            "close_increase": "10.59",
+            "next_close_increase": "0.87"
+        },
+        "suggest_shipping_space": 1,
+        "reason": "1.有一字板做助攻且开盘竞价涨幅大于0%;\n"
     }
 ]
