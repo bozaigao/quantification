@@ -20456,15 +20456,15 @@
                 "shockValue": "0",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
-                "next_isLimitDown": false,
+                "next_isLimitDown": true,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "0",
-                "next_opening_increase": "10.17%",
-                "next_desc": "2024年7月5日东易日盛集合竞价涨幅为10.17%，竞价评级为看多，竞价期间出现了大幅高开10.20%的现象。其中，竞价成交价为3.25元，成交量为281.69万股，成交额为915.49万元，未成交量为887.33万股，未成交额为2883.82万元。",
+                "next_shockValue": "0.00",
+                "next_opening_increase": "-9.85%",
+                "next_desc": "今天东易日盛集合竞价涨幅为-9.85%，竞价评级为看空，竞价期间出现了大幅低开-9.90%的现象。其中，竞价成交价为2.93元，成交量为83.31万股，成交额为244.10万元，未成交量为-1299.02万股，未成交额为-3806.12万元。",
                 "close_increase": "10.17",
-                "next_close_increase": "3.25"
+                "next_close_increase": "-9.85"
             },
             {
                 "code": "600811",
@@ -20496,11 +20496,52 @@
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "2.35%",
-                "next_desc": "2024年7月5日东方集团集合竞价涨幅为2.35%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为0.87元，成交量为1628.40万股，成交额为1416.71万元，未成交量为-145.83万股，未成交额为-126.87万元。",
+                "next_shockValue": "4.58亿",
+                "next_opening_increase": "-7.45%",
+                "next_desc": "今天东方集团集合竞价涨幅为-7.45%，竞价评级为看空，竞价期间出现了大幅低开-7.40%的现象。其中，竞价成交价为0.87元，成交量为2386.66万股，成交额为2076.39万元，未成交量为74.68万股，未成交额为64.98万元。",
                 "close_increase": "10.59",
-                "next_close_increase": "0.87"
+                "next_close_increase": "-1.06"
+            }
+        ]
+    },
+    {
+        "date": "2024-07-08",
+        "data": [
+            {
+                "code": "603155",
+                "name": "新亚强",
+                "limit": 3,
+                "limit_ups": 0,
+                "limit_downs": 5,
+                "price": "13.79",
+                "first_limit_time": "09:33:00",
+                "final_limit_time": "09:33:00",
+                "limit_reason": "有机硅+功能性助剂产品+基础化工+半导体上游",
+                "limit_tocks": "571.11万",
+                "limit_money": "7,875.57万",
+                "limit_cheng_ratio": "66.90",
+                "limit_liu_ratio": "1.81",
+                "limit_open_times": "0",
+                "market_value": "43.55亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "江苏省宿迁市宿豫区生态化工科技产业园扬子路2号",
+                "company_business": "许可项目：危险化学品生产；危险化学品经营；货物进出口；技术进出口；进出口代理（依法须经批准的项目，经相关部门批准后方可开展经营活动，具体经营项目以审批结果为准）一般项目：化工产品生产（不含许可类化工产品）；化工产品销售（不含许可类化工产品）；技术服务、技术开发、技术咨询、技术交流、技术转让、技术推广；国内贸易代理；知识产权服务；专用化学产品制造（不含危险化学品）；专用化学产品销售（不含危险化学品）（除依法须经批准的项目外，凭营业执照依法自主开展经营活动）",
+                "opening_increase": "6.86%",
+                "desc": "今天新亚强集合竞价涨幅为6.86%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为13.40元，成交量为76.79万股，成交额为1028.99万元，未成交量为-1.54万股，未成交额为-20.70万元。",
+                "isBurst": false,
+                "dip_increase": "0.32%",
+                "shockValue": "9.65",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": false,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "--",
+                "next_opening_increase": "6.86%",
+                "next_desc": "今天新亚强集合竞价涨幅为6.86%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为13.40元，成交量为76.79万股，成交额为1028.99万元，未成交量为-1.54万股，未成交额为-20.70万元。",
+                "close_increase": "9.97",
+                "next_close_increase": "13.40"
             }
         ]
     }
