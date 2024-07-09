@@ -1,6 +1,14 @@
 # increase.py
 from bs4 import BeautifulSoup
 global_wait_seconds = 3
+
+def is_float(s):
+    try:
+        float(s)
+        return True
+    except ValueError:
+        return False
+    
 def getIncrease(browserTab, date, name):
     resArr = []
     browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} {name}涨幅&querytype=stock")
@@ -26,9 +34,9 @@ def getIncrease(browserTab, date, name):
             # 提取 <td> 中的文本值
             values = [cell.text.strip() for cell in cells]
             resArr.extend(values)
-            if '万' in resArr[-1]:
+            if is_float(resArr[-2]):
                 return resArr
             else:
-                # 将包含“万”的字符串和最后一个元素互换位置
+                # 和最后一个元素互换位置
                 resArr[-1], resArr[-2] = resArr[-2], resArr[-1]
                 return resArr

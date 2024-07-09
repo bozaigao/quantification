@@ -82,8 +82,9 @@ for idx, date in enumerate(dates):
             next_isLimitUp = False
          #次日振幅
          next_shockValue = nextIncrease[5]
+         print(f'😁${nextIncrease}')
          # 判断次日是否为一字涨停的条件
-         next_isLimitUpNoBuy = next_isLimitUp and next_shockValue == '0'
+         next_isLimitUpNoBuy = next_isLimitUp and float(next_shockValue) == 0
           # 判断次日是否跌停的条件
          if float(nextIncrease[0]) < -9.5 and nextIncrease[3] == nextIncrease[4]:
             next_isLimitDown = True
@@ -91,7 +92,7 @@ for idx, date in enumerate(dates):
          else:
             next_isLimitDown = False
          # 判断次日是否为一字跌停的条件
-         next_isLimitDownNoSale = next_isLimitDown and next_shockValue == '0'
+         next_isLimitDownNoSale = next_isLimitDown and float(next_shockValue) == 0
          #判断次日是否炸过板
          burstData = judgeBurst(browserTab,str(next_date.date()),item['code'])
          item['isBurst'] = isBurst
