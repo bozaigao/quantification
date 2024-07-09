@@ -22,19 +22,19 @@ if '/backtest' in os.getcwd():
    forecast = True
 # 指定年份的日期范围
 dates = []
-with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_opening_data.json', 'r') as file:
-    dragon_opening_data = json.load(file)
+with open(f'./full_data/{year}_opening_data.json', 'r') as file:
+    stock_opening_data = json.load(file)
 try:
-    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
-        dragon_backtest_data = json.load(file)
+    with open(f'./full_data/{year}_stock_backtest_data.json', 'r') as file:
+        stock_backtest_data = json.load(file)
 except FileNotFoundError:
-    dragon_backtest_data = []
+    stock_backtest_data = []
 if forecast:
-    dragon_backtest_data = dragon_backtest_data[:-1]
-for item in dragon_opening_data:
+    stock_backtest_data = stock_backtest_data[:-1]
+for item in stock_opening_data:
     dates.append(item['date'])
-dates = dates[len(dragon_backtest_data):]
-dragon_opening_data = dragon_opening_data[len(dragon_backtest_data):]
+dates = dates[len(stock_backtest_data):]
+stock_opening_data = stock_opening_data[len(stock_backtest_data):]
 # 创建一个Browser实例
 browser = pychrome.Browser(url="http://127.0.0.1:9222")
 # 新建一个标签页
@@ -45,11 +45,12 @@ browserTab.Network.enable()
 
 for idx, date in enumerate(dates):
     arr = []
-    for item in dragon_opening_data[idx]['data']:
+    for item in stock_opening_data[idx]['data']:
          # 获取上一个交易日
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          previous_date = calendar.valid_days(start_date='2000-01-01', end_date=date_object - timedelta(days=1))[-1]
          pre_increase = getIncrease(browserTab,str(previous_date.date()),item['name'])
+         print(f'😁${pre_increase}')
          #获取当日收盘涨幅
          increase = getIncrease(browserTab,date,item['name'])
          #当日下探最低涨幅
@@ -110,9 +111,9 @@ for idx, date in enumerate(dates):
          item['close_increase'] = close_increase
          item['next_close_increase'] = next_close_increase
          arr.append(item)
-    dragon_backtest_data.extend([{'date':date,'data':arr}])
+    stock_backtest_data.extend([{'date':date,'data':arr}])
         # 将数据写入到 JSON 文件中
-    with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'w') as file:
-        json.dump(dragon_backtest_data, file, ensure_ascii=False, indent=4) 
+    with open(f'./full_data/{year}_stock_backtest_data.json', 'w') as file:
+        json.dump(stock_backtest_data, file, ensure_ascii=False, indent=4) 
 
    
