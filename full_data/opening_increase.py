@@ -8,7 +8,7 @@ from pandas_market_calendars import get_calendar
 global_wait_seconds = 3
 # 指定开始统计年份
 year = 2024
-with open(f'{year}_stocks_data.json', 'r') as file:
+with open(f'./full_data/{year}_stocks_data.json', 'r') as file:
         stock_data = json.load(file)
 # 指定年份的日期范围
 dates = []# 这里替换为你的交易日日期列表
