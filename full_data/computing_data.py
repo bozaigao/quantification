@@ -20,6 +20,13 @@ calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易�
 forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
+# 创建一个Browser实例
+browser = pychrome.Browser(url="http://127.0.0.1:9222")
+# 新建一个标签页
+browserTab = browser.new_tab()
+# 打开链接
+browserTab.start()
+browserTab.Network.enable()
 # 指定年份的日期范围
 dates = []
 with open(f'./full_data/{year}_opening_data.json', 'r') as file:
@@ -31,21 +38,9 @@ except FileNotFoundError:
     stock_backtest_data = []
 if forecast:
     stock_backtest_data = stock_backtest_data[:-1]
-for item in stock_opening_data:
-    dates.append(item['date'])
-dates = dates[len(stock_backtest_data):]
-stock_opening_data = stock_opening_data[len(stock_backtest_data):]
-# 创建一个Browser实例
-browser = pychrome.Browser(url="http://127.0.0.1:9222")
-# 新建一个标签页
-browserTab = browser.new_tab()
-# 打开链接
-browserTab.start()
-browserTab.Network.enable()
 
-for idx, date in enumerate(dates):
-    arr = []
-    for item in stock_opening_data[idx]['data']:
+def generateNextData(data,date):
+    for item in data:
          # 获取上一个交易日
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          previous_date = calendar.valid_days(start_date='2000-01-01', end_date=date_object - timedelta(days=1))[-1]
@@ -53,14 +48,13 @@ for idx, date in enumerate(dates):
          print(f'😁${pre_increase}')
          #获取当日收盘涨幅
          increase = getIncrease(browserTab,date,item['name'])
+         print(f'😁涨幅${increase}')
          #当日下探最低涨幅
          dip_increase = f'{round((float(increase[3]) - float(pre_increase[4]))/float(pre_increase[4])*100, 2)}%'
          #当日收盘涨幅
          close_increase = increase[0]
          #当日振幅
          shockValue = increase[5]
-         # 判断是否为一字涨停的条件
-         isLimitUpNoBuy = '一字涨停' in item['limit_type']
          #判断是否炸过板
          isBurst = item['limit_open_times'] != '0'
          # 获取下一个交易日
@@ -110,10 +104,28 @@ for idx, date in enumerate(dates):
          item['next_desc'] = next_desc
          item['close_increase'] = close_increase
          item['next_close_increase'] = next_close_increase
-         arr.append(item)
-    stock_backtest_data.extend([{'date':date,'data':arr}])
-        # 将数据写入到 JSON 文件中
-    with open(f'./full_data/{year}_stock_backtest_data.json', 'w') as file:
-        json.dump(stock_backtest_data, file, ensure_ascii=False, indent=4) 
+         hasAddIndex = -1
+         for index, item in enumerate(stock_backtest_data):
+             if item['date'] == date:
+                 hasAddIndex = index
+                 break
+         if hasAddIndex == -1:
+            stock_backtest_data.extend([{'date':date,'data':[item]}])
+         else:
+            stock_backtest_data[hasAddIndex]['data'].append(item)
+         # 将数据写入到 JSON 文件中
+         with open(f'./full_data/{year}_stock_backtest_data.json', 'w') as file:
+            json.dump(stock_backtest_data, file, ensure_ascii=False, indent=4) 
+
+for item in stock_opening_data:
+    dates.append(item['date'])
+    if len(stock_backtest_data) > 0 and stock_backtest_data[-1]['date'] == item['date'] and len(stock_backtest_data[-1]['data']) != len(item['data']):
+       generateNextData(item['data'][len(stock_backtest_data[-1]['data']):],item['date'])
+
+dates = dates[len(stock_backtest_data):]
+stock_opening_data = stock_opening_data[len(stock_backtest_data):]
+
+for idx, date in enumerate(dates):
+    generateNextData(stock_opening_data[idx]['data'],date)
 
    
