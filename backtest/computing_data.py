@@ -49,9 +49,9 @@ for idx, date in enumerate(dates):
          # 获取上一个交易日
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          previous_date = calendar.valid_days(start_date='2000-01-01', end_date=date_object - timedelta(days=1))[-1]
-         pre_increase = getIncrease(browserTab,str(previous_date.date()),item['name'])
+         pre_increase = getIncrease(browserTab,str(previous_date.date()),item['code'])
          #获取当日收盘涨幅
-         increase = getIncrease(browserTab,date,item['name'])
+         increase = getIncrease(browserTab,date,item['code'])
          #当日下探最低涨幅
          dip_increase = f'{round((float(increase[3]) - float(pre_increase[4]))/float(pre_increase[4])*100, 2)}%'
          #当日收盘涨幅
@@ -68,12 +68,12 @@ for idx, date in enumerate(dates):
          #获取次日竞价涨幅信息
          opening_increase = getOpeningIncrease(browserTab,str(next_date.date()),item['code'])
          #获取次日涨幅信息
-         next_increase = getIncrease(browserTab,str(next_date.date()),item['name'])
+         next_increase = getIncrease(browserTab,str(next_date.date()),item['code'])
          #次日收盘涨幅
          next_close_increase = next_increase[0]
          next_opening_increase = opening_increase[0]
          next_desc = opening_increase[1]
-         nextIncrease = getIncrease(browserTab,str(next_date.date()),item['name'])
+         nextIncrease = getIncrease(browserTab,str(next_date.date()),item['code'])
           # 判断次日是否涨停的条件
          if float(nextIncrease[0]) > 9.5 and nextIncrease[2] == nextIncrease[4]:
             next_isLimitUp = True

@@ -9,9 +9,9 @@ def is_float(s):
     except ValueError:
         return False
     
-def getIncrease(browserTab, date, name):
+def getIncrease(browserTab, date, code):
     resArr = []
-    browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} {name}涨幅&querytype=stock")
+    browserTab.Page.navigate(url=f"https://www.iwencai.com/unifiedwap/result?w={date} '{code}'涨幅&querytype=stock")
     browserTab.wait(global_wait_seconds)
     result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
     soup = BeautifulSoup(result['result']['value'], 'html.parser')

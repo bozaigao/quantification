@@ -11,6 +11,7 @@ import os
 from  utils.increase import getIncrease
 from  utils.judgeBurst import judgeBurst
 from  utils.opening_increase import getOpeningIncrease
+import copy
 print(os.getcwd())
 # 指定开始统计年份
 year = 2024
@@ -44,10 +45,10 @@ def generateNextData(data,date):
          # 获取上一个交易日
          date_object = datetime.strptime(date, '%Y-%m-%d').date()
          previous_date = calendar.valid_days(start_date='2000-01-01', end_date=date_object - timedelta(days=1))[-1]
-         pre_increase = getIncrease(browserTab,str(previous_date.date()),item['name'])
+         pre_increase = getIncrease(browserTab,str(previous_date.date()),item['code'])
          print(f'😁${pre_increase}')
          #获取当日收盘涨幅
-         increase = getIncrease(browserTab,date,item['name'])
+         increase = getIncrease(browserTab,date,item['code'])
          print(f'😁涨幅${increase}')
          #当日下探最低涨幅
          dip_increase = f'{round((float(increase[3]) - float(pre_increase[4]))/float(pre_increase[4])*100, 2)}%'
@@ -63,7 +64,7 @@ def generateNextData(data,date):
          #获取次日竞价涨幅信息
          opening_increase = getOpeningIncrease(browserTab,str(next_date.date()),item['code'])
          #获取次日涨幅信息
-         next_increase = getIncrease(browserTab,str(next_date.date()),item['name'])
+         next_increase = getIncrease(browserTab,str(next_date.date()),item['code'])
          #次日收盘涨幅
          next_close_increase = next_increase[0]
          next_opening_increase = opening_increase[0]
@@ -105,14 +106,15 @@ def generateNextData(data,date):
          item['close_increase'] = close_increase
          item['next_close_increase'] = next_close_increase
          hasAddIndex = -1
-         for index, item in enumerate(stock_backtest_data):
-             if item['date'] == date:
+         for index, item2 in enumerate(stock_backtest_data):
+             if item2['date'] == date:
                  hasAddIndex = index
                  break
          if hasAddIndex == -1:
             stock_backtest_data.extend([{'date':date,'data':[item]}])
          else:
-            stock_backtest_data[hasAddIndex]['data'].append(item)
+            stock_backtest_data[hasAddIndex]['data'].append(copy.deepcopy(item))
+         # print(stock_backtest_data)
          # 将数据写入到 JSON 文件中
          with open(f'./full_data/{year}_stock_backtest_data.json', 'w') as file:
             json.dump(stock_backtest_data, file, ensure_ascii=False, indent=4) 
