@@ -69,7 +69,7 @@ def generateNextData(data,date):
          next_close_increase = next_increase[0]
          next_opening_increase = opening_increase[0]
          next_desc = opening_increase[1]
-         nextIncrease = getIncrease(browserTab,str(next_date.date()),item['name'])
+         nextIncrease = getIncrease(browserTab,str(next_date.date()),item['code'])
           # 判断次日是否涨停的条件
          if float(nextIncrease[0]) > 9.5 and nextIncrease[2] == nextIncrease[4]:
             next_isLimitUp = True
