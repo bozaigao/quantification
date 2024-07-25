@@ -35,7 +35,7 @@ except FileNotFoundError:
     dragon_log_data = []
 
 try:
-    with open(f'./full_data/{year}_stock_backtest_data.json', 'r',) as file:
+    with open(f'./full_data/{year}_stocks_data.json', 'r',) as file:
         stocks_data = json.load(file)
 except FileNotFoundError:
     stocks_data = []
@@ -151,10 +151,10 @@ browserTab = browser.new_tab()
 # 打开链接
 browserTab.start()
 browserTab.Network.enable()
-with open(f'{os.getcwd().replace("/backtest", "")}/backtest/{year}_dragon_backtest_data.json', 'r') as file:
-    dragon_backtest_data = json.load(file)
+with open(f'./full_data/{year}_stock_backtest_data.json', 'r') as file:
+    stock_backtest_data = json.load(file)
 
-for item in dragon_backtest_data:
+for item in stock_backtest_data:
     dates.append(item['date'])
     origindates.append(item['date'])
 dates = dates[len(dragon_log_data):]
@@ -167,8 +167,9 @@ def get_previous_trading_day(date_object):
         date_object -= timedelta(days=1)  # 递减一天
         if str(date_object) in origindates:  # 如果是交易日，则返回该日期
             return date_object
-
-def strategy(pre_date,date):
+        
+def excuteStrategy(pre_date,date,targetStocks,todayStocks):
+    print(pre_date,date)
     global stockPool
     global forecast
     if len(dragon_log_data)>0:
@@ -180,178 +181,185 @@ def strategy(pre_date,date):
        current_shipping_space = dragon_log_data[-1]['suggest_shipping_space']
     else:
        current_shipping_space = suggest_shipping_space
-    #查询目标股
-    for stocksData in dragon_backtest_data:
-        if stocksData['date'] == pre_date:
-           targetStocks = stocksData['data']
-        if stocksData['date'] == date and not forecast:
-           todayStocks = stocksData['data']
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
-        #如果最板连板数大于或约等于3则主动空仓
-        if len(targetStocks) > 3:
-            reason = '1.最板连板数必须小于等于3;\n'
+        #排除当天开盘就一字涨停买不到的股票
+        if not forecast:
+            # print(targetStocks)
+            #如果目标个股有多个则排除竞价出来一字板的股票
+            if len(targetStocks) > 1:
+                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) and stock['next_burst_time'] != '09:30:00']
+            #如果目标个股只有一个，只接受开盘竞价不涨停或者竞价封单很小的个股
+            else:
+                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
+            limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' and 'open_limit_is_small' not in stock]
+        else:
+            filtered_stocks = []
+            limit_no_buy_stocks = []
+            #判断是否竞价开盘就顶一字
+            for item in targetStocks:
+                isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
+                if not isOpenYiZi:
+                    filtered_stocks.append(item)
+                else:
+                    limit_no_buy_stocks.append(item)
+        # print(f'😁{limit_no_buy_stocks}')
+        # 找到涨幅最高的股票
+        max_increase_stock = get_max_increase_stocks(filtered_stocks)
+        #筛选出有上板动作的股票
+        focusSocks = filter_limit(max_increase_stock)
+        # print(f'😁-->>max_increase_stock{max_increase_stock}')
+        # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
+        # print(f'😁-->>targetStocks{targetStocks}')
+        if len(focusSocks) > 0:
+            buyStock = focusSocks[0]
+            if forecast:
+                opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
+                next_opening_increase = float(opening_increase[0].strip('%'))
+            else:
+                next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
+
+            # print(f'😁next_opening_increase->{next_opening_increase}')
+            # print(f'😁-->>buyStock{buyStock}')
+            #高换手且次日没有出现竞价大幅高开情况则主动空仓
+            _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
+            jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
+            jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
+            jinliang3 = float(getJinLiang(date,buyStock["code"]))
+            #大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
+            if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0) and jinliang3 < 0:
+                reason = f'1.{buyStock["name"]}股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n'
+                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                print(Style.RESET_ALL)
+                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                stockPool = []
+                return False 
+            else:
+                #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
+                pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
+                # 检测是否都是开盘就处于涨停价位
+                if pre_opening_increase >= 9.5 and next_opening_increase >= 9.5 and abs(pre_opening_increase - next_opening_increase) <= 0.5:
+                    bothIsLimitPrice = True
+                else:
+                    bothIsLimitPrice = False
+                #如果昨日出现最大换手且烂板则主动空仓
+                # print(f'😁-->>{pre_opening_increase}->>{next_opening_increase}-->>{bothIsLimitPrice}-->>{len(targetStocks)}-->{date}->>{buyStock["name"]}')
+                if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
+                    if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
+                        print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
+                    elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice):
+                        print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n')
+                    elif(len(limit_no_buy_stocks) > 0):
+                        print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
+                    elif jinliang3 > 0:
+                        print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
+                    else:
+                        print(Fore.RED + f'都不符合买入条件主动空仓\n')
+                    print(Style.RESET_ALL)
+                    # print(f'😁-->>{buyStock["limit_type"]}')
+                    #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字,且必须在早上收盘前有上板动作
+                    if not forecast:
+                        if  buyStock['next_isBurst'] and buyStock['next_burst_time'] !='09:30:00' and isEarly(buyStock['next_burst_time'],'11:30:00'):
+                            increase = float(buyStock['next_close_increase'].strip('%'))
+                            earnings = increase-10
+                            #精确到小数点后面两位
+                            earnings = formartNumber(earnings)
+                            final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
+                            updateStock = getTodayStock(todayStocks,buyStock)
+                            if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif(len(limit_no_buy_stocks) > 0):
+                                reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif jinliang3 > 0:
+                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            else:
+                                reason = '都不符合买入条件主动空仓'
+                            print(Style.RESET_ALL)
+                            if '空仓' in reason:
+                                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                                stockPool = []
+                                return False
+                            else:
+                                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
+                                stockPool.append(updateStock)
+                                return True
+                        # 如果涨停且不是一字涨停
+                        elif buyStock['next_isLimitUp'] and not buyStock['next_isLimitUpNoBuy']:
+                            updateStock = getTodayStock(todayStocks,buyStock)
+                            if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
+                                reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif(len(limit_no_buy_stocks) > 0):
+                                reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            elif jinliang3 > 0:
+                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
+                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                            else:
+                                reason = '都不符合买入条件主动空仓'
+                            print(Style.RESET_ALL)
+                            if '空仓' in reason:
+                                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                                stockPool = [] 
+                                return False
+                            else:
+                                dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
+                                stockPool.append(updateStock)
+                                return True
+                        #如果开盘就一字涨停则主动空仓
+                        elif buyStock['next_burst_time'] =='09:30:00' or buyStock['next_isLimitUpNoBuy']:
+                            reason = f'1.{buyStock["name"]}开盘一字涨停，主动空仓;\n'
+                            print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                            print(Style.RESET_ALL)
+                            dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                            return False
+                        #没有上板动作
+                        else:
+                            reason = f'1.{buyStock["name"]}在上午的交易时间段内没有触摸涨停;\n'
+                            print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                            print(Style.RESET_ALL)
+                            dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                            stockPool = []
+                            return False
+                elif len(targetStocks) > 1 and next_opening_increase <= 0:
+                    reason = f'1.{buyStock["name"]}今日竞价涨幅小于0%，接力情绪减弱;\n2.有一字板做助攻;\n'
+                    print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                    print(Style.RESET_ALL)
+                    dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                    stockPool = []
+                    return False
+                else:
+                    reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
+                    print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                    print(Style.RESET_ALL)
+                    dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                    stockPool = []
+                    return False
+        elif len(limit_no_buy_stocks) > 0 and len(max_increase_stock) == 0:
+            # 空仓
+            reason = '1.目标个股一字板没有买入机会;'
             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
             print(Style.RESET_ALL)
             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
             stockPool = []
+            return False
         else:
-            #排除当天开盘就一字涨停买不到的股票
-            if not forecast:
-                #如果目标个股有多个则排除竞价出来一字板的股票
-                if len(targetStocks) > 1:
-                    filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) and stock['next_burst_time'] != '09:30:00']
-                #如果目标个股只有一个，只接受开盘竞价不涨停或者竞价封单很小的个股
-                else:
-                    filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
-                limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' and 'open_limit_is_small' not in stock]
-            else:
-                filtered_stocks = []
-                limit_no_buy_stocks = []
-                #判断是否竞价开盘就顶一字
-                for item in targetStocks:
-                    isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
-                    if not isOpenYiZi:
-                        filtered_stocks.append(item)
-                    else:
-                        limit_no_buy_stocks.append(item)
-            # print(f'😁{limit_no_buy_stocks}')
-            # 找到涨幅最高的股票
-            max_increase_stock = get_max_increase_stocks(filtered_stocks)
-            #筛选出有上板动作的股票
-            focusSocks = filter_limit(max_increase_stock)
-            # print(f'😁-->>max_increase_stock{max_increase_stock}')
-            # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
-            # print(f'😁-->>targetStocks{targetStocks}')
-            if len(focusSocks) > 0:
-                buyStock = focusSocks[0]
-                if forecast:
-                   opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
-                   next_opening_increase = float(opening_increase[0].strip('%'))
-                else:
-                   next_opening_increase = float(buyStock['next_opening_increase'].strip('%'))
-
-                # print(f'😁next_opening_increase->{next_opening_increase}')
-                # print(f'😁-->>buyStock{buyStock}')
-                #高换手且次日没有出现竞价大幅高开情况则主动空仓
-                _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
-                jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
-                jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
-                jinliang3 = float(getJinLiang(date,buyStock["code"]))
-                #大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
-                if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0) and jinliang3 < 0:
-                    reason = f'1.{buyStock["name"]}股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n'
-                    print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                    print(Style.RESET_ALL)
-                    dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                    stockPool = [] 
-                else:
-                    if buyStock['next_isLimitUp'] and not forecast:
-                        for stock in todayStocks:
-                            if buyStock['code'] == stock['code']:
-                               first_limit_time = stock['first_limit_time']
-                               break
-                    #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
-                    pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
-                    # 检测是否都是开盘就处于涨停价位
-                    if pre_opening_increase >= 9.5 and next_opening_increase >= 9.5 and abs(pre_opening_increase - next_opening_increase) <= 0.5:
-                        bothIsLimitPrice = True
-                    else:
-                        bothIsLimitPrice = False
-                    #如果昨日出现最大换手且烂板则主动空仓
-                    # print(f'😁-->>{pre_opening_increase}->>{next_opening_increase}-->>{bothIsLimitPrice}-->>{len(targetStocks)}-->{date}->>{buyStock["name"]}')
-                    if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
-                        if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
-                        elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice):
-                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n')
-                        elif(len(limit_no_buy_stocks) > 0):
-                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
-                        else:
-                            print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
-                        print(Style.RESET_ALL)
-                        # print(f'😁-->>{buyStock["limit_type"]}')
-                        #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字,且必须在早上收盘前有上板动作
-                        if not forecast:
-                            if  buyStock['next_isBurst'] and buyStock['next_burst_time'] !='09:30:00' and isEarly(buyStock['next_burst_time'],'11:30:00'):
-                                increase = float(buyStock['next_close_increase'].strip('%'))
-                                earnings = increase-10
-                                #精确到小数点后面两位
-                                earnings = formartNumber(earnings)
-                                final_money = latestMoney + latestMoney * current_shipping_space * earnings/100
-                                updateStock = getTodayStock(todayStocks,buyStock)
-                                if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                                    reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
-                                    reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                elif(len(limit_no_buy_stocks) > 0):
-                                    reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                else:
-                                    reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
-                                stockPool.append(updateStock)
-                            # 如果涨停且不是一字涨停
-                            elif buyStock['next_isLimitUp'] and not buyStock['next_isLimitUpNoBuy']:
-                                updateStock = getTodayStock(todayStocks,buyStock)
-                                if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
-                                    reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) == 0:
-                                    reason = f'1.{buyStock["name"]}今日竞价涨幅大于或约等于昨日，接力情绪增强;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                elif(len(limit_no_buy_stocks) > 0):
-                                    reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                else:
-                                    reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
-                                    print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
-                                stockPool.append(updateStock)
-                            #如果开盘就一字涨停则主动空仓
-                            elif buyStock['next_burst_time'] =='09:30:00' or buyStock['next_isLimitUpNoBuy']:
-                                reason = f'1.{buyStock["name"]}开盘一字涨停，主动空仓;\n'
-                                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                                print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                            #没有上板动作
-                            else:
-                                reason = f'1.{buyStock["name"]}在上午的交易时间段内没有触摸涨停;\n'
-                                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                                print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                                stockPool = []
-                    elif len(targetStocks) > 1 and next_opening_increase <= 0:
-                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于0%，接力情绪减弱;\n2.有一字板做助攻;\n'
-                        print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                        print(Style.RESET_ALL)
-                        dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                        stockPool = []
-                    else:
-                        reason = f'1.{buyStock["name"]}今日竞价涨幅小于昨日，接力情绪减弱;\n2.没有一字板做助攻;\n'
-                        print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                        print(Style.RESET_ALL)
-                        dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                        stockPool = []
-            elif len(limit_no_buy_stocks) > 0 and len(max_increase_stock) == 0:
-                # 空仓
-                reason = '1.目标个股一字板没有买入机会;'
-                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                print(Style.RESET_ALL)
-                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                stockPool = []
-            else:
-                # 空仓
-                reason = '1.目标个股在上午的交易时间段内没有触摸涨停;'
-                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                print(Style.RESET_ALL)
-                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                stockPool = []
+            # 空仓
+            reason = '1.目标个股在上午的交易时间段内没有触摸涨停;'
+            print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+            print(Style.RESET_ALL)
+            dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+            stockPool = []
+            return False
     #卖出股票
     else:
         buyStock = stockPool[0]
@@ -419,8 +427,58 @@ def strategy(pre_date,date):
                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'断板卖出{buyStock["name"]},当日盈利{earnings}%','suggest_shipping_space':next_shipping_space,'reason':reason})
         elif forecast:
              print(Fore.YELLOW + f'😁竞价符合预期注意观察分时走势')   
-    with open(f'./full_data/{year}_stock_log_data.json', 'w') as file:
-        json.dump(dragon_log_data, file,ensure_ascii=False,  indent=4) 
+    return True
+
+#去重数据
+def reverseData(data):
+    data.reverse()
+    unique_data = {}
+    for entry in data:
+        date = entry['date']
+        if date not in unique_data:
+            unique_data[date] = entry
+    result = list(unique_data.values())
+    result.reverse()
+    return result
+
+def readLogAgain():
+    try:
+        global dragon_log_data
+        with open(f'./full_data/{year}_stock_log_data.json', 'r',) as file:
+            dragon_log_data = json.load(file)
+    except FileNotFoundError:
+        dragon_log_data = []
+
+
+def strategy(pre_date,date):
+    global forecast
+    global dragon_log_data
+    for stocksData in stock_backtest_data:
+        todayStocks = []
+        if stocksData['date'] == date and not forecast:
+           todayStocks = stocksData['data']
+           break
+    #查询目标股
+    for stocksData in stock_backtest_data:
+        if stocksData['date'] == pre_date and len(stocksData['data']) > 0:
+           data = stocksData['data']
+           depth = 1
+           while data:
+                print(depth)
+                if depth <= 2:
+                    max_limit = max(item['limit'] for item in data)
+                    target = [item for item in data if item['limit'] == max_limit]
+                    data = [item for item in data if item['limit'] != max_limit]
+                    readLogAgain()
+                    if excuteStrategy(pre_date,date,target,todayStocks):
+                        break
+                    else:
+                        depth = depth + 1
+                        continue
+                else:
+                    break
+           with open(f'./full_data/{year}_stock_log_data.json', 'w') as file:
+                        json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 # # 获取下一个交易日
 # date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()

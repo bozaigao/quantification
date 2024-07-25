@@ -267,8 +267,10 @@ def strategy(pre_date,date):
                             print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n')
                         elif(len(limit_no_buy_stocks) > 0):
                             print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
-                        else:
+                        elif jinliang3 > 0:
                             print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
+                        else:
+                            print(Fore.RED + f'都不符合买入条件主动空仓\n')
                         print(Style.RESET_ALL)
                         # print(f'😁-->>{buyStock["limit_type"]}')
                         #如果买入当日炸板,并且不能开盘就涨停,策略拒绝顶一字,且必须在早上收盘前有上板动作
@@ -289,12 +291,18 @@ def strategy(pre_date,date):
                                 elif(len(limit_no_buy_stocks) > 0):
                                     reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                                     print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                else:
+                                elif jinliang3 > 0:
                                     reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                     print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                                else:
+                                    reason = '都不符合买入条件主动空仓'
                                 print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
-                                stockPool.append(updateStock)
+                                if '空仓' in reason:
+                                    dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                                    stockPool = [] 
+                                else:
+                                    dragon_log_data.append({'date':date, 'money':round(final_money), 'earnings':f'{earnings}%','desc':f'涨停打板买入{ buyStock["name"]},结果炸板了,当日盈利{earnings}%','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
+                                    stockPool.append(updateStock)
                             # 如果涨停且不是一字涨停
                             elif buyStock['next_isLimitUp'] and not buyStock['next_isLimitUpNoBuy']:
                                 updateStock = getTodayStock(todayStocks,buyStock)
@@ -307,12 +315,18 @@ def strategy(pre_date,date):
                                 elif(len(limit_no_buy_stocks) > 0):
                                     reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
                                     print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                                else:
+                                elif jinliang3 > 0:
                                     reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                     print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
+                                else:
+                                    reason = '都不符合买入条件主动空仓'
                                 print(Style.RESET_ALL)
-                                dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
-                                stockPool.append(updateStock)
+                                if '空仓' in reason:
+                                    dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                                    stockPool = [] 
+                                else:
+                                    dragon_log_data.append({'date':date, 'money':round(latestMoney), 'earnings':'0%','desc':f'涨停打板买入{buyStock["name"]}','stock':updateStock,'suggest_shipping_space':current_shipping_space,'reason':reason})
+                                    stockPool.append(updateStock)
                             #如果开盘就一字涨停则主动空仓
                             elif buyStock['next_burst_time'] =='09:30:00' or buyStock['next_isLimitUpNoBuy']:
                                 reason = f'1.{buyStock["name"]}开盘一字涨停，主动空仓;\n'
