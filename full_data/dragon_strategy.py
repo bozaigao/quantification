@@ -184,25 +184,15 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
     #如果此时空仓则可以执行以下买入操作
     if len(stockPool) == 0:
         #排除当天开盘就一字涨停买不到的股票
-        if not forecast:
-            # print(targetStocks)
-            #如果目标个股有多个则排除竞价出来一字板的股票
-            if len(targetStocks) > 1:
-                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) and stock['next_burst_time'] != '09:30:00']
-            #如果目标个股只有一个，只接受开盘竞价不涨停或者竞价封单很小的个股
+        filtered_stocks = []
+        limit_no_buy_stocks = []
+        #判断是否竞价开盘就顶一字
+        for item in targetStocks:
+            isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
+            if not isOpenYiZi:
+                filtered_stocks.append(item)
             else:
-                filtered_stocks = [stock for stock in targetStocks if not stock.get('next_isLimitUpNoBuy', False) or 'open_limit_is_small' in stock and stock['open_limit_is_small']]
-            limit_no_buy_stocks = [stock for stock in targetStocks if stock.get('next_isLimitUpNoBuy', True) or stock['next_burst_time'] == '09:30:00' and 'open_limit_is_small' not in stock]
-        else:
-            filtered_stocks = []
-            limit_no_buy_stocks = []
-            #判断是否竞价开盘就顶一字
-            for item in targetStocks:
-                isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
-                if not isOpenYiZi:
-                    filtered_stocks.append(item)
-                else:
-                    limit_no_buy_stocks.append(item)
+                limit_no_buy_stocks.append(item)
         # print(f'😁{limit_no_buy_stocks}')
         # 找到涨幅最高的股票
         max_increase_stock = get_max_increase_stocks(filtered_stocks)
