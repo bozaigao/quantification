@@ -65,11 +65,15 @@ def getJinLiang(date,code):
 #检查是否为涨停以来的高换手率
 def isHightChangeHands(date,buyStock):
     global stocks_data
+    hasFind = False
     for index, item in enumerate(stocks_data): 
         if item['date'] == date:
+            hasFind = True
             endIndex = index
             startIndex = index - buyStock['limit'] + 2
             break
+    if hasFind == False:
+       return False
     if startIndex < 0:
        return False
     currentHuanShou = float(buyStock['limit_liu_ratio'].replace(",", ""))/float(buyStock['limit_cheng_ratio'].replace(",", "").replace("万", ""))*100
@@ -213,12 +217,12 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             # print(f'😁-->>buyStock{buyStock}')
             #高换手且次日没有出现竞价大幅高开情况则主动空仓
             _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
-            jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
-            jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
+            # jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
+            # jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
             jinliang3 = float(getJinLiang(date,buyStock["code"]))
-            #大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
-            if isHightChangeHands(pre_date,buyStock) and (jinliang2 + jinliang1 < 0) and jinliang3 < 0:
-                reason = f'1.{buyStock["name"]}股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n'
+            #如果近两日出现大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
+            if (isHightChangeHands(_preDate,buyStock) or isHightChangeHands(pre_date,buyStock)) and jinliang3 < 0:
+                reason = f'1.{buyStock["name"]}股票近两日处于高位高换手，且当日主力净量呈现净流出，主动空仓;\n'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
@@ -482,7 +486,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-07-11','2024-07-12')
+   strategy('2024-07-25','2024-07-26')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)

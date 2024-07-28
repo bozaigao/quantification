@@ -2,7 +2,7 @@ import subprocess
 import time
 
 # Python脚本路径
-script_path = "/Users/yanbo.he/Desktop/AI/quantification/full_data/computing_data.py"
+script_path = "/Users/yanbo.he/Desktop/AI/quantification/full_data/dragon_strategy.py"
 
 while True:
     try:
