@@ -216,12 +216,12 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             # print(f'😁next_opening_increase->{next_opening_increase}')
             # print(f'😁-->>buyStock{buyStock}')
             #高换手且次日没有出现竞价大幅高开情况则主动空仓
-            _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
+            # _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
             # jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
             # jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
             jinliang3 = float(getJinLiang(date,buyStock["code"]))
             #如果近两日出现大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
-            if (isHightChangeHands(_preDate,buyStock) or isHightChangeHands(pre_date,buyStock)) and jinliang3 < 0:
+            if  jinliang3 < 0:
                 reason = f'1.{buyStock["name"]}股票近两日处于高位高换手，且当日主力净量呈现净流出，主动空仓;\n'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
@@ -456,7 +456,7 @@ def strategy(pre_date,date):
     for stocksData in stock_backtest_data:
         if stocksData['date'] == pre_date and len(stocksData['data']) > 0:
            data = stocksData['data']
-           depth = 1
+           depth = -10
            while data:
                 print(depth)
                 if depth <= 2:
