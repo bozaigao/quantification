@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2024
+year = 2021
 #初始资金
 money = 100000
 #初始建议仓位
