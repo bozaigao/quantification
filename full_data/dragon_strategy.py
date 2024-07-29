@@ -487,7 +487,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-07-29','2024-07-27')
+   strategy('2024-07-26','2024-07-29')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
