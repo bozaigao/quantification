@@ -222,7 +222,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             jinliang3 = float(getJinLiang(date,buyStock["code"]))
             #如果近两日出现大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
             if  jinliang3 < 0:
-                reason = f'1.{buyStock["name"]}股票近两日处于高位高换手，且当日主力净量呈现净流出，主动空仓;\n'
+                reason = f'1.{buyStock["name"]}当日主力净量呈现净流出，主动空仓;\n'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
@@ -471,8 +471,9 @@ def strategy(pre_date,date):
                         continue
                 else:
                     break
-           with open(f'./full_data/{year}_stock_log_data.json', 'w') as file:
-                        json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
+           if forecast == False:
+               with open(f'./full_data/{year}_stock_log_data.json', 'w') as file:
+                    json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 # # 获取下一个交易日
 # date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
@@ -486,7 +487,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-07-27','2024-07-29')
+   strategy('2024-07-29','2024-07-27')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
