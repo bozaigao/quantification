@@ -8,7 +8,7 @@ import copy
 
 global_wait_seconds = 3
 # 指定开始统计年份
-year = 2021
+year = 2024
 with open(f'./full_data/{year}_stocks_data.json', 'r') as file:
         stock_data = json.load(file)
 # 指定年份的日期范围
