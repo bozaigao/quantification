@@ -28,6 +28,7 @@ shutil.copy('2024_stocks_data.json', os.path.join('2024', '2024_stocks_data.json
 # 拷贝文件到backtest数据回测目录
 shutil.copy('2024_dragon_opening_data.json', os.path.join('backtest', '2024_dragon_opening_data.json'))
 shutil.copy('2024_stocks_data.json', os.path.join('backtest', '2024_stocks_data.json'))
+shutil.copy('2024_stocks_data.json', os.path.join('full_data', '2024_stocks_data.json'))
 os.chdir(backtest_directory)
 exec(open(os.path.join(backtest_directory, "computing_data.py")).read())
 exec(open(os.path.join(backtest_directory, "dragon_strategy.py")).read())

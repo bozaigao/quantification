@@ -17,10 +17,6 @@ print(os.getcwd())
 year = 2024
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
-#是否输出策略分析
-forecast = False
-if '/backtest' in os.getcwd():
-   forecast = True
 # 创建一个Browser实例
 browser = pychrome.Browser(url="http://127.0.0.1:9222")
 # 新建一个标签页
@@ -37,8 +33,8 @@ try:
         stock_backtest_data = json.load(file)
 except FileNotFoundError:
     stock_backtest_data = []
-if forecast:
-    stock_backtest_data = stock_backtest_data[:-1]
+
+stock_backtest_data = stock_backtest_data[:-1]
 
 def generateNextData(data,date):
     for item in data:
