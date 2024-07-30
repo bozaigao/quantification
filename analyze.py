@@ -29,7 +29,7 @@ class AnalyzeExit(Exception):
     pass
 
 # 指定开始统计年份
-year = 2022
+year = 2024
 try:
     with open(f'{year}_stocks_data.json', 'r') as file:
         _data = json.load(file)

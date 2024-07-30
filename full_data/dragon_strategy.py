@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2021
+year = 2024
 #初始资金
 money = 100000
 #初始建议仓位
@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -204,7 +204,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
         focusSocks = filter_limit(max_increase_stock)
         # print(f'😁-->>max_increase_stock{max_increase_stock}')
         # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
-        # print(f'😁-->>targetStocks{targetStocks}')
+        # print(f'😁-->>focusSocks{focusSocks}')
         if len(focusSocks) > 0:
             buyStock = focusSocks[0]
             if forecast:
@@ -229,6 +229,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                 stockPool = []
                 return False 
             else:
+                # print(f'😁-->>buyStock{buyStock}')
                 #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                 pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
                 # 检测是否都是开盘就处于涨停价位
