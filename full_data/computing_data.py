@@ -14,7 +14,7 @@ from  utils.opening_increase import getOpeningIncrease
 import copy
 print(os.getcwd())
 # 指定开始统计年份
-year = 2021
+year = 2024
 # 获取中国交易日历
 calendar = get_calendar('XSHG')  # 'XSHG' 表示上海证券交易所的交易日历
 # 创建一个Browser实例
@@ -33,8 +33,6 @@ try:
         stock_backtest_data = json.load(file)
 except FileNotFoundError:
     stock_backtest_data = []
-
-stock_backtest_data = stock_backtest_data[:-1]
 
 def generateNextData(data,date):
     for item in data:

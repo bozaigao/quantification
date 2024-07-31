@@ -8274,5 +8274,13 @@
         },
         "suggest_shipping_space": 1,
         "reason": "1.继续涨停;\n"
+    },
+    {
+        "date": "2024-07-31",
+        "money": 112495850,
+        "earnings": "3.04%",
+        "desc": "断板卖出国中水务,当日盈利3.04%",
+        "suggest_shipping_space": 1,
+        "reason": "1.未能继续涨停;\n"
     }
 ]

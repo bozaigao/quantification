@@ -21871,17 +21871,17 @@
                 "isBurst": false,
                 "dip_increase": "0.13%",
                 "shockValue": "9.88",
-                "next_isLimitUp": false,
+                "next_isLimitUp": true,
                 "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "0.13%",
-                "next_desc": "今天腾达科技集合竞价涨幅为0.13%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为22.40元，成交量为252.50万股，成交额为5656.00万元，未成交量为3900.00股，未成交额为8.74万元。",
+                "next_shockValue": "19.59",
+                "next_opening_increase": "10.00%",
+                "next_desc": "今天腾达科技集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为27.07元，成交量为306.81万股，成交额为8305.35万元，未成交量为-4.78万股，未成交额为-129.45万元。",
                 "close_increase": "10.01",
-                "next_close_increase": "22.40"
+                "next_close_increase": "10.00"
             },
             {
                 "code": "600187",
@@ -21906,7 +21906,48 @@
                 "desc": "今天国中水务集合竞价涨幅为10.15%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为3.04元，成交量为819.29万股，成交额为2490.64万元，未成交量为4575.56万股，未成交额为1.39亿元。",
                 "isBurst": false,
                 "dip_increase": "10.14%",
-                "shockValue": "0.00",
+                "shockValue": "0",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": false,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "19.41",
+                "next_opening_increase": "9.54%",
+                "next_desc": "今天国中水务集合竞价涨幅为9.54%，竞价评级为看多，竞价期间出现了大幅高开9.50%的现象。其中，竞价成交价为3.33元，成交量为3148.71万股，成交额为1.05亿元，未成交量为-3.00万股，未成交额为-9.99万元。",
+                "close_increase": "10.14",
+                "next_close_increase": "-9.54"
+            }
+        ]
+    },
+    {
+        "date": "2024-07-31",
+        "data": [
+            {
+                "code": "001379",
+                "name": "腾达科技",
+                "limit": 8,
+                "limit_ups": 77,
+                "limit_downs": 1,
+                "price": "27.07",
+                "first_limit_time": "09:30:15",
+                "final_limit_time": "10:43:30",
+                "limit_reason": "准“天地天”板+商业航天+不锈钢紧固件产品+次新股",
+                "limit_tocks": "212.38万",
+                "limit_money": "5,749.03万",
+                "limit_cheng_ratio": "7.62",
+                "limit_liu_ratio": "4.25",
+                "limit_open_times": "2",
+                "market_value": "13.54亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "山东省枣庄市滕州市经济开发区鲁班大道北路1999号",
+                "company_business": "紧固件、机械零部件、通用零部件、模具、汽车零部件及配件、金属结构制品制造、加工、销售（不含国家限制淘汰类及特种设备）；经营本企业相关产品的进出口业务；金属材料（不含贵金属）的质检技术服务。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+                "opening_increase": "10.00%",
+                "desc": "今天腾达科技集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为27.07元，成交量为306.81万股，成交额为8305.35万元，未成交量为-4.78万股，未成交额为-129.45万元。",
+                "isBurst": true,
+                "dip_increase": "-9.59%",
+                "shockValue": "19.59",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
@@ -21914,10 +21955,10 @@
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "10.15%",
-                "next_desc": "今天国中水务集合竞价涨幅为10.15%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为3.04元，成交量为819.29万股，成交额为2490.64万元，未成交量为4575.56万股，未成交额为1.39亿元。",
-                "close_increase": "10.14",
-                "next_close_increase": "3.04"
+                "next_opening_increase": "10.00%",
+                "next_desc": "今天腾达科技集合竞价涨幅为10.00%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为27.07元，成交量为306.81万股，成交额为8305.35万元，未成交量为-4.78万股，未成交额为-129.45万元。",
+                "close_increase": "10.00",
+                "next_close_increase": "27.07"
             }
         ]
     }

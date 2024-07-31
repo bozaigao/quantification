@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -465,7 +465,6 @@ def strategy(pre_date,date):
            data = stocksData['data']
            depth = -10
            while data:
-                print(depth)
                 if depth <= 2:
                     max_limit = max(item['limit'] for item in data)
                     target = [item for item in data if item['limit'] == max_limit]
@@ -482,18 +481,7 @@ def strategy(pre_date,date):
                with open(f'./full_data/{year}_stock_log_data.json', 'w') as file:
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
-# # 获取下一个交易日
-# date_object = datetime.strptime(dates[0], '%Y-%m-%d').date()
-# next_date = calendar.valid_days(start_date=date_object + timedelta(days=1), end_date='2100-01-01')[0]
-# today = datetime.now().date()
-# findIndex = 1
-
-# for index,item in enumerate(dates):
-#     if '2024-04-01' == item:
-#        findIndex = index 
-#        break
 if forecast:
-#    strategy(str(date_object),str(today))
    strategy('2024-07-30','2024-07-31')
 else:
     for idx, date in enumerate(dates[1:]):
