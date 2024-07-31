@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = False
+forecast = True
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -116,14 +116,18 @@ def isAfter(first_limit_time, compared_time):
     return first_limit_datetime > compared_datetime
 
 # 定义一个比较函数，用于比较股票的涨幅
-def get_max_increase_stocks(stocks):
+def get_max_increase_stocks(browserTab, stocks, date):
     # 初始化最大涨幅列表
     max_increase_stocks = []
     # 初始化最大涨幅值
     max_increase_value = None
     # 遍历股票列表
     for stock in stocks:
-        increase = float(stock['next_opening_increase'].strip('%'))
+        if forecast:
+            opening_increase = getOpeningIncrease(browserTab,date,stock['code'])
+            increase = float(opening_increase[0].strip('%'))
+        else:
+            increase = float(stock['next_opening_increase'].strip('%'))
         # 如果当前股票的涨幅大于最大涨幅值，更新最大涨幅值和列表
         if max_increase_value is None or increase > max_increase_value:
             max_increase_value = increase
@@ -199,14 +203,16 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                 limit_no_buy_stocks.append(item)
         # print(f'😁{limit_no_buy_stocks}')
         # 找到涨幅最高的股票
-        max_increase_stock = get_max_increase_stocks(filtered_stocks)
+        max_increase_stock = get_max_increase_stocks(browserTab,filtered_stocks, date)
         #筛选出有上板动作的股票
         focusSocks = filter_limit(max_increase_stock)
+        # print(f'😁-->>filtered_stocks{filtered_stocks}')
         # print(f'😁-->>max_increase_stock{max_increase_stock}')
         # print(f'😁-->>limit_no_buy_stocks{limit_no_buy_stocks}')
         # print(f'😁-->>focusSocks{focusSocks}')
         if len(focusSocks) > 0:
             buyStock = focusSocks[0]
+            print(f'😁目标个股{focusSocks[0]["name"]}')
             if forecast:
                 opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
                 next_opening_increase = float(opening_increase[0].strip('%'))
@@ -488,7 +494,7 @@ def strategy(pre_date,date):
 #        break
 if forecast:
 #    strategy(str(date_object),str(today))
-   strategy('2024-07-29','2024-07-30')
+   strategy('2024-07-30','2024-07-31')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
