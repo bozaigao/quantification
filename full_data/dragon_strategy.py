@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2024
+year = 2021
 #初始资金
 money = 100000
 #初始建议仓位
@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -212,7 +212,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
         # print(f'😁-->>focusSocks{focusSocks}')
         if len(focusSocks) > 0:
             buyStock = focusSocks[0]
-            print(f'😁目标个股{focusSocks[0]["name"]}')
+            print(f'😁目标个股{Fore.RED}{focusSocks[0]["name"]}')
             if forecast:
                 opening_increase = getOpeningIncrease(browserTab,date,buyStock['code'])
                 next_opening_increase = float(opening_increase[0].strip('%'))
@@ -347,7 +347,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                     return False
         elif len(limit_no_buy_stocks) > 0 and len(max_increase_stock) == 0:
             # 空仓
-            print(f'😁目标个股{limit_no_buy_stocks[0]["name"]}')
+            print(f'😁目标个股{Fore.RED}{limit_no_buy_stocks[0]["name"]}')
             reason = '1.目标个股一字板没有买入机会;'
             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
             print(Style.RESET_ALL)
@@ -356,6 +356,8 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             return False
         else:
             # 空仓
+            if len(max_increase_stock) > 0:
+                print(f'😁目标个股{Fore.RED}{max_increase_stock[0]["name"]}')
             reason = '1.目标个股在上午的交易时间段内没有触摸涨停;'
             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
             print(Style.RESET_ALL)
