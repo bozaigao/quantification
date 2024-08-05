@@ -347,6 +347,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                     return False
         elif len(limit_no_buy_stocks) > 0 and len(max_increase_stock) == 0:
             # 空仓
+            print(f'😁目标个股{limit_no_buy_stocks[0]["name"]}')
             reason = '1.目标个股一字板没有买入机会;'
             print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
             print(Style.RESET_ALL)
