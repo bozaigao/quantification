@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2021
+year = 2024
 #初始资金
 money = 100000
 #初始建议仓位
@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = False
+forecast = True
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -485,7 +485,7 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-02','2024-08-05')
+   strategy('2024-08-05','2024-08-06')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)

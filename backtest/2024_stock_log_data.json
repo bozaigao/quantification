@@ -7567,5 +7567,13 @@
         "desc": "空仓",
         "suggest_shipping_space": 1,
         "reason": "1.朝阳科技股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n"
+    },
+    {
+        "date": "2024-07-12",
+        "money": 31165323,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.朝阳科技股票处于高位高换手，且最近两日主力净量呈现净流出，主动空仓;\n"
     }
 ]
