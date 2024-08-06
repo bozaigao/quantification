@@ -22073,15 +22073,56 @@
                 "shockValue": "3.17",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": true,
+                "next_burst_time": "10:10:00",
+                "next_shockValue": "19.98",
+                "next_opening_increase": "3.91%",
+                "next_desc": "今天腾达科技集合竞价涨幅为3.91%，竞价评级为偏空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为37.45元，成交量为84.75万股，成交额为3173.89万元，未成交量为-8688.00股，未成交额为-32.54万元。",
+                "close_increase": "10.01",
+                "next_close_increase": "-9.99"
+            }
+        ]
+    },
+    {
+        "date": "2024-08-06",
+        "data": [
+            {
+                "code": "000953",
+                "name": "河化股份",
+                "limit": 6,
+                "limit_ups": 52,
+                "limit_downs": 18,
+                "price": "4.87",
+                "first_limit_time": "09:40:00",
+                "final_limit_time": "13:31:56",
+                "limit_reason": "回购+银亿重整+维生素+医药中间体+半年报预增",
+                "limit_tocks": "698.42万",
+                "limit_money": "3,401.31万",
+                "limit_cheng_ratio": "6.16",
+                "limit_liu_ratio": "1.91",
+                "limit_open_times": "11",
+                "market_value": "17.83亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "广西壮族自治区河池市金城江区六甲镇",
+                "company_business": "化学原料药及其制剂、生物药品、医药中间体的研发、生产、销售及技术推广；食品添加剂、植物提取物、专用化学产品（不含危险化学品）的研发、生产、销售及技术推广；生物技术研发及技术推广；肥料、农药、化学原料、化工产品（不含危险化学品）的生产、销售；危险化学品生产（经许可审批后方可开展经营活动）；货物进出口、技术进出口（国家限定公司经营或禁止进出口的商品和技术除外）",
+                "opening_increase": "9.93%",
+                "desc": "今天河化股份集合竞价涨幅为9.93%，竞价评级为看多，竞价期间出现了大幅高开9.90%的现象。其中，竞价成交价为4.87元，成交量为549.16万股，成交额为2674.41万元，未成交量为-199.73万股，未成交额为-972.69万元。",
+                "isBurst": true,
+                "dip_increase": "-8.58%",
+                "shockValue": "18.51",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "10.01%",
-                "next_desc": "今天腾达科技集合竞价涨幅为10.01%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为36.04元，成交量为143.36万股，成交额为5166.70万元，未成交量为618.70万股，未成交额为2.23亿元。",
-                "close_increase": "10.01",
-                "next_close_increase": "36.04"
+                "next_opening_increase": "9.93%",
+                "next_desc": "今天河化股份集合竞价涨幅为9.93%，竞价评级为看多，竞价期间出现了大幅高开9.90%的现象。其中，竞价成交价为4.87元，成交量为549.16万股，成交额为2674.41万元，未成交量为-199.73万股，未成交额为-972.69万元。",
+                "close_increase": "9.93",
+                "next_close_increase": "4.87"
             }
         ]
     }

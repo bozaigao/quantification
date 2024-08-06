@@ -485,9 +485,8 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-05','2024-08-06')
+   strategy('2024-08-06','2024-08-07')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
-   
    
