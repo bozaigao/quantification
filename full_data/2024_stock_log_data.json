@@ -8408,17 +8408,17 @@
             "isBurst": true,
             "dip_increase": "-6.79%",
             "shockValue": "16.74",
-            "next_isLimitUp": false,
+            "next_isLimitUp": true,
             "next_isLimitUpNoBuy": false,
             "next_isLimitDown": false,
             "next_isLimitDownNoSale": false,
             "next_isBurst": false,
             "next_burst_time": "",
-            "next_shockValue": "--",
-            "next_opening_increase": "9.96%",
-            "next_desc": "今天中公教育集合竞价涨幅为9.96%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为2.43元，成交量为6980.32万股，成交额为1.70亿元，未成交量为2858.76万股，未成交额为6946.80万元。",
-            "close_increase": "9.96",
-            "next_close_increase": "2.43"
+            "next_shockValue": "10.29",
+            "next_opening_increase": "4.94%",
+            "next_desc": "今天中公教育集合竞价涨幅为4.94%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为2.55元，成交量为6212.58万股，成交额为1.58亿元，未成交量为-322.32万股，未成交额为-821.92万元。",
+            "close_increase": "9.95",
+            "next_close_increase": "9.88"
         },
         "suggest_shipping_space": 1,
         "reason": "1.继续涨停;\n"

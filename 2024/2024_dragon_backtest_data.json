@@ -22114,15 +22114,56 @@
                 "shockValue": "18.51",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "3.49",
+                "next_opening_increase": "-10.06%",
+                "next_desc": "今天河化股份集合竞价涨幅为-10.06%，竞价评级为看空，竞价期间出现了大幅低开-10.10%的现象。其中，竞价成交价为4.38元，成交量为542.72万股，成交额为2377.11万元，未成交量为-1315.50万股，未成交额为-5761.90万元。",
+                "close_increase": "9.93",
+                "next_close_increase": "-10.06"
+            }
+        ]
+    },
+    {
+        "date": "2024-08-07",
+        "data": [
+            {
+                "code": "002607",
+                "name": "中公教育",
+                "limit": 5,
+                "limit_ups": 44,
+                "limit_downs": 13,
+                "price": "2.67",
+                "first_limit_time": "09:41:30",
+                "final_limit_time": "13:25:56",
+                "limit_reason": "职业教育+增持+辟谣破产等传闻",
+                "limit_tocks": "3,881.50万",
+                "limit_money": "1.04亿",
+                "limit_cheng_ratio": "2.82",
+                "limit_liu_ratio": "0.80",
+                "limit_open_times": "5",
+                "market_value": "129.96亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "安徽省芜湖市鸠江区弋江北路亚夏汽车城",
+                "company_business": "教育科技领域内的技术开发、技术服务、技术推广、技术转让、技术咨询，教育培训（仅限分支机构开展此业务）；承办展览展示服务；组织文化艺术交流活动（不含演出）；会议服务；企业管理咨询。（依法须经批准的项目，经相关部门批准后方可开展经营活动）",
+                "opening_increase": "4.94%",
+                "desc": "今天中公教育集合竞价涨幅为4.94%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为2.55元，成交量为6212.58万股，成交额为1.58亿元，未成交量为-322.32万股，未成交额为-821.92万元。",
+                "isBurst": true,
+                "dip_increase": "-0.41%",
+                "shockValue": "10.29",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "9.93%",
-                "next_desc": "今天河化股份集合竞价涨幅为9.93%，竞价评级为看多，竞价期间出现了大幅高开9.90%的现象。其中，竞价成交价为4.87元，成交量为549.16万股，成交额为2674.41万元，未成交量为-199.73万股，未成交额为-972.69万元。",
-                "close_increase": "9.93",
-                "next_close_increase": "4.87"
+                "next_opening_increase": "4.94%",
+                "next_desc": "今天中公教育集合竞价涨幅为4.94%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为2.55元，成交量为6212.58万股，成交额为1.58亿元，未成交量为-322.32万股，未成交额为-821.92万元。",
+                "close_increase": "9.88",
+                "next_close_increase": "2.55"
             }
         ]
     }
