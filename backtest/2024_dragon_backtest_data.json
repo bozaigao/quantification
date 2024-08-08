@@ -22155,15 +22155,56 @@
                 "shockValue": "10.29",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "4.49",
+                "next_opening_increase": "-10.11%",
+                "next_desc": "今天中公教育集合竞价涨幅为-10.11%，竞价评级为看空，竞价期间出现了大幅低开-10.10%的现象。其中，竞价成交价为2.40元，成交量为1.24亿股，成交额为2.97亿元，未成交量为-1016.10万股，未成交额为-2438.64万元。",
+                "close_increase": "9.88",
+                "next_close_increase": "-10.11"
+            }
+        ]
+    },
+    {
+        "date": "2024-08-08",
+        "data": [
+            {
+                "code": "600280",
+                "name": "中央商场",
+                "limit": 5,
+                "limit_ups": 37,
+                "limit_downs": 15,
+                "price": "3.83",
+                "first_limit_time": "10:34:47",
+                "final_limit_time": "10:34:47",
+                "limit_reason": "零售+预制菜+房地产",
+                "limit_tocks": "2,343.92万",
+                "limit_money": "8,977.21万",
+                "limit_cheng_ratio": "11.66",
+                "limit_liu_ratio": "2.08",
+                "limit_open_times": "0",
+                "market_value": "43.22亿",
+                "limit_type": "【放量涨停】",
+                "company_place": "江苏省南京市秦淮区中山南路79号",
+                "company_business": "日用百货、食品、卷烟、雪茄烟零售；保健食品、针纺织品、服装鞋帽、文体用品、体育用品、体育器材、一类医疗器械、机械设备、五金交电、电子产品、家用电器、家具、装饰材料、矿产品、建材、化工产品（不含危化品）销售；房地产开发、经营；电子商务；设计、制作、代理发布国内各类广告；停车场服务；高新技术产品的开发、生产、销售；场地租赁；自营和代理各类商品及技术的进出口业务（国家限定企业经营或禁止进出口的商品和技术除外）；物业管理；美容美发；室内娱乐活动。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
+                "opening_increase": "-8.05%",
+                "desc": "今天中央商场集合竞价涨幅为-8.05%，竞价评级为看多，竞价期间出现了大幅低开-8.10%的现象。其中，竞价成交价为3.20元，成交量为4842.95万股，成交额为1.55亿元，未成交量为244.33万股，未成交额为781.86万元。",
+                "isBurst": false,
+                "dip_increase": "-8.05%",
+                "shockValue": "18.10",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "4.94%",
-                "next_desc": "今天中公教育集合竞价涨幅为4.94%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为2.55元，成交量为6212.58万股，成交额为1.58亿元，未成交量为-322.32万股，未成交额为-821.92万元。",
-                "close_increase": "9.88",
-                "next_close_increase": "2.55"
+                "next_opening_increase": "-8.05%",
+                "next_desc": "今天中央商场集合竞价涨幅为-8.05%，竞价评级为看多，竞价期间出现了大幅低开-8.10%的现象。其中，竞价成交价为3.20元，成交量为4842.95万股，成交额为1.55亿元，未成交量为244.33万股，未成交额为781.86万元。",
+                "close_increase": "10.06",
+                "next_close_increase": "3.20"
             }
         ]
     }
