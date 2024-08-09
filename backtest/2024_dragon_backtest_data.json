@@ -22196,15 +22196,56 @@
                 "shockValue": "18.10",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "9.66",
+                "next_opening_increase": "-0.26%",
+                "next_desc": "今天中央商场集合竞价涨幅为-0.26%，竞价评级为看空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为3.82元，成交量为1251.34万股，成交额为4780.12万元，未成交量为-22.94万股，未成交额为-87.63万元。",
+                "close_increase": "10.06",
+                "next_close_increase": "-9.92"
+            }
+        ]
+    },
+    {
+        "date": "2024-08-09",
+        "data": [
+            {
+                "code": "000597",
+                "name": "东北制药",
+                "limit": 4,
+                "limit_ups": 26,
+                "limit_downs": 9,
+                "price": "5.89",
+                "first_limit_time": "09:30:00",
+                "final_limit_time": "13:27:32",
+                "limit_reason": "拟收购鼎成肽源+维生素+化学制药+创新药",
+                "limit_tocks": "1,159.19万",
+                "limit_money": "6,827.64万",
+                "limit_cheng_ratio": "4.67",
+                "limit_liu_ratio": "0.82",
+                "limit_open_times": "1",
+                "market_value": "82.86亿",
+                "limit_type": "【T字涨停】;【放量涨停】",
+                "company_place": "辽宁省沈阳市铁西区经济技术开发区昆明湖街",
+                "company_business": "原料药、无菌原料药、食品添加剂、饲料添加剂、危险化学品制造，液体消毒剂制造和销售（以上经营范围按生产许可证规定项目及地址从事生产经营活动），医药中间体副产品、化工产品（不含危险化学品）、化妆品制造，医药新产品开发、技术咨询服务、成果转让，污水处理、环保技术服务、环保技术咨询，金属材料销售，厂房、设备租赁，包装材料制造和销售，自营和代理各类商品和技术的进出口，但国家限定公司经营或禁止进出口的商品和技术除外。（依法须经批准的项目，经相关部门批准后方可开展经营活动。）",
+                "opening_increase": "10.09%",
+                "desc": "今天东北制药集合竞价涨幅为10.09%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为5.89元，成交量为660.48万股，成交额为3890.24万元，未成交量为1.40亿股，未成交额为8.26亿元。",
+                "isBurst": true,
+                "dip_increase": "7.29%",
+                "shockValue": "2.80",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
                 "next_shockValue": "--",
-                "next_opening_increase": "-8.05%",
-                "next_desc": "今天中央商场集合竞价涨幅为-8.05%，竞价评级为看多，竞价期间出现了大幅低开-8.10%的现象。其中，竞价成交价为3.20元，成交量为4842.95万股，成交额为1.55亿元，未成交量为244.33万股，未成交额为781.86万元。",
-                "close_increase": "10.06",
-                "next_close_increase": "3.20"
+                "next_opening_increase": "10.09%",
+                "next_desc": "今天东北制药集合竞价涨幅为10.09%，竞价评级为看多，竞价期间出现了大幅高开10.10%的现象。其中，竞价成交价为5.89元，成交量为660.48万股，成交额为3890.24万元，未成交量为1.40亿股，未成交额为8.26亿元。",
+                "close_increase": "10.09",
+                "next_close_increase": "5.89"
             }
         ]
     }

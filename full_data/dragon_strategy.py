@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
