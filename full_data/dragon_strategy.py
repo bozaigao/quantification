@@ -222,13 +222,29 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             # print(f'😁next_opening_increase->{next_opening_increase}')
             # print(f'😁-->>buyStock{buyStock}')
             #高换手且次日没有出现竞价大幅高开情况则主动空仓
-            # _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
-            # jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
-            # jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
-            jinliang3 = float(getJinLiang(date,buyStock["code"]))
-            #如果近两日出现大换手并且前两日资金呈净流出,且当日资金呈现净流出则直接忽略该股
-            if  jinliang3 < 0:
-                reason = f'1.{buyStock["name"]}当日主力净量呈现净流出，主动空仓;\n'
+            jinliang2 = float(getJinLiang(pre_date,buyStock["code"]))
+            if jinliang2 >= 0:
+                _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
+                jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
+            if jinliang2 >=0 and jinliang1+jinliang2 >= 0:
+                isBigHands = isHightChangeHands(pre_date,buyStock)
+            # jinliang3 = float(getJinLiang(date,buyStock["code"]))
+            if  jinliang2 < 0:
+                reason = f'1.{buyStock["name"]}昨日主力净量呈现净流出，主动空仓;\n'
+                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                print(Style.RESET_ALL)
+                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                stockPool = []
+                return False 
+            elif(jinliang1 + jinliang2 < 0):
+                reason = f'1.{buyStock["name"]}近两日主力净量呈现净流出，主动空仓;\n'
+                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+                print(Style.RESET_ALL)
+                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+                stockPool = []
+                return False 
+            elif(isBigHands):
+                reason = f'1.{buyStock["name"]}昨日为最大换手，主动空仓;\n'
                 print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                 print(Style.RESET_ALL)
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
@@ -245,15 +261,13 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                     bothIsLimitPrice = False
                 #如果昨日出现最大换手且烂板则主动空仓
                 # print(f'😁-->>{pre_opening_increase}->>{next_opening_increase}-->>{bothIsLimitPrice}-->>{len(targetStocks)}-->{date}->>{buyStock["name"]}')
-                if (pre_opening_increase < next_opening_increase or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
+                if (pre_opening_increase < next_opening_increase and next_opening_increase > 0 or bothIsLimitPrice) or len(targetStocks) > 1 and next_opening_increase > 0:
                     if (pre_opening_increase <= next_opening_increase or bothIsLimitPrice) and len(limit_no_buy_stocks) > 0:
                         print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n2.有一字板做助攻;\n')
                     elif (pre_opening_increase <= next_opening_increase or bothIsLimitPrice):
                         print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.今日竞价涨幅大于或约等于昨日，接力情绪增强;\n')
                     elif(len(limit_no_buy_stocks) > 0):
                         print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.有一字板做助攻且开盘竞价涨幅大于0%;\n')
-                    elif jinliang3 > 0:
-                        print(Fore.RED + f'{Fore.GREEN}----->>>{Fore.RED}准备涨停打板买入{buyStock["name"]}{Fore.GREEN}<<<-----\n{Fore.RED}原因:\n1.虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n')
                     else:
                         print(Fore.RED + f'都不符合买入条件主动空仓\n')
                     print(Style.RESET_ALL)
@@ -275,9 +289,6 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif(len(limit_no_buy_stocks) > 0):
                                 reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
-                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                            elif jinliang3 > 0:
-                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             else:
                                 reason = '都不符合买入条件主动空仓'
@@ -301,9 +312,6 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             elif(len(limit_no_buy_stocks) > 0):
                                 reason = '1.有一字板做助攻且开盘竞价涨幅大于0%;\n'
-                                print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
-                            elif jinliang3 > 0:
-                                reason = f'1.{buyStock["name"]}虽然涨幅涨幅有所衰减，但是依然是竞争者中最强;\n'
                                 print(Fore.RED + f'涨停打板买入{buyStock["name"]}\n原因:\n{reason}')
                             else:
                                 reason = '都不符合买入条件主动空仓'
@@ -331,7 +339,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                             dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                             stockPool = []
                             return False
-                elif len(targetStocks) > 1 and next_opening_increase <= 0:
+                elif len(targetStocks) > 1 and next_opening_increase < 0:
                     reason = f'1.{buyStock["name"]}今日竞价涨幅小于0%，接力情绪减弱;\n2.有一字板做助攻;\n'
                     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
                     print(Style.RESET_ALL)
