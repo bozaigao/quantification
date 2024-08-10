@@ -83,11 +83,11 @@ def isHightChangeHands(date,buyStock):
         for item2 in item['data']:
             if item2['code'] == buyStock['code']:
                 itemHuanShou = float(item2['limit_liu_ratio'].replace(",", ""))/float(item2['limit_cheng_ratio'].replace(",", "").replace("万", ""))*100
-                # print(f'😁换手{itemHuanShou}')
+                print(f'😁换手{itemHuanShou}')
                 if maxHuanShou < itemHuanShou:
                     maxHuanShou = itemHuanShou
                 break
-    # print(f'😁-->><{buyStock["name"]}-->>{buyStock["limit"]}-->>{currentHuanShou}-->>{maxHuanShou}-->{date}-->{stocks_data[startIndex]}')
+    print(f'😁-->><{buyStock["name"]}-->>{buyStock["limit"]}-->>{currentHuanShou}-->>{maxHuanShou}-->{date}-->{stocks_data[startIndex]}')
     return currentHuanShou > maxHuanShou or abs(currentHuanShou - maxHuanShou) < 3
 
 def formartNumber(earnings):
@@ -226,8 +226,8 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             if jinliang2 >= 0:
                 _preDate = str(get_previous_trading_day(datetime.strptime(pre_date, '%Y-%m-%d').date()))
                 jinliang1 = float(getJinLiang(_preDate,buyStock["code"]))
-            if jinliang2 >=0 and jinliang1+jinliang2 >= 0:
-                isBigHands = isHightChangeHands(pre_date,buyStock)
+            # if jinliang2 >=0 and jinliang1+jinliang2 >= 0:
+            #     isBigHands = isHightChangeHands(pre_date,buyStock)
             # jinliang3 = float(getJinLiang(date,buyStock["code"]))
             if  jinliang2 < 0:
                 reason = f'1.{buyStock["name"]}昨日主力净量呈现净流出，主动空仓;\n'
@@ -243,15 +243,15 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                 dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
                 stockPool = []
                 return False 
-            elif(isBigHands):
-                reason = f'1.{buyStock["name"]}昨日为最大换手，主动空仓;\n'
-                print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
-                print(Style.RESET_ALL)
-                dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
-                stockPool = []
-                return False 
+            # elif(isBigHands):
+            #     reason = f'1.{buyStock["name"]}昨日为最大换手，主动空仓;\n'
+            #     print(Fore.YELLOW + f'空仓\n原因:\n{reason}')
+            #     print(Style.RESET_ALL)
+            #     dragon_log_data.append({'date':date, 'money':latestMoney, 'earnings':'0%','desc':'空仓','suggest_shipping_space':current_shipping_space,'reason':reason})
+            #     stockPool = []
+            #     return False 
             else:
-                # print(f'😁-->>buyStock{buyStock}')
+                print(f'😁-->>buyStock{buyStock}')
                 #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                 pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
                 # 检测是否都是开盘就处于涨停价位
@@ -493,7 +493,7 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-08','2024-08-09')
+   strategy('2024-08-07','2024-08-08')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
