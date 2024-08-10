@@ -196,7 +196,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
         limit_no_buy_stocks = []
         #判断是否竞价开盘就顶一字
         for item in targetStocks:
-            isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'])
+            isOpenYiZi = judgeOpeningLimit(browserTab, date,item['code'],forecast)
             if not isOpenYiZi:
                 filtered_stocks.append(item)
             else:
