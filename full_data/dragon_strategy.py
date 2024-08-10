@@ -83,11 +83,11 @@ def isHightChangeHands(date,buyStock):
         for item2 in item['data']:
             if item2['code'] == buyStock['code']:
                 itemHuanShou = float(item2['limit_liu_ratio'].replace(",", ""))/float(item2['limit_cheng_ratio'].replace(",", "").replace("万", ""))*100
-                print(f'😁换手{itemHuanShou}')
+                # print(f'😁换手{itemHuanShou}')
                 if maxHuanShou < itemHuanShou:
                     maxHuanShou = itemHuanShou
                 break
-    print(f'😁-->><{buyStock["name"]}-->>{buyStock["limit"]}-->>{currentHuanShou}-->>{maxHuanShou}-->{date}-->{stocks_data[startIndex]}')
+    # print(f'😁-->><{buyStock["name"]}-->>{buyStock["limit"]}-->>{currentHuanShou}-->>{maxHuanShou}-->{date}-->{stocks_data[startIndex]}')
     return currentHuanShou > maxHuanShou or abs(currentHuanShou - maxHuanShou) < 3
 
 def formartNumber(earnings):
@@ -493,7 +493,7 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-06','2024-08-07')
+   strategy('2024-08-08','2024-08-09')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
