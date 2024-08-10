@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = False
+forecast = True
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -201,7 +201,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
                 filtered_stocks.append(item)
             else:
                 limit_no_buy_stocks.append(item)
-        # print(f'😁{limit_no_buy_stocks}')
+        # print(f'😁{limit_no_buy_stocks}--{filtered_stocks}')
         # 找到涨幅最高的股票
         max_increase_stock = get_max_increase_stocks(browserTab,filtered_stocks, date)
         #筛选出有上板动作的股票
@@ -251,7 +251,7 @@ def excuteStrategy(pre_date,date,targetStocks,todayStocks):
             #     stockPool = []
             #     return False 
             else:
-                print(f'😁-->>buyStock{buyStock}')
+                # print(f'😁-->>buyStock{buyStock}')
                 #获取当日竞价信息,当日竞价幅度必须高于昨日否则空仓
                 pre_opening_increase = float(buyStock['opening_increase'].strip('%'))
                 # 检测是否都是开盘就处于涨停价位
@@ -493,7 +493,7 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-07','2024-08-08')
+   strategy('2024-08-06','2024-08-07')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)

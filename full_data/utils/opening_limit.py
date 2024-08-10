@@ -9,7 +9,7 @@ except FileNotFoundError:
     stock_burst_data = []
 
 try:
-    with open(f'./full_data/utils/{year}_stock_limit_data.json', 'r',) as file:
+    with open(f'./full_data/utils/{year}_stocks_data.json', 'r',) as file:
         stock_limit_data = json.load(file)
 except FileNotFoundError:
     stock_limit_data = []
