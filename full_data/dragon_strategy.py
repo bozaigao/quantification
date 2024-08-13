@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = False
+forecast = True
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -493,7 +493,7 @@ def strategy(pre_date,date):
                     json.dump(reverseData(dragon_log_data), file,ensure_ascii=False,  indent=4) 
 
 if forecast:
-   strategy('2024-08-09','2024-08-12')
+   strategy('2024-08-13','2024-08-14')
 else:
     for idx, date in enumerate(dates[1:]):
         strategy(str(get_previous_trading_day(datetime.strptime(date, '%Y-%m-%d').date())),date)
