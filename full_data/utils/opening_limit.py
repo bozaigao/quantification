@@ -71,7 +71,7 @@ def judgeOpeningLimit(browserTab, date, code, forecast):
         if code in limitArr:
             return True
          #从涨停连板中提取数据  
-        browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + date + "主板涨停,且连板&querytype=stock")
+        browserTab.Page.navigate(url="https://www.iwencai.com/unifiedwap/result?w=" + date + "主板涨停&querytype=stock")
         browserTab.wait(global_wait_seconds)
         result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
         soup = BeautifulSoup(result['result']['value'], 'html.parser')
