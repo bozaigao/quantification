@@ -22399,17 +22399,17 @@
                 "isBurst": true,
                 "dip_increase": "1.54%",
                 "shockValue": "8.45",
-                "next_isLimitUp": false,
-                "next_isLimitUpNoBuy": false,
+                "next_isLimitUp": true,
+                "next_isLimitUpNoBuy": true,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "1.67%",
-                "next_desc": "今天亚世光电集合竞价涨幅为1.67%，竞价评级为-，竞价期间出现了一分钟跌幅大于3%的现象。其中，竞价成交价为23.11元，成交量为57.97万股，成交额为1339.69万元，未成交量为100.00股，未成交额为2311.00元。",
+                "next_shockValue": "0",
+                "next_opening_increase": "10.00%",
+                "next_desc": "昨天亚世光电集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.00%，成交价27.50元，成交量140.75万股，成交额3870.69万，未成交量369.02万股，未成交额1.01亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
                 "close_increase": "9.99",
-                "next_close_increase": "23.11"
+                "next_close_increase": "10.00"
             },
             {
                 "code": "600326",
@@ -22441,11 +22441,11 @@
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "2.56%",
-                "next_desc": "今天西藏天路集合竞价涨幅为2.56%，竞价评级为偏空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为5.60元，成交量为2395.99万股，成交额为1.34亿元，未成交量为-46.75万股，未成交额为-261.78万元。",
+                "next_shockValue": "0",
+                "next_opening_increase": "0%",
+                "next_desc": "昨天西藏天路集合竞价抢筹，单笔放量10%以上抢筹，竞价评级看多，竞价涨幅0%，成交价6.01元，成交量1010.96万股，成交额6075.88万，未成交量395.73万股，未成交额2378.33万。建议关注主力动向及后续走势，并结合其他指标使用，判断行情走势。",
                 "close_increase": "10.07",
-                "next_close_increase": "5.60"
+                "next_close_increase": "6.01"
             },
             {
                 "code": "600686",
@@ -22473,15 +22473,56 @@
                 "shockValue": "17.07",
                 "next_isLimitUp": false,
                 "next_isLimitUpNoBuy": false,
+                "next_isLimitDown": true,
+                "next_isLimitDownNoSale": false,
+                "next_isBurst": false,
+                "next_burst_time": "",
+                "next_shockValue": "6.67",
+                "next_opening_increase": "-7.02%",
+                "next_desc": "昨天金龙汽车集合竞价大幅低开，大幅低开-7.00%，竞价评级看空，竞价涨幅-7.02%，成交价18.40元，成交量608.49万股，成交额1.12亿，未成交量-12.10万股，未成交额-222.64万。建议规避风险，并结合其他指标使用，判断行情走势。",
+                "close_increase": "10.01",
+                "next_close_increase": "-10.01"
+            }
+        ]
+    },
+    {
+        "date": "2024-08-16",
+        "data": [
+            {
+                "code": "002952",
+                "name": "亚世光电",
+                "limit": 4,
+                "limit_ups": 24,
+                "limit_downs": 0,
+                "price": "27.50",
+                "first_limit_time": "09:30:00",
+                "final_limit_time": "09:30:00",
+                "limit_reason": "AI眼镜+光电显示+激光雷达+越南工厂进展顺利+外销",
+                "limit_tocks": "307.30万",
+                "limit_money": "8,450.68万",
+                "limit_cheng_ratio": "77.43",
+                "limit_liu_ratio": "2.33",
+                "limit_open_times": "0",
+                "market_value": "36.31亿",
+                "limit_type": "【一字涨停】;【缩量涨停】",
+                "company_place": "辽宁省鞍山市立山区越岭路288号",
+                "company_business": "生产激光打印机显示控制组件、激光扫描电子价签、3D显示器件、触控系统、LED背光源及其他平板光电显示器件，激光测量仪器仪表和其他电子专用设备、测试仪器、工装模具，激光加工与电子产品加工装配，计算机软件，技术咨询、技术服务和技术转让。（依法须经批准的项目，经相关部门批准后方可开展经营活动）。",
+                "opening_increase": "10.00%",
+                "desc": "昨天亚世光电集合竞价大幅高开，大幅高开10.00%，竞价评级看多，竞价涨幅10.00%，成交价27.50元，成交量140.75万股，成交额3870.69万，未成交量369.02万股，未成交额1.01亿。建议关注高开原因，并结合其他指标使用，判断行情走势。",
+                "isBurst": false,
+                "dip_increase": "10.0%",
+                "shockValue": "0",
+                "next_isLimitUp": false,
+                "next_isLimitUpNoBuy": false,
                 "next_isLimitDown": false,
                 "next_isLimitDownNoSale": false,
                 "next_isBurst": false,
                 "next_burst_time": "",
-                "next_shockValue": "--",
-                "next_opening_increase": "-0.56%",
-                "next_desc": "今天金龙汽车集合竞价涨幅为-0.56%，竞价评级为看空，竞价期间出现了单笔放量10%以上砸盘的现象。其中，竞价成交价为17.89元，成交量为474.52万股，成交额为8489.16万元，未成交量为-26.67万股，未成交额为-477.13万元。",
-                "close_increase": "10.01",
-                "next_close_increase": "17.89"
+                "next_shockValue": "0",
+                "next_opening_increase": "0%",
+                "next_desc": "昨天亚世光电集合竞价涨幅为10%，竞价评级为看多，竞价期间出现了大幅高开10.00%的现象。其中，竞价成交价为27.50元，成交量为140.75万股，成交额为3870.69万元，未成交量为369.02万股，未成交额为1.01亿元。",
+                "close_increase": "10.00",
+                "next_close_increase": "27.50"
             }
         ]
     }
