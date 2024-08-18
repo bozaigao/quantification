@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2021
+year = 2024
 #初始资金
 money = 100000
 #初始建议仓位
@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = False
+forecast = True
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历

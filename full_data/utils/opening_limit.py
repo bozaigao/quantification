@@ -1,7 +1,7 @@
 import json
 from bs4 import BeautifulSoup
 global_wait_seconds = 3
-year = 2021
+year = 2024
 try:
     with open(f'./full_data/utils/{year}_stock_burst_data.json', 'r',) as file:
         stock_burst_data = json.load(file)
