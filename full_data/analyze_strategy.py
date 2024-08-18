@@ -6,7 +6,7 @@ from utils.opening_increase import getOpeningIncrease
 import pychrome
 import math
 
-year = 2024
+year = 2021
 try:
     with open(f'./full_data/{year}_stock_log_data.json', 'r') as file:
         dragon_log_data = json.load(file)

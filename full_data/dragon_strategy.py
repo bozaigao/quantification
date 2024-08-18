@@ -12,7 +12,7 @@ from colorama import Fore, Back, Style
 from bs4 import BeautifulSoup
 
 # 指定回测年份
-year = 2024
+year = 2021
 #初始资金
 money = 100000
 #初始建议仓位
@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -171,6 +171,8 @@ dates = dates[len(dragon_log_data):]
 def get_previous_trading_day(date_object):
     if str(date_object) == '2023-01-03':
         return '2022-12-30'
+    elif str(date_object) == '2021-01-04':
+        return '2021-01-01'
     while True:
         date_object -= timedelta(days=1)  # 递减一天
         if str(date_object) in origindates:  # 如果是交易日，则返回该日期
