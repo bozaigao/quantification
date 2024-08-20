@@ -76,7 +76,7 @@ def judgeOpeningLimit(browserTab, date, code, forecast):
         result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
         soup = BeautifulSoup(result['result']['value'], 'html.parser')
         # 获取 tbody 中所有的 tr 标签
-        tbodies = soup.find_all('tbody', {'data-v-00e1661f': True})
+        tbodies = soup.find_all('tbody', {'data-v-41d36628': True})
         tbody = tbodies[0]
         if tbody:
             tr_tags = tbody.find_all('tr')
