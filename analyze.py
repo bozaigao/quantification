@@ -115,7 +115,7 @@ for idx, workday in enumerate(workdays):
     result = tab.Runtime.evaluate(expression="document.documentElement.outerHTML")
     soup = BeautifulSoup(result['result']['value'], 'html.parser')
     # 获取 tbody 中所有的 tr 标签
-    tbodies = soup.find_all('tbody', {'data-v-41d36628': True})
+    tbodies = soup.find_all('tbody', {'data-v-41d36628': True},)
     print('😁tbodies', tbodies)
     tbody = tbodies[0]
     if tbody:
