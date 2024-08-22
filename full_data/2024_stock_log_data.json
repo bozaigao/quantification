@@ -8682,5 +8682,13 @@
         "desc": "空仓",
         "suggest_shipping_space": 1,
         "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
+    },
+    {
+        "date": "2024-08-21",
+        "money": 7549135,
+        "earnings": "0%",
+        "desc": "空仓",
+        "suggest_shipping_space": 1,
+        "reason": "1.目标个股在上午的交易时间段内没有触摸涨停;"
     }
 ]
