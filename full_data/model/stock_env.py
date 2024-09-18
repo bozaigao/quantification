@@ -6,6 +6,7 @@ class StockEnv(gym.Env):
     def __init__(self, stock_data):
         super(StockEnv, self).__init__()
         self.stock_data = stock_data  # 股票数据
+        self.total_steps = len(self.stock_data)
         self.current_step = 0
         self.max_step = len(stock_data) - 1
 
@@ -13,11 +14,15 @@ class StockEnv(gym.Env):
         self.action_space = gym.spaces.Discrete(7)
 
         # 定义状态空间（假设状态是股票价格）
-        self.observation_space = gym.spaces.Box(low=0, high=np.inf, shape=(5,), dtype=np.float32)
+        obs_shape = self._get_observation().shape
+        self.observation_space = spaces.Box(
+            low=-np.inf, high=np.inf, shape=obs_shape, dtype=np.float32
+        )
 
         # 初始资金
         self.initial_balance = 100000
         self.balance = self.initial_balance
+        self.total_asset = self.balance  
         self.current_stock_holding = 0
 
     def reset(self, seed=None, options=None):
@@ -38,7 +43,7 @@ class StockEnv(gym.Env):
         reward = 0
 
         # 获取当前股票价格
-        current_price = self.stock_data[self.current_step]['price']
+        current_price = self.stock_data.iloc[self.current_step]['price']
 
         # 根据动作执行交易逻辑
         if action == 0:
@@ -77,36 +82,39 @@ class StockEnv(gym.Env):
     def _take_action(self, percentage, current_price):
         """买入操作，计算可以购买的股票数量并更新持仓和资金"""
         amount_to_invest = self.balance * percentage
-        num_shares_bought = amount_to_invest / current_price
+        num_shares_bought = amount_to_invest / float(current_price)
 
         # 更新持仓和余额
         self.current_stock_holding += num_shares_bought
         self.balance -= amount_to_invest
 
         # 假设买入收益为简单的价格变化
-        reward = num_shares_bought * current_price / 100
+        reward = num_shares_bought * float(current_price) / 100
         return reward
 
     def _sell_action(self, percentage, current_price):
         """卖出操作，计算卖出后的收益"""
         num_shares_to_sell = self.current_stock_holding * percentage
-        amount_gained = num_shares_to_sell * current_price
+        amount_gained = num_shares_to_sell * float(current_price)
 
         # 更新持仓和余额
         self.current_stock_holding -= num_shares_to_sell
         self.balance += amount_gained
 
         # 假设卖出收益为简单的价格变化
-        reward = num_shares_to_sell * current_price / 100
+        reward = num_shares_to_sell * float(current_price) / 100
         return reward
 
     def _get_observation(self):
-        """获取当前的状态，返回状态数组"""
-        current_data = self.stock_data[self.current_step]
-        return np.array([
-            current_data['price'],
-            current_data['limit'],
-            current_data['limit_ups'],
-            current_data['limit_downs'],
-            self.balance
-        ])
+        # 获取当前步的数据
+        current_data = self.stock_data.iloc[self.current_step]
+        obs = current_data[[
+            'price',
+            'limit_ups',
+            'limit_downs',
+            'current_opening_increase',
+            'dip_increase',
+            'shockValue',
+            'isBurst',
+        ]].to_numpy(dtype=np.float32)
+        return obs

@@ -36,29 +36,34 @@ data = data.fillna(0)
 env = StockEnv(data)
 check_env(env)
 model = DQN('MlpPolicy', env, verbose=1)
-model.learn(total_timesteps=100000)
-model.save("dqn_stock_model")
-obs = env.reset()
-for _ in range(len(env.data)):
+model.learn(total_timesteps=1000)
+model.save(f'./full_data/model/dqn_stock_model')
+# 评估模型
+obs, _ = env.reset()
+for _ in range(env.total_steps):
     action, _states = model.predict(obs)
-    obs, rewards, done, info = env.step(action)
+    obs, rewards, done, truncated, info = env.step(action)
     if done:
         break
 
+# 可视化结果
 total_assets = []
-obs = env.reset()
-for _ in range(len(env.data)):
+obs, _ = env.reset()
+for _ in range(env.total_steps):
     action, _states = model.predict(obs)
-    obs, reward, done, info = env.step(action)
+    obs, reward, done, truncated, info = env.step(action)
     total_assets.append(env.total_asset)
     if done:
         break
+
+import matplotlib.pyplot as plt
 
 plt.plot(total_assets)
 plt.xlabel('时间步')
 plt.ylabel('总资产')
 plt.title('资产变化曲线')
 plt.show()
+
 
 
 
