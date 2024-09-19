@@ -13,7 +13,7 @@ class StockEnv(gym.Env):
         # 定义动作空间 (0: 空仓, 1: 买入 25% 仓位, 2: 买入 50% 仓位, 3: 买入 75% 仓位, 4: 买入 100% 仓位, 5: 持有, 6: 卖出)
         self.action_space = gym.spaces.Discrete(7)
 
-        # 定义状态空间（假设状态是股票价格）
+        # 定义状态空间
         obs_shape = self._get_observation().shape
         self.observation_space = spaces.Box(
             low=-np.inf, high=np.inf, shape=obs_shape, dtype=np.float32
