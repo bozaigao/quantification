@@ -1,18 +1,12 @@
 import os
 from stable_baselines3 import DQN
 from stock_env import StockEnv
-import json
 from stable_baselines3.common.env_checker import check_env
 from stable_baselines3 import DQN
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
-# try:
-#     with open(f'./full_data/model/2024_stock_backtest_data.json', 'r',) as file:
-#         data = json.load(file)
-# except FileNotFoundError:
-#     data = []
 data = pd.read_json(f'./full_data/model/2024_stock_backtest_data.json')
 
 # 展开日期和数据
@@ -21,14 +15,35 @@ data = data.explode('data').reset_index(drop=True)
 # 将嵌套的'data'字典展开
 data = pd.concat([data.drop(['data'], axis=1), data['data'].apply(pd.Series)], axis=1)
 
-# 处理数据类型，例如将百分比字符串转换为浮点数
-data['current_opening_increase'] = data['current_opening_increase'].str.rstrip('%').astype('float') / 100.0
-data['next_opening_increase'] = data['next_opening_increase'].str.rstrip('%').astype('float') / 100.0
-data['opening_increase'] = data['opening_increase'].str.rstrip('%').astype('float') / 100.0
-data['dip_increase'] = data['dip_increase'].str.rstrip('%').astype('float') / 100.0
-data['close_increase'] = data['close_increase'].astype('float') / 100.0
-data['next_close_increase'] = data['next_close_increase'].astype('float') / 100.0
-# 对其他需要的列进行类似的处理
+# 处理百分比字符串，将它们转换为浮点数
+percentage_columns = [
+    'current_opening_increase', 
+    'next_opening_increase', 
+    'opening_increase', 
+    'dip_increase', 
+    'close_increase', 
+    'next_close_increase'
+]
+
+for col in percentage_columns:
+    data[col] = data[col].str.rstrip('%').astype('float') / 100.0
+
+# 处理数值列，将字符串类型的数值转换为浮点数
+numeric_columns = [
+    'price', 
+    'limit', 
+    'limit_ups', 
+    'limit_downs', 
+    'limit_cheng_ratio', 
+    'limit_liu_ratio', 
+    'limit_open_times', 
+    'market_value', 
+    'shockValue', 
+    'next_shockValue'
+]
+
+for col in numeric_columns:
+    data[col] = pd.to_numeric(data[col], errors='coerce')
 
 # 填充缺失值或删除缺失值
 data = data.fillna(0)
@@ -36,7 +51,7 @@ data = data.fillna(0)
 env = StockEnv(data)
 check_env(env)
 model = DQN('MlpPolicy', env, verbose=1)
-model.learn(total_timesteps=1000)
+model.learn(total_timesteps=100000)
 model.save(f'./full_data/model/dqn_stock_model')
 # 评估模型
 # obs, _ = env.reset()
