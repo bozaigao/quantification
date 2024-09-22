@@ -51,7 +51,7 @@ data = data.fillna(0)
 env = StockEnv(data)
 check_env(env)
 model = DQN('MlpPolicy', env, verbose=1)
-model.learn(total_timesteps=10000)
+model.learn(total_timesteps=400000)
 model.save(f'./full_data/model/dqn_stock_model')
 # 评估模型
 obs, _ = env.reset()
@@ -60,24 +60,56 @@ for _ in range(env.total_steps):
     obs, rewards, done, truncated, info = env.step(action)
     if done:
         break
+    
+def max_drawdown(assets):
+    max_asset = np.maximum.accumulate(assets)
+    drawdown = (max_asset - assets) / max_asset
+    return np.max(drawdown)
 
-# 可视化结果
+# 初始化资产列表
 total_assets = []
+
+# 评估模型
 obs, _ = env.reset()
 for _ in range(env.total_steps):
     action, _states = model.predict(obs)
-    obs, reward, done, truncated, info = env.step(action)
-    total_assets.append(env.total_asset)
+    obs, rewards, done, truncated, info = env.step(action)
+    
+    # 记录当前的总资产
+    total_assets.append(env.balance)
+    
     if done:
         break
+# 计算并打印最大回撤
+max_dd = max_drawdown(total_assets)
+print(f'Max Drawdown: {max_dd * 100:.2f}%')
 
-import matplotlib.pyplot as plt
-
+#可视化累计收益曲线
 plt.plot(total_assets)
-plt.xlabel('时间步')
-plt.ylabel('总资产')
-plt.title('资产变化曲线')
+plt.xlabel('Steps')
+plt.ylabel('Total Assets')
+plt.title('Cumulative Return Over Time')
 plt.show()
+
+
+# 初始化交易收益列表
+# trades = []
+
+# # 评估模型
+# obs, _ = env.reset()
+# for _ in range(env.total_steps):
+#     action, _states = model.predict(obs)
+#     obs, reward, done, truncated, info = env.step(action)
+    
+#     if action in [1, 2, 3, 4]:  # 记录买入或卖出操作
+#         trades.append(reward)
+
+#     if done:
+#         break
+
+# # 计算胜率
+# win_rate = sum(1 for trade in trades if trade > 0) / len(trades)
+# print(f'Win Rate: {win_rate * 100:.2f}%')
 
 
 

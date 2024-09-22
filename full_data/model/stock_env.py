@@ -26,7 +26,6 @@ class StockEnv(gym.Env):
         # 初始资金
         self.initial_balance = 100000
         self.balance = self.initial_balance
-        self.total_asset = self.balance  
         # 当前仓位
         self.current_shipping_space = 0
           # 定义状态空间
