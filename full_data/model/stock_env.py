@@ -27,7 +27,8 @@ class StockEnv(gym.Env):
         self.initial_balance = 100000
         self.balance = self.initial_balance
         self.total_asset = self.balance  
-        self.current_stock_holding = 0
+        # 当前仓位
+        self.current_shipping_space = 0
           # 定义状态空间
         obs_shape = self._get_observation().shape
         self.observation_space = spaces.Box(
@@ -41,7 +42,7 @@ class StockEnv(gym.Env):
 
         self.current_step = 0
         self.balance = self.initial_balance
-        self.current_stock_holding = 0
+        self.current_shipping_space = 0
 
         return self._get_observation(), {}
 
@@ -63,34 +64,54 @@ class StockEnv(gym.Env):
             return self._get_observation(), 0, True, False, {}
         stock = self.stock_data.iloc[self.current_step]
         reward = 0
-        percentage = self.current_stock_holding / self.total_asset
 
         if action == 0:
             # 空仓 - 什么都不做
             reward = 0
         elif action in [1, 2, 3, 4]:  # Buy actions (25%, 50%, 75%, 100%)
-            if self.current_stock_holding == 0:
-                purchase_percentage = (action + 1) * 0.25  # Map actions to purchase % (25%, 50%, 75%, 100%)
-                buy_amount = self.balance * purchase_percentage
-                self.current_stock_holding += buy_amount
-                self.balance -= buy_amount
-                reward = 0  # No immediate reward for buying
+            if self.current_shipping_space == 0:
+                self.current_shipping_space = action * 0.25  # Map actions to purchase % (25%, 50%, 75%, 100%)
+                # 当日收盘涨幅（如果未维持涨停，计算负收益）
+                close_increase = stock['close_increase']
+                if close_increase < 0.10:  # 如果收盘没有维持涨停板（10%）
+                    # 当日收益为负：当日涨幅 - 涨停涨幅
+                    today_reward = close_increase - 0.10
+                else:
+                    # 当日收盘维持涨停，当日收益为0
+                    today_reward = 0
+                # 次日开盘涨幅
+                next_day_reward = stock['next_opening_increase']
+
+                # 总奖励为当日收益 + 次日开盘涨幅
+                reward = (today_reward + next_day_reward) * self.current_shipping_space
+                reward = float("{:.3f}".format(reward))  # 精确到小数点后三位
+                if today_reward < 0:
+                    self.balance += self.balance * today_reward * self.current_shipping_space
+                    self.balance = int(self.balance)
             else:
                 reward = 0  # Can't buy if already holding stock
         elif action == 5:  # Hold
-            reward = percentage * 0.10  # 10% reward for holding during upper limit
+            reward = self.current_shipping_space * 0.10  # 10% reward for holding during upper limit
+            self.balance += self.balance * reward
+            self.balance = int(self.balance)
         elif action == 6:  # Sell in auction
-            if self.current_stock_holding > 0:
-                reward = stock['opening_increase'] * percentage
-                self.balance += self.current_stock_holding
-                self.current_stock_holding = 0
+            if self.current_shipping_space > 0:
+                reward = stock['opening_increase'] * self.current_shipping_space
+                reward = float("{:.3f}".format(reward))
+                self.balance += self.balance * reward
+                self.balance = int(self.balance)
+                self.current_shipping_space = 0
+                reward = 0
             else:
                 reward = 0  # Can't sell if not holding stock
         elif action == 7:  # Sell at limit
-            if self.current_stock_holding > 0:
-                reward = percentage * 0.10  # 10% reward for selling at upper limit
-                self.balance += self.current_stock_holding
-                self.current_stock_holding = 0
+            if self.current_shipping_space > 0:
+                reward =  self.current_shipping_space * 0.10  # 10% reward for selling at upper limit
+                reward = float("{:.3f}".format(reward))
+                self.balance += self.balance * reward
+                self.balance = int(self.balance)
+                self.current_shipping_space = 0
+                reward = 0
             else:
                 reward = 0  # Can't sell if not holding stock
 
@@ -98,6 +119,7 @@ class StockEnv(gym.Env):
         done = self.current_step >= self.total_steps
         truncated = False
         obs = self._get_observation()
+        # print('😁_take_action->>reward', self.balance)
 
         return obs, reward, done, truncated, {}
 
@@ -110,7 +132,7 @@ class StockEnv(gym.Env):
         stock = self.stock_data.iloc[self.current_step]
         obs = np.array([
             self.balance,
-            self.current_stock_holding,
+            self.current_shipping_space,
             stock['limit'],
             stock['limit_ups'],
             stock['limit_downs'],
