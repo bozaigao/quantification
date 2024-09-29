@@ -90,6 +90,7 @@ class StockEnv(gym.Env):
             else:
                 reward = 0  # Can't buy if already holding stock
         elif action == 5:  # Hold
+            next_is_limit = stock['next_opening_increase']
             reward = self.current_shipping_space * 0.10  # 10% reward for holding during upper limit
             self.balance += self.balance * reward
             self.balance = int(self.balance)
