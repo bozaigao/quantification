@@ -81,8 +81,9 @@ for _ in range(env.total_steps):
     if done:
         break
 # 计算并打印最大回撤
+print(total_assets)
 max_dd = max_drawdown(total_assets)
-print(f'Max Drawdown: {max_dd * 100:.2f}%')
+print(f'Max Drawdown: -{max_dd * 100:.2f}%')
 
 #可视化累计收益曲线
 plt.plot(total_assets)

@@ -67,12 +67,30 @@ class StockEnv(gym.Env):
         if action == 0:
             # 空仓 - 什么都不做
             reward = 0
-        elif action in [1, 2, 3, 4]:  # Buy actions (25%, 50%, 75%, 100%)
+        elif action in [1, 2, 3, 4, 5]:  # Buy actions (25%, 50%, 75%, 100%)
             if self.current_shipping_space == 0:
                 self.current_shipping_space = action * 0.25  # Map actions to purchase % (25%, 50%, 75%, 100%)
                 # 当日收盘涨幅（如果未维持涨停，计算负收益）
                 close_increase = stock['close_increase']
-                if close_increase < 0.10:  # 如果收盘没有维持涨停板（10%）
+                if close_increase < 10:  # 如果收盘没有维持涨停板（10%）
+                    # 当日收益为负：当日涨幅 - 涨停涨幅
+                    today_reward = close_increase - 0.10
+                else:
+                    # 当日收盘维持涨停，当日收益为0
+                    today_reward = 0
+                # 次日开盘涨幅
+                next_day_reward = stock['next_opening_increase']
+
+                # 总奖励为当日收益 + 次日开盘涨幅
+                reward = (today_reward + next_day_reward) * self.current_shipping_space
+                reward = float("{:.3f}".format(reward))  # 精确到小数点后三位
+                if today_reward < 0:
+                    self.balance += self.balance * today_reward * self.current_shipping_space
+                    self.balance = int(self.balance)
+            elif action == 5 and self.current_shipping_space != 0:
+                # 当日收盘涨幅（如果未维持涨停，计算负收益）
+                close_increase = stock['close_increase']
+                if close_increase < 10:  # 如果收盘没有维持涨停板（10%）
                     # 当日收益为负：当日涨幅 - 涨停涨幅
                     today_reward = close_increase - 0.10
                 else:
@@ -89,11 +107,6 @@ class StockEnv(gym.Env):
                     self.balance = int(self.balance)
             else:
                 reward = 0  # Can't buy if already holding stock
-        elif action == 5:  # Hold
-            next_is_limit = stock['next_opening_increase']
-            reward = self.current_shipping_space * 0.10  # 10% reward for holding during upper limit
-            self.balance += self.balance * reward
-            self.balance = int(self.balance)
         elif action == 6:  # Sell in auction
             if self.current_shipping_space > 0:
                 reward = stock['opening_increase'] * self.current_shipping_space
