@@ -53,6 +53,7 @@ check_env(env)
 model = DQN('MlpPolicy', env, verbose=1)
 model.learn(total_timesteps=400000)
 model.save(f'./full_data/model/dqn_stock_model')
+
 # 评估模型
 obs, _ = env.reset()
 for _ in range(env.total_steps):
