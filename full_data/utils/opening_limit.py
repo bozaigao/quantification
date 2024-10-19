@@ -29,7 +29,7 @@ def judgeLimit(browserTab, date, code):
       result = browserTab.Runtime.evaluate(expression="document.documentElement.outerHTML")
       soup = BeautifulSoup(result['result']['value'], 'html.parser')
       # 选择符合条件的table
-      table_with_attribute = soup.find('table', {'data-v-00e1661f': True})
+      table_with_attribute = soup.find('table', {'data-v-41d36628': True})
       # 如果找到table，则选择其下的tbody
       if table_with_attribute:
          tbody = table_with_attribute.find('tbody')

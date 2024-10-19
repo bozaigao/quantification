@@ -23,7 +23,7 @@ stockLog = []
 origindates = []
 dates = []
 #是否输出策略分析
-forecast = True
+forecast = False
 if '/backtest' in os.getcwd():
    forecast = True
 # 获取中国交易日历
@@ -162,9 +162,14 @@ browserTab.Network.enable()
 with open(f'./full_data/{year}_stock_backtest_data.json', 'r') as file:
     stock_backtest_data = json.load(file)
 
+startDate = '2024-01-02'
+startPush = False
 for item in stock_backtest_data:
-    dates.append(item['date'])
     origindates.append(item['date'])
+    if startDate == item['date']:
+        startPush = True
+    if startPush:
+        dates.append(item['date'])
 dates = dates[len(dragon_log_data):]
 
 # 从指定日期开始向前搜索上一个交易日
